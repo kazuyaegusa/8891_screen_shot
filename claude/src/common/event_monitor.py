@@ -10,9 +10,13 @@ def on_click(data):
 def on_text(data):
     print(f"Text: {data['text']}")
 
+def on_shortcut(data):
+    print(f"Shortcut: {data['modifiers']}+{data['key']}")
+
 monitor = EventMonitor(
     on_click=on_click,
     on_text_input=on_text,
+    on_shortcut=on_shortcut,
     click_debounce=0.5,
     text_flush_sec=1.0,
 )
@@ -22,8 +26,10 @@ monitor.start()   # メインスレッドでブロッキング（CFRunLoop）
 【処理内容】
 1. CGEventTapでマウスクリック・キーボードイベントを監視
 2. クリック: デバウンス後にon_clickコールバックを呼ぶ
-3. キーボード: 入力バッファに蓄積し、flush_sec経過後にon_text_inputを呼ぶ
-4. CFRunLoopで待機（メインスレッドで実行する必要がある）
+3. キーボード: 修飾キー情報付きで入力バッファに蓄積し、flush_sec経過後にon_text_inputを呼ぶ
+4. 修飾キー+通常キーはon_shortcutで通知
+5. テキスト入力: CGEventKeyboardGetUnicodeStringで実際の文字に変換
+6. CFRunLoopで待機（メインスレッドで実行する必要がある）
 
 【必要な権限】
 - アクセシビリティ: システム設定 > プライバシーとセキュリティ > アクセシビリティ
@@ -33,7 +39,7 @@ monitor.start()   # メインスレッドでブロッキング（CFRunLoop）
 import sys
 import time
 import threading
-from typing import Callable, Optional
+from typing import Callable, List, Optional
 
 if sys.platform != "darwin":
     raise ImportError("このモジュールはmacOS専用です")
@@ -43,6 +49,8 @@ from Quartz import (
     CGEventTapCreate,
     CGEventGetLocation,
     CGEventGetIntegerValueField,
+    CGEventGetFlags,
+    CGEventKeyboardGetUnicodeString,
     CGEventTapEnable,
     kCGSessionEventTap,
     kCGHeadInsertEventTap,
@@ -54,6 +62,10 @@ from Quartz import (
 )
 from Quartz import CFMachPortCreateRunLoopSource, CFRunLoopGetCurrent, CFRunLoopAddSource, CFRunLoopRun, CFRunLoopStop, kCFRunLoopCommonModes
 
+# 修飾キーフラグ定数
+_MOD_FLAGS = [(0x00100000, "Cmd"), (0x00020000, "Shift"), (0x00080000, "Option"), (0x00040000, "Control")]
+_SHORTCUT_MODS = {"Cmd", "Control"}
+
 
 class EventMonitor:
     """CGEventTapでクリック・キーボードイベントを監視するクラス"""
@@ -62,26 +74,50 @@ class EventMonitor:
         self,
         on_click: Optional[Callable] = None,
         on_text_input: Optional[Callable] = None,
+        on_shortcut: Optional[Callable] = None,
         click_debounce: float = 0.5,
         text_flush_sec: float = 1.0,
+        privacy_guard=None,
     ):
         """
         Input:
-            on_click: クリック時コールバック fn({"button": str, "x": float, "y": float})
-            on_text_input: テキスト入力フラッシュ時コールバック fn({"text": str})
+            on_click: クリック時コールバック fn({"button": str, "x": float, "y": float, "modifiers": list, "timestamp": float})
+            on_text_input: テキスト入力フラッシュ時コールバック fn({"text": str, "key_events": list})
+            on_shortcut: ショートカット時コールバック fn({"modifiers": list, "key": str, "keycode": int, "timestamp": float})
             click_debounce: クリックデバウンス秒
             text_flush_sec: テキストフラッシュ秒
+            privacy_guard: PrivacyGuardインスタンス（Noneならフィルタなし）
         """
         self._on_click = on_click
         self._on_text_input = on_text_input
+        self._on_shortcut = on_shortcut
         self._click_debounce = click_debounce
         self._text_flush_sec = text_flush_sec
+        self._privacy_guard = privacy_guard
 
         self._last_click_time = 0.0
         self._text_buffer = []
+        self._key_events: List[dict] = []
         self._text_timer: Optional[threading.Timer] = None
         self._run_loop = None
         self._running = False
+
+    @staticmethod
+    def _get_modifiers(event) -> List[str]:
+        """CGEventGetFlagsでアクティブな修飾キーのリストを返す"""
+        flags = CGEventGetFlags(event)
+        return [name for mask, name in _MOD_FLAGS if flags & mask]
+
+    @staticmethod
+    def _get_unicode_char(event) -> str:
+        """CGEventKeyboardGetUnicodeStringで実際の入力文字を取得。取得失敗時は空文字を返す"""
+        try:
+            length, chars = CGEventKeyboardGetUnicodeString(event, 1, None, None)
+            if length > 0 and chars:
+                return chars
+            return ""
+        except Exception:
+            return ""
 
     def _event_callback(self, proxy, event_type, event, refcon):
         """CGEventTapコールバック（軽量に保つ）"""
@@ -104,39 +140,57 @@ class EventMonitor:
         if self._on_click:
             loc = CGEventGetLocation(event)
             button = "left" if event_type == kCGEventLeftMouseDown else "right"
-            self._on_click({"button": button, "x": loc.x, "y": loc.y})
+            modifiers = self._get_modifiers(event)
+            self._on_click({
+                "button": button,
+                "x": loc.x,
+                "y": loc.y,
+                "modifiers": modifiers,
+                "timestamp": now,
+            })
 
     def _handle_key(self, event):
-        """キーボードイベント処理（バッファに蓄積）"""
+        """キーボードイベント処理（修飾キー判定・Unicode変換付き）"""
+        keycode = CGEventGetIntegerValueField(event, kCGKeyboardEventKeycode)
+        modifiers = self._get_modifiers(event)
+        now = time.time()
+
+        # Cmd/Controlを含む場合はショートカットとして通知
+        if _SHORTCUT_MODS & set(modifiers):
+            if self._on_shortcut:
+                char = self._get_unicode_char(event)
+                self._on_shortcut({
+                    "modifiers": modifiers,
+                    "key": char if char else f"[key:{keycode}]",
+                    "keycode": keycode,
+                    "timestamp": now,
+                })
+            return
+
+        # 通常入力
         if not self._on_text_input:
             return
 
-        keycode = CGEventGetIntegerValueField(event, kCGKeyboardEventKeycode)
+        # 特殊キー処理
+        if keycode == 36:  # Return
+            self._text_buffer.append("\n")
+            self._key_events.append({"char": "\n", "keycode": keycode, "timestamp": now})
+            self._reset_text_timer()
+            return
+        if keycode == 48:  # Tab
+            self._text_buffer.append("\t")
+            self._key_events.append({"char": "\t", "keycode": keycode, "timestamp": now})
+            self._reset_text_timer()
+            return
+        if keycode in (51, 53):  # Delete, Escape
+            return
 
-        # 簡易的にキーコードを文字に変換（主要キーのみ）
-        char = self._keycode_to_char(keycode)
+        # CGEventKeyboardGetUnicodeStringで実際の文字を取得
+        char = self._get_unicode_char(event)
         if char:
             self._text_buffer.append(char)
+            self._key_events.append({"char": char, "keycode": keycode, "timestamp": now})
             self._reset_text_timer()
-
-    def _keycode_to_char(self, keycode: int) -> Optional[str]:
-        """キーコードを文字に変換（簡易版）"""
-        # Return/Enter/Tab/Deleteなどの特殊キーは無視しないが区切りとして扱う
-        key_map = {
-            36: "\n",  # Return
-            48: "\t",  # Tab
-            51: "",    # Delete (backspace)
-            53: "",    # Escape
-        }
-        if keycode in key_map:
-            if key_map[keycode]:
-                return key_map[keycode]
-            return None
-
-        # 通常キーはキーコードで表現（正確な文字変換にはTISが必要だが簡易版）
-        if 0 <= keycode <= 50 or 65 <= keycode <= 92:
-            return f"[key:{keycode}]"
-        return None
 
     def _reset_text_timer(self):
         """テキストフラッシュタイマーをリセット"""
@@ -150,8 +204,13 @@ class EventMonitor:
         """テキストバッファをフラッシュしてコールバック呼び出し"""
         if self._text_buffer and self._on_text_input:
             text = "".join(self._text_buffer)
+            key_events = list(self._key_events)
             self._text_buffer.clear()
-            self._on_text_input({"text": text})
+            self._key_events.clear()
+            # プライバシーフィルタ: テキスト内の機密パターンを除去
+            if self._privacy_guard:
+                text = self._privacy_guard.redact_sensitive_patterns(text)
+            self._on_text_input({"text": text, "key_events": key_events})
 
     def start(self):
         """

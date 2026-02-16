@@ -138,8 +138,9 @@ class AppInspector:
             placeholder = self._get_ax_attribute(element, "AXPlaceholderValue")
             role_description = self._get_ax_attribute(element, "AXRoleDescription")
 
+            role_str = str(role) if role else None
             return {
-                "role": str(role) if role else None,
+                "role": role_str,
                 "title": str(title) if title else None,
                 "description": str(description) if description else None,
                 "identifier": str(identifier) if identifier else None,
@@ -149,6 +150,7 @@ class AppInspector:
                 "enabled": bool(enabled) if enabled is not None else None,
                 "placeholder": str(placeholder) if placeholder else None,
                 "role_description": str(role_description) if role_description else None,
+                "is_secure": role_str == "AXSecureTextField",
             }
         except Exception as e:
             return {"error": str(e)}

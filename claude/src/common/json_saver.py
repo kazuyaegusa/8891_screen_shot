@@ -9,6 +9,8 @@ payload = build_capture_payload(
     monitors=monitors,
     all_windows=all_windows,
     browser_info=browser_info,
+    user_action={"type": "click", "button": "left"},
+    session={"session_id": "abc-123", "sequence": 1},
 )
 json_path = save_capture_json(payload, "output/cap_20240101.json")
 
@@ -33,6 +35,9 @@ def build_capture_payload(
     monitors: Optional[List[Dict]] = None,
     all_windows: Optional[List[Dict]] = None,
     browser_info: Optional[Dict] = None,
+    user_action: Optional[Dict[str, Any]] = None,
+    session: Optional[Dict[str, Any]] = None,
+    privacy_guard=None,
 ) -> Dict[str, Any]:
     """
     キャプチャ結果を包括的なJSONペイロードに構築する
@@ -42,6 +47,9 @@ def build_capture_payload(
         monitors: mss.monitorsの全モニター情報リスト
         all_windows: detector.get_all_windows()の戻り値
         browser_info: inspector.get_browser_info()の戻り値
+        user_action: ユーザー操作情報（click/text_input/shortcut/timer等）
+        session: セッション情報 {"session_id": str, "sequence": int}
+        privacy_guard: PrivacyGuardインスタンス（Noneならフィルタなし）
     Output:
         Dict: 包括的キャプチャ情報
     """
@@ -109,9 +117,30 @@ def build_capture_payload(
         "cropped": capture_result.get("cropped_screenshot"),
     }
 
+    browser = browser_info or {"is_browser": False, "url": None, "page_title": None}
+    action = user_action or {}
+
+    # プライバシーフィルタ適用
+    if privacy_guard:
+        role = target.get("role", "")
+        role_desc = target.get("role_description")
+        if target.get("value") is not None:
+            target["value"] = privacy_guard.mask_value(target["value"], role, role_desc)
+        if browser.get("url"):
+            browser["url"] = privacy_guard.sanitize_url(browser["url"])
+        if action.get("text"):
+            is_secure = privacy_guard.is_secure_field(role, role_desc)
+            filtered = privacy_guard.filter_text_input(action["text"], is_secure)
+            if filtered is None:
+                action["text"] = "[REDACTED]"
+            else:
+                action["text"] = filtered
+
     return {
         "capture_id": str(uuid.uuid4()),
         "timestamp": datetime.now().isoformat(),
+        "session": session or {},
+        "user_action": action,
         "detection_mode": capture_result.get("detection_mode", "window"),
         "mouse": {
             "x": window_info.get("mouse_x", 0),
@@ -119,7 +148,7 @@ def build_capture_payload(
         },
         "target": target,
         "app": app,
-        "browser": browser_info or {"is_browser": False, "url": None, "page_title": None},
+        "browser": browser,
         "window": window,
         "all_windows": all_windows or [],
         "monitors": formatted_monitors,

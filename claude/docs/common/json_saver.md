@@ -9,7 +9,7 @@
 
 ## 関数
 
-### `build_capture_payload(capture_result, monitors, all_windows, browser_info) -> Dict`
+### `build_capture_payload(capture_result, monitors, all_windows, browser_info, user_action, session) -> Dict`
 
 キャプチャ結果を包括的なJSONペイロードに構築する。
 
@@ -19,6 +19,8 @@
 | | `monitors`: mss.monitorsの全モニター情報リスト |
 | | `all_windows`: detector.get_all_windows()の戻り値 |
 | | `browser_info`: inspector.get_browser_info()の戻り値（オプション） |
+| | `user_action`: ユーザー操作情報（click/text_input/shortcut/timer等） |
+| | `session`: セッション情報 {"session_id": str, "sequence": int} |
 | **出力** | 包括的キャプチャ情報Dict |
 
 出力JSON構造:
@@ -27,6 +29,18 @@
 {
   "capture_id": "uuid",
   "timestamp": "ISO8601",
+  "session": {
+    "session_id": "uuid",
+    "sequence": 42
+  },
+  "user_action": {
+    "type": "click",
+    "button": "left",
+    "x": 500.0,
+    "y": 300.0,
+    "modifiers": [],
+    "timestamp": 1234567890.123
+  },
   "detection_mode": "element/window",
   "mouse": { "x": 100, "y": 200 },
   "target": {

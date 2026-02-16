@@ -90,7 +90,7 @@ class WindowScreenshot:
     Linux (X11) と macOS に対応
     """
 
-    def __init__(self, output_dir: str = "./screenshots", detection_mode: str = "element"):
+    def __init__(self, output_dir: str = "./screenshots", detection_mode: str = "element", privacy_guard=None):
         """
         初期化（OSを自動判別してdetectorを選択）
 
@@ -99,9 +99,11 @@ class WindowScreenshot:
             detection_mode: 検出モード
                 "element" (デフォルト): UI要素レベルで検出（macOS専用、失敗時windowにフォールバック）
                 "window": 従来のウィンドウレベル検出
+            privacy_guard: PrivacyGuardインスタンス（Noneならフィルタなし）
         """
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.privacy_guard = privacy_guard
 
         # OS自動判別で適切なdetectorを生成（疎結合）
         self.detector = _create_detector()
@@ -461,7 +463,9 @@ class WindowScreenshot:
         crop_only: bool = False,
         add_label: bool = True,
         border_width: int = 3,
-        prefix: str = ""
+        prefix: str = "",
+        user_action: Optional[Dict] = None,
+        session: Optional[Dict] = None,
     ) -> Optional[Dict]:
         """
         マウスカーソル位置のウィンドウを赤枠で囲ってスクショ撮影 + JSON保存
@@ -471,6 +475,8 @@ class WindowScreenshot:
             add_label: ウィンドウ情報ラベルを追加するか
             border_width: 赤枠の太さ
             prefix: ファイル名プレフィックス
+            user_action: ユーザー操作情報（click/text_input/shortcut/timer等）
+            session: セッション情報 {"session_id": str, "sequence": int}
 
         Output:
             Dict: 結果情報
@@ -488,6 +494,15 @@ class WindowScreenshot:
         if window_info is None:
             print("ターゲットを検出できませんでした")
             return None
+
+        # プライバシー保護: secureフィールドフォーカス中はスクショスキップ
+        if self.privacy_guard:
+            role = window_info.get("role", "")
+            focused = window_info.get("focused", False)
+            role_desc = window_info.get("role_description")
+            if self.privacy_guard.should_skip_capture(role, focused, role_desc):
+                print("プライバシー保護: secureフィールドのためスクショをスキップ")
+                return None
 
         # カーソル位置のモニターを特定してキャプチャ
         mouse_x = window_info.get("mouse_x", window_info.get("x", 0))
@@ -570,6 +585,9 @@ class WindowScreenshot:
                 monitors=monitors,
                 all_windows=all_windows,
                 browser_info=browser_info,
+                user_action=user_action,
+                session=session,
+                privacy_guard=self.privacy_guard,
             )
 
             json_path = self.output_dir / f"{file_prefix}cap_{timestamp}.json"

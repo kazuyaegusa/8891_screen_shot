@@ -31,3 +31,22 @@
 - **原因**: Electron系アプリはAccessibility APIのサポートが限定的で、一部の座標でUI要素が返されない
 - **現状**: アプリ名・bundle_idは正常に取得可能。UI要素情報はerrorとして記録し、処理は継続する設計
 - **将来の対策**: AI画像認識によるフォールバック検討
+
+## Phase 2.5: プライバシー保護
+
+### Issue 6: パスワード・個人情報が平文で記録される
+
+- **発見日**: 2026-02-16
+- **状態**: 解決済み
+- **問題**:
+  - テキスト入力の全文字（パスワード含む）がJSONに平文保存
+  - AXValue にパスワードフィールドの値がそのまま入る
+  - ブラウザURLにトークン・APIキーが含まれる
+  - パスワード入力画面のスクリーンショットが撮影される
+- **解決方法**:
+  - `common/privacy_guard.py` を新規作成し全フィルタロジックを集約
+  - PrivacyLevel 3段階（standard/strict/off）で制御
+  - AXSecureTextField検出 → テキスト入力スキップ + AXValueマスク + スクショスキップ
+  - URL機密パラメータマスク
+  - テキスト内APIキー・カード番号パターン除去
+- **影響ファイル**: privacy_guard.py(新規), app_inspector.py, event_monitor.py, json_saver.py, window_screenshot.py, capture_loop.py

@@ -1,7 +1,7 @@
 # capture_loop.py
 
 マウスカーソル位置の赤枠スクリーンショットを撮り続けるスクリプト。
-timer（一定間隔）と event（クリック・テキスト入力駆動）の2モードに対応。
+timer（一定間隔）と event（クリック・テキスト入力・ショートカット駆動）の2モードに対応。
 
 ## 入力（コマンドライン引数）
 
@@ -25,37 +25,46 @@ timer（一定間隔）と event（クリック・テキスト入力駆動）の
 | `crop_YYYYMMDD_HHMMSS.png` | ターゲット部分のみ |
 | `cap_YYYYMMDD_HHMMSS.json` | キャプチャ情報JSON |
 
-eventモードでは prefix が `click` または `text` になる:
+eventモードでは prefix が `click` / `text` / `shortcut` になる:
 | ファイル | 説明 |
 |---------|------|
 | `click_full_YYYYMMDD_HHMMSS.png` | クリック時の全画面スクショ |
 | `text_full_YYYYMMDD_HHMMSS.png` | テキスト入力フラッシュ時の全画面スクショ |
+| `shortcut_full_YYYYMMDD_HHMMSS.png` | ショートカット検出時の全画面スクショ |
+
+## セッション管理
+
+- 起動時に `session_id` (UUID) を生成
+- 全キャプチャに連番 `sequence` を付与
+- `session` 情報 (`session_id`, `sequence`) は各キャプチャの JSON に保存される
 
 ## トリガーモード
 
 ### timer（デフォルト）
 - 一定間隔で `capture_window_at_cursor()` を呼び出す
+- 各キャプチャに `user_action={"type": "timer"}` が付与される
 - 既存動作と完全に互換
 
 ### event（イベント駆動）
-- CGEventTapでクリック・キーボードを監視
+- CGEventTapでクリック・キーボード・ショートカットを監視
 - イベント発生 → `queue.Queue` 経由でワーカースレッドがキャプチャ実行
 - CGEventTapコールバック内では軽量処理のみ（キュー投入）
 - クリック: デバウンス付き（デフォルト0.5秒）
 - テキスト入力: バッファリング → 一定時間無入力でフラッシュ（デフォルト1.0秒）
+- ショートカット: 修飾キー+通常キーの組み合わせを検出し即時キャプチャ
 
 ## スレッディングモデル（eventモード）
 
 ```
 Main Thread (CFRunLoop):
-  SIGINT → monitor.stop() → CFRunLoopStop()
   EventMonitor.start()
     → CGEventTapコールバック:
-        click → queue.put({"prefix": "click"})
-        text flush → queue.put({"prefix": "text"})
+        click → queue.put({"prefix": "click", "user_action": {...}})
+        text flush → queue.put({"prefix": "text", "user_action": {...}})
+        shortcut → queue.put({"prefix": "shortcut", "user_action": {...}})
 
 Worker Thread (daemon):
-  queue.get() → WindowScreenshot.capture_window_at_cursor()
+  queue.get() → WindowScreenshot.capture_window_at_cursor(user_action=..., session=...)
 ```
 
 ## 関数
@@ -63,21 +72,25 @@ Worker Thread (daemon):
 ### `main()`
 - メインエントリーポイント
 - argparseで引数をパース → triggerモードに応じてtimerまたはeventモードを実行
+- 起動時に `session_id` (UUID) を生成
 
-### `_run_timer_mode(ws, args)`
+### `_run_timer_mode(ws, args, session_id)`
 - timerモード実行。sleepループでキャプチャを繰り返す
+- 各キャプチャに `user_action={"type": "timer"}` と `session` を付与
 
-### `_run_event_mode(ws, args)`
+### `_run_event_mode(ws, args, session_id)`
 - eventモード実行。EventMonitor + ワーカースレッドでキャプチャ
+- クリック・テキスト入力・ショートカットの3種類のコールバックを登録
 
-### `_capture_worker(ws, job_queue, crop_only, stats)`
+### `_capture_worker(ws, job_queue, crop_only, stats, session_id)`
 - ワーカースレッド。キューからジョブを取り出しキャプチャ実行
+- 各ジョブに `session` (session_id + sequence) を付与
 
 ### `_signal_handler(signum, frame)`
 - timerモード用シグナルハンドラ
 
-### `_print_banner(args, trigger)` / `_print_summary(count, errors)`
-- 起動バナー / 終了サマリー表示
+### `_print_banner(args, trigger, session_id)` / `_print_summary(count, errors)`
+- 起動バナー（session_id含む） / 終了サマリー表示
 
 ## 依存モジュール
 
