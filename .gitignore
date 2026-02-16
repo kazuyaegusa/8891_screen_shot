@@ -1,0 +1,13 @@
+.env
+*/node_modules/*
+05_sample_discordbot/
+06_src/node_modules/*
+99_old/
+*.DS_Store
+99_old/*
+__pycache__/
+*.pyc
+claude/output_*/
+claude/src/screenshots/
+claude/10_raw/screenshots/
+claude/README.md.local_backup
