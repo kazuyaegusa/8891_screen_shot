@@ -50,3 +50,73 @@
   - URL機密パラメータマスク
   - テキスト内APIキー・カード番号パターン除去
 - **影響ファイル**: privacy_guard.py(新規), app_inspector.py, event_monitor.py, json_saver.py, window_screenshot.py, capture_loop.py
+
+## Phase 3: 自律操作エージェント
+
+### Issue 7: Vision APIの座標推定精度
+
+- **発見日**: 2026-02-17
+- **状態**: 既知の制約
+- **問題**: GPT-5 VisionでUI要素の座標を推定する際、ピクセル単位の精度が保証されない
+- **対策**:
+  - Accessibility API（AXUIElement）を第一優先で使用
+  - Vision推定は最終フォールバックとして位置づけ
+  - find_element_by_criteria の検索優先順位: identifier → value → description → title+role → 座標 → Vision
+- **影響ファイル**: action_player.py, ai_client.py (find_element_by_vision)
+
+### Issue 8: Electron系アプリ（Discord, Cursor等）のAX API制限
+
+- **発見日**: 2026-02-17
+- **状態**: 既知の制約（Issue 5の延長）
+- **問題**: Electron系アプリではAccessibility APIの応答が限定的で、要素検索の成功率が低い
+- **対策**:
+  - 座標フォールバックを活用（記録時の座標を使用）
+  - Vision APIで画面から要素位置を推定
+  - 将来的にはアプリ固有のブリッジ（Chrome DevTools Protocol等）を検討
+- **影響ファイル**: action_player.py, state_observer.py
+
+### Issue 9: 危険操作の自動実行防止
+
+- **発見日**: 2026-02-17
+- **状態**: 解決済み
+- **問題**: Mail/Slack等の送信系アプリで操作が自動実行されるリスク
+- **解決方法**:
+  - AgentConfig.dangerous_apps でアプリリストを管理
+  - 該当アプリ操作時に確認プロンプトを表示
+  - `--no-confirm` フラグで無効化可能（明示的なオプトイン）
+- **影響ファイル**: config.py, autonomous_loop.py, action_selector.py
+
+### Issue 10: AI検証がエラー時にsuccess=Trueを返す（偽陽性）
+
+- **発見日**: 2026-02-17
+- **状態**: 解決済み
+- **問題**:
+  - execution_verifier.py の全エラーパスが `success=True` を返していた
+  - APIキー未設定、スクリーンショット未取得、API呼び出し失敗、すべてのケースで「成功」と判定
+  - dry-run でも `success=True` が返り、フィードバックに「成功」として記録されていた
+  - 結果として再現性スコアが不正に高く算出されていた（ランクB→A昇格）
+  - OpenAI API は実際には一度も正常に呼ばれていなかった（両アカウントの Usage が $0）
+- **解決方法**:
+  - `verified` フラグを導入: AI検証が実行されたかどうかを明示的に返す
+  - `verified=False` の場合: `success=False, confidence=0.0` を返す（嘘をつかない）
+  - autonomous_loop.py: `verified=True` の場合のみAI判定で成否を上書き、`False` ならアクション結果を維持
+  - dry-run 実行はフィードバックに記録しない
+  - APIキー事前チェック: `os.environ.get("OPENAI_API_KEY")` が空なら即座に検証スキップ
+  - 既存の偽フィードバック7件を `feedback/old/` に退避
+- **影響ファイル**: execution_verifier.py, autonomous_loop.py
+- **根本原因**: 「検証できない = 成功とみなす」という楽観的設計が、現実には「検証が動いていないのに成功データが蓄積される」問題を生んでいた
+
+### Issue 11: 座標フォールバックによるクリック位置のずれ
+
+- **発見日**: 2026-02-17
+- **状態**: 未解決（既知の制約）
+- **問題**:
+  - 学習時の座標 (945, 531) がそのまま再生時に使用される
+  - ウィンドウ位置・サイズが異なると全く違う場所をクリックする
+  - identifier=null, role=null のワークフローでは座標フォールバックしか使えない
+  - 実際の Finder ゴミ箱ワークフローで再現を確認
+- **対策案**:
+  - `find_element_by_vision()` は AIClient に実装済みだが action_player に未接続
+  - action_player の要素検索フォールバックチェーンに Vision 検索を組み込む必要あり
+  - 座標のみのステップは再現性スコアを低く評価する（step_quality=0.30 で実装済み）
+- **影響ファイル**: action_player.py, ai_client.py

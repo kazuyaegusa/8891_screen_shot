@@ -1,0 +1,148 @@
+{
+  "workflow_id": "wf-6d3e4581",
+  "name": "Focus Cursor editor tab and insert text",
+  "description": "In Cursor, focus the editor for a specified file (tab) and insert the provided text at the cursor location.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 971
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_015321.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 971
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771260802.611428
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771260802.927299
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771260803.198238
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260804.024244
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260804.1759858
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.536104
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.685129
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.819888
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260805.311954
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771260805.778913
+          }
+        ],
+        "text": "/\u0010\n\u001f\u001f\u001e\u001e\u001e\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_015326.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "cursor",
+    "code-editor",
+    "text-entry",
+    "editing"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "Name of the file tab to focus (e.g., README.md).",
+      "step_index": 1
+    },
+    {
+      "name": "project_name",
+      "description": "Name of the workspace/project shown in the window title (e.g., gdrive-code-archive).",
+      "step_index": 1
+    },
+    {
+      "name": "text_to_insert",
+      "description": "Text content to type/insert into the editor once focused.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.56,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T17:00:17.479855",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

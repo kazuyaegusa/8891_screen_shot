@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-30cec40f",
+  "name": "Chromeでページを再読み込みする",
+  "description": "Google Chromeで対象タブ（例: 日本郵便の検索結果詳細）をアクティブにし、再読み込みボタンを押してページを更新する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 532,
+        "y": 41
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164009.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 151,
+        "y": 96
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164012.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "chrome",
+    "browser",
+    "reload",
+    "web"
+  ],
+  "parameters": [
+    {
+      "name": "page_title_or_url",
+      "description": "対象タブを特定するためのタイトルまたはURL（完全一致/一部一致）。例: 「検索結果　詳細 - 日本郵便」または「japanpost.jp」",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T17:36:49.805767",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

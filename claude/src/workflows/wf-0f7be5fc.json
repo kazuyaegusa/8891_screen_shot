@@ -1,0 +1,197 @@
+{
+  "workflow_id": "wf-0f7be5fc",
+  "name": "Discordで特定メッセージに返信する",
+  "description": "Discordの指定サーバー/チャンネルで対象メッセージの「返信」を押し、返信内容を入力する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "返信",
+        "value": null,
+        "description": "返信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1810,
+        "y": 950
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164232.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXList",
+        "title": "98_todoのメッセージ",
+        "value": null,
+        "description": "98_todoのメッセージ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1617,
+        "y": 908
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771314153.641387
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771314153.714159
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771314153.908185
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771314154.060319
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771314154.1483111
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771314154.31331
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771314154.388621
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771314154.480147
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771314154.524045
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771314154.614269
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771314154.67644
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771314154.772486
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771314154.8086882
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771314154.84322
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771314155.395249
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771314155.906433
+          },
+          {
+            "char": "!",
+            "keycode": 18,
+            "timestamp": 1771314156.308084
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771314156.682993
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771314156.8336189
+          }
+        ],
+        "text": "sassoku ariga  \n!\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_164237.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "Messaging",
+    "Reply"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "返信を行うDiscordサーバー（例: Aixeed運営）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "返信を行うチャンネル（例: #98_todo）",
+      "step_index": 1
+    },
+    {
+      "name": "reply_target",
+      "description": "返信先メッセージの特定情報（メッセージURL/ID、または現在フォーカス中のメッセージ等）",
+      "step_index": 1
+    },
+    {
+      "name": "reply_text",
+      "description": "返信として入力するテキスト",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T17:38:10.544160",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

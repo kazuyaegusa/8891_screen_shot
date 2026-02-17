@@ -1,0 +1,266 @@
+{
+  "workflow_id": "wf-3bf27eef",
+  "name": "Chromeで新規ウインドウを開き指定プロファイル/アカウントをアクティブ化",
+  "description": "Google Chromeで新規ウインドウを開き、指定のChromeプロファイル（人物）を選択し、必要に応じてGoogleアカウントメニューから特定アカウントをアクティブにする手順。観測された操作には探索的クリック（AXGroup など）が含まれるが、コア意図は再利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "新規ウインドウ",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 300,
+        "y": 173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181418.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "仕事用",
+        "value": null,
+        "description": "仕事用",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 948,
+        "y": 90
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181421.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Chrome",
+        "value": "1",
+        "description": "Chrome",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 984,
+        "y": 84
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181423.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Kazuya (aixeed.co.jp) ログイン中",
+        "value": null,
+        "description": "Kazuya (aixeed.co.jp) ログイン中",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 961,
+        "y": 246
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181424.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Kazuya (aixeed.co.jp) ログイン中",
+        "value": null,
+        "description": "Kazuya (aixeed.co.jp) ログイン中",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 815,
+        "y": 238
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181428.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 344,
+        "y": 282
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181432.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Chrome",
+        "value": "1",
+        "description": "Chrome",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 993,
+        "y": 92
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181434.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 293,
+        "y": 335
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_181436.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "ウインドウ操作",
+    "プロファイル切替",
+    "アカウント切替"
+  ],
+  "parameters": [
+    {
+      "name": "profile_name",
+      "description": "選択するChromeプロファイル（人物）の表示名（例: 仕事用）。",
+      "step_index": 2
+    },
+    {
+      "name": "google_account_label",
+      "description": "アカウントメニューで選択するGoogleアカウントの表示名/メール（例: Kazuya (aixeed.co.jp)）。",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.63,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T18:29:32.097321",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

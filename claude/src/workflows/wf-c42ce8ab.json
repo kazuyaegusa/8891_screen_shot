@@ -1,0 +1,64 @@
+{
+  "workflow_id": "wf-c42ce8ab",
+  "name": "GitHub招待を承認する",
+  "description": "ブラウザ（Google Chrome）でGitHubの招待ページが開いている状態で、「Accept invitation」ボタンをクリックして参加を承認する最小手順。対象リポジトリ/組織名はパラメータ化可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Accept invitation",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3085,
+        "y": 880
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002653.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "GitHub",
+    "Chrome",
+    "browser",
+    "invitation",
+    "accept"
+  ],
+  "parameters": [
+    {
+      "name": "target_slug",
+      "description": "招待対象のスラッグ（例: kotassnearby/Aixeed-PJ-Manage-r1）。ウィンドウタイトルの一致確認に使用。",
+      "step_index": 1
+    },
+    {
+      "name": "accept_button_label",
+      "description": "クリックするボタンのラベル（既定: \"Accept invitation\"）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T16:41:09.003956",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

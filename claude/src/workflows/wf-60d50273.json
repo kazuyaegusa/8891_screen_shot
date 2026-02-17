@@ -1,0 +1,976 @@
+{
+  "workflow_id": "wf-60d50273",
+  "name": "CursorでMarkdownファイルを開いてプレビューを表示",
+  "description": "指定したMarkdownファイルをナビゲーション（例：reports）から選択し、エディタをフォーカス後、ショートカットでMarkdownプレビューを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "reports",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1994,
+        "y": 563
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180304.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "report_20260217.md",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2010,
+        "y": 602
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180306.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2546,
+        "y": 188
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180308.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2492,
+        "y": 529
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180311.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2492,
+        "y": 529
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_180312.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2575,
+        "y": 656
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180324.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2436,
+        "y": 683
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_180327.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2359,
+        "y": 883
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771319010.537753
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319010.583039
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319010.732418
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771319010.927613
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319010.987366
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319011.094264
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771319011.259625
+          },
+          {
+            "char": ";",
+            "keycode": 41,
+            "timestamp": 1771319011.291994
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319011.3185961
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319011.512747
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319011.648551
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319011.7377212
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319012.719852
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319012.878334
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319013.0182788
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319013.17832
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319013.329034
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319013.3880022
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771319013.510685
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319013.553456
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319013.628673
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319013.778382
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319013.884608
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319013.989012
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319014.053379
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319014.78915
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319014.8639302
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319014.9500968
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319014.9770539
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771319015.146687
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771319015.203261
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771319015.325566
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319015.382674
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319015.502996
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319015.5778759
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771319015.698302
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319015.772853
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771319015.8779142
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771319016.059256
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319016.270786
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319016.315698
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319016.405922
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319016.4482582
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319016.6278
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319016.673389
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319016.764481
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319016.853654
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319017.080663
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319017.18306
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319017.934103
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319018.007782
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319018.099661
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771319018.729609
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319018.788011
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319018.832799
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319018.8777401
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319019.015315
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319019.147969
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319019.207422
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771319019.28587
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319019.329252
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319019.46316
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319019.5840619
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771319020.116438
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771319020.3785229
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771319020.902873
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319020.950542
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319021.060253
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319021.127525
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319021.202893
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319021.277799
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319021.36849
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319021.532598
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771319021.667445
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319021.742775
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319021.8775811
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771319022.029501
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319022.088935
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319022.207604
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319022.313539
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771319022.542238
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319022.5827
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319022.779853
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319022.853002
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319022.989374
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319023.078586
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319023.152836
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319023.227682
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319023.302737
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771319023.482498
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319023.501141
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319023.572652
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319023.678198
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319023.694422
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771319023.8275561
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771319023.889111
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319023.948102
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771319024.054079
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319024.158158
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319024.263811
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319024.368031
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319024.4167879
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771319024.474921
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771319024.607476
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771319024.698616
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319024.9094799
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771319025.345066
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319025.50853
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319025.657697
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771319025.764104
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319025.8707101
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319025.94241
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319026.1228118
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771319026.1686158
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319026.3336
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319026.40749
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319026.4844742
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771319026.707999
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771319026.784406
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319027.504638
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319027.563342
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771319027.697593
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771319027.8043892
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771319027.9388611
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319028.258574
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319028.298078
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771319028.3586712
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319028.462524
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771319028.5380611
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319028.597947
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771319028.643185
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771319028.7477171
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771319028.808528
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771319028.8526762
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771319029.018802
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319029.062929
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319029.5429308
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771319029.635335
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771319029.708204
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771319029.845851
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771319029.978204
+          }
+        ],
+        "text": "honbanj;ikkoikkou woosusususumetai ga,\nnanikaraararuyaru nogaii?\nhokano ulindou moiroiro hiraiteiru node\nieikyou hasukuname nisitainodgaaga\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_180351.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "プレビュー",
+    "エディタ操作",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "folder_or_breadcrumb_label",
+      "description": "ナビゲーションで最初にクリックする見出し／フォルダ名（例：reports）",
+      "step_index": 1
+    },
+    {
+      "name": "markdown_file_name",
+      "description": "開くMarkdownファイル名（例：report_YYYYMMDD.md）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T18:27:10.917078",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

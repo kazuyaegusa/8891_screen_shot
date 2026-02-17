@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-fe52cf91",
+  "name": "Slackでメッセージ内のリンクを開く",
+  "description": "Slackの特定チャンネル内のメッセージに含まれる指定URLをクリックして開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://x.com/yugen_matuni/status/2023615531694350832?s=46",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3544,
+        "y": 1412
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164113.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "リンクを開く",
+    "クリック",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "url",
+      "description": "クリックして開く対象のURL文字列（例: https://x.com/...）。",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "リンクが掲載されているSlackチャンネル名（例: fusion-ai）。要素特定の補助に使用。",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_name",
+      "description": "Slackワークスペース名またはウィンドウタイトル内の識別子（例: Aixeed）。要素特定の補助に使用。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T17:37:12.195195",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

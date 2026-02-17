@@ -1,0 +1,254 @@
+{
+  "generated_at": "2026-02-17T17:45:17",
+  "stats": {
+    "total": 14,
+    "by_rank": {
+      "A": 0,
+      "B": 14,
+      "C": 0
+    },
+    "categories": 1
+  },
+  "categories": {
+    "開発": [
+      {
+        "workflow_id": "wf-604e367b",
+        "name": "CursorでMarkdownをPDFにエクスポート",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 11,
+        "reproducibility": {
+          "score": 0.6,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.82,
+            "success_rate": 0.15,
+            "step_quality": 0.741,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-2c3c6a1f",
+        "name": "CursorでGitリポジトリをクローンして開く",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 6,
+        "reproducibility": {
+          "score": 0.59,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.78,
+            "success_rate": 0.15,
+            "step_quality": 0.767,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-3d286073",
+        "name": "Markdown を PDF にエクスポート（Cursor）",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 2,
+        "reproducibility": {
+          "score": 0.59,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.76,
+            "success_rate": 0.15,
+            "step_quality": 0.8,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-94052dd5",
+        "name": "VS CodeでMarkdownファイルを開いてプレビューを表示",
+        "app_name": "Code",
+        "status": "draft",
+        "steps_count": 11,
+        "reproducibility": {
+          "score": 0.57,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.74,
+            "success_rate": 0.15,
+            "step_quality": 0.745,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-bddca997",
+        "name": "Cursorで設定（Privacy Mode）を開いて編集後にエディタへ戻る",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 7,
+        "reproducibility": {
+          "score": 0.56,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.73,
+            "success_rate": 0.15,
+            "step_quality": 0.7,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-e128b844",
+        "name": "Export a Markdown file to PDF in Cursor (Markdown PDF extension)",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 10,
+        "reproducibility": {
+          "score": 0.57,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.72,
+            "success_rate": 0.15,
+            "step_quality": 0.74,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-8cd04db3",
+        "name": "CursorでMarkdownプレビューを開く/切り替える",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 4,
+        "reproducibility": {
+          "score": 0.57,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.7,
+            "success_rate": 0.15,
+            "step_quality": 0.762,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-e8ce4eb2",
+        "name": "Install an extension in Cursor (e.g., Markdown PDF)",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 9,
+        "reproducibility": {
+          "score": 0.56,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.7,
+            "success_rate": 0.15,
+            "step_quality": 0.744,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-f9e088a4",
+        "name": "前面のターミナルジョブをCtrl+C(SIGINT)で停止",
+        "app_name": "Ghostty",
+        "status": "draft",
+        "steps_count": 4,
+        "reproducibility": {
+          "score": 0.53,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.68,
+            "success_rate": 0.15,
+            "step_quality": 0.762,
+            "ax_compatibility": 0.6
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-311bac2b",
+        "name": "Cursor: Activate specified tabs/windows in order",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 3,
+        "reproducibility": {
+          "score": 0.53,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.64,
+            "success_rate": 0.15,
+            "step_quality": 0.7,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-41afd11d",
+        "name": "Cursorで指定テキストを入力して別タブ/ウィンドウへ切り替える",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 2,
+        "reproducibility": {
+          "score": 0.54,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.62,
+            "success_rate": 0.15,
+            "step_quality": 0.75,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-49af7456",
+        "name": "Create and open a new folder in Cursor",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 20,
+        "reproducibility": {
+          "score": 0.54,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.62,
+            "success_rate": 0.15,
+            "step_quality": 0.74,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-9195766b",
+        "name": "Insert text via Cursor Preview pane",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 2,
+        "reproducibility": {
+          "score": 0.54,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.62,
+            "success_rate": 0.15,
+            "step_quality": 0.75,
+            "ax_compatibility": 0.8
+          }
+        }
+      },
+      {
+        "workflow_id": "wf-6d3e4581",
+        "name": "Focus Cursor editor tab and insert text",
+        "app_name": "Cursor",
+        "status": "draft",
+        "steps_count": 2,
+        "reproducibility": {
+          "score": 0.52,
+          "rank": "B",
+          "detail": {
+            "confidence": 0.56,
+            "success_rate": 0.15,
+            "step_quality": 0.75,
+            "ax_compatibility": 0.8
+          }
+        }
+      }
+    ]
+  }
+}

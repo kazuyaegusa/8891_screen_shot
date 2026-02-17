@@ -322,7 +322,11 @@ def _run_event_mode(ws, args, session_id, privacy_guard=None):
 # ===== auto-learn =====
 
 def _start_auto_learn(watch_dir: str):
-    """LearningPipelineをdaemonスレッドでバックグラウンド起動"""
+    """LearningPipeline + ContinuousLearner をdaemonスレッドでバックグラウンド起動"""
+    pipeline = None
+    learner = None
+
+    # 既存: LearningPipeline daemon起動
     try:
         from pipeline.config import PipelineConfig
         from pipeline.learning_pipeline import LearningPipeline
@@ -334,10 +338,25 @@ def _start_auto_learn(watch_dir: str):
         thread = threading.Thread(target=pipeline.run, daemon=True)
         thread.start()
         print(f"[auto-learn] バックグラウンドでパイプライン起動: {config.watch_dir}")
-        return pipeline
     except Exception as e:
         print(f"[auto-learn] パイプライン起動失敗（キャプチャは継続します）: {e}")
-        return None
+
+    # 追加: ContinuousLearner daemon起動
+    try:
+        from agent.config import AgentConfig
+        from agent.continuous_learner import ContinuousLearner
+
+        agent_config = AgentConfig()
+        agent_config.screenshot_dir = str(Path(watch_dir).resolve())
+        learner = ContinuousLearner(agent_config)
+
+        learner_thread = threading.Thread(target=learner.run, daemon=True)
+        learner_thread.start()
+        print(f"[auto-learn] エージェント常時学習を起動")
+    except Exception as e:
+        print(f"[auto-learn] エージェント常時学習の起動失敗（キャプチャは継続します）: {e}")
+
+    return pipeline, learner
 
 
 # ===== main =====
@@ -402,19 +421,22 @@ def main():
 
     _print_banner(args, trigger, session_id)
 
-    # --auto-learn: LearningPipelineをdaemonスレッドで起動
+    # --auto-learn: LearningPipeline + ContinuousLearner をdaemonスレッドで起動
     pipeline = None
+    learner = None
     if args.auto_learn:
-        pipeline = _start_auto_learn(args.output)
+        pipeline, learner = _start_auto_learn(args.output)
 
     if trigger == "timer":
         _run_timer_mode(ws, args, session_id)
     else:
         _run_event_mode(ws, args, session_id, privacy_guard=privacy_guard)
 
-    # パイプライン停止
+    # パイプライン・常時学習停止
     if pipeline:
         pipeline.stop()
+    if learner:
+        learner.stop()
 
 
 if __name__ == "__main__":

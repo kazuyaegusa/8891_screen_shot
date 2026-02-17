@@ -1,0 +1,119 @@
+{
+  "workflow_id": "wf-2f54301c",
+  "name": "クリップボードのコマンドをGhosttyで実行",
+  "description": "Ghosttyのターミナルにフォーカスし、クリップボードの内容を貼り付けてEnterで実行する手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 17:44:55 on ttys041                                                                          \nkazuyaegusa@Mac src %   openclaw models auth login --provider google-gemini-cli                                     \n                                                                                                                    \n🦞 OpenClaw 2026.2.10 (50a60b8) — The UNIX philosophy meets your DMs.                                               \n                                                                                                                    \n│                                                                                                                   \n│                                                                                                                   \n◇  Gemini CLI OAuth ───────────────────────────────────────────────╮                                                \n│                                                                  │                                                \n│  Browser will open for Google authentication.                    │                                                \n│  Sign in with your Google account for Gemini CLI access.         │                                                \n│  The callback will be captured automatically on localhost:8085.  │                                                \n│                                                                  │                                                \n├──────────────────────────────────────────────────────────────────╯                                                \n◇  Gemini CLI OAuth failed                                                                                          \n│                                                                                                                   \n◇  OAuth help ────────────────────────────────────────────────────────────╮                                         \n│           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1295,
+        "y": 1019
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_175531.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 17:44:55 on ttys041                                                                          \nkazuyaegusa@Mac src %   openclaw models auth login --provider google-gemini-cli                                     \n                                                                                                                    \n🦞 OpenClaw 2026.2.10 (50a60b8) — The UNIX philosophy meets your DMs.                                               \n                                                                                                                    \n│                                                                                                                   \n│                                                                                                                   \n◇  Gemini CLI OAuth ───────────────────────────────────────────────╮                                                \n│                                                                  │                                                \n│  Browser will open for Google authentication.                    │                                                \n│  Sign in with your Google account for Gemini CLI access.         │                                                \n│  The callback will be captured automatically on localhost:8085.  │                                                \n│                                                                  │                                                \n├──────────────────────────────────────────────────────────────────╯                                                \n◇  Gemini CLI OAuth failed                                                                                          \n│                                                                                                                   \n◇  OAuth help ────────────────────────────────────────────────────────────╮                                         \n│           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1295,
+        "y": 1019
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_175532.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 17:44:55 on ttys041                                                                          \nkazuyaegusa@Mac src %   openclaw models auth login --provider google-gemini-cli                                     \n                                                                                                                    \n🦞 OpenClaw 2026.2.10 (50a60b8) — The UNIX philosophy meets your DMs.                                               \n                                                                                                                    \n│                                                                                                                   \n│                                                                                                                   \n◇  Gemini CLI OAuth ───────────────────────────────────────────────╮                                                \n│                                                                  │                                                \n│  Browser will open for Google authentication.                    │                                                \n│  Sign in with your Google account for Gemini CLI access.         │                                                \n│  The callback will be captured automatically on localhost:8085.  │                                                \n│                                                                  │                                                \n├──────────────────────────────────────────────────────────────────╯                                                \n◇  Gemini CLI OAuth failed                                                                                          \n│                                                                                                                   \n◇  OAuth help ────────────────────────────────────────────────────────────╮                                         \n│           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1295,
+        "y": 1019
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771318533.182119
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_175534.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "Ghostty",
+    "Terminal",
+    "Paste",
+    "Execute",
+    "macOS"
+  ],
+  "parameters": [],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T18:21:19.968705",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

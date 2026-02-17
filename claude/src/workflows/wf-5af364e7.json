@@ -1,0 +1,64 @@
+{
+  "workflow_id": "wf-5af364e7",
+  "name": "通知許可ダイアログで「許可」をクリック",
+  "description": "UserNotificationCenter の通知許可ダイアログで、指定アプリのウィンドウ上にある「許可」ボタンをクリックして通知を許可する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.UserNotificationCenter",
+      "app_name": "UserNotificationCenter",
+      "target": {
+        "role": "AXButton",
+        "title": "許可",
+        "value": null,
+        "description": null,
+        "identifier": "action-button-1"
+      },
+      "coordinates": {
+        "x": 4443,
+        "y": 475
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_182537.png"
+    }
+  ],
+  "app_name": "UserNotificationCenter",
+  "tags": [
+    "macOS",
+    "UserNotificationCenter",
+    "通知",
+    "権限",
+    "ダイアログ操作"
+  ],
+  "parameters": [
+    {
+      "name": "requesting_app_window_title",
+      "description": "通知を要求しているアプリ名（ダイアログのウィンドウタイトル）。例: Codex",
+      "step_index": 1
+    },
+    {
+      "name": "allow_button_label",
+      "description": "クリックするボタンのラベル。通常は「許可」",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.8599999999999999,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T15:23:44.498812",
+  "status": "tested",
+  "execution_count": 1,
+  "parent_id": null
+}

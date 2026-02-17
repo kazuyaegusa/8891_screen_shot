@@ -46,6 +46,25 @@ claude/
 │   │   ├── skill_writer.py          # スキル書き込み（SKILL.md生成）
 │   │   ├── cleanup_manager.py       # 処理済みデータ削除
 │   │   └── learning_pipeline.py     # メインオーケストレータ + CLI
+│   ├── agent/
+│   │   ├── __init__.py              # エージェントパッケージ
+│   │   ├── __main__.py              # python -m agent 実行用
+│   │   ├── models.py                # データモデル（ActionStep, Workflow, ExecutionContext, ExecutionResult）
+│   │   ├── config.py                # エージェント設定（.envからロード）
+│   │   ├── action_player.py         # アクション再生（Quartz API）
+│   │   ├── state_observer.py        # 画面状態観測（Accessibility API + スクリーンショット）
+│   │   ├── workflow_store.py        # ワークフロー永続化・検索（JSON）
+│   │   ├── workflow_extractor.py    # JSON履歴 → ワークフロー抽出（GPT-5分析）
+│   │   ├── action_selector.py       # AIによる次アクション選択
+│   │   ├── execution_verifier.py    # 実行結果のAI検証（Vision比較）
+│   │   ├── autonomous_loop.py       # 自律実行メインループ
+│   │   ├── continuous_learner.py    # 常時ワークフロー学習（daemon対応）
+│   │   ├── feedback_store.py        # 実行フィードバック永続化
+│   │   ├── workflow_refiner.py      # ワークフロー改善（ステータスライフサイクル・バリアント生成）
+│   │   ├── meta_analyzer.py         # クロスセッション性能分析（回帰検出・改善提案）
+│   │   ├── recovery_learner.py      # エラー復旧パターン学習
+│   │   ├── report_generator.py     # 再現性レポート + 業務パーツカタログ生成
+│   │   └── agent_cli.py             # CLI: learn / list / run / play / watch / stats
 │   └── test_window_screenshot.py  # テストスクリプト（macOS/Linux自動分岐）
 ├── docs/
 │   ├── capture_loop.md            # capture_loopのAPI仕様
@@ -68,6 +87,23 @@ claude/
 │       ├── skill_writer.md        # スキル書き出しのAPI仕様
 │       ├── cleanup_manager.md     # クリーンアップのAPI仕様
 │       └── learning_pipeline.md   # メインパイプラインのAPI仕様
+│   └── agent/
+│       ├── models.md              # エージェントモデルのAPI仕様
+│       ├── config.md              # エージェント設定のAPI仕様
+│       ├── action_player.md       # アクション再生のAPI仕様
+│       ├── state_observer.md      # 状態観測のAPI仕様
+│       ├── workflow_store.md      # ワークフロー保存のAPI仕様
+│       ├── workflow_extractor.md  # ワークフロー抽出のAPI仕様
+│       ├── action_selector.md     # アクション選択のAPI仕様
+│       ├── execution_verifier.md  # 実行検証のAPI仕様
+│       ├── autonomous_loop.md     # 自律実行のAPI仕様
+│       ├── continuous_learner.md  # 常時学習のAPI仕様
+│       ├── feedback_store.md      # フィードバック保存のAPI仕様
+│       ├── workflow_refiner.md    # ワークフロー改善のAPI仕様
+│       ├── meta_analyzer.md       # 性能分析のAPI仕様
+│       ├── recovery_learner.md    # 復旧パターン学習のAPI仕様
+│       ├── report_generator.md    # レポート生成のAPI仕様
+│       └── agent_cli.md           # CLIのAPI仕様
 └── README.md
 ```
 
@@ -354,6 +390,50 @@ cap_*.json (FileWatcher)
   → 処理済みファイル削除 (CleanupManager)
 ```
 
+## 再現性レポート + 業務パーツカタログ
+
+ワークフローの再現性をA/B/Cランクで評価し、業務カテゴリに分類してレポート・カタログを生成する。AI呼び出し不要。
+
+### 使い方
+
+```bash
+# 全カテゴリのレポートを表示
+cd claude/src && python3 -m agent.agent_cli report
+
+# 特定カテゴリのみ
+python3 -m agent.agent_cli report --category "開発"
+
+# ファイルに保存
+python3 -m agent.agent_cli report --output ./my_report.md
+
+# JSON形式で出力
+python3 -m agent.agent_cli report --format json
+```
+
+### 再現性ランク
+
+| ランク | 条件 | 意味 |
+|--------|------|------|
+| A | score >= 0.7 | 再現可能 |
+| B | score >= 0.4 | 要検証 |
+| C | score < 0.4 | 再現困難 |
+
+### 業務カテゴリ
+
+| カテゴリ | 対象アプリ |
+|---------|-----------|
+| 開発 | Cursor, Code, Ghostty, Terminal, iTerm2 |
+| コミュニケーション | LINE, Discord, Slack, Mail |
+| ブラウザ/Web | Google Chrome, Safari, Firefox, Arc |
+| AI/LLM | Claude, Google Gemini, ChatGPT |
+| システム操作 | Finder, System Preferences |
+| プロジェクト管理 | Linear, Notion, Jira |
+
+### 出力
+
+- `workflows/parts/catalog.json`: パーツインデックス（カテゴリ別ワークフロー一覧 + 再現性スコア）
+- `workflows/reports/report_*.md`: Markdownレポート（--output指定時）
+
 ## 注意事項
 
 - **Linux**: ウィンドウマネージャー必須。Wayland環境は非対応（xdotoolがX11依存）
@@ -361,3 +441,134 @@ cap_*.json (FileWatcher)
 - **macOS elementモード**: アクセシビリティ権限が必要。Electron系アプリ(Discord等)はAX API非対応のためwindowにフォールバック
 - **共通**: DISPLAY環境変数（Linuxのみ）が必ず設定されている必要がある
 - **JSON保存**: スクショ撮影が成功すればJSON保存失敗時でもスクショは正常に返却される
+
+## 自律操作エージェント（Phase 3）
+
+キャプチャJSON（click:909, text:266, shortcut:100）を学習し、AIが自律的に操作を再現・応用するシステム。
+
+### アーキテクチャ
+
+```
+agent_cli.py → autonomous_loop.py
+                ├── state_observer.py → common/app_inspector.py, window_screenshot.py
+                ├── action_selector.py → pipeline/ai_client.py, workflow_store.py
+                ├── action_player.py → Quartz API（Accessibility + CGEvent）
+                └── execution_verifier.py → pipeline/ai_client.py（Vision）
+
+workflow_extractor.py → pipeline/ai_client.py, pipeline/session_builder.py
+```
+
+### 使い方
+
+```bash
+# 学習: キャプチャJSONからワークフロー抽出（GPT-5で分析）
+cd claude/src && python3 -m agent.agent_cli learn --json-dir ./screenshots
+
+# セグメント分割のみ確認（AI呼び出しなし）
+python3 -m agent.agent_cli learn --json-dir ./screenshots --segments-only
+
+# 学習済みワークフロー一覧
+python3 -m agent.agent_cli list
+
+# キーワード検索
+python3 -m agent.agent_cli list -q "Finder"
+
+# 自律実行（目標テキストから操作を自動判断・実行）
+python3 -m agent.agent_cli run "Cursorでファイルを開いてGeminiに質問する"
+
+# ワークフロー直接再生
+python3 -m agent.agent_cli play <workflow_id>
+
+# ドライラン（実際に操作しない）
+python3 -m agent.agent_cli run "テスト" --dry-run
+
+# パラメータ指定
+python3 -m agent.agent_cli play wf-xxxx --param path=/tmp/test.txt
+```
+
+### データフロー
+
+#### 学習フェーズ (`learn`)
+```
+1275件JSON → timestamp順ソート → セグメント分割（30秒ギャップ/アプリ遷移/100操作上限）
+→ GPT-5で各セグメント分析（名前・説明・パラメータ化・confidence）
+→ 重複排除（同名はconfidence高い方を採用）→ workflows/{id}.json に保存
+```
+
+#### 実行フェーズ (`run`)
+```
+目標テキスト → ワークフロー検索（見つかればWF実行/なければ自由探索）
+→ [ループ] 状態観測(スクショ+AX) → アクション選択(GPT-5) → 実行(Quartz) → 検証(Vision) → 目標達成判定
+```
+
+### 安全機構
+
+| 機構 | 説明 |
+|------|------|
+| 最大ステップ数 | デフォルト50ステップで自動停止 |
+| 連続失敗上限 | 5回連続失敗で中断 |
+| 危険アプリ検出 | Mail/Slack/Discord等の送信操作は確認プロンプト |
+| ドライランモード | `--dry-run` で実際に操作せず確認（フィードバックに記録しない） |
+| プライバシー保護 | 既存 privacy_guard をそのまま適用 |
+| 検証の正直性 | AI検証不可時は `verified=False` を返し、偽の成功判定を防止 |
+
+### 要素検索の優先順位
+
+```
+1. identifier → 2. value → 3. description → 4. title+role → 5. 座標フォールバック → 6. Vision推定
+```
+
+### 必要な追加権限
+
+- アクセシビリティ権限（要素検索・操作）
+- 入力監視権限（キーボード操作再生）
+
+## 常時学習フィードバックループ（Phase 3.5）
+
+### アーキテクチャ
+
+```
+capture_loop.py --auto-learn
+├── LearningPipeline (既存daemon) → skills (SKILL.md)
+└── ContinuousLearner (新daemon)
+    ├── 増分処理 (_agent_processed.txt)
+    ├── WorkflowExtractor.extract_incremental()
+    ├── WorkflowRefiner（10サイクルごと）
+    └── FeedbackStore 読み込み → 学習に反映
+```
+
+### データフロー
+
+```
+[記録] cap_*.json → [学習] ContinuousLearner (30秒ポーリング) → [改善] WorkflowRefiner → [実行] autonomous_loop → FeedbackStore → [学習に反映]
+```
+
+### 使い方
+
+```bash
+# 常時学習モード（単独）
+python3 -m agent.agent_cli watch
+
+# キャプチャ + 常時学習（推奨ワンコマンド）
+cd claude/src && python3 capture_loop.py --trigger event --auto-learn
+
+# 学習統計
+python3 -m agent.agent_cli stats
+```
+
+### ステータスライフサイクル（kework-agi準拠）
+
+```
+DRAFT → TESTED → ACTIVE → DEPRECATED
+  (1回実行&成功)  (5回&成功率70%↑)  (3回&成功率20%↓)
+```
+
+### 新規モジュール
+
+| モジュール | 説明 |
+|-----------|------|
+| `agent/continuous_learner.py` | 常時ワークフロー学習（daemon対応） |
+| `agent/feedback_store.py` | 実行フィードバック永続化（ステップ別エラー詳細対応） |
+| `agent/workflow_refiner.py` | ワークフロー改善（ステータス昇降格・バリアント生成・マージ） |
+| `agent/meta_analyzer.py` | クロスセッション性能分析（回帰検出・改善提案） |
+| `agent/recovery_learner.py` | エラー復旧パターン学習（error_code→recovery_actionマッピング） |

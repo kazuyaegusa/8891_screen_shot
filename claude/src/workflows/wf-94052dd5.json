@@ -1,0 +1,353 @@
+{
+  "workflow_id": "wf-94052dd5",
+  "name": "VS CodeでMarkdownファイルを開いてプレビューを表示",
+  "description": "VS Codeでエクスプローラーから指定のMarkdownファイルを開き、Cmd+Shift+VでMarkdownプレビューを開いて内容を確認する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 516,
+        "y": 193
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191708.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 516,
+        "y": 193
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191709.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 418,
+        "y": 130
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_191711.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "numeric_types_list.md",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 239,
+        "y": 115
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191714.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "numeric_types_list.md",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 239,
+        "y": 115
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191715.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 469,
+        "y": 586
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191716.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 469,
+        "y": 586
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_191717.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 502,
+        "y": 574
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191730.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 251,
+        "y": 471
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191738.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 251,
+        "y": 471
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191741.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.microsoft.VSCode",
+      "app_name": "Code",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 65,
+        "y": 47
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191751.png"
+    }
+  ],
+  "app_name": "Code",
+  "tags": [
+    "VS Code",
+    "Markdown",
+    "プレビュー",
+    "エディタ"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "開くMarkdownファイル名（拡張子.mdを含む）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T15:53:43.701309",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

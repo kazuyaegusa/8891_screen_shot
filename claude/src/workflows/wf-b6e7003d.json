@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-b6e7003d",
+  "name": "アプリをアップデートして終了する",
+  "description": "アップデートダイアログで「インストールして再起動」をクリックし、再起動後にアプリを終了する手順。対象アプリ名とボタン表示は可変として扱います。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "インストールして再起動",
+        "value": null,
+        "description": null,
+        "identifier": "SUStatusInstallAndRelaunch"
+      },
+      "coordinates": {
+        "x": 4466,
+        "y": 415
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190253.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "Quit",
+        "value": null,
+        "description": null,
+        "identifier": "action-button--999"
+      },
+      "coordinates": {
+        "x": 2936,
+        "y": 441
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190255.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "update",
+    "restart",
+    "quit",
+    "application"
+  ],
+  "parameters": [
+    {
+      "name": "app_name",
+      "description": "対象アプリ名（ウィンドウタイトルに使用）",
+      "step_index": 1
+    },
+    {
+      "name": "install_and_restart_button_label",
+      "description": "アップデート実行ボタンの表示（例: インストールして再起動 / Install and Restart）",
+      "step_index": 1
+    },
+    {
+      "name": "quit_button_label",
+      "description": "終了ボタンの表示（例: Quit / 終了）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-17T15:45:03.791217",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

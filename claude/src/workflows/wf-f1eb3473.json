@@ -1,0 +1,52 @@
+{
+  "workflow_id": "wf-f1eb3473",
+  "name": "Google Chromeで新規ウィンドウを開く",
+  "description": "Google Chromeのメニューから「New Window（新規ウィンドウ）」をクリックして新しいウィンドウを開く手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 158,
+        "y": 551
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002833.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "新規ウィンドウ",
+    "ウィンドウ管理",
+    "メニュー操作"
+  ],
+  "parameters": [],
+  "confidence": 0.9019999999999999,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T16:42:10.259826",
+  "status": "tested",
+  "execution_count": 1,
+  "parent_id": null
+}

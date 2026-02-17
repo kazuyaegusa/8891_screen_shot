@@ -1,0 +1,14 @@
+{
+  "feedback_id": "fb-2f39685f",
+  "workflow_id": "wf-3d286073",
+  "goal": "Markdown を PDF にエクスポート（Cursor）",
+  "success": true,
+  "steps_executed": 2,
+  "steps_succeeded": 2,
+  "failed_step_indices": [],
+  "error_details": [],
+  "timestamp": "2026-02-17T17:57:57.974469",
+  "execution_mode": "workflow",
+  "duration_seconds": 0.0,
+  "app_name": ""
+}

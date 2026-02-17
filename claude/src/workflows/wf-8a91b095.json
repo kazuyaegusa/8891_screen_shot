@@ -1,0 +1,81 @@
+{
+  "workflow_id": "wf-8a91b095",
+  "name": "Claudeで請求から使用量へ移動",
+  "description": "Claudeアプリで請求ページを開き、使用量タブ（またはセクション）に遷移して利用状況を確認する一連の手順。前提としてClaudeが起動済みで、該当ワークスペース/アカウントにアクセス可能であること。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "請求",
+        "value": null,
+        "description": "請求",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2941,
+        "y": 341
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011832.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2959,
+        "y": 379
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011833.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "Billing",
+    "Usage",
+    "Navigation"
+  ],
+  "parameters": [],
+  "confidence": 0.804,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T16:54:32.511615",
+  "status": "tested",
+  "execution_count": 1,
+  "parent_id": null
+}

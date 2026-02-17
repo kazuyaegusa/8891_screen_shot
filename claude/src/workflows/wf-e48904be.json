@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-e48904be",
+  "name": "Linearで課題を新規ウィンドウで開く",
+  "description": "Linear上で対象の課題をフォーカスし、「New Window」を選択してその課題を新しいウィンドウで開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "value": null,
+        "description": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 449,
+        "y": 577
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184056.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 171,
+        "y": 625
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184059.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "Issue",
+    "New Window",
+    "Productivity"
+  ],
+  "parameters": [
+    {
+      "name": "issue_key_or_title",
+      "description": "対象となる課題のキー（例: AIX-93）またはタイトル。該当課題をフォーカスする際に利用。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T15:33:39.602008",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

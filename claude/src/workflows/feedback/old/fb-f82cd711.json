@@ -1,0 +1,14 @@
+{
+  "feedback_id": "fb-f82cd711",
+  "workflow_id": "wf-f1eb3473",
+  "goal": "Google Chromeで新規ウィンドウを開く",
+  "success": true,
+  "steps_executed": 1,
+  "steps_succeeded": 1,
+  "failed_step_indices": [],
+  "error_details": [],
+  "timestamp": "2026-02-17T17:57:44.928691",
+  "execution_mode": "workflow",
+  "duration_seconds": 0.0,
+  "app_name": ""
+}

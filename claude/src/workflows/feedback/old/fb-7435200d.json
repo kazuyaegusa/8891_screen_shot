@@ -1,0 +1,14 @@
+{
+  "feedback_id": "fb-7435200d",
+  "workflow_id": "wf-8a91b095",
+  "goal": "Claudeで請求から使用量へ移動",
+  "success": true,
+  "steps_executed": 2,
+  "steps_succeeded": 2,
+  "failed_step_indices": [],
+  "error_details": [],
+  "timestamp": "2026-02-17T17:58:04.917091",
+  "execution_mode": "workflow",
+  "duration_seconds": 0.0,
+  "app_name": ""
+}

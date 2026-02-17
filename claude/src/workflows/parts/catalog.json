@@ -1,0 +1,431 @@
+{
+  "updated_at": "2026-02-17T17:58:10",
+  "categories": {
+    "ブラウザ/Web": {
+      "workflows": [
+        {
+          "workflow_id": "wf-f1eb3473",
+          "name": "Google Chromeで新規ウィンドウを開く",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.91,
+            "rank": "A"
+          },
+          "steps_count": 1
+        },
+        {
+          "workflow_id": "wf-a6cb0cb5",
+          "name": "Frame.ioで特定タイムスタンプにレビューコメントを投稿する",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.59,
+            "rank": "B"
+          },
+          "steps_count": 36
+        },
+        {
+          "workflow_id": "wf-c42ce8ab",
+          "name": "GitHub招待を承認する",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.55,
+            "rank": "B"
+          },
+          "steps_count": 1
+        },
+        {
+          "workflow_id": "wf-d57e52d1",
+          "name": "Frame.ioで動画にタイムスタンプ付きコメントを投稿する",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.56,
+            "rank": "B"
+          },
+          "steps_count": 18
+        },
+        {
+          "workflow_id": "wf-6d2730a9",
+          "name": "Frame.ioで動画にコメントを追加する",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.55,
+            "rank": "B"
+          },
+          "steps_count": 18
+        },
+        {
+          "workflow_id": "wf-30cec40f",
+          "name": "Chromeでページを再読み込みする",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.53,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-12e59675",
+          "name": "OpenClaw Control のテキストエリアに文字入力",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.52,
+            "rank": "B"
+          },
+          "steps_count": 3
+        }
+      ]
+    },
+    "開発": {
+      "workflows": [
+        {
+          "workflow_id": "wf-604e367b",
+          "name": "CursorでMarkdownをPDFにエクスポート",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.6,
+            "rank": "B"
+          },
+          "steps_count": 11
+        },
+        {
+          "workflow_id": "wf-2c3c6a1f",
+          "name": "CursorでGitリポジトリをクローンして開く",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.59,
+            "rank": "B"
+          },
+          "steps_count": 6
+        },
+        {
+          "workflow_id": "wf-3d286073",
+          "name": "Markdown を PDF にエクスポート（Cursor）",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.85,
+            "rank": "A"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-94052dd5",
+          "name": "VS CodeでMarkdownファイルを開いてプレビューを表示",
+          "app_name": "Code",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 11
+        },
+        {
+          "workflow_id": "wf-bddca997",
+          "name": "Cursorで設定（Privacy Mode）を開いて編集後にエディタへ戻る",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.56,
+            "rank": "B"
+          },
+          "steps_count": 7
+        },
+        {
+          "workflow_id": "wf-e128b844",
+          "name": "Export a Markdown file to PDF in Cursor (Markdown PDF extension)",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 10
+        },
+        {
+          "workflow_id": "wf-8cd04db3",
+          "name": "CursorでMarkdownプレビューを開く/切り替える",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 4
+        },
+        {
+          "workflow_id": "wf-e8ce4eb2",
+          "name": "Install an extension in Cursor (e.g., Markdown PDF)",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.56,
+            "rank": "B"
+          },
+          "steps_count": 9
+        },
+        {
+          "workflow_id": "wf-f9e088a4",
+          "name": "前面のターミナルジョブをCtrl+C(SIGINT)で停止",
+          "app_name": "Ghostty",
+          "reproducibility": {
+            "score": 0.53,
+            "rank": "B"
+          },
+          "steps_count": 4
+        },
+        {
+          "workflow_id": "wf-311bac2b",
+          "name": "Cursor: Activate specified tabs/windows in order",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.53,
+            "rank": "B"
+          },
+          "steps_count": 3
+        },
+        {
+          "workflow_id": "wf-41afd11d",
+          "name": "Cursorで指定テキストを入力して別タブ/ウィンドウへ切り替える",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.54,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-49af7456",
+          "name": "Create and open a new folder in Cursor",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.54,
+            "rank": "B"
+          },
+          "steps_count": 20
+        },
+        {
+          "workflow_id": "wf-9195766b",
+          "name": "Insert text via Cursor Preview pane",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.54,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-6d3e4581",
+          "name": "Focus Cursor editor tab and insert text",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.52,
+            "rank": "B"
+          },
+          "steps_count": 2
+        }
+      ]
+    },
+    "その他": {
+      "workflows": [
+        {
+          "workflow_id": "wf-5af364e7",
+          "name": "通知許可ダイアログで「許可」をクリック",
+          "app_name": "UserNotificationCenter",
+          "reproducibility": {
+            "score": 0.89,
+            "rank": "A"
+          },
+          "steps_count": 1
+        },
+        {
+          "workflow_id": "wf-bf92ed3b",
+          "name": "Codexで新規プロジェクトを追加してスレッドを開始",
+          "app_name": "Codex",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 19
+        },
+        {
+          "workflow_id": "wf-b6e7003d",
+          "name": "アプリをアップデートして終了する",
+          "app_name": "Codex",
+          "reproducibility": {
+            "score": 0.6,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-e92fcefb",
+          "name": "Gmailで指定件名メールを順に開く",
+          "app_name": "Gmail",
+          "reproducibility": {
+            "score": 0.54,
+            "rank": "B"
+          },
+          "steps_count": 4
+        },
+        {
+          "workflow_id": "wf-4cfc4ea9",
+          "name": "Codexでアプリのアップデートをインストール",
+          "app_name": "Codex",
+          "reproducibility": {
+            "score": 0.58,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-86046c92",
+          "name": "Gmailで指定メールを順に開く",
+          "app_name": "Gmail",
+          "reproducibility": {
+            "score": 0.53,
+            "rank": "B"
+          },
+          "steps_count": 2
+        }
+      ]
+    },
+    "AI/LLM": {
+      "workflows": [
+        {
+          "workflow_id": "wf-296b71f2",
+          "name": "Claudeで「使用量」ページを開く",
+          "app_name": "Claude",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 3
+        },
+        {
+          "workflow_id": "wf-ee61ac0b",
+          "name": "Claudeで使用量ページへ移動",
+          "app_name": "Claude",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 3
+        },
+        {
+          "workflow_id": "wf-18916a85",
+          "name": "Google Geminiでプロンプトを入力する",
+          "app_name": "Google Gemini",
+          "reproducibility": {
+            "score": 0.83,
+            "rank": "A"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-8a91b095",
+          "name": "Claudeで請求から使用量へ移動",
+          "app_name": "Claude",
+          "reproducibility": {
+            "score": 0.81,
+            "rank": "A"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-0217ff26",
+          "name": "Click a specified button in Claude",
+          "app_name": "Claude",
+          "reproducibility": {
+            "score": 0.53,
+            "rank": "B"
+          },
+          "steps_count": 1
+        },
+        {
+          "workflow_id": "wf-5979f169",
+          "name": "Google Geminiで指定テキストを入力",
+          "app_name": "Google Gemini",
+          "reproducibility": {
+            "score": 0.52,
+            "rank": "B"
+          },
+          "steps_count": 2
+        }
+      ]
+    },
+    "コミュニケーション": {
+      "workflows": [
+        {
+          "workflow_id": "wf-c679eb6d",
+          "name": "Discordで特定サーバーのウェブフックを削除",
+          "app_name": "Discord",
+          "reproducibility": {
+            "score": 0.5,
+            "rank": "B"
+          },
+          "steps_count": 8
+        },
+        {
+          "workflow_id": "wf-0f7be5fc",
+          "name": "Discordで特定メッセージに返信する",
+          "app_name": "Discord",
+          "reproducibility": {
+            "score": 0.51,
+            "rank": "B"
+          },
+          "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-fe52cf91",
+          "name": "Slackでメッセージ内のリンクを開く",
+          "app_name": "Slack",
+          "reproducibility": {
+            "score": 0.52,
+            "rank": "B"
+          },
+          "steps_count": 1
+        },
+        {
+          "workflow_id": "wf-308ca851",
+          "name": "LINEで現在のチャットに定型文を入力",
+          "app_name": "LINE",
+          "reproducibility": {
+            "score": 0.51,
+            "rank": "B"
+          },
+          "steps_count": 2
+        }
+      ]
+    },
+    "システム操作": {
+      "workflows": [
+        {
+          "workflow_id": "wf-8ed67fc7",
+          "name": "Finderでゴミ箱を開く",
+          "app_name": "Finder",
+          "reproducibility": {
+            "score": 0.73,
+            "rank": "A"
+          },
+          "steps_count": 1
+        }
+      ]
+    },
+    "プロジェクト管理": {
+      "workflows": [
+        {
+          "workflow_id": "wf-e48904be",
+          "name": "Linearで課題を新規ウィンドウで開く",
+          "app_name": "Linear",
+          "reproducibility": {
+            "score": 0.56,
+            "rank": "B"
+          },
+          "steps_count": 2
+        }
+      ]
+    }
+  },
+  "stats": {
+    "total": 39,
+    "by_rank": {
+      "A": 6,
+      "B": 33,
+      "C": 0
+    }
+  }
+}

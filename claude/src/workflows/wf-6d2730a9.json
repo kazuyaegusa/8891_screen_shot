@@ -1,0 +1,2267 @@
+{
+  "workflow_id": "wf-6d2730a9",
+  "name": "Frame.ioで動画にコメントを追加する",
+  "description": "Chrome上のFrame.ioプレイヤーで、対象動画の再生位置にコメント入力フィールドを開き、コメント本文を入力・編集する一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 774,
+        "y": 548
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170922.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 972,
+        "y": 890
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170926.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 878,
+        "y": 775
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170927.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 784,
+        "y": 652
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170928.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 771,
+        "y": 983
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170929.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170930.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315771.660436
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315771.7333279
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315771.810824
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315771.885247
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315772.006379
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315772.107947
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315772.1840792
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315772.304044
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315772.347326
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315772.3923671
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315772.632388
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771315773.593378
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315773.639851
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315773.792638
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771315774.132766
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315774.391575
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315774.7746198
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315774.80791
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315774.8548841
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315774.913497
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315774.989459
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315775.0632
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315775.078476
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315775.167608
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315775.242559
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315775.304756
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315775.497792
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315775.723552
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315775.81338
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315775.8441029
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315775.933238
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315776.112361
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315776.263083
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771315776.580996
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315776.773964
+          }
+        ],
+        "text": "konohen no\nbot\u0010\nsakusei no\nkudari,\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170937.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315778.512896
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315778.617402
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315778.680341
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315778.8325
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315778.888993
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315778.992564
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315779.053427
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315779.21859
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315779.26286
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315779.371658
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315779.413444
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315779.5516999
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315779.607692
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315779.803312
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315779.833627
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315779.922896
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315780.0008051
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315780.043253
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315780.1629992
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315780.2076879
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315780.268406
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315780.420628
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315780.507756
+          }
+        ],
+        "text": "kekkou nagakunaru node\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170941.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315782.7923682
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315782.894422
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315782.9821959
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315783.0129879
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315783.163075
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771315783.419903
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315783.462689
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315783.55266
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315783.703037
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315783.762503
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315783.841389
+          }
+        ],
+        "text": "suga\nyouha ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170944.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771315784.917894
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315784.962403
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315785.0822358
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315785.2491012
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315785.337627
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315785.397603
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315785.822885
+          }
+        ],
+        "text": "youha \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170946.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315787.199005
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315787.3326569
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315787.407855
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315787.467746
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315787.6021
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315787.64708
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315787.664234
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315787.799414
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315787.857505
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315787.8880892
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315788.0100858
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771315788.247777
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315788.292989
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315788.3827121
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315788.563096
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315788.607531
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315788.669624
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315788.849621
+          },
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771315789.3929868
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315789.553217
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315789.6271129
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315789.748516
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315789.8228679
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315789.944511
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315790.122197
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315790.410676
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315790.452424
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315790.557015
+          }
+        ],
+        "text": "tteimasuga\nyouha \nCursor\nga\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170951.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771315793.468679
+          },
+          {
+            "char": "I",
+            "keycode": 34,
+            "timestamp": 1771315793.572907
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315793.7835221
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315793.951846
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315793.9925
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315794.0987499
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315794.23237
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315794.59302
+          },
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771315795.512018
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315795.64273
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315795.702403
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315795.87077
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315795.94341
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315796.032813
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315796.273603
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315796.561525
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315796.832192
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315796.873887
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315797.023582
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315797.653553
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315797.7018769
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315797.833807
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315797.8785222
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315798.000597
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315798.044342
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315798.1627362
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315798.178414
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315798.252856
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315798.691037
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315798.762879
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771315798.8223622
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315799.022083
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315799.231982
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315799.634791
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315799.830828
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315799.871915
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315799.994851
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315800.1149921
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315800.488668
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315800.562443
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315800.836582
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315800.892203
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315801.092447
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315801.2226171
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315801.313005
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315801.5979688
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315801.778072
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315801.87095
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315801.988538
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315802.0363111
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315802.198317
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315802.256928
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315802.533603
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315802.603125
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315802.70993
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315802.787097
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315802.8901088
+          }
+        ],
+        "text": "AI\nri \n\u001cCursor\n\u001dga\nsimesita tejun nisitagatte susumeteru ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171003.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315804.030505
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315804.089068
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315804.1625931
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315804.25503
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315804.43193
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315804.551879
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315804.65752
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315804.7922912
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315804.990991
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315805.2317498
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315805.302774
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315805.378583
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315805.4228532
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315805.512908
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315805.60362
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315805.692276
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315805.89074
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315806.17348
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315806.232834
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771315806.3679
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315806.4431732
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315806.5329049
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315806.5939379
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315806.712301
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315806.744722
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771315806.8322701
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315806.907382
+          }
+        ],
+        "text": "dakedesu\nmitaina\nha-doru wo",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171008.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "この辺のbot作成のくだり、結構長くなっていますが要はAI（Cursor）が示した手順に従って進めてるだけですみたいな",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771315808.378496
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315808.561565
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315808.74094
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315808.8914618
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315809.0252218
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315809.17231
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315809.3429928
+          },
+          {
+            "char": "[",
+            "keycode": 30,
+            "timestamp": 1771315810.2690072
+          }
+        ],
+        "text": "\u001e\u001d\u001d\u001d\u001d\u001d\u001d[",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171011.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "[",
+            "keycode": 30,
+            "timestamp": 1771315811.6338592
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315811.844482
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771315812.2951832
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315812.473322
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315812.613185
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315812.759268
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315812.894612
+          },
+          {
+            "char": "]",
+            "keycode": 42,
+            "timestamp": 1771315813.49375
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315813.6433868
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771315813.946485
+          },
+          {
+            "char": "f",
+            "keycode": 3,
+            "timestamp": 1771315814.7539341
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315814.843998
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315815.037853
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315815.142355
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771315815.481854
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315815.641383
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315816.092868
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315816.137544
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315816.282891
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315816.388095
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315816.406021
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315816.507176
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315816.661057
+          }
+        ],
+        "text": "[\n\u001f\u001c\u001c\u001c\u001c]\n\u001fforo- monogn ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171017.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "この辺のbot作成のくだり、結構長くなっていますが「要はAI（Cursor）が示した手順に従って進めてるだけです」みたいなフォロー文言みたいなのがあればいいかと思いました",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1004
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315817.857692
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315817.931823
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315818.052725
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315818.172375
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315818.1957371
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315818.29184
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315818.336886
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315818.623298
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315818.713394
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315818.9402711
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315819.0131001
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315819.071777
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315819.207108
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315819.296912
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315819.38698
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315819.4465501
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315819.628999
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315819.672823
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315819.82324
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315819.942594
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315820.077914
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315820.1530728
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771315820.21202
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315820.317389
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315820.5437949
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315820.678143
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315820.828855
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315820.872011
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315820.9512289
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315821.036602
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315821.372031
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315821.621954
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315821.74275
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315821.82079
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315821.910282
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771315822.0120802
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315822.057454
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315822.087363
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315822.192687
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315822.222309
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315822.267076
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315822.326726
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315822.5117052
+          }
+        ],
+        "text": "mongon mitainanoga\narebaiikato\nomoimasita \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171023.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 823,
+        "y": 566
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771315823.8419998
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315824.0241332
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315824.4314408
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315824.52435
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315824.637224
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771315824.696993
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315824.756691
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315824.8319
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315824.8928692
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771315825.0126872
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315825.0441952
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315825.10199
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315825.192619
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315825.23734
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315825.432951
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315825.611458
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315825.657126
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315826.198216
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315826.302021
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771315826.395661
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315826.467179
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771315826.589526
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315826.661524
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771315826.766624
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315826.872737
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771315827.00672
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771315827.082714
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315827.171621
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771315827.383192
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315827.502961
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771315827.609974
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771315827.711657
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315827.816905
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771315827.9396732
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315828.01177
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771315828.1639721
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771315828.221828
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771315828.404753
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771315828.419189
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771315828.541066
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771315828.583494
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771315828.764701
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315828.972492
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771315829.453162
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771315829.587261
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771315829.724968
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315829.916873
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.14188
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.645845
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.725924
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.810068
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.892961
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315830.977269
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315831.061035
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315831.144712
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315831.2224698
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315831.387315
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315831.541423
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.040363
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.1259708
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.205348
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.2913642
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.373187
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.458059
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.560655
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.706899
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.8753679
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315832.995562
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315833.171086
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315833.307754
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315833.4734368
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315833.638502
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315833.8336709
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771315834.002378
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771315834.270067
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771315834.446601
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771315834.583035
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771315835.256945
+          }
+        ],
+        "text": ".\nsityousya no\nhasinri ha-doruwo sagetaku \n\u001e\u001e\u001e\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001f\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_171036.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 823,
+        "y": 566
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_171036.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Frame.io",
+    "Google Chrome",
+    "レビュー",
+    "動画コメント"
+  ],
+  "parameters": [
+    {
+      "name": "video_title_or_url",
+      "description": "対象動画（タブ/ウィンドウ）の識別子。ウィンドウタイトルまたはURLで指定。",
+      "step_index": 1
+    },
+    {
+      "name": "comment_text",
+      "description": "入力・投稿するコメント本文（現在の再生位置に紐づく）。",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T17:47:57.844311",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}
