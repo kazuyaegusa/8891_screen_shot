@@ -28,8 +28,7 @@ result = player.play_action(action_dict, dry_run=False)
 - ActionStep を受け取り、内部でレガシー Dict 形式に変換して操作を再生
 - クリック操作: AXUIElement による要素検索 → 座標特定 → CGEvent でクリック
 - キー操作: CGEvent でキー入力（text_input, key_input, key_shortcut）
-- 要素検索優先順位: identifier → value → description → title+role → coordinate_fallback
-- Vision フォールバック: Phase 4 で実装予定（現在はスタブ）
+- 要素検索優先順位: identifier → value → description → title+role → アプリ全体検索 → coordinate_fallback → Vision
 
 【依存】
 - agent.models.ActionStep
@@ -63,6 +62,7 @@ try:
         AXUIElementCreateSystemWide,
         AXUIElementCopyAttributeValue,
         AXUIElementCopyAttributeNames,
+        AXUIElementCreateApplication,
     )
     from AppKit import NSWorkspace, NSRunningApplication
     QUARTZ_AVAILABLE = True
@@ -324,6 +324,53 @@ def find_element_by_criteria(
             if str(current_role) == target_role:
                 return (orig_x, orig_y, "role_match_at_position")
 
+    # 6. アプリ全体検索（ウィンドウ位置が変わった場合のフォールバック）
+    bundle_id = target.get("app", {}).get("bundle_id")
+    if bundle_id:
+        try:
+            apps = NSRunningApplication.runningApplicationsWithBundleIdentifier_(bundle_id)
+            if apps and len(apps) > 0:
+                pid = apps[0].processIdentifier()
+                app_element = AXUIElementCreateApplication(pid)
+                all_elements = search_all_elements(app_element, max_depth=8)
+
+                elem_info = target.get("element", {})
+                t_identifier = elem_info.get("identifier")
+                t_value = elem_info.get("value")
+                t_description = elem_info.get("description")
+                t_title = elem_info.get("title")
+                t_role = elem_info.get("role")
+
+                # identifier一致
+                if t_identifier:
+                    for _, info in all_elements:
+                        if info.get("identifier") == t_identifier and info.get("frame"):
+                            f = info["frame"]
+                            return (f["x"] + f["width"] / 2, f["y"] + f["height"] / 2, "app_wide_identifier_match")
+
+                # value一致
+                if t_value:
+                    for _, info in all_elements:
+                        if info.get("value") == t_value and info.get("frame"):
+                            f = info["frame"]
+                            return (f["x"] + f["width"] / 2, f["y"] + f["height"] / 2, "app_wide_value_match")
+
+                # description一致
+                if t_description:
+                    for _, info in all_elements:
+                        if info.get("description") == t_description and info.get("frame"):
+                            f = info["frame"]
+                            return (f["x"] + f["width"] / 2, f["y"] + f["height"] / 2, "app_wide_description_match")
+
+                # title + role一致
+                if t_title and t_role:
+                    for _, info in all_elements:
+                        if info.get("title") == t_title and info.get("role") == t_role and info.get("frame"):
+                            f = info["frame"]
+                            return (f["x"] + f["width"] / 2, f["y"] + f["height"] / 2, "app_wide_title_role_match")
+        except Exception:
+            pass
+
     return (orig_x, orig_y, "coordinate_fallback")
 
 
@@ -426,39 +473,112 @@ class ActionPlayer:
         screenshot_path: Optional[str] = None,
     ) -> Optional[Tuple[float, float]]:
         """
-        Vision ベースの要素検索フォールバック（Phase 4 で実装予定）
+        Vision ベースの要素検索フォールバック
 
-        AXUIElement での検索が失敗した場合に、スクリーンショットを使って
-        画像認識で要素位置を特定する。現在はスタブとして None を返す。
+        AXUIElement での検索が coordinate_fallback になった場合に、
+        スクリーンショットを使って画像認識で要素位置を特定する。
+        OPENAI_API_KEY 未設定時は None を返す（既存動作に影響なし）。
         """
-        # Phase 4: ここに Vision API を使った要素検索を実装
+        import os
+
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            return None
+
+        # スクリーンショットパスの決定
+        ss_path = screenshot_path or step.screenshot_path
+        if not ss_path:
+            try:
+                from agent.state_observer import StateObserver
+                observer = StateObserver()
+                state = observer.observe_current_state()
+                ss_path = state.get("screenshot_path")
+            except Exception:
+                pass
+        if not ss_path:
+            return None
+
+        # 要素説明テキストを構築
+        parts = []
+        if step.target_role:
+            parts.append(f"role={step.target_role}")
+        if step.target_title:
+            parts.append(f"title={step.target_title}")
+        if step.target_description:
+            parts.append(f"description={step.target_description}")
+        if step.target_value:
+            parts.append(f"value={step.target_value}")
+        if step.target_identifier:
+            parts.append(f"identifier={step.target_identifier}")
+        if step.description:
+            parts.append(step.description)
+        element_desc = ", ".join(parts) if parts else f"{step.action_type} target"
+
+        try:
+            import sys
+            sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent.parent))
+            from pipeline.ai_client import AIClient
+            client = AIClient()
+            result = client.find_element_by_vision(ss_path, element_desc)
+            if result and result.get("confidence", 0) >= 0.5:
+                return (float(result["x"]), float(result["y"]))
+        except Exception:
+            pass
+
         return None
 
     def play_action_step(self, step: ActionStep, dry_run: bool = False) -> Dict[str, Any]:
         """
         ActionStep を受け取って操作を再生
 
-        Args:
-            step: 実行する ActionStep
-            dry_run: True の場合、実際の操作は行わず結果だけ返す
-
-        Returns: 実行結果の辞書
+        coordinate_fallback になった場合は Vision フォールバックを試行してから
+        クリックを実行する。クリックは最終的に1回だけ行う。
         """
-        legacy_action = self._action_step_to_legacy_action(step)
-        result = play_action(legacy_action, dry_run=dry_run)
+        action_id = step.description or f"{step.action_type}_{step.x}_{step.y}"
+        result: Dict[str, Any] = {
+            "action_id": action_id,
+            "success": False,
+            "method": None,
+            "coordinates_used": None,
+            "error": None,
+        }
 
-        # Vision フォールバック: 要素が見つからなかった場合
-        if not result["success"] and result.get("error") == "Element not found":
-            ss_path = step.screenshot_path
-            vision_coords = self._find_element_with_vision_fallback(step, ss_path)
+        # アプリをアクティブ化
+        if step.app_bundle_id:
+            activate_app(step.app_bundle_id)
+
+        # キー入力系はそのまま play_key_action()
+        if step.action_type in KEY_ACTION_TYPES:
+            legacy_action = self._action_step_to_legacy_action(step)
+            return play_key_action(legacy_action, dry_run=dry_run)
+
+        # 要素検索
+        legacy_action = self._action_step_to_legacy_action(step)
+        search_result = find_element_by_criteria(legacy_action)
+
+        if search_result is None:
+            result["error"] = "Element not found"
+            return result
+
+        x, y, method = search_result
+        result["method"] = method
+
+        # coordinate_fallback なら Vision フォールバックを試行
+        if method == "coordinate_fallback":
+            vision_coords = self._find_element_with_vision_fallback(step, step.screenshot_path)
             if vision_coords is not None:
-                vx, vy = vision_coords
+                x, y = vision_coords
                 result["method"] = "vision_fallback"
-                result["coordinates_used"] = {"x": vx, "y": vy}
-                if not dry_run:
-                    button = "right" if step.action_type == "right_click" else "left"
-                    click_at(vx, vy, button)
-                result["success"] = True
+
+        result["coordinates_used"] = {"x": x, "y": y}
+
+        if not dry_run:
+            button = "right" if step.action_type == "right_click" else "left"
+            click_at(x, y, button)
+            result["success"] = True
+        else:
+            result["success"] = True
+            result["dry_run"] = True
 
         return result
 

@@ -39,10 +39,10 @@ ActionStep モデル対応のアクション再生モジュール。
 | 関数 | 説明 |
 |------|------|
 | `ActionPlayer.__init__()` | プレイヤー初期化 |
-| `ActionPlayer.play_action_step(step, dry_run)` | ActionStep を再生 |
+| `ActionPlayer.play_action_step(step, dry_run)` | ActionStep を再生（coordinate_fallback時にVision試行） |
 | `ActionPlayer.play_steps(steps, dry_run, delay)` | ステップリストを順次再生 |
 | `ActionPlayer._action_step_to_legacy_action(step)` | ActionStep を mvp Dict 形式に変換 |
-| `ActionPlayer._find_element_with_vision_fallback(step, screenshot_path)` | Vision フォールバック（Phase 4 スタブ） |
+| `ActionPlayer._find_element_with_vision_fallback(step, screenshot_path)` | Vision フォールバック（AIClient.find_element_by_vision接続済み、APIキー未設定時はNone） |
 | `get_ax_attribute(element, attr)` | AX属性を取得 |
 | `get_element_frame(element)` | 要素のフレーム取得 |
 | `activate_app(bundle_id)` | アプリをアクティブ化 |
@@ -51,7 +51,7 @@ ActionStep モデル対応のアクション再生モジュール。
 | `type_key(keycode, flags, delay)` | キー入力 |
 | `play_key_action(action, dry_run)` | キー系アクションを再生 |
 | `search_all_elements(app_element, max_depth)` | アプリ内全要素を再帰検索 |
-| `find_element_by_criteria(target, tolerance)` | 要素を属性で検索 |
+| `find_element_by_criteria(target, tolerance)` | 要素を属性で検索（アプリ全体検索対応） |
 | `play_action(action, dry_run)` | レガシー Dict 形式のアクション再生 |
 
 ## 依存

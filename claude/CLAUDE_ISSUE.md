@@ -109,14 +109,15 @@
 ### Issue 11: 座標フォールバックによるクリック位置のずれ
 
 - **発見日**: 2026-02-17
-- **状態**: 未解決（既知の制約）
+- **状態**: 解決済み（コード実装完了、APIキー設定後にVision動作確認要）
 - **問題**:
   - 学習時の座標 (945, 531) がそのまま再生時に使用される
   - ウィンドウ位置・サイズが異なると全く違う場所をクリックする
   - identifier=null, role=null のワークフローでは座標フォールバックしか使えない
   - 実際の Finder ゴミ箱ワークフローで再現を確認
-- **対策案**:
-  - `find_element_by_vision()` は AIClient に実装済みだが action_player に未接続
-  - action_player の要素検索フォールバックチェーンに Vision 検索を組み込む必要あり
-  - 座標のみのステップは再現性スコアを低く評価する（step_quality=0.30 で実装済み）
+- **解決方法**:
+  - `find_element_by_criteria()` にアプリ全体検索（ステップ6）を追加: ウィンドウ位置が変わっても identifier/value/description/title+role でアプリ内全要素から検索
+  - `_find_element_with_vision_fallback()` を AIClient.find_element_by_vision() に接続: APIキー未設定時は None を返し既存動作に影響なし
+  - `play_action_step()` をリライト: coordinate_fallback 検出時に Vision フォールバックを試行してからクリック（1回だけ）
+  - 要素検索優先順位（修正後）: identifier → value → description → title+role → role → アプリ全体検索 → coordinate_fallback → Vision推定
 - **影響ファイル**: action_player.py, ai_client.py

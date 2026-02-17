@@ -515,7 +515,7 @@ python3 -m agent.agent_cli play wf-xxxx --param path=/tmp/test.txt
 ### 要素検索の優先順位
 
 ```
-1. identifier → 2. value → 3. description → 4. title+role → 5. 座標フォールバック → 6. Vision推定
+1. identifier → 2. value → 3. description → 4. title+role → 5. role → 6. アプリ全体検索 → 7. 座標フォールバック → 8. Vision推定
 ```
 
 ### 必要な追加権限
