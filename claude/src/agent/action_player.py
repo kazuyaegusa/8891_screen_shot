@@ -477,11 +477,12 @@ class ActionPlayer:
 
         AXUIElement での検索が coordinate_fallback になった場合に、
         スクリーンショットを使って画像認識で要素位置を特定する。
-        OPENAI_API_KEY 未設定時は None を返す（既存動作に影響なし）。
+        AI API キー未設定時は None を返す（既存動作に影響なし）。
         """
         import os
 
-        api_key = os.environ.get("OPENAI_API_KEY")
+        # いずれかの AI プロバイダーが利用可能か確認
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("OPENAI_API_KEY")
         if not api_key:
             return None
 
@@ -518,7 +519,13 @@ class ActionPlayer:
             import sys
             sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent.parent))
             from pipeline.ai_client import AIClient
-            client = AIClient()
+            # AgentConfig からプロバイダー設定を取得
+            try:
+                from agent.config import AgentConfig
+                config = AgentConfig()
+                client = AIClient(provider=config.ai_provider, model=config.gemini_model if config.ai_provider == "gemini" else config.openai_model)
+            except Exception:
+                client = AIClient()  # デフォルト（gemini）
             result = client.find_element_by_vision(ss_path, element_desc)
             if result and result.get("confidence", 0) >= 0.5:
                 return (float(result["x"]), float(result["y"]))

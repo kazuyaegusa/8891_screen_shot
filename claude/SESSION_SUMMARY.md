@@ -11,6 +11,8 @@
 | Phase 3.5 | 常時学習フィードバックループ（daemon・Refiner・MetaAnalyzer） | 完了 |
 | Phase 4 | 再現性レポート + 業務パーツカタログ | 完了 |
 | バグ修正 | AI検証偽陽性問題 + dry-runフィードバック混入防止 | 完了 |
+| Phase 5 | Issue 11 座標フォールバック問題の解消 + アプリ全体検索 + Vision接続 | 完了 |
+| Phase 6 | AIClient Gemini プロバイダー追加（マルチプロバイダー対応） | 完了 |
 
 ## 今回のセッションで行ったこと
 
@@ -57,9 +59,9 @@
 - catalog.json 生成
 
 ### 動作しないもの / 要修正
-1. **座標フォールバック問題（Issue 11）**: identifier/role が null のワークフローは座標でしかクリックできず、位置がずれる
-2. **Vision フォールバック未接続**: `find_element_by_vision()` は ai_client.py に実装済みだが、action_player.py の要素検索チェーンに組み込まれていない
-3. **OpenAI APIキー未設定**: 新しいキーが設定されるまでAI機能（ワークフロー分析・実行検証・自律実行）は動作しない
+1. ~~**座標フォールバック問題（Issue 11）**~~: Phase 5 で解決済み（アプリ全体検索 + Vision接続）
+2. ~~**Vision フォールバック未接続**~~: Phase 5 で解決済み
+3. ~~**OpenAI APIキー未設定**~~: Phase 6 で Gemini プロバイダー追加。GEMINI_API_KEY を設定すれば全AI機能が動作
 
 ### データ
 - ワークフロー: 39件抽出済み（Aランク6件、Bランク33件）
@@ -68,17 +70,18 @@
 
 ## 次にやるべきこと（優先順）
 
-### 1. OpenAI APIキーの再設定
-- 新しいキーを取得して `.env` に設定
-- テスト: `python3 -c "from agent.config import AgentConfig; c=AgentConfig(); print(c.openai_api_key[:10])"`
+### 1. Gemini API キーの設定
+- Google AI Studio (https://aistudio.google.com/apikey) でキーを取得
+- `.env` に `GEMINI_API_KEY=xxx` を設定
+- テスト: `cd claude/src && python3 -c "from agent.config import AgentConfig; c=AgentConfig(); print(c.ai_provider, c.gemini_api_key[:10])"`
 
-### 2. Vision フォールバックの接続（Issue 11 対策）
-- `action_player.py` の `find_element_by_criteria()` で座標フォールバックの前に `find_element_by_vision()` を呼ぶ
-- スクリーンショットを撮影 → Vision で要素座標を推定 → その座標でクリック
-- 座標のみのステップでも画面上の正しい位置をクリックできるようになる
+### 2. AI機能の動作確認
+- Gemini テキスト生成テスト: `AIClient(provider='gemini')._generate_text("Hello")`
+- Vision テスト: スクリーンショットを使って `find_element_by_vision()` が座標を返すか確認
+- ワークフロー分析テスト: `learn` コマンドで Gemini 経由のワークフロー抽出
 
 ### 3. 実行テスト
-- APIキー設定後、Aランクのワークフローから本番実行テスト
+- Aランクのワークフローから本番実行テスト
 - AI検証が `verified=True` で返るか確認
 - フィードバックが正しく記録されるか確認
 
@@ -87,21 +90,38 @@
 - 新しい操作パターンが蓄積されるほどワークフローが充実
 - 定期的に `report` コマンドで再現性を確認
 
+## Phase 6 で行ったこと
+
+### 7. AIClient Gemini プロバイダー追加
+- `ai_client.py`: 7メソッド全てをプロバイダー共通ヘルパーで抽象化、Gemini/OpenAI固有実装を分離
+- `config.py`: `ai_provider` / `gemini_api_key` / `gemini_model` 追加、プロバイダー自動判定
+- `action_player.py`: Vision フォールバックを Gemini 対応に修正
+- デフォルトプロバイダーを Gemini（gemini-2.5-flash）に変更
+
+### 8. Gemini 互換性問題の修正
+- Issue 13: `_clean_schema_for_gemini()` で `additionalProperties` を再帰除去
+- Issue 14: `_strip_markdown_json()` で ```json``` ブロックを除去
+
+### 9. 全AI機能の動作確認
+- テキスト生成: OK
+- JSON構造化出力: OK（ワークフロー分析で正常応答）
+- Vision: OK（スクリーンショットからゴミ箱座標を検出）
+
 ## ファイル構成（変更のあったもの）
 
 | ファイル | 変更 |
 |---------|------|
+| `pipeline/ai_client.py` | Geminiプロバイダー追加、スキーマクリーニング、マークダウン除去 |
+| `agent/config.py` | マルチプロバイダー設定追加 |
+| `agent/action_player.py` | Vision フォールバック Gemini 対応 |
 | `agent/report_generator.py` | 新規 |
 | `agent/agent_cli.py` | report サブコマンド追加 |
 | `agent/continuous_learner.py` | 日次レポート自動更新追加 |
 | `agent/execution_verifier.py` | verified フラグ導入、偽陽性修正 |
 | `agent/autonomous_loop.py` | verified チェック、dry-run フィードバック記録無効化 |
-| `docs/agent/report_generator.md` | 新規 |
-| `docs/agent/continuous_learner.md` | 日次レポート節追加 |
-| `docs/agent/execution_verifier.md` | verified フラグ仕様に更新 |
-| `CLAUDE_ISSUE.md` | Issue 10, 11 追記 |
-| `README.md` | report セクション追加、安全機構更新 |
-| `.env` | OpenAI APIキー削除 |
-| `workflows/feedback/old/` | 偽フィードバック7件退避 |
-| `workflows/parts/catalog.json` | パーツカタログ生成済み |
-| `workflows/reports/report_20260217.md` | レポート生成済み |
+| `docs/pipeline/ai_client.md` | Gemini対応に全面更新 |
+| `docs/agent/config.md` | 新規（マルチプロバイダー設定仕様） |
+| `docs/reports/phase6_progress_report.md` | 新規（進捗報告書） |
+| `CLAUDE_ISSUE.md` | Issue 10〜14 追記 |
+| `README.md` | AIプロバイダー設定セクション追加 |
+| `.env` | Gemini APIキーテンプレートに変更 |

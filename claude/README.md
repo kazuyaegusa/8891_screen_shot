@@ -41,7 +41,7 @@ claude/
 │   │   ├── resource_guard.py        # リソース監視・スロットリング（CPU/メモリ制限）
 │   │   ├── file_watcher.py          # ファイル監視（cap_*.json ポーリング）
 │   │   ├── session_builder.py       # セッション構築（操作まとまりへの区切り）
-│   │   ├── ai_client.py             # AI API抽象化（OpenAI gpt-5）
+│   │   ├── ai_client.py             # AI API抽象化（Gemini / OpenAI マルチプロバイダー）
 │   │   ├── pattern_extractor.py     # パターン抽出（AIによるスキル抽出）
 │   │   ├── skill_writer.py          # スキル書き込み（SKILL.md生成）
 │   │   ├── cleanup_manager.py       # 処理済みデータ削除
@@ -107,6 +107,36 @@ claude/
 └── README.md
 ```
 
+## AI プロバイダー設定
+
+Gemini（Google AI）と OpenAI のマルチプロバイダーに対応。デフォルトは Gemini。
+
+### 設定方法
+
+`.env` ファイルに API キーを設定:
+
+```bash
+# Gemini（推奨、無料枠あり）
+GEMINI_API_KEY=your-gemini-api-key-here
+
+# OpenAI（オプション）
+# OPENAI_API_KEY=sk-...
+
+# プロバイダーを明示指定する場合（省略時はキーがある方を自動選択、Gemini優先）
+# AI_PROVIDER=gemini
+```
+
+Gemini API キーは [Google AI Studio](https://aistudio.google.com/apikey) で無料取得可能。
+
+### プロバイダー比較
+
+| 項目 | Gemini | OpenAI |
+|------|--------|--------|
+| モデル | gemini-2.5-flash | gpt-5 |
+| Vision | 対応 | 対応 |
+| 構造化出力 | response_mime_type=application/json | JSON Schema |
+| 無料枠 | あり | なし |
+
 ## 必要環境
 
 ### Linux
@@ -115,7 +145,7 @@ claude/
 - `pip install mss Pillow`
 
 ### macOS
-- `pip install mss Pillow pyobjc-framework-Quartz psutil openai python-dotenv`
+- `pip install mss Pillow pyobjc-framework-Quartz psutil google-genai python-dotenv`
 - システム環境設定 > プライバシーとセキュリティ > スクリーン録画 で権限付与
 - **elementモード追加要件**:
   - `pip install pyobjc-framework-ApplicationServices pyobjc-framework-Cocoa`
@@ -365,7 +395,10 @@ cd claude/src && python -m pipeline.learning_pipeline
 # 1回だけ実行（テスト用）
 python -m pipeline.learning_pipeline --once
 
-# カスタム設定
+# カスタム設定（Gemini使用、デフォルト）
+python -m pipeline.learning_pipeline --watch-dir ./screenshots --provider gemini --model gemini-2.5-flash
+
+# OpenAI使用
 python -m pipeline.learning_pipeline --watch-dir ./screenshots --provider openai --model gpt-5
 ```
 

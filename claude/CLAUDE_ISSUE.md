@@ -106,6 +106,39 @@
 - **影響ファイル**: execution_verifier.py, autonomous_loop.py
 - **根本原因**: 「検証できない = 成功とみなす」という楽観的設計が、現実には「検証が動いていないのに成功データが蓄積される」問題を生んでいた
 
+### Issue 13: Gemini JSON構造化出力で additionalProperties エラー
+
+- **発見日**: 2026-02-17
+- **状態**: 解決済み
+- **問題**: Gemini API が `additionalProperties` フィールドを認識せず `400 INVALID_ARGUMENT` エラー
+- **原因**: OpenAI 用 JSON Schema に含まれる `additionalProperties: false` が Gemini の `response_schema` では非サポート
+- **解決方法**: `_clean_schema_for_gemini()` を追加し、`additionalProperties` を再帰的に除去してからスキーマを渡す
+- **影響ファイル**: ai_client.py
+
+### Issue 14: Gemini Vision レスポンスが ```json``` で囲まれてJSON解析失敗
+
+- **発見日**: 2026-02-17
+- **状態**: 解決済み
+- **問題**: Gemini がフリーテキストで JSON を返す際、` ```json ... ``` ` のマークダウンブロックで囲むため `json.loads()` が失敗
+- **解決方法**: `_strip_markdown_json()` を追加し、パース前にマークダウンブロックを除去（`verify_execution`, `check_goal_achieved`, `find_element_by_vision` の3メソッドに適用）
+- **影響ファイル**: ai_client.py
+
+### Issue 12: OpenAI APIキー無効で全AI機能停止
+
+- **発見日**: 2026-02-17
+- **状態**: 解決済み（Gemini プロバイダー追加で対応）
+- **問題**:
+  - OpenAI APIキーが無効（Usage $0、一度も正常呼び出しなし）
+  - AI 機能（Vision検索、ワークフロー分析、自律実行）が全て停止
+  - OpenAI の有料プランが必要で即座に復旧困難
+- **解決方法**:
+  - AIClient にマルチプロバイダー対応を追加（Gemini + OpenAI）
+  - デフォルトプロバイダーを Gemini（gemini-2.5-flash）に変更
+  - AgentConfig にプロバイダー自動判定ロジック追加（GEMINI_API_KEY 優先）
+  - action_player.py の Vision fallback を provider 対応に修正
+  - Google AI Studio で無料 API キーを即時取得可能
+- **影響ファイル**: ai_client.py, config.py, action_player.py, .env
+
 ### Issue 11: 座標フォールバックによるクリック位置のずれ
 
 - **発見日**: 2026-02-17
