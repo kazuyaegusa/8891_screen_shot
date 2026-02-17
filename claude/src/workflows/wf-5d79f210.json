@@ -1,0 +1,130 @@
+{
+  "workflow_id": "wf-5d79f210",
+  "name": "Cursorでエディタに貼り付けて改行する",
+  "description": "Cursorのエディタ領域をフォーカスし、クリップボードの内容を貼り付けて改行を入力する手順です。手順: (1) 対象ファイルのタブ/ウィンドウ内のエディタをクリックしてフォーカス (2) Cmd+Vで貼り付け (3) 改行を1つ入力。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3627,
+        "y": 1702
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213224.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3627,
+        "y": 1702
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_213225.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3590,
+        "y": 1499
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771331545.834261
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_213226.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ操作",
+    "貼り付け",
+    "クリップボード",
+    "改行"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "操作対象タブ/ウィンドウに表示されるファイル名（例: 7031_claudeagent.zip）",
+      "step_index": 1
+    },
+    {
+      "name": "project_name",
+      "description": "ウィンドウタイトルに含まれるプロジェクト/ワークスペース名（例: gdrive-code-archive）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T21:39:21.466593",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

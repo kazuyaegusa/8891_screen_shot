@@ -246,7 +246,9 @@ class WorkflowExtractor:
         """セグメントをAIで分析してワークフロー生成"""
         try:
             from pipeline.ai_client import AIClient
-            client = AIClient(model=self._model)
+            from agent.config import AgentConfig
+            config = AgentConfig()
+            client = AIClient(provider=config.ai_provider)
         except Exception as e:
             logger.error("AIClient初期化失敗: %s", e)
             return None

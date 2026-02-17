@@ -1,0 +1,478 @@
+{
+  "workflow_id": "wf-15642141",
+  "name": "ChatGPTでプロンプト送信後にDiscordへ切り替える",
+  "description": "ChatGPTの特定チャットにプロンプトを入力・送信し、その後Discordへアプリ切り替えする一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 984,
+        "y": 985
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201245.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 984,
+        "y": 985
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771326766.270561
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771326766.427288
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326766.5041769
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771326766.578599
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771326766.7633688
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326766.8246982
+          }
+        ],
+        "text": "hyouno",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_201247.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 984,
+        "y": 985
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771326768.001467
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771326768.152985
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326768.213526
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771326768.2949
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771326768.468856
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326768.5136409
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771326768.603568
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771326768.7876859
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771326768.800042
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771326768.9243379
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771326768.963163
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771326769.1129658
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771326769.167045
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771326769.278153
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771326769.3388522
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771326769.399049
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771326769.473087
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326769.624623
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771326769.819097
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771326769.894995
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326770.149268
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771326770.365823
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771326770.510313
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326770.598485
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771326770.840244
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326770.899092
+          }
+        ],
+        "text": "hyouno bubun dake\nmd\nde\nho",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_201251.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 982,
+        "y": 940
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771326772.234158
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326772.2942982
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771326772.534357
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771326772.608803
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771326772.713255
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771326772.772804
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771326772.832455
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771326772.922912
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771326772.9827251
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771326773.028404
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771326773.0873542
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326773.3343182
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326773.509686
+          }
+        ],
+        "text": "hozon sitai\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_201254.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 853,
+        "y": 810
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201254.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 89,
+        "y": 51
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201256.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXWebArea",
+        "title": "#98_todo | Aixeed運営",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 956,
+        "y": 656
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_201305.png"
+    }
+  ],
+  "app_name": "ChatGPT",
+  "tags": [
+    "ChatGPT",
+    "Discord",
+    "prompt",
+    "app-switch",
+    "日本語"
+  ],
+  "parameters": [
+    {
+      "name": "chat_window_title",
+      "description": "操作対象のChatGPTウィンドウ（チャット）のタイトル",
+      "step_index": 1
+    },
+    {
+      "name": "prompt_text",
+      "description": "ChatGPTに入力して送信するプロンプトの本文（複数行可）",
+      "step_index": 2
+    },
+    {
+      "name": "target_app_name",
+      "description": "送信後に切り替えるアプリ名（例: Discord）",
+      "step_index": 7
+    },
+    {
+      "name": "target_window_title",
+      "description": "切り替え先アプリのウィンドウ/チャンネル名（例: #98_todo | Aixeed運営）",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:16:08.680128",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

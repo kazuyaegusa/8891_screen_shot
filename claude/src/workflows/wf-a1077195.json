@@ -1,0 +1,121 @@
+{
+  "workflow_id": "wf-a1077195",
+  "name": "Google ドライブでフォルダ内アイテムを開く",
+  "description": "Chrome上のGoogle ドライブで、指定フォルダを開いた状態から対象アイテム名をダブルクリックして開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 799,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_210929.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "0000_add",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 418,
+        "y": 711
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_210931.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "0000_add",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 418,
+        "y": 711
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_210932.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google ドライブ",
+    "Chrome",
+    "ナビゲーション",
+    "ファイルを開く"
+  ],
+  "parameters": [
+    {
+      "name": "folder_name",
+      "description": "Google ドライブのウィンドウ/タブタイトルに表示されるフォルダ名（例: GitHub - Aixeed_社内）。手順の前提となる表示コンテキスト。",
+      "step_index": 1
+    },
+    {
+      "name": "item_name",
+      "description": "開く対象のアイテム名（ファイル/フォルダ）。手順2と3で同一名を連続クリックして開く（実質ダブルクリック）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T21:11:24.903236",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

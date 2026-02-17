@@ -1,0 +1,300 @@
+{
+  "workflow_id": "wf-7f607766",
+  "name": "Paste clipboard items into a chosen Finder folder",
+  "description": "Navigate to a specified folder in Finder and paste the current clipboard contents there. The recorded sequence includes exploratory clicks across multiple folders, but the reusable core is: navigate to a destination folder (e.g., Downloads) and paste (Cmd+V), optionally repeating the paste.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2170,
+        "y": 1053
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211309.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2169,
+        "y": 1100
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211310.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2291,
+        "y": 968
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211314.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2300,
+        "y": 989
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211315.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2175,
+        "y": 1123
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211316.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2150,
+        "y": 1190
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211318.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2378,
+        "y": 1255
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211319.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2378,
+        "y": 1255
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_211321.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2377,
+        "y": 1254
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_211322.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "macOS",
+    "Finder",
+    "files",
+    "clipboard",
+    "paste"
+  ],
+  "parameters": [
+    {
+      "name": "destination_folder",
+      "description": "The target folder to paste into (e.g., Downloads, Documents, Desktop, or a specific path).",
+      "step_index": 1
+    },
+    {
+      "name": "paste_count",
+      "description": "Number of times to perform paste (Cmd+V).",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T21:19:00.994382",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,291 @@
+{
+  "workflow_id": "wf-b5f2525e",
+  "name": "Discordで指定サーバー内の複数チャンネルを順に開く",
+  "description": "Discordの特定サーバー内で、指定したチャンネル群を順番に開いて巡回・確認する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1183,
+        "y": 662
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195650.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1228,
+        "y": 704
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195653.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1164,
+        "y": 734
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195657.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1232,
+        "y": 237
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195707.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1221,
+        "y": 507
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195716.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXLink",
+        "title": "AXLink",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1580,
+        "y": 665
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195737.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1571,
+        "y": 851
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195740.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1158,
+        "y": 486
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_195745.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "チャンネル巡回",
+    "ナビゲーション",
+    "確認"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "対象のDiscordサーバー名（例: FUSION AI）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_1_name",
+      "description": "最初に開くチャンネル名（例: #04_オフ会）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_2_name",
+      "description": "2つ目に開くチャンネル名（例: #05_大阪オフ会）",
+      "step_index": 2
+    },
+    {
+      "name": "channel_3_name",
+      "description": "3つ目に開くチャンネル名（例: #06_福岡オフ会）",
+      "step_index": 3
+    },
+    {
+      "name": "channel_4_name",
+      "description": "4つ目に開くチャンネル名（例: #07_伊勢神宮オフ会）",
+      "step_index": 4
+    },
+    {
+      "name": "channel_5_name",
+      "description": "5つ目に開くチャンネル名（例: #一般）",
+      "step_index": 5
+    },
+    {
+      "name": "channel_6_name",
+      "description": "6つ目に開くチャンネル名（例: #06_共有ツール）",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T19:58:56.860025",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

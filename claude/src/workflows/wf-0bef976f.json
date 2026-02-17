@@ -1,0 +1,157 @@
+{
+  "workflow_id": "wf-0bef976f",
+  "name": "ChromeでGoogle検索して結果を開く",
+  "description": "Google Chromeで新しいタブを開き、指定した検索語でGoogle検索を行い、指定したタイトルの検索結果をクリックして開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "新しいタブ",
+        "value": "1",
+        "description": "新しいタブ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 882,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200059.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 479,
+        "y": 345
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "c",
+            "keycode": 8,
+            "timestamp": 1771326060.967118
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771326061.024483
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771326061.1266491
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771326061.2059898
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326062.165206
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771326062.718661
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771326062.958091
+          }
+        ],
+        "text": "chat\n\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_200104.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "ChatGPT - チャットGPT",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 312,
+        "y": 913
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200106.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "Google検索",
+    "ブラウジング",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "search_query",
+      "description": "Googleで検索するキーワードやフレーズ。",
+      "step_index": 2
+    },
+    {
+      "name": "result_title",
+      "description": "検索結果一覧からクリックするリンクの表示タイトル（見出し）文字列。",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:01:50.247305",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

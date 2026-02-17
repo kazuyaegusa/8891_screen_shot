@@ -1,0 +1,280 @@
+{
+  "workflow_id": "wf-189ff5bf",
+  "name": "Google AI StudioでAPIキーを作成してコピーする",
+  "description": "Google AI StudioのAPI Keysページで新しいAPIキーを作成し、名前を入力して作成後にキーをコピーする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 244,
+        "y": 554
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213646.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "API キーを作成",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 846,
+        "y": 271
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213647.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キー名の設定",
+        "value": "Gemini API Key",
+        "description": "キー名の設定",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 499,
+        "y": 577
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213649.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キー名の設定",
+        "value": "screen_shot",
+        "description": "キー名の設定",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 499,
+        "y": 577
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771331812.018659
+          },
+          {
+            "char": "c",
+            "keycode": 8,
+            "timestamp": 1771331812.33542
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771331812.731931
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771331812.976777
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771331813.13711
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771331813.9391732
+          },
+          {
+            "char": "_",
+            "keycode": 94,
+            "timestamp": 1771331814.727934
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771331815.240669
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771331815.3877928
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771331815.447586
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771331815.582123
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771331815.900948
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771331816.1861749
+          }
+        ],
+        "text": "screen_shot\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_213657.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "キーを作成",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 716,
+        "y": 708
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213658.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "API キーのコピー",
+        "value": null,
+        "description": "API キーのコピー",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 781,
+        "y": 470
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213708.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google AI Studio",
+    "Gemini",
+    "APIキー",
+    "Web自動化",
+    "Chrome"
+  ],
+  "parameters": [
+    {
+      "name": "key_name",
+      "description": "作成するAPIキーの名前（例: screen_shot）",
+      "step_index": 4
+    },
+    {
+      "name": "api_keys_page_url",
+      "description": "Google AI StudioのAPI KeysページURL（例: https://aistudio.google.com/app/apikey） ",
+      "step_index": 0
+    },
+    {
+      "name": "copy_after_creation",
+      "description": "キー作成後に「API キーのコピー」を実行するかどうか（true/false）",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T21:50:39.712901",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

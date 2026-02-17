@@ -1,0 +1,119 @@
+{
+  "workflow_id": "wf-c8a72353",
+  "name": "Markdownプレビューを開いて閉じる（Cursor）",
+  "description": "CursorでアクティブなMarkdownファイルをプレビュー（Cmd+Shift+V）し、プレビューを閉じる（Close/⌘W）までの一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2576,
+        "y": 180
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201938.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2576,
+        "y": 180
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_201939.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Close (⌘W)",
+        "value": null,
+        "description": "Close (⌘W)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2634,
+        "y": 83
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201945.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "Preview",
+    "VSCode互換"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "対象となるMarkdownファイル名（例: tools.md）。このファイルをエディタでアクティブにしてから実行。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:22:35.478662",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,125 @@
+{
+  "workflow_id": "wf-6549a03c",
+  "name": "Discordでメッセージリンクをコピー",
+  "description": "指定したサーバー/チャンネル内で、特定のメッセージ（本文の一部で特定）を選択し、「その他」メニューから「メッセージリンクをコピー」を実行するワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " \nこちらの件、各種ツールで tools@ のアドレスにてサインアップまでしております。\nパスワードは1Passwordの GMail AIXeed Tools から取得しています。（中村さんも閲覧可能であること確認済みです\nクレカ支払いは中村さんとのこと、お手数ですが各ツールへのログインと請求登録をお願いできますでしょうか。\n下記に参考まで各ツールのチーム利用についてAIでまとめました。\n私自身が使っていないツールもあるので分からないところもあるのですが一度見て頂けましたらと",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1736,
+        "y": 617
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_202650.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "その他",
+        "value": null,
+        "description": "その他",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1878,
+        "y": 474
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_202652.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "メッセージリンクをコピー",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1748,
+        "y": 894
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_202656.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "メッセージ",
+    "リンクをコピー"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "対象サーバー名（例: Aixeed運営）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "対象チャンネル名（例: #98_todo）",
+      "step_index": 1
+    },
+    {
+      "name": "message_text_snippet",
+      "description": "クリック対象となるメッセージ本文の一部（固有に識別できる文字列）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.84,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:31:06.022471",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

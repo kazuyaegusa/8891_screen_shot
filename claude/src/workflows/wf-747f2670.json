@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-747f2670",
+  "name": "QuickTimeで画面収録を開始（デスクトップ全体）",
+  "description": "QuickTime Playerの「画面収録」ウィンドウで録画ボタンを押し、デスクトップをクリックして録画を開始する再利用可能な手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.QuickTimePlayerX",
+      "app_name": "QuickTime Player",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 71,
+        "y": 50
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201933.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.QuickTimePlayerX",
+      "app_name": "QuickTime Player",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 781,
+        "y": 298
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201934.png"
+    }
+  ],
+  "app_name": "QuickTime Player",
+  "tags": [
+    "QuickTime Player",
+    "画面収録",
+    "macOS",
+    "録画開始"
+  ],
+  "parameters": [
+    {
+      "name": "recording_area",
+      "description": "クリック先で指定する録画対象（デスクトップ全体／選択範囲／ウィンドウ）。本手順ではデフォルトでデスクトップ全体を想定。",
+      "step_index": 2
+    },
+    {
+      "name": "screen_index",
+      "description": "複数ディスプレイ使用時に録画するスクリーン番号（デスクトップをクリックして対象スクリーンを選ぶ場合）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:21:55.717294",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

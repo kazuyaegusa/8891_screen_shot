@@ -1,0 +1,177 @@
+{
+  "workflow_id": "wf-4846e5de",
+  "name": "ChatGPTで指定した会話のオプションを開く",
+  "description": "ChatGPTアプリをアクティブにし、指定した会話タイトルの「会話のオプションを開く」コントロールをクリックしてオプションメニューを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 650,
+        "y": 221
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200203.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 549,
+        "y": 80
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200205.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 884,
+        "y": 520
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200207.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 899,
+        "y": 221
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_200209.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.cadlkienfkclaiaibeoongdcgmdikeeg",
+      "app_name": "ChatGPT",
+      "target": {
+        "role": "AXLink",
+        "title": "ツール課金最適化ガイド 会話のオプションを開く",
+        "value": null,
+        "description": "ツール課金最適化ガイド 会話のオプションを開く",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 220,
+        "y": 747
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_200210.png"
+    }
+  ],
+  "app_name": "ChatGPT",
+  "tags": [
+    "ChatGPT",
+    "UI自動化",
+    "macOS",
+    "アクセシビリティ",
+    "会話管理"
+  ],
+  "parameters": [
+    {
+      "name": "conversation_title",
+      "description": "対象となる会話のタイトル（サイドバーに表示される名前）。例: 「ツール課金最適化ガイド」",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:04:08.502827",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

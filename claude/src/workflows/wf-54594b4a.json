@@ -1,0 +1,158 @@
+{
+  "workflow_id": "wf-54594b4a",
+  "name": "Discordで特定メッセージ本文をコピー",
+  "description": "Discordの指定サーバー／チャンネルで、指定したテキストを含むメッセージを選択してコピー（Cmd+C）し、クリップボードへ取得する手順。操作はメッセージをクリック→再クリック（選択の確実化）→Cmd+C→任意で領域クリック（選択解除）。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " ●IDをtools@aixeed.co.jpに変更し、皆で使えるようにする（チームプランとかあればそちらに移行もあり）。支払いもAixeedで負担するようにする\n・Claude ai\n・Open ai\n・Manus ai\n・Cursor\n・Canva\n・Circleback.ai\n・Teachable\n\n●IDをtools@aixeed.co.jpに変更し、支払いもAixeedで負担するようにする\n・Socialbrade.com\n・Supabase\n・Onecal\n\n●Aixeedのプロプランに移行。個人アカウントは、ワークスペースをAixeedアカウントでも入れるようにして廃止\n・slack\n\n※tools@aixeed.co.jpのアイパスを土井さんから聞くまたは1pass経由でアクセスできるようにする必要があります。クレカ変更は中村の方でやります",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1612,
+        "y": 714
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_194050.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " ●IDをtools@aixeed.co.jpに変更し、皆で使えるようにする（チームプランとかあればそちらに移行もあり）。支払いもAixeedで負担するようにする\n・Claude ai\n・Open ai\n・Manus ai\n・Cursor\n・Canva\n・Circleback.ai\n・Teachable\n\n●IDをtools@aixeed.co.jpに変更し、支払いもAixeedで負担するようにする\n・Socialbrade.com\n・Supabase\n・Onecal\n\n●Aixeedのプロプランに移行。個人アカウントは、ワークスペースをAixeedアカウントでも入れるようにして廃止\n・slack\n\n※tools@aixeed.co.jpのアイパスを土井さんから聞くまたは1pass経由でアクセスできるようにする必要があります。クレカ変更は中村の方でやります",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1553,
+        "y": 319
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_194051.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " ●IDをtools@aixeed.co.jpに変更し、皆で使えるようにする（チームプランとかあればそちらに移行もあり）。支払いもAixeedで負担するようにする\n・Claude ai\n・Open ai\n・Manus ai\n・Cursor\n・Canva\n・Circleback.ai\n・Teachable\n\n●IDをtools@aixeed.co.jpに変更し、支払いもAixeedで負担するようにする\n・Socialbrade.com\n・Supabase\n・Onecal\n\n●Aixeedのプロプランに移行。個人アカウントは、ワークスペースをAixeedアカウントでも入れるようにして廃止\n・slack\n\n※tools@aixeed.co.jpのアイパスを土井さんから聞くまたは1pass経由でアクセスできるようにする必要があります。クレカ変更は中村の方でやります",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1518,
+        "y": 733
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_194055.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1518,
+        "y": 733
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_194055.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "Copy",
+    "Clipboard",
+    "Message",
+    "Selection"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "対象サーバー名（例: Aixeed運営）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "対象チャンネル名（例: 98_todo）",
+      "step_index": 1
+    },
+    {
+      "name": "message_text_or_snippet",
+      "description": "クリック対象となるメッセージ本文の一部または完全一致テキスト",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T19:42:40.924442",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

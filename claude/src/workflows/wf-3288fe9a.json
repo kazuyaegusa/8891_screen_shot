@@ -1,0 +1,145 @@
+{
+  "workflow_id": "wf-3288fe9a",
+  "name": "Google ドライブでアイテムをダウンロード",
+  "description": "Chrome 上の Google ドライブで対象アイテムを選択し、ツールバーの「ダウンロード」をクリックして取得する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 449,
+        "y": 693
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203654.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 940,
+        "y": 699
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203657.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 940,
+        "y": 699
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203658.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "ダウンロード",
+        "value": null,
+        "description": "ダウンロード",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 774,
+        "y": 740
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203700.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Drive",
+    "Chrome",
+    "Download",
+    "Web"
+  ],
+  "parameters": [
+    {
+      "name": "item_name",
+      "description": "ダウンロードするファイルまたはフォルダ名（一覧から選択する項目）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.63,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:39:04.660799",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

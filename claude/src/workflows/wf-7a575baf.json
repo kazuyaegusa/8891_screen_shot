@@ -1,0 +1,91 @@
+{
+  "workflow_id": "wf-7a575baf",
+  "name": "CursorでExplorerセクションを選択",
+  "description": "Cursorの特定ウィンドウをアクティブ化し、Explorerで指定セクション（フォルダ/ワークスペース名）をクリックして選択する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3029,
+        "y": 952
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203557.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXHeading",
+        "title": "Explorer Section: gdrive-code-archive",
+        "value": "3",
+        "description": "Explorer Section: gdrive-code-archive",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3027,
+        "y": 945
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203558.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Explorer",
+    "navigation"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象となるCursorウィンドウのタイトル（例: drive-download-20260217T050912Z-1-001.zip — gdrive-code-archive）",
+      "step_index": 1
+    },
+    {
+      "name": "section_name",
+      "description": "Explorerでクリックするセクション/フォルダ名（例: gdrive-code-archive）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:38:02.670594",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,99 @@
+{
+  "workflow_id": "wf-fc973ab0",
+  "name": "Cursorで特定ファイルタブにフォーカスしてショートカットを実行",
+  "description": "Cursor上で指定したファイル（タブ/ウィンドウ）をアクティブにし、所定のキーボードショートカットを実行します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 667,
+        "y": 160
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_203542.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXWindow",
+        "title": "drive-download-20260217T050912Z-1-001.zip — gdrive-code-archive",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3208,
+        "y": 556
+      },
+      "key": {
+        "keycode": 125,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_203545.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "タブ操作",
+    "キーボードショートカット"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "対象ファイル名（例: drive-download-20260217T050912Z-1-001.zip）",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_name",
+      "description": "ワークスペース/プロジェクト名（例: gdrive-code-archive）",
+      "step_index": 1
+    },
+    {
+      "name": "shortcut",
+      "description": "実行するキーボードショートカット（例: Cmd+/ など）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T20:36:55.263352",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

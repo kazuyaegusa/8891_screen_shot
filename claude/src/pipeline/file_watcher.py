@@ -16,7 +16,7 @@ for path in new_files:
     watcher.mark_processed(path)
 
 【処理内容】
-1. watch_dir 内の cap_*.json ファイルをスキャン
+1. watch_dir 内の *_cap_*.json / cap_*.json ファイルをスキャン
 2. _processed.txt で処理済みファイルを管理し、未処理のみ返す
 3. JSONファイルを読み込み CaptureRecord に変換
 
@@ -43,7 +43,8 @@ class FileWatcher:
         self._processed: Set[str] = self._load_processed()
 
     def scan_new_files(self) -> List[Path]:
-        files = sorted(self._watch_dir.glob("cap_*.json"))
+        # click_cap_*.json, text_cap_*.json, shortcut_cap_*.json, cap_*.json 全て対象
+        files = sorted(self._watch_dir.glob("*cap_*.json"))
         return [f for f in files if f.name not in self._processed]
 
     def mark_processed(self, path: Path) -> None:
