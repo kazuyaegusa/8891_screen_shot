@@ -43,6 +43,7 @@ import json
 import logging
 import os
 import re
+import time
 from typing import Dict, Optional
 
 from pipeline.models import ExtractedSkill, Session
@@ -147,7 +148,7 @@ class AIClient:
     def __init__(self, provider: str = "gemini", model: str = None):
         self.provider = provider
         if provider == "gemini":
-            self.model = model or "gemini-2.5-flash"
+            self.model = model or "gemini-3-flash-preview"
         elif provider == "openai":
             self.model = model or "gpt-5"
         else:
@@ -176,22 +177,50 @@ class AIClient:
     # Gemini 固有実装
     # ----------------------------------------------------------------
 
+    @staticmethod
+    def _gemini_call_with_retry(fn, max_retries: int = 5):
+        """Gemini API 呼び出しを 429/503/JSONパースエラー時にリトライ"""
+        for attempt in range(max_retries):
+            try:
+                return fn()
+            except (json.JSONDecodeError, ValueError) as e:
+                if attempt < max_retries - 1:
+                    logger.debug("JSONパースエラー、リトライ: %s", str(e)[:80])
+                    time.sleep(2)
+                else:
+                    raise
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "503" in err_str or "UNAVAILABLE" in err_str:
+                    wait = min(4 * (attempt + 1), 30)
+                    logger.info("API制限/一時障害: %d秒待機 (試行 %d/%d)", wait, attempt + 1, max_retries)
+                    time.sleep(wait)
+                else:
+                    raise
+        raise RuntimeError(f"Gemini API リトライ上限超過 ({max_retries}回)")
+
+    def _gemini_thinking_config(self, effort: str):
+        """gemini-2.5 以上の場合のみ ThinkingConfig を返す"""
+        if "2.5" not in self.model:
+            return None
+        from google.genai import types
+        budget = {"low": 1024, "medium": 4096, "high": 16384}.get(effort, 4096)
+        return types.ThinkingConfig(thinking_budget=budget)
+
     def _gemini_generate_text(self, prompt: str, effort: str, max_tokens: int) -> str:
         from google import genai
         from google.genai import types
 
         client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-        thinking_budget = {"low": 1024, "medium": 4096, "high": 16384}.get(effort, 4096)
+        thinking = self._gemini_thinking_config(effort)
+        cfg = types.GenerateContentConfig(max_output_tokens=max_tokens)
+        if thinking:
+            cfg = types.GenerateContentConfig(max_output_tokens=max_tokens, thinking_config=thinking)
 
-        response = client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                max_output_tokens=max_tokens,
-                thinking_config=types.ThinkingConfig(thinking_budget=thinking_budget),
-            ),
-        )
-        return response.text
+        def call():
+            return client.models.generate_content(model=self.model, contents=prompt, config=cfg).text
+
+        return self._gemini_call_with_retry(call)
 
     @staticmethod
     def _clean_schema_for_gemini(schema: dict) -> dict:
@@ -218,28 +247,27 @@ class AIClient:
         from google.genai import types
 
         client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-        thinking_budget = {"low": 1024, "medium": 4096, "high": 16384}.get(effort, 4096)
-
+        thinking = self._gemini_thinking_config(effort)
         json_schema = self._clean_schema_for_gemini(schema.get("schema", schema))
 
-        response = client.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                max_output_tokens=max_tokens,
-                response_mime_type="application/json",
-                response_schema=json_schema,
-                thinking_config=types.ThinkingConfig(thinking_budget=thinking_budget),
-            ),
-        )
-        return json.loads(response.text)
+        cfg_kwargs = dict(max_output_tokens=max_tokens, response_mime_type="application/json", response_schema=json_schema)
+        if thinking:
+            cfg_kwargs["thinking_config"] = thinking
+
+        def call():
+            return json.loads(client.models.generate_content(
+                model=self.model, contents=prompt,
+                config=types.GenerateContentConfig(**cfg_kwargs),
+            ).text)
+
+        return self._gemini_call_with_retry(call)
 
     def _gemini_generate_vision(self, prompt: str, image_paths: list, effort: str) -> str:
         from google import genai
         from google.genai import types
 
         client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-        thinking_budget = {"low": 1024, "medium": 4096, "high": 16384}.get(effort, 4096)
+        thinking = self._gemini_thinking_config(effort)
 
         contents = [prompt]
         for path in image_paths:
@@ -248,14 +276,17 @@ class AIClient:
             mime = "image/png" if path.endswith(".png") else "image/jpeg"
             contents.append(types.Part(inline_data=types.Blob(mime_type=mime, data=img_data)))
 
-        response = client.models.generate_content(
-            model=self.model,
-            contents=contents,
-            config=types.GenerateContentConfig(
-                thinking_config=types.ThinkingConfig(thinking_budget=thinking_budget),
-            ),
-        )
-        return response.text
+        cfg_kwargs = {}
+        if thinking:
+            cfg_kwargs["thinking_config"] = thinking
+
+        def call():
+            return client.models.generate_content(
+                model=self.model, contents=contents,
+                config=types.GenerateContentConfig(**cfg_kwargs),
+            ).text
+
+        return self._gemini_call_with_retry(call)
 
     # ----------------------------------------------------------------
     # OpenAI 固有実装
