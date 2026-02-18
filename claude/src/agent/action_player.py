@@ -482,7 +482,9 @@ class ActionPlayer:
         import os
 
         # いずれかの AI プロバイダーが利用可能か確認
-        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("OPENAI_API_KEY")
+        api_key = (os.environ.get("ANTHROPIC_API_KEY")
+                   or os.environ.get("GEMINI_API_KEY")
+                   or os.environ.get("OPENAI_API_KEY"))
         if not api_key:
             return None
 
@@ -523,7 +525,12 @@ class ActionPlayer:
             try:
                 from agent.config import AgentConfig
                 config = AgentConfig()
-                client = AIClient(provider=config.ai_provider, model=config.gemini_model if config.ai_provider == "gemini" else config.openai_model)
+                model_map = {
+                    "anthropic": config.anthropic_model,
+                    "gemini": config.gemini_model,
+                    "openai": config.openai_model,
+                }
+                client = AIClient(provider=config.ai_provider, model=model_map.get(config.ai_provider))
             except Exception:
                 client = AIClient()  # デフォルト（gemini）
             result = client.find_element_by_vision(ss_path, element_desc)
