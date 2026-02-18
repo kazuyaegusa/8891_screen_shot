@@ -1,0 +1,203 @@
+{
+  "workflow_id": "wf-f6858d17",
+  "name": "RAG QAボット検索をターミナルから実行",
+  "description": "Ghostty（ターミナル）で、rag_qa_bot.py の search コマンドを指定インデックスに対してクエリ実行する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                                          \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent                  \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                                                   \nTraceback (most recent call last):                                                                                  \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                                                                 \n    from rag_qa_engine import build_index, search_qa, QAIndex                                                       \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                                                              \n    import faiss                                                                                                    \nModuleNotFoundError: No module named 'faiss'                                                                        \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv        \nDefaulting to user installation because normal site-packages is not writeable                                       \nCollecting sentence-transformers                                                                                    \n  Downloading sentence_transformers-5.1.2-py3-none-any.whl (488 kB)                                                 \n     |████████████████████████████████| 488 kB 1.3 MB/s                                                             \nCollecting faiss-cpu",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1445,
+        "y": 1056
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_214133.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                                          \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent                  \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                                                   \nTraceback (most recent call last):                                                                                  \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                                                                 \n    from rag_qa_engine import build_index, search_qa, QAIndex                                                       \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                                                              \n    import faiss                                                                                                    \nModuleNotFoundError: No module named 'faiss'                                                                        \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv        \nDefaulting to user installation because normal site-packages is not writeable                                       \nCollecting sentence-transformers                                                                                    \n  Downloading sentence_transformers-5.1.2-py3-none-any.whl (488 kB)                                                 \n     |████████████████████████████████| 488 kB 1.3 MB/s                                                             \nCollecting faiss-cpu",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1445,
+        "y": 1056
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_214134.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                                          \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent                  \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                                                   \nTraceback (most recent call last):                                                                                  \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                                                                 \n    from rag_qa_engine import build_index, search_qa, QAIndex                                                       \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                                                              \n    import faiss                                                                                                    \nModuleNotFoundError: No module named 'faiss'                                                                        \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv        \nDefaulting to user installation because normal site-packages is not writeable                                       \nCollecting sentence-transformers                                                                                    \n  Downloading sentence_transformers-5.1.2-py3-none-any.whl (488 kB)                                                 \n     |████████████████████████████████| 488 kB 1.3 MB/s                                                             \nCollecting faiss-cpu",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1425,
+        "y": 1028
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771332095.149912
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_214136.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                                          \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent                  \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                                                   \nTraceback (most recent call last):                                                                                  \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                                                                 \n    from rag_qa_engine import build_index, search_qa, QAIndex                                                       \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                                                              \n    import faiss                                                                                                    \nModuleNotFoundError: No module named 'faiss'                                                                        \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv        \nDefaulting to user installation because normal site-packages is not writeable                                       \nCollecting sentence-transformers                                                                                    \n  Downloading sentence_transformers-5.1.2-py3-none-any.whl (488 kB)                                                 \n     |████████████████████████████████| 488 kB 1.3 MB/s                                                             \nCollecting faiss-cpu",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1091,
+        "y": 766
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_214153.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                                          \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent                  \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                                                   \nTraceback (most recent call last):                                                                                  \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                                                                 \n    from rag_qa_engine import build_index, search_qa, QAIndex                                                       \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                                                              \n    import faiss                                                                                                    \nModuleNotFoundError: No module named 'faiss'                                                                        \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv        \nDefaulting to user installation because normal site-packages is not writeable                                       \nCollecting sentence-transformers                                                                                    \n  Downloading sentence_transformers-5.1.2-py3-none-any.whl (488 kB)                                                 \n     |████████████████████████████████| 488 kB 1.3 MB/s                                                             \nCollecting faiss-cpu",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1372,
+        "y": 1057
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_214155.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "terminal",
+    "Ghostty",
+    "python",
+    "RAG",
+    "search"
+  ],
+  "parameters": [
+    {
+      "name": "working_directory",
+      "description": "コマンドを実行する作業ディレクトリ（例: …/gdrive-code-archive/kwork-ai/7031_claudeagent）",
+      "step_index": 1
+    },
+    {
+      "name": "python_executable",
+      "description": "使用するPython実行コマンド（例: python3）",
+      "step_index": 3
+    },
+    {
+      "name": "script_path",
+      "description": "rag_qa_bot.py へのパス（例: 02_claude/80_tools/rag_qa_bot.py）",
+      "step_index": 3
+    },
+    {
+      "name": "index_path",
+      "description": "検索対象のインデックスディレクトリ（例: 02_claude/80_tools/qa_index）",
+      "step_index": 3
+    },
+    {
+      "name": "query",
+      "description": "検索クエリ（例: 「AIの学び方」）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.77,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T03:32:00.016963",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

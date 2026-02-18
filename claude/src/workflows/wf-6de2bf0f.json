@@ -1,0 +1,222 @@
+{
+  "workflow_id": "wf-6de2bf0f",
+  "name": "NotebookLMでスライド資料をカスタマイズして生成する",
+  "description": "NotebookLMで指定したドキュメント/ノートを開き、Studioの「スライド資料をカスタマイズ」を選び、内容を貼り付けて「生成」する一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "として業務を再構築する",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 526,
+        "y": 1378
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012900.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Studio",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 910,
+        "y": 1099
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012901.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "スライド資料をカスタマイズ",
+        "value": null,
+        "description": "スライド資料をカスタマイズ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1039,
+        "y": 1234
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012902.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 525,
+        "y": 1594
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012904.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 521,
+        "y": 1610
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_012905.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "生成",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 939,
+        "y": 1766
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012912.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "Studio",
+    "Slides",
+    "Generate",
+    "Clipboard",
+    "Automation"
+  ],
+  "parameters": [
+    {
+      "name": "target_item_title",
+      "description": "NotebookLM内で最初にクリックするドキュメント/ノートのタイトル（例: 「として業務を再構築する」）。",
+      "step_index": 1
+    },
+    {
+      "name": "studio_option_label",
+      "description": "Studioで選択する機能/テンプレートのラベル（既定例: 「スライド資料をカスタマイズ」）。",
+      "step_index": 3
+    },
+    {
+      "name": "content_to_paste",
+      "description": "入力欄に貼り付けるコンテンツ（テキスト/Markdownなど）。クリップボード経由で貼り付け。",
+      "step_index": 5
+    },
+    {
+      "name": "generate_button_label",
+      "description": "最終実行ボタンのラベル（既定例: 「生成」）。",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.83,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T05:04:35.749472",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-3f7dad4e",
+  "name": "Cursor アプリでのファイルプレビュー表示",
+  "description": "Cursor アプリで特定のマークダウンファイルをプレビューウィンドウで開くワークフロー。AXImage 要素をクリックしてファイルの画像/コンテンツを表示します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3546,
+        "y": 795
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_182118.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル操作",
+    "プレビュー表示",
+    "マークダウン"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル名",
+      "description": "プレビューウィンドウで表示するマークダウンファイルの名称（例：personality_table.md）",
+      "step_index": 1
+    },
+    {
+      "name": "ウィンドウタイトル",
+      "description": "対象のウィンドウ識別子（例：Preview、エディタウィンドウ名）",
+      "step_index": 1
+    },
+    {
+      "name": "クリック対象のロール",
+      "description": "UI 要素のアクセシビリティロール（例：AXImage）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T11:38:25.374992",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

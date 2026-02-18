@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-ab7e2d4d",
+  "name": "Claude アプリの基本操作ワークフロー",
+  "description": "Claude アプリを起動してボタンをクリックする基本的な操作シーケンス。AXWebArea要素をクリックしてアプリを有効化した後、AXButton要素をクリックする。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXWebArea",
+        "title": "Claude",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3054,
+        "y": 879
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163629.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3047,
+        "y": 881
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163630.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "UI操作",
+    "Claude",
+    "ボタンクリック",
+    "基本操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_element_1",
+      "description": "最初にクリックするターゲット要素（初期化用）",
+      "step_index": 1
+    },
+    {
+      "name": "button_role",
+      "description": "クリックするボタンのロール属性",
+      "step_index": 2
+    },
+    {
+      "name": "application_window",
+      "description": "対象アプリケーションウィンドウ名",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:01:41.789867",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

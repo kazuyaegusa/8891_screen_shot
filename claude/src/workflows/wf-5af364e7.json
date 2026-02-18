@@ -36,10 +36,10 @@
   "app_name": "UserNotificationCenter",
   "tags": [
     "macOS",
-    "UserNotificationCenter",
-    "通知",
     "権限",
-    "ダイアログ操作"
+    "ダイアログ操作",
+    "通知",
+    "UserNotificationCenter"
   ],
   "parameters": [
     {
@@ -53,7 +53,7 @@
       "step_index": 1
     }
   ],
-  "confidence": 0.8599999999999999,
+  "confidence": 0.7899999999999999,
   "source_session_ids": [
     "5697dd21-eb3d-4666-a4ea-4c851075128f"
   ],

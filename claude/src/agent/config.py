@@ -45,8 +45,12 @@ load_dotenv(_project_root / ".env")
 @dataclass
 class AgentConfig:
     """エージェント設定"""
-    # AI プロバイダー（"gemini" or "openai"、未指定時は自動判定）
+    # AI プロバイダー（"anthropic" or "gemini" or "openai"、未指定時は自動判定）
     ai_provider: str = ""
+
+    # Anthropic API
+    anthropic_api_key: str = ""
+    anthropic_model: str = "claude-haiku-4-5-20251001"
 
     # Gemini API
     gemini_api_key: str = ""
@@ -80,19 +84,23 @@ class AgentConfig:
     screenshot_dir: str = ""
 
     def __post_init__(self):
+        if not self.anthropic_api_key:
+            self.anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
         if not self.gemini_api_key:
             self.gemini_api_key = os.environ.get("GEMINI_API_KEY", "")
         if not self.openai_api_key:
             self.openai_api_key = os.environ.get("OPENAI_API_KEY", "")
 
-        # プロバイダー自動判定: キーがある方を使う（Gemini優先）
+        # プロバイダー自動判定: キーがある方を使う（Anthropic優先）
         if not self.ai_provider:
-            if self.gemini_api_key:
+            if self.anthropic_api_key:
+                self.ai_provider = "anthropic"
+            elif self.gemini_api_key:
                 self.ai_provider = "gemini"
             elif self.openai_api_key:
                 self.ai_provider = "openai"
             else:
-                self.ai_provider = "gemini"  # デフォルト
+                self.ai_provider = "anthropic"  # デフォルト
 
         # AI_PROVIDER 環境変数による明示指定
         env_provider = os.environ.get("AI_PROVIDER", "")
@@ -104,7 +112,7 @@ class AgentConfig:
         if not self.workflow_dir:
             self.workflow_dir = str(src_dir / "workflows")
         if not self.screenshot_dir:
-            self.screenshot_dir = str(src_dir.parent.parent / "screenshots")
+            self.screenshot_dir = str(src_dir / "screenshots")
 
     def is_dangerous_app(self, app_name: str) -> bool:
         """送信系アプリかどうか判定"""

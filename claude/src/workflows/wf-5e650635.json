@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-5e650635",
+  "name": "Google Chrome キャンセルとファイル選択操作",
+  "description": "Google Chromeアプリケーションで、キャンセルボタンをクリックした後、ファイルリスト（numeric_types_list.md）に対してグループ要素をクリックする操作列。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "キャンセル",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1772,
+        "y": 1039
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194250.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1466,
+        "y": 213
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194253.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "UI操作",
+    "クリック操作",
+    "ファイル選択",
+    "Grip"
+  ],
+  "parameters": [
+    {
+      "name": "button_label",
+      "description": "クリックするボタンのラベルテキスト",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "対象となるファイル名またはウィンドウ名",
+      "step_index": 2
+    },
+    {
+      "name": "target_element_role",
+      "description": "クリック対象となるUI要素のロール（AXGroupなど）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:49:17.171918",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

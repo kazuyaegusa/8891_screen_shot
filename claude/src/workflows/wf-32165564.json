@@ -1,0 +1,412 @@
+{
+  "workflow_id": "wf-32165564",
+  "name": "Codex アプリでのテキスト入力操作",
+  "description": "Codex アプリで複数の要素をクリックした後、テキスト入力エリアに日本語テキストを入力する操作列。具体的には、AXGroup要素を3回クリック、その後AXTextAreaにテキスト入力、最後にAXGroupにテキスト入力を行っている。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1202,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194436.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3090,
+        "y": 765
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194453.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2789,
+        "y": 1059
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194454.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "送る時の文章も下さ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2789,
+        "y": 1059
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238695.567007
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238695.7766159
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238695.790901
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238695.897168
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238696.7649438
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238696.84111
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238696.857337
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238696.9302511
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238696.991771
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238697.096004
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238697.170254
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238697.996684
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238698.071018
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238698.1762052
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238698.265523
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238698.400885
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238698.565244
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238698.640426
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238698.7155468
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238698.750123
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771238698.955126
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238699.0602791
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238699.1951208
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238699.331071
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238699.420349
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238699.481471
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238699.5553
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238699.616401
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238699.781135
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238699.831532
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238700.024436
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238700.202333
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238700.263958
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238700.321702
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238700.3503659
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238700.457435
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238700.5317178
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238701.102893
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238701.162336
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238701.283325
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238701.307234
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238701.3432078
+          }
+        ],
+        "text": "oikukuirutorutoki nobunsyou mo\nkudadasaoi ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194502.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2876,
+        "y": 800
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238702.394518
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238702.693038
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238702.84272
+          }
+        ],
+        "text": "i\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194503.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "UI操作",
+    "テキスト入力",
+    "Codex",
+    "複数クリック",
+    "日本語入力"
+  ],
+  "parameters": [
+    {
+      "name": "クリック対象要素",
+      "description": "最初に3回クリックするAXGroup要素の識別子またはセレクタ",
+      "step_index": 1
+    },
+    {
+      "name": "テキスト入力内容",
+      "description": "AXTextAreaに入力するテキスト（日本語）。例：'送る時の文章も下さい'",
+      "step_index": 4
+    },
+    {
+      "name": "追加入力テキスト",
+      "description": "AXGroupへの追加入力テキスト",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:49:55.912237",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,394 @@
+{
+  "workflow_id": "wf-5bdc64ea",
+  "name": "Bluetoothキーボードの接続解除とペアリング解除（macOS システム設定）",
+  "description": "システム設定で目的のキーボードデバイスの詳細を開き、接続解除し、ペアリングを解除して削除する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 340,
+        "y": 512
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234502.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "キーボード",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 339,
+        "y": 531
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771339504.168285
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771339504.319778
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771339504.500013
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771339505.142484
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771339505.368978
+          }
+        ],
+        "text": "ki-\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_234506.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "キーボードショートカット…",
+        "value": null,
+        "description": "キーボードショートカット…",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 851,
+        "y": 723
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771339506.735411
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771339506.887506
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771339507.032819
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771339507.183061
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771339507.407279
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771339507.560108
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771339507.709564
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771339508.234132
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001e\u001e\u001e\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_234509.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "キーボードを設定…",
+        "value": null,
+        "description": "キーボードを設定…",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 841,
+        "y": 1249
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234512.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "詳細情報を表示",
+        "value": null,
+        "description": "詳細情報を表示",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 907,
+        "y": 757
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234515.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "接続解除",
+        "value": null,
+        "description": "接続解除",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 641,
+        "y": 1076
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234517.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "このデバイスのペアリングを解除…",
+        "value": null,
+        "description": "このデバイスのペアリングを解除…",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 557,
+        "y": 1071
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234518.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "完了",
+        "value": null,
+        "description": "完了",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 770,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234519.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "検索中…",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 706,
+        "y": 1249
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234523.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 252,
+        "y": 475
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234525.png"
+    }
+  ],
+  "app_name": "システム設定",
+  "tags": [
+    "macOS",
+    "System Settings",
+    "Bluetooth",
+    "Keyboard",
+    "Unpair",
+    "Disconnect",
+    "Japanese UI"
+  ],
+  "parameters": [
+    {
+      "name": "search_query",
+      "description": "システム設定の検索欄に入力する語（例: キーボード）",
+      "step_index": 2
+    },
+    {
+      "name": "device_name",
+      "description": "詳細情報ボタンを開く対象のBluetoothキーボード名（デバイス行の「i」/詳細ボタン）",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.67,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:36:00.470957",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

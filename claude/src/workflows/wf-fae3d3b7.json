@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-fae3d3b7",
+  "name": "Google Chrome招待受け入れアクション",
+  "description": "Google Chromeで招待を受け入れるボタンをクリックする操作。kotassnearby/Aixeed-PJ-Manage-r1への参加招待を承認するワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Accept invitation",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3085,
+        "y": 880
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002653.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "招待受け入れ",
+    "UIオートメーション",
+    "ボタンクリック"
+  ],
+  "parameters": [
+    {
+      "name": "target_button",
+      "description": "クリック対象のボタン名称 - 'Accept invitation'",
+      "step_index": 1
+    },
+    {
+      "name": "project_name",
+      "description": "参加する対象プロジェクト - 'kotassnearby/Aixeed-PJ-Manage-r1'",
+      "step_index": 1
+    },
+    {
+      "name": "role",
+      "description": "ボタンのアクセシビリティロール - 'AXButton'",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:52:16.710702",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

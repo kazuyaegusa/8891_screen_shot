@@ -1,0 +1,184 @@
+{
+  "workflow_id": "wf-4c793c70",
+  "name": "Ghosttyでpipインストールコマンドを実行",
+  "description": "Ghosttyのターミナルをフォーカスし、コマンドを貼り付けてEnterで実行する手順です。例では「pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv」を実行しています。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                         \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                 \nTraceback (most recent call last):                                                                 \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                               \n    from rag_qa_engine import build_index, search_qa, QAIndex                                      \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                            \n    import faiss                                                                                   \nModuleNotFoundError: No module named 'faiss'                                                       \nkazuyaegusa@Mac 7031_claudeagent %                                                                 \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n         ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1343,
+        "y": 453
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213238.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                         \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                 \nTraceback (most recent call last):                                                                 \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                               \n    from rag_qa_engine import build_index, search_qa, QAIndex                                      \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                            \n    import faiss                                                                                   \nModuleNotFoundError: No module named 'faiss'                                                       \nkazuyaegusa@Mac 7031_claudeagent %                                                                 \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n         ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1358,
+        "y": 442
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213239.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                         \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                 \nTraceback (most recent call last):                                                                 \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                               \n    from rag_qa_engine import build_index, search_qa, QAIndex                                      \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                            \n    import faiss                                                                                   \nModuleNotFoundError: No module named 'faiss'                                                       \nkazuyaegusa@Mac 7031_claudeagent %                                                                 \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n         ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1414,
+        "y": 328
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_213240.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                         \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                 \nTraceback (most recent call last):                                                                 \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                               \n    from rag_qa_engine import build_index, search_qa, QAIndex                                      \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                            \n    import faiss                                                                                   \nModuleNotFoundError: No module named 'faiss'                                                       \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv                                                                                          \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n          ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1414,
+        "y": 328
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_213241.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Tue Feb 17 17:40:19 on ttys017                                                         \nkazuyaegusa@Mac src %   cd /Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent \nkazuyaegusa@Mac 7031_claudeagent %   python3 02_claude/80_tools/rag_qa_bot.py search -i 02_claude/80_tools/qa_index -q \"知りたいこと\"                                                                 \nTraceback (most recent call last):                                                                 \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_bot.py\", line 64, in <module>                                                               \n    from rag_qa_engine import build_index, search_qa, QAIndex                                      \n  File \"/Users/kazuyaegusa/KEWORK/gdrive-code-archive/kwork-ai/7031_claudeagent/02_claude/80_tools/rag_qa_engine.py\", line 60, in <module>                                                            \n    import faiss                                                                                   \nModuleNotFoundError: No module named 'faiss'                                                       \nkazuyaegusa@Mac 7031_claudeagent %   pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv                                                                                          \nDefaulting to user installation because normal site-packages is not writeable                      \nCollecting sentence-transformers                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n                                                                                                   \n          ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1414,
+        "y": 330
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771331561.764663
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_213242.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "Ghostty",
+    "terminal",
+    "pip",
+    "python",
+    "install",
+    "clipboard"
+  ],
+  "parameters": [
+    {
+      "name": "command_text",
+      "description": "ターミナルに貼り付けて実行するコマンド（例: pip3 install sentence-transformers faiss-cpu numpy pandas python-dotenv）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T03:16:04.485778",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

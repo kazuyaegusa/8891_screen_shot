@@ -1,0 +1,139 @@
+{
+  "workflow_id": "wf-ed727fcf",
+  "name": "Cursorアプリでのドキュメント編集操作",
+  "description": "Cursorアプリで「numeric_types_list.md」ファイルをPreviewウィンドウで開き、AXImage要素をクリック、AXGroup要素をクリック、その後Cmd+ショートカットを実行する一連の操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 856,
+        "y": 653
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185759.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1423,
+        "y": 40
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185804.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "kework-agi",
+        "value": null,
+        "description": "kework-agi",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1423,
+        "y": 40
+      },
+      "key": {
+        "keycode": 124,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_185805.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル編集",
+    "Markdown",
+    "UI操作",
+    "ショートカット"
+  ],
+  "parameters": [
+    {
+      "name": "filename",
+      "description": "操作対象のファイル名（例：numeric_types_list.md）",
+      "step_index": 0
+    },
+    {
+      "name": "window_type",
+      "description": "使用するウィンドウタイプ（例：Preview）",
+      "step_index": 0
+    },
+    {
+      "name": "target_image_element",
+      "description": "最初にクリックするAXImage要素の識別子",
+      "step_index": 1
+    },
+    {
+      "name": "target_group_element",
+      "description": "次にクリックするAXGroup要素の識別子",
+      "step_index": 2
+    },
+    {
+      "name": "shortcut_combination",
+      "description": "実行するショートカットキーの組み合わせ（例：Cmd+）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:42:06.400019",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

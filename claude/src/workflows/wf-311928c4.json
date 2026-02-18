@@ -1,0 +1,830 @@
+{
+  "workflow_id": "wf-311928c4",
+  "name": "Create a new Claude chat and delete a specified existing chat",
+  "description": "In the Claude app, open Chat, start a New Chat, insert/paste prompt text into the composer, then delete an existing chat by its title via More options > Delete > Confirm.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1226,
+        "y": 1017
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000534.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "チャット",
+        "value": null,
+        "description": "チャット",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1237,
+        "y": 1021
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000535.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "新規チャット",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1181,
+        "y": 931
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000538.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1636,
+        "y": 1255
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_000540.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1636,
+        "y": 1255
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340741.199988
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340741.364491
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340741.422014
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771340741.4974642
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340741.586451
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340741.6336079
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340741.736817
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340741.904927
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340741.935482
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771340742.158255
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340742.3087401
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771340742.383714
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340742.471893
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340742.561567
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340742.656503
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340742.729357
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340742.7719371
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771340742.849382
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340742.996895
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340743.088416
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340743.176827
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340743.314539
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340743.3629491
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771340743.461142
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340743.5365078
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340743.6428711
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340743.736671
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340743.8820548
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340743.975447
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340744.030485
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340744.1069162
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340744.1827562
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340744.256913
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340744.3476229
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340744.424957
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771340744.586157
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340744.631737
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340744.7357922
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340744.82748
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340744.963213
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771340745.146034
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340745.2016141
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340745.307071
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771340745.4875278
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340745.548403
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340745.6674051
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340745.756961
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771340745.876821
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340746.011754
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771340746.0886989
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340746.161132
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771340746.236414
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340746.2810361
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771340746.4477792
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340746.5084622
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771340746.626425
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340746.761408
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340747.001258
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771340747.2406552
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340747.45169
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340747.811999
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340747.867316
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340747.9308212
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340748.0241761
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771340748.067888
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771340748.1446478
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340748.190798
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340748.3852649
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340748.431494
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340748.488173
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340748.622608
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340748.7569
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340748.832149
+          }
+        ],
+        "text": "atarasii debaisu de\natarasii tesutoyou akaunto deyarubeki\n?\nteiujka\nsette",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_000549.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1451,
+        "y": 1116
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771340750.3845
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771340750.455828
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340750.6169238
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340750.723604
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340750.781798
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340750.916349
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340751.050865
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340751.081506
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340751.172364
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340751.230724
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771340751.338565
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340751.397755
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340751.486423
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771340751.635762
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340751.697998
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771340751.785954
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340751.847188
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771340751.925816
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340752.011265
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340752.131828
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340752.168925
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340752.3273768
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771340753.151916
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771340753.255923
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771340753.33115
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340753.4060118
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771340753.526987
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771340753.574448
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771340753.6485991
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340753.768111
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771340753.918135
+          }
+        ],
+        "text": "ka\nsettei houhou wosoiosiete \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_000554.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Discordのbotを削除する方法のその他のオプション",
+        "value": null,
+        "description": "Discordのbotを削除する方法のその他のオプション",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1333,
+        "y": 1270
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000610.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "削除",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1263,
+        "y": 1410
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000612.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "削除",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1754,
+        "y": 1383
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_000614.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "chat",
+    "new chat",
+    "delete chat",
+    "clipboard"
+  ],
+  "parameters": [
+    {
+      "name": "use_clipboard",
+      "description": "Whether to paste the current clipboard content into the new chat input before typing the prompt.",
+      "step_index": 4
+    },
+    {
+      "name": "new_chat_prompt",
+      "description": "The text to enter into the new chat’s input field.",
+      "step_index": 5
+    },
+    {
+      "name": "chat_title_to_delete",
+      "description": "Exact title of the existing chat to delete (e.g., “Discordのbotを削除する方法”).",
+      "step_index": 7
+    },
+    {
+      "name": "confirm_delete",
+      "description": "Whether to confirm the deletion when prompted.",
+      "step_index": 9
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:41:37.875053",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,245 @@
+{
+  "workflow_id": "wf-59c0e103",
+  "name": "Brave Browserのアップデートとセッション復元処理",
+  "description": "Brave Browserのソフトウェアアップデートをインストールし、新しいタブを開きながらセッション復元ダイアログを閉じ、最終的にブラウザをアップデート・再起動するプロセス",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXButton",
+        "title": "アップデートをインストール",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:41"
+      },
+      "coordinates": {
+        "x": 1194,
+        "y": 564
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190842.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 447,
+        "y": 43
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190854.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 481,
+        "y": 349
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190856.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": "1",
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1881,
+        "y": 144
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190900.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 446,
+        "y": 690
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_190905.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXWindow",
+        "title": "Brave Browserをアップデート中",
+        "value": null,
+        "description": null,
+        "identifier": "SUStatus"
+      },
+      "coordinates": {
+        "x": 795,
+        "y": 358
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190918.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.brave.Browser",
+      "app_name": "Brave Browser",
+      "target": {
+        "role": "AXButton",
+        "title": "インストールして再起動",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:8"
+      },
+      "coordinates": {
+        "x": 1096,
+        "y": 371
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190920.png"
+    }
+  ],
+  "app_name": "Brave Browser",
+  "tags": [
+    "ブラウザ管理",
+    "ソフトウェアアップデート",
+    "Brave Browser",
+    "システムメンテナンス",
+    "セッション管理"
+  ],
+  "parameters": [
+    {
+      "name": "アップデートボタン",
+      "description": "初期のソフトウェアアップデートインストールボタン（ウィンドウ：ソフトウェア・アップデート）",
+      "step_index": 1
+    },
+    {
+      "name": "セッション復元ダイアログ",
+      "description": "ページ復元確認ダイアログの閉じるボタン（ウィンドウ：ページを復元しますか？）",
+      "step_index": 4
+    },
+    {
+      "name": "インストール実行ボタン",
+      "description": "最終的なインストール・再起動ボタン（ウィンドウ：Brave Browserをアップデート中）",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T11:43:32.337223",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

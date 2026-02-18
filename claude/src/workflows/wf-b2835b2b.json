@@ -1,0 +1,181 @@
+{
+  "workflow_id": "wf-b2835b2b",
+  "name": "Switch Between Directory and Terminal Script",
+  "description": "A sequence of actions to focus on a project directory window and subsequently switch to a terminal process running a capture command.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "…/8891_screen_shot/claude/src",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 3027,
+        "y": 392
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181219.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "…/8891_screen_shot/claude/src",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2797,
+        "y": 172
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181228.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2579,
+        "y": 180
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181229.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "python3 capture_loop.py --trigger event",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 3044,
+        "y": 470
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181231.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "python3 capture_loop.py --trigger event",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 2888,
+        "y": 305
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_181233.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "window-management",
+    "ghostty",
+    "workflow",
+    "navigation"
+  ],
+  "parameters": [
+    {
+      "name": "directory_path",
+      "description": "The file path of the directory focused in the first steps.",
+      "step_index": 1
+    },
+    {
+      "name": "process_command",
+      "description": "The command line or window title of the target process.",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.8,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T22:40:36.273721",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,288 @@
+{
+  "workflow_id": "wf-01dc484a",
+  "name": "Codex での検索とファイルオープン操作",
+  "description": "Codex アプリ内で特定のテキストを検索し、検索結果を絞り込んでファイルを開く操作フロー。クリック、キーボードショートカット、テキスト入力を組み合わせた一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " for '5 users' in https://developers.tiktok.com/doc/content-posting-api-get-started?enter_method=left_navigation",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1540,
+        "y": 737
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190818.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1536,
+        "y": 931
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190819.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1536,
+        "y": 931
+      },
+      "key": {
+        "keycode": 49,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_190820.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1536,
+        "y": 931
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771236501.4497511
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771236501.766203
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771236502.048646
+          }
+        ],
+        "text": "bra",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_190823.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1536,
+        "y": 931
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771236503.263801
+          },
+          {
+            "char": "\u0010",
+            "keycode": 101,
+            "timestamp": 1771236503.280535
+          }
+        ],
+        "text": "\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_190824.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1616,
+        "y": 832
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771236504.6136918
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771236504.9533372
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771236505.621753
+          }
+        ],
+        "text": "\u0010\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_190826.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "開く",
+        "value": null,
+        "description": null,
+        "identifier": "action-button--997"
+      },
+      "coordinates": {
+        "x": 1025,
+        "y": 471
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190834.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "検索",
+    "ファイル操作",
+    "テキスト入力",
+    "UI自動化",
+    "Codex"
+  ],
+  "parameters": [
+    {
+      "name": "検索キーワード",
+      "description": "Codex 内で検索するテキスト（例：'bra'）",
+      "step_index": 4
+    },
+    {
+      "name": "初期クリック対象",
+      "description": "最初にクリックする UI 要素（例：'5 users' テキスト）",
+      "step_index": 1
+    },
+    {
+      "name": "ファイルパス_URL",
+      "description": "操作対象のドキュメント URL（例：https://developers.tiktok.com/do）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:43:27.622327",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

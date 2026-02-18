@@ -1,0 +1,569 @@
+{
+  "workflow_id": "wf-e97374cf",
+  "name": "Cursorでファイルのパスをコピーして貼り付ける",
+  "description": "CursorのFiles Explorerで対象ファイルを選択し、コンテキストメニューから「Copy Path」を実行して、取得したパスを目的の入力フィールド（エディタ等）に貼り付ける手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3103,
+        "y": 1391
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211056.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "7031_claudeagent.zip",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3129,
+        "y": 1184
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211058.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "7031_claudeagent.zip",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3129,
+        "y": 1183
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211059.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3163,
+        "y": 1390
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211100.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3074,
+        "y": 1415
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211102.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "7031_claudeagent.zip",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3104,
+        "y": 1173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211103.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Copy Path",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 3238,
+        "y": 1525
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211104.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3348,
+        "y": 1703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211105.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3348,
+        "y": 1703
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_211106.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3348,
+        "y": 1703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771330266.966004
+          },
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771330267.0853682
+          }
+        ],
+        "text": "\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_211108.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3348,
+        "y": 1703
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_211111.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3348,
+        "y": 1703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771330271.285074
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_211112.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3470,
+        "y": 1339
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330272.717833
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.219476
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.303087
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.3866339
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.469471
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.553182
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.637743
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.722055
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.805325
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.8891919
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330273.9746869
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.055993
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.13985
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.223671
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.308413
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.390644
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.479687
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.558316
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.642787
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.725953
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.808938
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.892916
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330274.976856
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771330275.065645
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771330275.976247
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771330276.528876
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771330276.85944
+          }
+        ],
+        "text": "\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\n\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_211117.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Files Explorer",
+    "Copy Path",
+    "Paste",
+    "ファイル操作"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "パスをコピーする対象ファイル名（例: 7031_claudeagent.zip）",
+      "step_index": 2
+    },
+    {
+      "name": "paste_destination",
+      "description": "パスを貼り付ける先（例: アクティブなエディタ、ターミナル、入力欄など）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T02:53:19.766303",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

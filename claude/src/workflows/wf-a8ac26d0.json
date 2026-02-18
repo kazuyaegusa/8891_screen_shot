@@ -1,0 +1,129 @@
+{
+  "workflow_id": "wf-a8ac26d0",
+  "name": "Cursor コマンドパレット呼び出し",
+  "description": "Cursor エディタで画像要素をクリックしてから、スラッシュキーを入力する操作。この操作はコマンドパレットやクイック実行機能の呼び出しを示唆しており、汎用的に再利用可能である。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 601,
+        "y": 812
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_012122.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 613,
+        "y": 815
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771258884.006667
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771258884.380878
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771258885.075753
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771258885.927947
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771258886.40957
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771258886.825516
+          }
+        ],
+        "text": "/\u0010\n\u001f\u001e\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_012127.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "コマンド実行",
+    "ユーザーインタフェース",
+    "キーボード入力"
+  ],
+  "parameters": [
+    {
+      "name": "target_window",
+      "description": "操作対象のウィンドウ名（例：README.md）",
+      "step_index": 1
+    },
+    {
+      "name": "click_target",
+      "description": "クリック対象の要素（AXImage）",
+      "step_index": 1
+    },
+    {
+      "name": "input_key",
+      "description": "入力するキー（例：'/'）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:56.948711",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

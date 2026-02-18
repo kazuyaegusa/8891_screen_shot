@@ -1,0 +1,86 @@
+{
+  "workflow_id": "wf-7455fb70",
+  "name": "Slackでチャンネルを開く",
+  "description": "Slackのサイドバー「チャンネルとダイレクトメッセージ」を選択し、指定したチャンネル名をクリックして該当チャンネルを表示する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXOutline",
+        "title": "チャンネルとダイレクトメッセージ",
+        "value": null,
+        "description": "チャンネルとダイレクトメッセージ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 238,
+        "y": 442
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191432.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 89,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191447.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "ナビゲーション",
+    "チャンネル"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "開きたいSlackのチャンネル（またはDM）の名称。例: fusion-ai",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T23:00:40.764784",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

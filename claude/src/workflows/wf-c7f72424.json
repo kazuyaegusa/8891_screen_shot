@@ -1,0 +1,243 @@
+{
+  "workflow_id": "wf-c7f72424",
+  "name": "PDFファイルの表示と操作",
+  "description": "プレビューアプリでPDFファイル(numeric_types_list.pdf)を開き、ズーム操作(縮小)と回転操作を実行した後、別のアプリケーション(kework-agi)に遷移するワークフロー",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "numeric_types_list.pdf",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 372,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194708.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXButton",
+        "title": "縮小",
+        "value": null,
+        "description": "縮小",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1093,
+        "y": 57
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194711.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXButton",
+        "title": "縮小",
+        "value": null,
+        "description": "縮小",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1093,
+        "y": 57
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194712.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "回転",
+        "value": null,
+        "description": "回転",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1360,
+        "y": 68
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194720.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "回転",
+        "value": null,
+        "description": "回転",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1360,
+        "y": 68
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194721.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 74,
+        "y": 64
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194726.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1089,
+        "y": 433
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194728.png"
+    }
+  ],
+  "app_name": "プレビュー",
+  "tags": [
+    "PDF操作",
+    "プレビュー",
+    "ズーム",
+    "回転",
+    "ファイル操作"
+  ],
+  "parameters": [
+    {
+      "name": "pdf_filename",
+      "description": "操作対象となるPDFファイル名",
+      "step_index": 1
+    },
+    {
+      "name": "zoom_count",
+      "description": "縮小操作を実行する回数",
+      "step_index": 2
+    },
+    {
+      "name": "rotation_count",
+      "description": "回転操作を実行する回数",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:50:08.482567",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

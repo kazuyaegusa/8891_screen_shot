@@ -1,0 +1,149 @@
+{
+  "workflow_id": "wf-0f2bef6c",
+  "name": "Ghosttyで実行中のプロセスをCtrl+Cで中断する",
+  "description": "Ghosttyの対象ターミナルセッションをアクティブ化し、Ctrl+Cを送って前景プロセスを中断する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                                                                                                      \nkazuyaegusa@Mac src % source ~/.zshrc                                                                                                                                                           \nkazuyaegusa@Mac src % kework                                                                                                                                                                    \nデーモン: 停止中                                                                                                                                                                                \nタスクなし                                                                                                                                                                                      \n                                                                                                                                                                                                \n登録スキル: 1 件                                                                                                                                                                                \n登録プロジェクト: 9 件                                                                                                                                                                          \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                                                                                                \ncd: no such file or directory: claude/src                                                                                                                                                       \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2768,
+        "y": 906
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111617.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                                                                                                      \nkazuyaegusa@Mac src % source ~/.zshrc                                                                                                                                                           \nkazuyaegusa@Mac src % kework                                                                                                                                                                    \nデーモン: 停止中                                                                                                                                                                                \nタスクなし                                                                                                                                                                                      \n                                                                                                                                                                                                \n登録スキル: 1 件                                                                                                                                                                                \n登録プロジェクト: 9 件                                                                                                                                                                          \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                                                                                                \ncd: no such file or directory: claude/src                                                                                                                                                       \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2630,
+        "y": 958
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111623.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                                                                                                      \nkazuyaegusa@Mac src % source ~/.zshrc                                                                                                                                                           \nkazuyaegusa@Mac src % kework                                                                                                                                                                    \nデーモン: 停止中                                                                                                                                                                                \nタスクなし                                                                                                                                                                                      \n                                                                                                                                                                                                \n登録スキル: 1 件                                                                                                                                                                                \n登録プロジェクト: 9 件                                                                                                                                                                          \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                                                                                                \ncd: no such file or directory: claude/src                                                                                                                                                       \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2626,
+        "y": 951
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Control"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_111624.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                                                                                                      \nkazuyaegusa@Mac src % source ~/.zshrc                                                                                                                                                           \nkazuyaegusa@Mac src % kework                                                                                                                                                                    \nデーモン: 停止中                                                                                                                                                                                \nタスクなし                                                                                                                                                                                      \n                                                                                                                                                                                                \n登録スキル: 1 件                                                                                                                                                                                \n登録プロジェクト: 9 件                                                                                                                                                                          \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                                                                                                \ncd: no such file or directory: claude/src                                                                                                                                                       \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2610,
+        "y": 831
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111629.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "Ghostty",
+    "terminal",
+    "interrupt",
+    "Ctrl+C",
+    "SIGINT",
+    "process"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象セッションを特定するためのウィンドウ/タブタイトル（例: \"python3 capture_loop.py --trigger event\"）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T00:32:26.045744",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

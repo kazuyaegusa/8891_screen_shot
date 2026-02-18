@@ -1,0 +1,378 @@
+{
+  "workflow_id": "wf-1e87d418",
+  "name": "TextEditで内容を貼り付けてファイル保存",
+  "description": "TextEditで新規文書に任意のテキストを入力し、クリップボードの内容を貼り付け、指定したファイル名で保存する手順。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 281,
+        "y": 277
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771327141.1012568
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771327141.129506
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771327141.228113
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771327141.3696902
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771327141.384321
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771327141.5497322
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771327141.596768
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771327141.698841
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771327141.7733471
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771327141.909929
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771327142.524249
+          }
+        ],
+        "text": "tekisuto \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_201903.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "| ツール名 | ビジネスプラン有無 | 1人当たり金額（目安） | それで何ができるか（要点） | おすすめの設定（Aixeed） |\n|---|---|---:|---|---|\n| Claude ai | あり（Team） | Standard $20/席/月（年）or $25（月）／Premium $100（年）or $125（月） | チーム管理・集中請求。PremiumはStandardより利用量が大きい（公式は「5x」）。 | Team化必須。全員Standard＋ヘビーユーザーのみPremium（混在）で枠不足を止血。共有ID運用は避け、個人招待＋集中請求に統一。 |\n| Open ai（ChatGPT） | あり（ChatGPT Business） | $25/席/月（年）or $30（月） | 企業向けの安全/コラボ前提のChatGPTワークスペース。 | Businessを標準。チャット利用は座席で統制し、プロダクト組込みは別途API（従量）に分離して原価管理。 |\n| Manus ai | あり（Team） | 公式は“席数＋クレジット選択”で変動（画面上で試算） | チーム共有スペース、クレジットはプール、管理者ダッシュボード、同時タスク/スケジュール実行など。 | 少人数PoC（用途を絞る）→ROIが出たらTeam拡大。クレジット枯渇対策に自動購入設定を検討。 |\n| Cursor | あり（Teams） | Teams $40/人/月 | チーム請求・管理（＋Pro相当の開発支援）。 | 開発者はTeamsを基本。超ヘビーユースのみ上位プランを個別付与（必要時）。 |\n| Canva | あり（Canva Business / Enterprise） | Canva Business $20/人/月（席数ミニマムなし） | 共同編集、ブランド管理、チーム運用向けの制作・管理機能。 | Businessで統一（席数少でもOK）。ブランド統制が不要な部署は付与しない。 |\n| Circleback.ai | あり（Team / Enterprise） | Team $25/人/月（年払い表記） | 議事録/要約/アクション抽出、共有・検索、集中請求、管理者設定等。 | 会議が多い職種（営業/CS/PM等）に限定配布→定着後に拡大。 |\n| Teachable | あり（ただし席課金よりアカウント/運用単位） | 例：Starter $29/月（年払い）など（プランで変動） | 講座販売/決済/サイト運用（上位ほど取引手数料・商品数・運用機能が拡張）。 | 最小でPoC→販売規模・手数料・商品数・権限で段階的に上げる（全社座席付与はしない）。 |\n| Socialblade.com | （個人向けサブスク中心） | Bronze $4.50/月、Silver $12.50、Gold $50、Platinum $120 | SNS分析の拡張（広告除去、履歴期間、レポート等）。 | マーケ/営業など必要者のみ。共有IDより担当者個別＋請求集中。 |\n| Supabase | あり（Pro/Team/Enterprise） | 人単価ではなくプロジェクト/組織単位（公式プラン表で確認） | DB/Auth/Storage等の基盤。TeamはSSO/権限/監査寄りに強化されることが多い。 | まずPro相当で開始→SSO/監査/SLA要件が出たらTeam以上へ。 |\n| Onecal | あり | Premium $25/人/月（年払い） | カレンダー同期・スケジューリング、ブランディング、管理者管理等（プランで増）。 | 日程調整が重い職種（営業/経営層）から段階導入→効果が出たら拡大。 |\n| slack | あり（Pro/Business+等） | Pro $7.25/人/月（年）or $8.75（月）（active user） | メッセージ履歴・連携・運用機能の拡張（上位でSSO/監査等）。 | Aixeedワークスペースを正にして、個人を招待＋集中請求。SSO/監査要件が出たら上位プラン検討。 |\n",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 430,
+        "y": 255
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_201905.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 427,
+        "y": 257
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_201907.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 220,
+        "y": 340
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201910.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 206,
+        "y": 272
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201912.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 718,
+        "y": 265
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771327153.973682
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771327154.3154318
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771327154.4785762
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771327154.660987
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771327154.748425
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771327155.651639
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771327155.9346292
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771327156.040399
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771327156.224567
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771327156.415468
+          }
+        ],
+        "text": "tools.md\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_201917.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXButton",
+        "title": "保存",
+        "value": null,
+        "description": null,
+        "identifier": "OKButton"
+      },
+      "coordinates": {
+        "x": 922,
+        "y": 528
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201921.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 226,
+        "y": 99
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201923.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "TextEdit",
+    "macOS",
+    "保存",
+    "Markdown",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "initial_text",
+      "description": "文書冒頭に入力する任意テキスト（空でも可）",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "保存ダイアログで入力するファイル名（例: tools.md）",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.71,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T02:28:12.258553",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

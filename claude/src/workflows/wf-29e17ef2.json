@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-29e17ef2",
+  "name": "Google Geminiウィンドウのクリック",
+  "description": "Google Geminiアプリのメインウィンドウをクリックする操作。単一のクリックアクションのみで構成されている基本的な操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3140,
+        "y": 144
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200504.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "UI操作",
+    "クリック",
+    "基本操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_window",
+      "description": "クリック対象のウィンドウ名 (Google Gemini)",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象のUIロール (AXWindow)",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:51:16.049690",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

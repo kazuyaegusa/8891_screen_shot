@@ -37,11 +37,12 @@
   "tags": [
     "Finder",
     "macOS",
+    "ナビゲーション",
     "ゴミ箱",
-    "ナビゲーション"
+    "フォルダ操作"
   ],
   "parameters": [],
-  "confidence": 0.7899999999999999,
+  "confidence": 0.77,
   "source_session_ids": [
     "5697dd21-eb3d-4666-a4ea-4c851075128f"
   ],

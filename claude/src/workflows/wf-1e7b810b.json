@@ -1,0 +1,103 @@
+{
+  "workflow_id": "wf-1e7b810b",
+  "name": "Gmail ワークフロー実行画面へのアクセス",
+  "description": "Gmail の受信トレイで特定のメール（ワークフロー実行キャンセル通知）をクリックして、その内容を確認するプロセス。受信トレイから対象メールを開き、ワークフロー実行結果の詳細情報にアクセスする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 467,
+        "y": 212
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163312.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXLink",
+        "title": "View workflow run",
+        "value": null,
+        "description": "View workflow run",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1058,
+        "y": 537
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163321.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "メール",
+    "ワークフロー実行",
+    "キャンセル通知",
+    "メール確認"
+  ],
+  "parameters": [
+    {
+      "name": "target_email_group",
+      "description": "クリック対象のメールグループ/受信トレイセレクタ",
+      "step_index": 1
+    },
+    {
+      "name": "workflow_run_link",
+      "description": "ワークフロー実行結果を表示するリンク（例：'View workflow run'）",
+      "step_index": 2
+    },
+    {
+      "name": "repository_identifier",
+      "description": "GitHub リポジトリ識別子（例：'kazuyaegusa/openclaw'）",
+      "step_index": 2
+    },
+    {
+      "name": "workflow_run_status",
+      "description": "ワークフロー実行ステータス（例：'Run cancelled'）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:01:14.429376",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

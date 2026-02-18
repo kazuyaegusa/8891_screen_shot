@@ -1,0 +1,1021 @@
+{
+  "workflow_id": "wf-0e46b770",
+  "name": "Codexアプリケーションでのテキスト入力と編集操作",
+  "description": "Codexアプリケーションでテキストエリアにテキストを入力し、クリップボードから貼り付け、複数の段階でテキスト入力を行う操作列。一連の操作は、テキスト編集や問い合わせ入力というAIアシスタントへの対話的なワークフローを示しています。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "\nAsk Codex anything, @ to add files, / for commands",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3024,
+        "y": 1041
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771234050.7081091
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182731.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "\nAsk Codex anything, @ to add files, / for commands",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3024,
+        "y": 1041
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_182734.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "クロードコードの opus4.0 が有能すぎて、あらゆる業務をそこでやるような人が多い。そうすると 200 ドルのエクスプランで、結構充電を気にしないといけなくなるんです。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3032,
+        "y": 962
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_182736.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "6",
+            "keycode": 22,
+            "timestamp": 1771234058.58739
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771234059.3330328
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234060.0259619
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234060.5473862
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234060.73104
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234060.8931189
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.043296
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.544896
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.627991
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.711185
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.794158
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.877459
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234061.961694
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.0458071
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.130414
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.214095
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.297765
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.3834581
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.4650738
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.549085
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.632478
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.719777
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.800044
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.883779
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234062.967707
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.051719
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.135919
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.2199628
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.312572
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.386355
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234063.488033
+          }
+        ],
+        "text": "6\u0010\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182744.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771234065.932996
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771234066.0682821
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771234066.1585548
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771234066.264597
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771234066.368278
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771234066.427542
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771234066.6076002
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771234066.653124
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771234066.7431328
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771234066.8176389
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771234066.938176
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771234067.012844
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771234067.16273
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234067.402718
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234067.7928069
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.293982
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.377113
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.461356
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.546332
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.6284
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.71264
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.796611
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.880277
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234068.9639838
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.047196
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.1323829
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.214227
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.2981482
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.381088
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234069.548925
+          }
+        ],
+        "text": "tteirunodaga,\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182750.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "M",
+            "keycode": 46,
+            "timestamp": 1771234071.527476
+          },
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771234071.58703
+          },
+          {
+            "char": "X",
+            "keycode": 7,
+            "timestamp": 1771234071.79792
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234072.097564
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234072.473832
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234072.655288
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234072.8175821
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234072.952971
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234073.1180642
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234073.298856
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234073.478008
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234073.613954
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234073.76273
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771234074.633609
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771234074.737677
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771234074.8582242
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771234074.903549
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771234074.96337
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771234075.068165
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771234075.17275
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234075.442764
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234075.8473642
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234076.012341
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234076.313492
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771234076.402544
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771234076.567179
+          }
+        ],
+        "text": "MAX\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001djougen \n\u001d\u001d\u001f\u001c\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182757.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234077.61747
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234077.796984
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234077.827452
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234078.30721
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771234078.563358
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771234078.742508
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234078.92332
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234079.357554
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234079.5234292
+          }
+        ],
+        "text": "\u001f\u001d\u001f\u001d\u001e\u001e\u001d\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182800.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771234082.102278
+          },
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771234082.251808
+          }
+        ],
+        "text": "\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182803.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771234101.392127
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182822.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3169,
+        "y": 1079
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_182822.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "AIの負荷を分散するために他のAIを使えるならば使っていきたいんだけれども、品質がHompath 4.6に比べるとやっぱり弱く感じる。どうしたらよいですか？",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3443,
+        "y": 1027
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_182826.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3630,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771234106.899341
+          }
+        ],
+        "text": "\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182827.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4137,
+        "y": 167
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771234109.403139
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771234109.4625201
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234109.881526
+          },
+          {
+            "char": "O",
+            "keycode": 31,
+            "timestamp": 1771234110.571407
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771234110.7665842
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771234111.0424929
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771234111.1424
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234111.3686972
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234111.8468878
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234112.028445
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234112.1938019
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771234112.3127549
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771234112.491733
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771234112.929537
+          }
+        ],
+        "text": "ga\nOpus\n\u001d\u001d\u001d\u001d\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_182833.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "テキスト入力",
+    "ペースト操作",
+    "AIアシスタント",
+    "Codex",
+    "クリップボード",
+    "編集操作"
+  ],
+  "parameters": [
+    {
+      "name": "初期入力テキスト",
+      "description": "AXTextAreaへの初期テキスト入力内容（通常はプロンプトテンプレート）",
+      "step_index": 1
+    },
+    {
+      "name": "クリップボード内容",
+      "description": "Cmd+Vで貼り付けるクリップボード内のテキスト",
+      "step_index": 2
+    },
+    {
+      "name": "追加入力テキスト1",
+      "description": "AXGroupへの最初のテキスト入力（例: '6'）",
+      "step_index": 4
+    },
+    {
+      "name": "追加入力テキスト2",
+      "description": "AXGroupへの2番目のテキスト入力（例: 'tteirunodaga,'）",
+      "step_index": 5
+    },
+    {
+      "name": "追加入力テキスト3",
+      "description": "AXGroupへの3番目のテキスト入力（例: 'MAX jougen'）",
+      "step_index": 6
+    },
+    {
+      "name": "クリック対象テキスト",
+      "description": "画面上でクリックする静的テキストの値（提案やサジェスト）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:38:52.402226",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

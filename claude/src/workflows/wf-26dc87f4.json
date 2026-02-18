@@ -1,0 +1,303 @@
+{
+  "workflow_id": "wf-26dc87f4",
+  "name": "Cursor での テキスト入力操作",
+  "description": "Cursor アプリケーションで personality_table.md ファイルに対し、複数のテキスト入力操作を実行するワークフロー。画像要素をクリックした後、スクロール領域と画像領域にそれぞれ異なるテキストを入力します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 323,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_004301.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 323,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771256583.4572
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256584.011841
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256584.326205
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256584.700141
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771256585.0482628
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256585.16573
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771256585.3302479
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256585.448591
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256585.540697
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771256585.8257668
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256585.915106
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771256586.063381
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771256586.3077812
+          }
+        ],
+        "text": "mouurusainode",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_004307.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 323,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771256587.354625
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771256587.852648
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256587.93965
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771256588.133256
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256588.20891
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771256588.540106
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771256588.887577
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771256589.247891
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771256589.5478919
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771256589.919502
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771256590.0234518
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771256590.3244832
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256590.461822
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771256590.7453928
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256590.9273899
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771256590.999466
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256591.1196642
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771256591.23969
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256591.422097
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771256591.6006389
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771256592.006818
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771256592.381237
+          }
+        ],
+        "text": "\njibun dekesimasita \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_004313.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "テキスト編集",
+    "マークダウン",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_file",
+      "description": "操作対象となるマークダウンファイル名",
+      "step_index": 0
+    },
+    {
+      "name": "first_text_input",
+      "description": "スクロール領域に入力するテキスト",
+      "step_index": 1
+    },
+    {
+      "name": "second_text_input",
+      "description": "画像領域に入力するテキスト（複数行対応）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:53:44.389691",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

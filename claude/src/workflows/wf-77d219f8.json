@@ -1,0 +1,247 @@
+{
+  "workflow_id": "wf-77d219f8",
+  "name": "Amazonで検索して商品ページを開く",
+  "description": "Amazonの検索バーにキーワードを入力（または修正）して検索を実行し、指定したタイトル文字列に一致する商品をクリックして開く。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キーワードまたは商品番号を入力する",
+        "value": "モニター タイプC xiaomi",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 531,
+        "y": 180
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115609.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キーワードまたは商品番号を入力する",
+        "value": "モニター タイプC xi",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 531,
+        "y": 180
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383369.926084
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.079468
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.195071
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.3476732
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.481513
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.6317272
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.785235
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383370.920887
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.052671
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.201302
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.33482
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.486877
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.6526668
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.8013499
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383371.934867
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383372.101516
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383372.252269
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771383372.406378
+          }
+        ],
+        "text": "\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_115613.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "aikensyu · GitHub",
+        "value": null,
+        "description": "aikensyu · GitHub",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 500,
+        "y": 135
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771383374.307519
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_115615.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Minifire モニター27インチ 120Hz フルHD 1920x1080 IPSパネル ディスプレイ USB-Type C/HDMI スピーカー内蔵 Adaptive Sync OD 5ms HDR10 sRGB 110% ブルーライト軽減 フリッカーフリー VESA対応 フレームレス 5年保証 (MF27X3A）",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 657,
+        "y": 684
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115628.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Amazon",
+    "Chrome",
+    "検索",
+    "Eコマース"
+  ],
+  "parameters": [
+    {
+      "name": "search_query",
+      "description": "Amazonの検索バーに入力する検索キーワード。",
+      "step_index": 2
+    },
+    {
+      "name": "result_title_substring",
+      "description": "検索結果でクリックする商品のタイトル（またはその一部）。",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:57:18.984857",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

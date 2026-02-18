@@ -246,11 +246,12 @@
   ],
   "app_name": "Google Chrome",
   "tags": [
-    "Google AI Studio",
     "Gemini",
-    "APIキー",
+    "Google AI Studio",
     "Web自動化",
-    "Chrome"
+    "Chrome",
+    "APIキー",
+    "API key"
   ],
   "parameters": [
     {

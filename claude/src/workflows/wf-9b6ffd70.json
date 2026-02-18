@@ -1,0 +1,59 @@
+{
+  "workflow_id": "wf-9b6ffd70",
+  "name": "Dockから指定アプリを前面表示/起動",
+  "description": "Dock上の指定アプリのアイコンをクリックして、そのアプリを前面に表示（未起動なら起動）する。例: Slack に切り替える。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXDockItem",
+        "title": "Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 24,
+        "y": 1113
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_003426.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "macOS",
+    "Dock",
+    "アプリ切替",
+    "起動",
+    "Slack"
+  ],
+  "parameters": [
+    {
+      "name": "app_name",
+      "description": "Dock上でクリックするアプリ名（例: Slack）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:42:07.841775",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

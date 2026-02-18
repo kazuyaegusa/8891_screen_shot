@@ -1,0 +1,91 @@
+{
+  "workflow_id": "wf-21f49047",
+  "name": "Slackで指定チャンネルへ順に切り替える",
+  "description": "Slackアプリで、指定したチャンネル名に順番に切り替える操作（チャンネルA→チャンネルB）。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 233,
+        "y": 405
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_000924.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 244,
+        "y": 498
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_000929.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "slack",
+    "navigation",
+    "channel-switch"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name_1",
+      "description": "最初に開くSlackチャンネル名（例: ext-stun-x-movico-ai推進pj）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name_2",
+      "description": "次に開くSlackチャンネル名（例: fusion_ai売上管理）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T23:44:08.293377",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

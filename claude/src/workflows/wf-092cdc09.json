@@ -1,0 +1,133 @@
+{
+  "workflow_id": "wf-092cdc09",
+  "name": "Enter text in 'Get API Key' dialog field",
+  "description": "Click the text field in the 'Get API Key - Claude API Reference' window and type the provided text.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.SecurityAgent",
+      "app_name": "SecurityAgent",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 598,
+        "y": 679
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_105837.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.SecurityAgent",
+      "app_name": "SecurityAgent",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "Algo-Q",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 598,
+        "y": 679
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771379918.63617
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771379918.903829
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771379919.324001
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771379919.389791
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771379920.103196
+          },
+          {
+            "char": "Q",
+            "keycode": 12,
+            "timestamp": 1771379920.461202
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771379920.674964
+          },
+          {
+            "char": "\t",
+            "keycode": 48,
+            "timestamp": 1771379920.791213
+          }
+        ],
+        "text": "Algo-Q\n\t",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_105841.png"
+    }
+  ],
+  "app_name": "SecurityAgent",
+  "tags": [
+    "data-entry",
+    "text-input",
+    "api-key",
+    "SecurityAgent"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "Window title to target for the text field interaction (default: 'Get API Key - Claude API Reference').",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "Text to enter into the targeted text field (can include special keys like a trailing Tab).",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:01:04.621480",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

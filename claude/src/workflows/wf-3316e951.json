@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-3316e951",
+  "name": "Claude アプリケーション起動",
+  "description": "Claude アプリケーションのウィンドウをクリックして起動/アクティベートする操作。AXWebArea 要素をターゲットとしてクリックを実行します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXWebArea",
+        "title": "Claude",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4488,
+        "y": 301
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190620.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "application",
+    "activation",
+    "click",
+    "Claude"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のアプリケーション要素（AXWebArea）",
+      "step_index": 1
+    },
+    {
+      "name": "application_name",
+      "description": "対象となるアプリケーション名",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:43:13.015415",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

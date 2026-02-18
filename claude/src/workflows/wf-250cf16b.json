@@ -1,0 +1,116 @@
+{
+  "workflow_id": "wf-250cf16b",
+  "name": "Linear イシューレビュー操作ワークフロー",
+  "description": "Linear アプリケーションにおいて、特定のイシュー（STUN様レビュー）に対して、クリック操作とショートカット操作を実行するシーケンス。GitHub のリポジトリリンクを含むイシューの確認と、レビュー関連のアクティビティ（コメント、リアクション追加、購読者管理）を行う操作列。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "value": null,
+        "description": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 337,
+        "y": 334
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184321.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "value": null,
+        "description": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 337,
+        "y": 334
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_184322.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "issue-review",
+    "GitHub-integration",
+    "collaboration",
+    "shortcut-operation",
+    "comment-activity"
+  ],
+  "parameters": [
+    {
+      "name": "issue_title",
+      "description": "レビュー対象のイシュータイトル（例：STUN様レビュー）",
+      "step_index": 1
+    },
+    {
+      "name": "github_repository_url",
+      "description": "関連する GitHub リポジトリの URL（例：https://github.com/kazuyaegusa/movico）",
+      "step_index": 1
+    },
+    {
+      "name": "issue_content",
+      "description": "イシューの説明内容（例：別途招待しましたが下記ご確認お願いします）",
+      "step_index": 1
+    },
+    {
+      "name": "comment_text",
+      "description": "イシューに追加するコメント内容（例：データの自動取得可否 APIを使ったテスト動画upload実行）",
+      "step_index": 1
+    },
+    {
+      "name": "issue_window_id",
+      "description": "イシューのウィンドウID（例：AIX-93）",
+      "step_index": 1
+    },
+    {
+      "name": "keyboard_shortcut",
+      "description": "実行するキーボードショートカット（例：Cmd+）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:41:01.137563",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

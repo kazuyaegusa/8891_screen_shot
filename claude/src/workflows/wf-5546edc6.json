@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-5546edc6",
+  "name": "Claude アプリのナビゲーション操作",
+  "description": "Claude アプリ内で「機能」リンクをクリックした後、「使用量」リンクをクリックするナビゲーション操作シーケンス",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "機能",
+        "value": null,
+        "description": "機能",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2993,
+        "y": 433
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_012006.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2983,
+        "y": 391
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_012008.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "ナビゲーション",
+    "UI操作",
+    "Claude アプリ",
+    "リンククリック"
+  ],
+  "parameters": [
+    {
+      "name": "最初のリンク対象",
+      "description": "クリック対象の最初のリンク名（例：機能）",
+      "step_index": 1
+    },
+    {
+      "name": "次のリンク対象",
+      "description": "クリック対象の次のリンク名（例：使用量）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:52.759678",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

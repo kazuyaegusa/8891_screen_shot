@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-a61f68f0",
+  "name": "Click AXImage in Preview window",
+  "description": "Clicks the image element (AXImage) within a specified Preview window/document.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2348,
+        "y": 788
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_221620.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "ui-action",
+    "click",
+    "Preview",
+    "macOS",
+    "AXImage"
+  ],
+  "parameters": [
+    {
+      "name": "application_name",
+      "description": "Name of the target application window (e.g., 'Preview').",
+      "step_index": 1
+    },
+    {
+      "name": "document_title",
+      "description": "Title of the Preview window/document (e.g., 'phase6_progress_report.md — 8891_screen_shot').",
+      "step_index": 1
+    },
+    {
+      "name": "ui_role",
+      "description": "Accessibility role of the element to click (default: 'AXImage').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-17T22:17:20.283423",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

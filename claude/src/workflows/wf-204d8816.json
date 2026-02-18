@@ -1,0 +1,239 @@
+{
+  "workflow_id": "wf-204d8816",
+  "name": "Cursor における画像クリックとテキスト入力",
+  "description": "Cursorアプリケーションで、プレビューウィンドウ内の画像要素をクリックした後、テキストを入力する操作列。ファイル『personality_table.md』の編集コンテキスト内で実行される。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 961
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003915.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 961
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771256356.596597
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256356.6412659
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771256356.803326
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256356.877884
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256356.969252
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771256357.181063
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256357.224478
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256357.3277
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771256357.4774709
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256357.5223098
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771256357.643796
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771256357.747947
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771256357.9306638
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256357.97633
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771256358.320999
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771256358.377617
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771256358.560244
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256358.5903418
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771256358.768509
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771256358.904324
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771256358.964291
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256359.022947
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771256359.161459
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771256359.2039292
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771256359.355631
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771256359.3929222
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771256359.7303
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771256360.2738419
+          }
+        ],
+        "text": "jidoutoukou gatomatteinai \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_003921.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "cursor",
+    "ui-automation",
+    "text-input",
+    "image-click",
+    "markdown-editing"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "対象となるファイル名（例：personality_table.md）",
+      "step_index": 0
+    },
+    {
+      "name": "window_title",
+      "description": "操作対象のウィンドウタイトル（例：Preview personality_table.md — 781_discordbot_sennin）",
+      "step_index": 0
+    },
+    {
+      "name": "input_text",
+      "description": "クリック後に入力するテキスト内容（例：jidoutoukou gatomatteinai）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:53:27.081211",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

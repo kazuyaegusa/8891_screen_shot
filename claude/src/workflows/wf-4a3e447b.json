@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-4a3e447b",
+  "name": "Claude アプリの請求・使用量確認ワークフロー",
+  "description": "Claudeアプリで請求メニューをクリックした後に使用量を確認するナビゲーションワークフロー。ユーザーが課金情報と利用状況を確認するための基本的な操作手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "請求",
+        "value": null,
+        "description": "請求",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2941,
+        "y": 341
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011832.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2959,
+        "y": 379
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011833.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "UIナビゲーション",
+    "請求管理",
+    "使用量確認",
+    "AXLink"
+  ],
+  "parameters": [
+    {
+      "name": "第1ステップ_クリック対象",
+      "description": "最初にクリックするメニュー項目（例：請求）",
+      "step_index": 1
+    },
+    {
+      "name": "第2ステップ_クリック対象",
+      "description": "次にクリックするサブメニュー項目（例：使用量）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:49.132547",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

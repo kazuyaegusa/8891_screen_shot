@@ -35,6 +35,7 @@ pipeline.ai_client (AIClient), json, pathlib, datetime
 
 import json
 import logging
+import time
 import uuid
 from datetime import datetime
 from pathlib import Path
@@ -92,6 +93,10 @@ class WorkflowExtractor:
                     self._store.save(wf)
                     workflows.append(wf)
                     logger.info("  新規保存: %s (confidence: %.2f)", wf.name, wf.confidence)
+
+            # レート制限対策: セグメント間に待機（Anthropicは1秒で十分）
+            if i < len(segments) - 1:
+                time.sleep(1)
 
         logger.info("抽出完了: %d ワークフロー", len(workflows))
         return workflows

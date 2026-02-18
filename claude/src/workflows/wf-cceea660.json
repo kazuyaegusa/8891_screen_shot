@@ -1,0 +1,380 @@
+{
+  "workflow_id": "wf-cceea660",
+  "name": "Cursor エディタでのターミナル操作",
+  "description": "Cursorアプリケーションでエディタを操作した後、新しいターミナルを開いて、コマンドライン入力を行う操作列。具体的には、エディタのグループをクリック、閉じた後、メニューから「New Terminal」を選択し、ターミナルにコマンド入力（\"claude\"、\"/\"等）を実行する一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1577,
+        "y": 164
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005653.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1453,
+        "y": 193
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005655.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "Editor Group 1 (empty)",
+        "value": null,
+        "description": "Editor Group 1 (empty)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 959,
+        "y": 264
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005700.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Close",
+        "value": null,
+        "description": "Close",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1582,
+        "y": 196
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005702.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Terminal [⌃⇧^]",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 452,
+        "y": 45
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005707.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1197,
+        "y": 672
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "c",
+            "keycode": 8,
+            "timestamp": 1771257430.026768
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771257430.4633532
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771257430.702792
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771257430.943886
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771257431.046473
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771257431.301224
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771257431.857527
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771257432.3818471
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257433.04019
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257433.522673
+          }
+        ],
+        "text": "claude\u001f\u001f\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_005714.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 553
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771257437.062759
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771257437.420775
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257438.08192
+          }
+        ],
+        "text": "/\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_005719.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 553
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771257439.73415
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_005720.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 553
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257444.2042198
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_005725.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "UI操作",
+    "エディタ",
+    "ターミナル",
+    "メニュー選択",
+    "テキスト入力"
+  ],
+  "parameters": [
+    {
+      "name": "editor_group_name",
+      "description": "操作対象のエディタグループ名（例: 'Editor Group 1'）",
+      "step_index": 3
+    },
+    {
+      "name": "menu_item_name",
+      "description": "メニューから選択する項目（例: 'New Terminal'）",
+      "step_index": 5
+    },
+    {
+      "name": "terminal_commands",
+      "description": "ターミナルに入力するコマンド列（例: 'claude', '/'等の複数入力）",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:16.511060",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

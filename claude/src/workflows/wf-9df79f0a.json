@@ -1,0 +1,324 @@
+{
+  "workflow_id": "wf-9df79f0a",
+  "name": "Google Gemini へのプロンプト入力とクリップボード貼り付け",
+  "description": "Google Gemini アプリケーションでテキスト要素をクリックしてプロンプト入力フィールドをアクティブにし、クリップボードからテキストを貼り付ける操作シーケンス。複数回のテキスト入力と Cmd+v によるペースト操作を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "今の「縦長で間延びして読みづらい」状態を解消するには、ツールを変えるのが一番早いです。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3573,
+        "y": 336
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200320.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Gemini へのプロンプトを入力",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3065,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200324.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3065,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771239805.4606268
+          },
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771239805.5876968
+          }
+        ],
+        "text": "\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200326.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3065,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771239817.468423
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200338.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3065,
+        "y": 1047
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_200338.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXWebArea",
+        "title": "Claude",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4082,
+        "y": 503
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771239820.83632
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771239821.0851772
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771239821.236206
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771239821.3692002
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239821.624148
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771239822.464802
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239822.7350771
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239823.459143
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239823.9193401
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.0860212
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.2357361
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.384673
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.5353951
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.686964
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.837198
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771239824.984669
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771239825.1639621
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239825.523427
+          }
+        ],
+        "text": "\u001e\u001c\u001c\u001c\u001dya\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200346.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "プロンプト入力",
+    "クリップボード操作",
+    "テキスト入力",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_text",
+      "description": "クリックする最初のテキスト要素の内容（例：「今の『縦長で間延びして読みづらい』状態を解消するには、ツールを変えるのが一番早いです。」）",
+      "step_index": 1
+    },
+    {
+      "name": "prompt_input_placeholder",
+      "description": "プロンプト入力フィールドのプレイスホルダーテキスト（例：「Gemini へのプロンプトを入力」）",
+      "step_index": 2
+    },
+    {
+      "name": "clipboard_content",
+      "description": "Cmd+v で貼り付けるクリップボードの内容",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:50:58.074641",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

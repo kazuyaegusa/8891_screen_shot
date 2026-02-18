@@ -1,0 +1,270 @@
+{
+  "workflow_id": "wf-fc79ab06",
+  "name": "OpenClawで入力領域をフォーカスしクリップボード貼り付け後に任意テキストを追記して改行",
+  "description": "OpenClaw Controlウィンドウ内の入力領域をフォーカスし、クリップボード内容を貼り付け、任意のテキストを入力して最後に改行を送る手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2555,
+        "y": 1809
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163257.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2555,
+        "y": 1809
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_163301.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2555,
+        "y": 1809
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313578.395288
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313578.526654
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313578.6154041
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313578.705583
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313578.796268
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313578.9467268
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771313579.1733708
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313579.278927
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313579.3507168
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771313579.41176
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313579.4859788
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313579.545974
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313579.681397
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313579.803823
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313579.860775
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771313580.016835
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313580.0857222
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313580.2502131
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313580.384968
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313580.4157782
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313580.6253839
+          }
+        ],
+        "text": "nanka\nzenzen damessu\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_163301.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2686,
+        "y": 1555
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313583.341453
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_163304.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "OpenClaw",
+    "clipboard",
+    "text-input",
+    "paste"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "操作対象ウィンドウのタイトル。例: \"OpenClaw Control — OpenClaw\"",
+      "step_index": 1
+    },
+    {
+      "name": "message_text",
+      "description": "貼り付け後に入力する任意テキスト（複数行可）",
+      "step_index": 3
+    },
+    {
+      "name": "newline_count",
+      "description": "最後に送る改行の回数（既定は1）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T00:59:03.223799",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

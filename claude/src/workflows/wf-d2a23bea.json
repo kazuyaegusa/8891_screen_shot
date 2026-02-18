@@ -1,0 +1,843 @@
+{
+  "workflow_id": "wf-d2a23bea",
+  "name": "Google Geminiでのファイル関連設定質問",
+  "description": "Google Geminiで新規チャットを作成し、MBAファイルのデフォルトツール設定をAntigravityからCursorに変更する方法について質問する操作フロー",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "チャットを新規作成",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 542,
+        "y": 300
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191837.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 920,
+        "y": 558
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191838.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 693,
+        "y": 181
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191840.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 729,
+        "y": 112
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191842.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 742,
+        "y": 1008
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191844.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 742,
+        "y": 1008
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771237125.29648
+          },
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771237125.4065359
+          }
+        ],
+        "text": "\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191846.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 742,
+        "y": 1008
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771237133.9201112
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191854.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 742,
+        "y": 1008
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u0010",
+            "keycode": 99,
+            "timestamp": 1771237133.9201431
+          }
+        ],
+        "text": "\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191855.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 742,
+        "y": 1008
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_191855.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1009,
+        "y": 1043
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191858.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " MBAファイルを開くときのデフォルトなツールをアンチグラフィーじゃなくてカーソルにしたい。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 642,
+        "y": 973
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191900.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 810,
+        "y": 1046
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237141.5826051
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771237142.509387
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771237142.599334
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771237142.812497
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237143.572722
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237143.8924181
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.391465
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.47236
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.556767
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.642438
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.723605
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.807703
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.891399
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237144.986082
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.0632
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.146267
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.226691
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.310718
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.394685
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.4801111
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.5625842
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.6468391
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.7308538
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.814228
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.9007082
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237145.98211
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.0669482
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.149535
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.232832
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.319205
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.499653
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.666374
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237146.8267698
+          }
+        ],
+        "text": "\u001dmd\u0010\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191907.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 810,
+        "y": 1046
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771237148.772018
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771237149.56287
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771237149.8286269
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237149.9395661
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771237150.5807612
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771237150.785814
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237150.850967
+          },
+          {
+            "char": "v",
+            "keycode": 9,
+            "timestamp": 1771237151.061259
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237151.179519
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771237151.313588
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771237151.422431
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237151.676109
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237151.976714
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.10869
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.2777631
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.4262981
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.5900218
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.7827032
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237152.902974
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237153.053513
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771237153.221892
+          }
+        ],
+        "text": "Antigravity\n\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191914.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 637,
+        "y": 718
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771237154.341808
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771237154.6026292
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771237154.676961
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771237154.960759
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237155.03487
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771237155.153514
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237155.321274
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237155.926323
+          }
+        ],
+        "text": "Cursor\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_191917.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 716,
+        "y": 73
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191918.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 834,
+        "y": 415
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191923.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "チャット作成",
+    "ファイル管理",
+    "ツール設定",
+    "質問入力",
+    "ペースト操作"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル形式",
+      "description": "質問の対象となるファイル形式（例：MBA、md等）",
+      "step_index": 12
+    },
+    {
+      "name": "現在のデフォルトツール",
+      "description": "現在設定されているデフォルトツール名（例：Antigravity）",
+      "step_index": 13
+    },
+    {
+      "name": "目的のツール",
+      "description": "変更先のデフォルトツール名（例：Cursor）",
+      "step_index": 14
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:44:41.552819",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

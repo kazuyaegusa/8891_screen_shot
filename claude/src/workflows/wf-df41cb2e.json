@@ -1,0 +1,282 @@
+{
+  "workflow_id": "wf-df41cb2e",
+  "name": "Google AI Studio で利用規約に同意して API キーをコピー",
+  "description": "Google AI Studio の API keys ページで、利用目的（デベロッパー/プロ用途）を選択し、利用規約に同意して生成された API キーを特定してコピーし、ダイアログを閉じる手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " 私はデベロッパーとして、プロフェッショナルまたはビジネス向けに Google AI Studio と Gemini API を使用して開発を行うことを確認し、利用規約および上にリンクされているプライバシー ポリシーに同意します。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 556,
+        "y": 678
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162624.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " 私はデベロッパーとして、プロフェッショナルまたはビジネス向けに Google AI Studio と Gemini API を使用して開発を行うことを確認し、利用規約および上にリンクされているプライバシー ポリシーに同意します。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 505,
+        "y": 689
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162625.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " 私はデベロッパーとして、プロフェッショナルまたはビジネス向けに Google AI Studio と Gemini API を使用して開発を行うことを確認し、利用規約および上にリンクされているプライバシー ポリシーに同意します。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 456,
+        "y": 714
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162626.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 768,
+        "y": 834
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162627.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "利用規約に同意する",
+        "value": null,
+        "description": "利用規約に同意する",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 740,
+        "y": 824
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162628.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "...HmnM",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 147,
+        "y": 497
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162655.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "キーをコピー",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 720,
+        "y": 769
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162659.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 734,
+        "y": 434
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162701.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google AI Studio",
+    "API key",
+    "Chrome",
+    "オンボーディング",
+    "コピー"
+  ],
+  "parameters": [
+    {
+      "name": "usage_option_text",
+      "description": "利用目的として選択するオプションの表示テキスト（例: 「私はデベロッパーとして、プロフェッショナルまたはビジネス向けに Google AI Studio」）。",
+      "step_index": 1
+    },
+    {
+      "name": "agree_terms_button_label",
+      "description": "利用規約に同意するボタンのラベル（ローカライズ対応のため）。既定例: 「利用規約に同意する」。",
+      "step_index": 5
+    },
+    {
+      "name": "api_key_snippet_text",
+      "description": "生成された API キー行を識別するための一部表示（例: 「...HmnM」）。複数キーがある場合の特定に使用。",
+      "step_index": 6
+    },
+    {
+      "name": "copy_key_button_label",
+      "description": "キーをコピーするボタンのラベル。既定例: 「キーをコピー」。",
+      "step_index": 7
+    },
+    {
+      "name": "close_button_label",
+      "description": "ダイアログを閉じるボタンのラベル。既定例: 「閉じる」。",
+      "step_index": 8
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T00:53:46.592652",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

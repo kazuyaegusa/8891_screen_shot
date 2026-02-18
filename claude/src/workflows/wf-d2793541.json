@@ -1,0 +1,462 @@
+{
+  "workflow_id": "wf-d2793541",
+  "name": "Dockのサイズを変更（macOS システム設定）",
+  "description": "システム設定で「デスクトップとDock」を開き、Dockのサイズスライダを指定値に変更するワークフロー。検索欄にキーワード（例:「ドック」/「Dock」）を入力して該当ペインへ移動し、スライダを所望の比率に設定する。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 257,
+        "y": 333
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338671.623274
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338671.7428858
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771338672.060756
+          }
+        ],
+        "text": "\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_233113.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 384,
+        "y": 529
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233115.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "ドック",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 384,
+        "y": 529
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771338675.9289339
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771338676.046349
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771338676.2108119
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771338676.331101
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771338676.422872
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771338676.48352
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771338676.6314728
+          }
+        ],
+        "text": "dokku \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_233117.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 688,
+        "y": 632
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338678.1371782
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338678.2928908
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338678.430567
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771338678.6853619
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771338678.9861782
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_233120.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXSlider",
+        "title": "Dockのサイズ",
+        "value": "0.4285714328289032",
+        "description": "Dockのサイズ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 560,
+        "y": 576
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233120.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXSlider",
+        "title": "Dockのサイズ",
+        "value": "0.007634943181818182",
+        "description": "Dockのサイズ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 485,
+        "y": 567
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233121.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 491,
+        "y": 567
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233123.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXSlider",
+        "title": "Dockのサイズ",
+        "value": "0.1607142835855484",
+        "description": "Dockのサイズ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 549,
+        "y": 574
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233134.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 713,
+        "y": 566
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233135.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 906,
+        "y": 568
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233137.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXColumn",
+        "title": "AXColumn",
+        "value": null,
+        "description": null,
+        "identifier": "ListColumn"
+      },
+      "coordinates": {
+        "x": 391,
+        "y": 820
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233139.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.systempreferences",
+      "app_name": "システム設定",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 250,
+        "y": 480
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_233142.png"
+    }
+  ],
+  "app_name": "システム設定",
+  "tags": [
+    "macOS",
+    "System Settings",
+    "Desktop & Dock",
+    "Dock",
+    "設定変更",
+    "UI操作自動化"
+  ],
+  "parameters": [
+    {
+      "name": "search_query",
+      "description": "設定ペインを検索する語句（例: 「ドック」 または 「Dock」）。ステップ3のテキスト入力に対応。",
+      "step_index": 3
+    },
+    {
+      "name": "dock_size_ratio",
+      "description": "Dockのサイズスライダ値（0.0〜1.0 の比率）。最終的に適用する値としてステップ8の操作に対応。",
+      "step_index": 8
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:26:29.477139",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

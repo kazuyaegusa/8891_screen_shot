@@ -1,0 +1,253 @@
+{
+  "workflow_id": "wf-9d663dac",
+  "name": "Amazonビジネス サインインでメール/電話を入力・候補選択",
+  "description": "Amazonビジネスのサインイン画面で、メール/電話フィールドをフォーカスし、指定した識別子を入力し、ブラウザの候補から一致する項目を選択して確定する操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "携帯電話番号またはEメールアドレスを入力します",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 398
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_114719.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "携帯電話番号またはEメールアドレスを入力します",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 398
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771382841.4438632
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771382841.503062
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771382841.626063
+          }
+        ],
+        "text": "too",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_114722.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "携帯電話番号またはEメールアドレスを入力します",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 398
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771382843.115533
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771382843.1536
+          }
+        ],
+        "text": "to",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_114724.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "携帯電話番号またはEメールアドレスを入力します",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 398
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 102,
+            "timestamp": 1771382845.165466
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771382845.183896
+          }
+        ],
+        "text": "  ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_114726.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "tools@aixeed.co.jp",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 564,
+        "y": 441
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771382846.71695
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771382846.752543
+          }
+        ],
+        "text": "to",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_114727.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "tools@aixeed.co.jp",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 565,
+        "y": 444
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_114727.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "Amazon Business",
+    "サインイン",
+    "フォーム入力",
+    "Web"
+  ],
+  "parameters": [
+    {
+      "name": "login_identifier",
+      "description": "入力・選択するメールアドレスまたは電話番号（例: tools@aixeed.co.jp）。候補が表示される場合は一致する項目をクリックして確定。",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:49:15.676919",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-7f06e1bd",
+  "name": "Slack返信確認のキャンセル操作",
+  "description": "Slackチャンネルで「2件の返信」をクリックしてから、表示されたダイアログをキャンセルする操作。返信を確認することなく、ダイアログを閉じる手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "2 件の返信",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 454,
+        "y": 865
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111225.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "キャンセル",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 916,
+        "y": 531
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111232.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル操作",
+    "返信確認",
+    "ダイアログ操作",
+    "キャンセル"
+  ],
+  "parameters": [
+    {
+      "name": "返信数",
+      "description": "クリック対象の返信件数を指定（例：2件、3件等）",
+      "step_index": 1
+    },
+    {
+      "name": "チャンネル名",
+      "description": "対象となるSlackチャンネルの名前（例：fusion-ai-リストマーケ）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:56:11.183020",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

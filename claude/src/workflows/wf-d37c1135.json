@@ -1,0 +1,248 @@
+{
+  "workflow_id": "wf-d37c1135",
+  "name": "Codex レート制限確認ワークフロー",
+  "description": "Codexアプリでレート制限の残数を確認するワークフロー。ローカル設定から開始し、設定メニューを経由してレート制限情報を確認する手順。Automationフォルダへのアクセスを含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Local",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1297,
+        "y": 1056
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190444.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1320,
+        "y": 1062
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190446.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Rate limits remaining",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1333,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190447.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1638,
+        "y": 803
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190457.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Settings",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1087,
+        "y": 1060
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190505.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Rate limits remaining",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1126,
+        "y": 996
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190508.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "Automation folders",
+        "value": null,
+        "description": "Automation folders",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1146,
+        "y": 676
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190514.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "Codex",
+    "設定",
+    "レート制限",
+    "確認",
+    "API"
+  ],
+  "parameters": [
+    {
+      "name": "開始位置",
+      "description": "ワークフロー開始時のクリック対象 - 'Local' テキスト要素",
+      "step_index": 1
+    },
+    {
+      "name": "確認対象情報",
+      "description": "確認する情報の種類 - 'Rate limits remaining'（レート制限残数）",
+      "step_index": 3
+    },
+    {
+      "name": "設定メニュー",
+      "description": "アクセスする設定メニュー - 'Settings' ポップアップボタン",
+      "step_index": 5
+    },
+    {
+      "name": "終了位置",
+      "description": "ワークフロー終了時のアクセス対象 - 'Automation folders' グループ要素",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:43:09.384634",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,104 @@
+{
+  "workflow_id": "wf-01a5ac2d",
+  "name": "Click images in Cursor Markdown previews across two files",
+  "description": "In Cursor, click an image element in the Markdown Preview of one file, then click an image element in the Markdown Preview of another file. Useful for inspecting or comparing images embedded across files.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3746,
+        "y": 562
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211347.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2488,
+        "y": 589
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211348.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "Preview",
+    "image",
+    "click",
+    "navigation"
+  ],
+  "parameters": [
+    {
+      "name": "file_name_step_1",
+      "description": "Markdown file name (or path) whose Preview contains the image to click in step 1 (e.g., 20260219_定例MT_進行台本.md).",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_step_1",
+      "description": "Workspace/project name shown in the window title for step 1 (e.g., movico).",
+      "step_index": 1
+    },
+    {
+      "name": "file_name_step_2",
+      "description": "Markdown file name (or path) whose Preview contains the image to click in step 2 (e.g., tools.md).",
+      "step_index": 2
+    },
+    {
+      "name": "workspace_step_2",
+      "description": "Workspace/project name shown in the window title for step 2 (e.g., 8891_screen_shot).",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T02:57:40.904955",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

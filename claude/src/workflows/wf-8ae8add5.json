@@ -1,0 +1,251 @@
+{
+  "workflow_id": "wf-8ae8add5",
+  "name": "Amazonで商品を数量指定でカート投入後、カートページから検索",
+  "description": "Amazonの商品ページで数量を選択して「カートに入れる」をクリックし、ショッピングカート画面の検索ボックスにキーワードを入力して検索する一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 895,
+        "y": 424
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115728.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "AXMenuItem",
+        "value": "「2」は選択されていません",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 893,
+        "y": 451
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115729.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "カートに入れる",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 956,
+        "y": 519
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115731.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キーワードまたは商品番号を入力する",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 547,
+        "y": 172
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115735.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 486,
+        "y": 380
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771383456.866276
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771383456.897105
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771383457.0587368
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771383457.089587
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771383457.179248
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771383457.197461
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771383457.299152
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771383457.9162712
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771383458.056067
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771383458.2589881
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771383458.473624
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771383458.545258
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771383458.7418308
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771383458.890934
+          }
+        ],
+        "text": "monita-a-mu \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_115739.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "amazon",
+    "chrome",
+    "ecommerce",
+    "add-to-cart",
+    "search"
+  ],
+  "parameters": [
+    {
+      "name": "quantity",
+      "description": "商品ページの数量ドロップダウンで選択する数量（例: 1, 2, 3）",
+      "step_index": 2
+    },
+    {
+      "name": "search_query",
+      "description": "ショッピングカート画面の検索ボックスに入力するキーワード",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:58:37.317181",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

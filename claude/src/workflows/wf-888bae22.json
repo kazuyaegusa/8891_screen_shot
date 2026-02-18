@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-888bae22",
+  "name": "Ghostty ターミナル操作シーケンス",
+  "description": "Ghosttyターミナルアプリケーションでテキストエリアをクリックしてから、ボタンをクリックする2ステップの操作シーケンス。具体的には、ログイン情報が表示されているテキストエリアをクリックした後、ボタンをクリックする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                                                                                                      \nkazuyaegusa@Mac src % source ~/.zshrc                                                                                                                                                           \nkazuyaegusa@Mac src % kework                                                                                                                                                                    \nデーモン: 停止中                                                                                                                                                                                \nタスクなし                                                                                                                                                                                      \n                                                                                                                                                                                                \n登録スキル: 1 件                                                                                                                                                                                \n登録プロジェクト: 9 件                                                                                                                                                                          \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                                                                                                \ncd: no such file or directory: claude/src                                                                                                                                                       \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2813,
+        "y": 667
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191340.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2244,
+        "y": 132
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191346.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "terminal",
+    "GUI操作",
+    "Ghostty",
+    "click操作",
+    "シーケンス"
+  ],
+  "parameters": [
+    {
+      "name": "テキストエリア_対象",
+      "description": "クリックするテキストエリアの内容またはウィンドウ識別子（例：ログイン情報、コマンド実行結果など）",
+      "step_index": 1
+    },
+    {
+      "name": "ボタン_対象",
+      "description": "クリックするボタンの役割または機能（実行、送信、確認など）",
+      "step_index": 2
+    },
+    {
+      "name": "スクリプト_実行コマンド",
+      "description": "ウィンドウで実行されるPythonスクリプトのコマンド（python3 capture_loop.py --trigger eventなど）",
+      "step_index": 0
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:44:06.881748",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,123 @@
+{
+  "workflow_id": "wf-c747081b",
+  "name": "CursorでMarkdownプレビューから画像を開く",
+  "description": "Cursorのプレビューで指定したMarkdownファイルを表示し、埋め込み画像をクリックして表示されたUIから「Open」ボタンで画像を開く操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 499,
+        "y": 663
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_110111.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 476,
+        "y": 642
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_110113.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Open",
+        "value": null,
+        "description": null,
+        "identifier": "action-button--999"
+      },
+      "coordinates": {
+        "x": 613,
+        "y": 486
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_110114.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "プレビュー",
+    "画像を開く"
+  ],
+  "parameters": [
+    {
+      "name": "markdown_file",
+      "description": "プレビュー対象のMarkdownファイル名（例: phase6_progress_report.md）。",
+      "step_index": 1
+    },
+    {
+      "name": "image_label",
+      "description": "プレビュー内で開く対象画像の識別子/キャプション（例: 8891_screen_shot）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:06:21.159897",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

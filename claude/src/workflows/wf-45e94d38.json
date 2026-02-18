@@ -1,0 +1,473 @@
+{
+  "workflow_id": "wf-45e94d38",
+  "name": "Google Chrome でのテキスト入力操作",
+  "description": "OpenClaw Control ウィンドウのテキストエリアに対して、複数回のクリック後にテキスト入力を行う操作列。ユーザーがテキストエリアをアクティベートし、日本語テキストを段階的に入力する過程を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 413,
+        "y": 1029
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_155039.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 413,
+        "y": 1022
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_155040.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 413,
+        "y": 1022
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771311041.002025
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311041.060748
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771311041.202555
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311041.212437
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311041.4056818
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311041.449528
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771311041.573092
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311041.6457322
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311041.7653859
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771311041.88654
+          }
+        ],
+        "text": "jiriuteki ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_155042.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                          \nkazuyaegusa@Mac src % source ~/.zshrc                                                                               \nkazuyaegusa@Mac src % kework                                                                                        \nデーモン: 停止中                                                                                                    \nタスクなし                                                                                                          \n                                                                                                                    \n登録スキル: 1 件                                                                                                    \n登録プロジェクト: 9 件                                                                                              \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                    \ncd: no such file or directory: claude/src                                                                           \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                                       \n==================================================                                                                  \nCapture Loop - 常駐スクリーンショット                                                                               \n==================================================                                                                  \n  Session : 5697dd21-eb3d-4666-a4ea-4c851075128f                                                                    \n  Trigger : event                                                                                                   \n  Click debounce: 0.5s                                                                                              \n  Text flush    : 1.0s                           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1227,
+        "y": 526
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771311043.0540428
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311043.114064
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771311043.219648
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311043.253076
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311043.370336
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311043.429503
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311043.5213702
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771311043.594778
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311043.6435251
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311043.774345
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771311043.8350852
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771311044.031075
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771311044.060096
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771311044.317855
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311044.419328
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311044.554462
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311044.659393
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311044.749773
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311044.90031
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771311045.005174
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311045.097116
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311045.200568
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311045.274417
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311045.419619
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311045.4695501
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771311045.5631402
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311045.665969
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771311045.785389
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771311045.875079
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771311046.130199
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311046.281107
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311046.339474
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771311046.3719811
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771311046.446223
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311046.521056
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311046.660727
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771311046.7596018
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311047.705575
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771311047.736337
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771311047.811785
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771311047.899792
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311048.02018
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771311048.080996
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771311048.199681
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771311048.350235
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771311048.408937
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771311048.4284742
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771311048.57802
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771311048.6494458
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771311048.784564
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771311049.071254
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771311049.280442
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771311049.388587
+          }
+        ],
+        "text": "jirituteki nizuttougokukotoha koanou kanou desuka\n?\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_155050.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "テキスト入力",
+    "Google Chrome",
+    "OpenClaw",
+    "ユーザーインタラクション",
+    "キーボード操作"
+  ],
+  "parameters": [
+    {
+      "name": "テキスト内容1",
+      "description": "最初に入力するテキスト文字列",
+      "step_index": 3
+    },
+    {
+      "name": "テキスト内容2",
+      "description": "2回目に入力するテキスト文字列",
+      "step_index": 4
+    },
+    {
+      "name": "ターゲットウィンドウ",
+      "description": "操作対象のウィンドウ名（OpenClaw Control など）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:59:04.711214",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

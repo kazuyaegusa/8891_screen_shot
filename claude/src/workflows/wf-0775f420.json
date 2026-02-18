@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-0775f420",
+  "name": "Slackでチャンネルを切り替える",
+  "description": "Slackの指定ワークスペース内で、現在のチャンネルから別のチャンネルへ移動する手順を実行します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1279,
+        "y": 1371
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_022112.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1124,
+        "y": 877
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_022120.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "ナビゲーション",
+    "チャンネル",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "workspace_name",
+      "description": "Slackワークスペース名（例: Aixeed）",
+      "step_index": 1
+    },
+    {
+      "name": "current_channel_name",
+      "description": "現在開いているチャンネル名（例: fusion-ai）",
+      "step_index": 1
+    },
+    {
+      "name": "target_channel_name",
+      "description": "移動先のチャンネル名（例: fusion-ai-リストマーケ）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T05:12:13.426257",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

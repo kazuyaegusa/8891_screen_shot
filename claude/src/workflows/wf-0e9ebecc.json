@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-0e9ebecc",
+  "name": "Slack チャンネルへの返信",
+  "description": "Slack のチャンネルメッセージに対して返信を行うアクション。特定のチャンネル「Aixeed」内のメッセージに返信を入力するための操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 501,
+        "y": 379
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_001033.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル操作",
+    "メッセージ返信",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "チャンネル名",
+      "description": "返信を行うSlackチャンネルの名前（例：Aixeed）",
+      "step_index": 1
+    },
+    {
+      "name": "ターゲット要素",
+      "description": "クリック対象のUI要素（AXGroup）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:51:55.139089",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

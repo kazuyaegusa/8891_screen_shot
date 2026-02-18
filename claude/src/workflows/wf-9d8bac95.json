@@ -1,0 +1,982 @@
+{
+  "workflow_id": "wf-9d8bac95",
+  "name": "Google Gemini でのトラブルシューティング検索",
+  "description": "Google Gemini アプリケーションで Markdown PDF エクスポート機能に関するトラブルシューティング情報を検索するワークフロー。PDF エクスポート機能でのエラーについてクエリを入力し、ボタンが反応しない場合のトラブルシューティング手順ドキュメントを閲覧する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3314,
+        "y": 1020
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192729.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3306,
+        "y": 1032
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192730.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Markdown PDF: Export (pdf)",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3282,
+        "y": 529
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192732.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Markdown PDF: Export (pdf)",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3284,
+        "y": 526
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192733.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "コピー",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 3365,
+        "y": 583
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192734.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3225,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192735.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3225,
+        "y": 1047
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_192736.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3225,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237657.406647
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771237658.3462222
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237658.407108
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771237658.485842
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237658.540201
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237658.645399
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771237658.6914308
+          }
+        ],
+        "text": "\nkoreow",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_192739.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3225,
+        "y": 1047
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771237659.889643
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237659.982434
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237660.208502
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237660.4352992
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771237660.52058
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237660.600482
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771237660.7300658
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237660.761662
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771237660.97564
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237661.016313
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771237661.1372092
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771237661.316564
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237661.464971
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771237661.5856729
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237661.6298518
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771237661.735935
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771237661.810144
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771237662.6220732
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237662.772397
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237662.890201
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771237662.9963148
+          }
+        ],
+        "text": "wo\nositemo detekonai ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_192744.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3280,
+        "y": 552
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "P",
+            "keycode": 35,
+            "timestamp": 1771237665.099068
+          },
+          {
+            "char": "D",
+            "keycode": 2,
+            "timestamp": 1771237665.1696022
+          },
+          {
+            "char": "F",
+            "keycode": 3,
+            "timestamp": 1771237665.2601879
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237665.6075258
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771237665.724992
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237665.785532
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237665.859775
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771237666.14587
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237666.1751978
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771237666.266529
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771237666.3397372
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771237666.400769
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237666.460554
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237666.5053701
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771237666.596406
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771237666.6553988
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237666.749878
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771237666.8077178
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771237666.854816
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771237666.971221
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771237667.0316532
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771237667.120661
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237667.392299
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771237667.510497
+          }
+        ],
+        "text": "PDF\nga\nsakusei sarenai\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_192748.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3243,
+        "y": 505
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192817.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3229,
+        "y": 497
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192818.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3232,
+        "y": 497
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192819.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3233,
+        "y": 491
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192821.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3233,
+        "y": 491
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192822.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3235,
+        "y": 489
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192823.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3236,
+        "y": 489
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192824.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3206,
+        "y": 483
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192825.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「ボタンを押しても反応がない」または「エラーが出る」場合、この拡張機能が内部で使用している ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3202,
+        "y": 490
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192826.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "以下の3つの手順を順に試してみてください。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3154,
+        "y": 567
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192828.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "以下の3つの手順を順に試してみてください。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3152,
+        "y": 562
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192829.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Chromium（ブラウザのエンジン）のダウンロードに失敗している",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3177,
+        "y": 521
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192830.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Chromium（ブラウザのエンジン）のダウンロードに失敗している",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3180,
+        "y": 520
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192831.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "PDF エクスポート",
+    "トラブルシューティング",
+    "ドキュメント検索",
+    "エラー対応"
+  ],
+  "parameters": [
+    {
+      "name": "search_query_1",
+      "description": "最初のトラブルシューティングクエリ（例：koreow）",
+      "step_index": 8
+    },
+    {
+      "name": "search_query_2",
+      "description": "2番目のトラブルシューティングクエリ（例：wo ositemo detekonai）",
+      "step_index": 9
+    },
+    {
+      "name": "search_query_3",
+      "description": "3番目のトラブルシューティングクエリ（例：PDF ga sakusei sarenai）",
+      "step_index": 10
+    },
+    {
+      "name": "extension_feature_name",
+      "description": "拡張機能の名称（Markdown PDF: Export）",
+      "step_index": 3
+    },
+    {
+      "name": "troubleshooting_steps_count",
+      "description": "提示されるトラブルシューティング手順の数（例：3つ）",
+      "step_index": 20
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T11:46:26.311993",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

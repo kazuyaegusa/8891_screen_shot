@@ -1,0 +1,150 @@
+{
+  "workflow_id": "wf-a7b400f6",
+  "name": "AirDropで指定デバイスへ送信して完了する",
+  "description": "FinderのAirDropウィンドウで指定した受信相手をクリックして送信し、送信後に「完了」を押して閉じる。相手が「待機中…」表示の間は再クリックで再試行する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "senninのMac mini、待機中…",
+        "value": null,
+        "description": "senninのMac mini、待機中…",
+        "identifier": "dd.nodeBody"
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 1157
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120249.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "senninのMac mini、待機中…",
+        "value": null,
+        "description": "senninのMac mini、待機中…",
+        "identifier": "dd.nodeBody"
+      },
+      "coordinates": {
+        "x": 468,
+        "y": 1164
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120304.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "senninのMac mini",
+        "value": null,
+        "description": "senninのMac mini",
+        "identifier": "dd.nodeBody"
+      },
+      "coordinates": {
+        "x": 471,
+        "y": 1166
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120306.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "完了",
+        "value": null,
+        "description": "完了",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 673,
+        "y": 1294
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120315.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "macOS",
+    "Finder",
+    "AirDrop",
+    "ファイル共有"
+  ],
+  "parameters": [
+    {
+      "name": "recipient_device_name",
+      "description": "AirDropでクリックする受信相手デバイス名（状態表示「、待機中…」を除いた基本名）",
+      "step_index": 3
+    },
+    {
+      "name": "confirm_button_label",
+      "description": "送信完了後に押すボタンのラベル（既定: 「完了」）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:05:03.311342",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

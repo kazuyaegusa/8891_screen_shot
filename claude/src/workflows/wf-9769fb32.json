@@ -1,0 +1,149 @@
+{
+  "workflow_id": "wf-9769fb32",
+  "name": "Cursor で画像をクリックしてテキスト入力する操作",
+  "description": "Cursor エディタで AXImage 要素をクリックした後、テキスト入力（スラッシュコマンド）を実行する操作列。画像領域をクリックしてプロンプト入力を開始する可能性がある。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 971
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_015321.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 971
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771260802.611428
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771260802.927299
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771260803.198238
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260804.024244
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260804.1759858
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.536104
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.685129
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771260804.819888
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771260805.311954
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771260805.778913
+          }
+        ],
+        "text": "/\u0010\n\u001f\u001f\u001e\u001e\u001e\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_015326.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "editor",
+    "image-click",
+    "text-input",
+    "UI-interaction"
+  ],
+  "parameters": [
+    {
+      "name": "window",
+      "description": "操作対象のウィンドウ（ファイル名またはタブ名）",
+      "step_index": 1
+    },
+    {
+      "name": "target_element",
+      "description": "クリック対象の要素（AXImage等のUIロール）",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "テキスト入力として送信するコマンドまたはテキスト",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:55:57.354437",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

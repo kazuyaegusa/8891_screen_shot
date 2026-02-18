@@ -1,0 +1,148 @@
+{
+  "workflow_id": "wf-0cda17b0",
+  "name": "ワークスペース内のデータファイル特定と送付準備ワークフロー",
+  "description": "ワークスペース内から特定のテーマに関連するファイルを検索・特定し、その内容の妥当性をチェックして、外部への送付準備を行うプロセス。ユーザーの要件を確認後、pwd/lsコマンドで環境を把握し、キーワード検索で候補ファイルを絞り込み、複数の候補ファイルの内容を突き合わせて齟齬確認を行う。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXGroup",
+        "title": "先方にデータ取得可否の一覧を送ることになるので、送るべきファイルと送り方と送る時の文章を教えてください。調べてみた内容が問題ないかを必ずチェックしてください。 Copy message 依頼内容を確認しました。まずこのワークスペース内で「データ取得可否の一覧」に該当するファイルを特定し、内容の妥当性チェックをしたうえで、送付方法と送付文面まで具体化します。 Ran pwd bash $ pwd && ls -la Copy /Users/kazuyaegusa/KEWORK/movico total 248 drwxr-xr-x 27 kazuyaegusa staff 864 Feb 15 19:43 . drwxr-xr-x 28 kazuyaegusa staff 896 Feb 16 18:26 .. drwxr-xr-x 3 kazuyaegusa staff 96 Feb 15 19:39 .claude -rw-r--r-- 1 kazuyaegusa staff 350 Feb 15 19:25 .env -rw-r--r-- 1 kazuyaegusa staff 324 Feb 14 19:06 .env.example drwxr-xr-x 12 kazuyaegusa staff 384 Feb 16 18:41 .git -rw-r--r-- 1 kazuyaegusa staff 492 Feb 15 19:34 .gitignore drwxr-xr-x 7 kazuyaegusa staff 224 Feb 8 22:34 00_STUN様より受領 drwxr-xr-x 7 kazuyaegusa staff 224 Feb 8 22:34 01_MTmemo drwxr-xr-x 9 kazuyaegusa staff 288 Feb 8 22:34 7035_mvc -rw-r--r-- 1 kazuyaegusa staff 166 Feb 8 22:34 Gantt_2026-04_Calendar.csv -rw-r--r-- 1 kazuyaegusa staff 3970 Feb 9 11:46 Gantt_YouTube_MultiPlatform_2026Q1Q2.csv -rw-r--r-- 1 kazuyaegusa staff 9396 Feb 8 22:34 Gantt_YouTube_MultiPlatform_2026Q1Q2.xlsx -rw-r--r-- 1 kazuyaegusa staff 8810 Feb 8 22:34 Gantt_YouTube_MultiPlatform_2026Q1Q2_daily.csv -rw-r--r-- 1 kazuyaegusa staff 12362 Feb 15 19:43 README.md -rw-r--r-- 1 kazuyaegusa staff 7422 Feb 9 11:41 STUN様_ガントチャート_20260209現在.csv -rw-r--r-- 1 kazuyaegusa staff 8873 Feb 15 19:33 TODO_STATUS.md drwxr-xr-x 9 kazuyaegusa staff 288 Feb 14 19:38 ch_anal drwxr-xr-x 4 kazuyaegusa staff 128 Feb 15 19:28 credentials drwxr-xr-x 15 kazuyaegusa staff 480 Feb 15 19:34 docs -rw-r--r-- 1 kazuyaegusa staff 0 Feb 8 22:34 logged_in.png -rw-r--r-- 1 kazuyaegusa staff 16837 Feb 14 18:31 numeric_types_list.md drwxr-xr-x 6 kazuyaegusa staff 192 Feb 8 22:34 screenshots_demo drwxr-xr-x 11 kazuyaegusa staff 352 Feb 14 19:39 src -rw-r--r-- 1 kazuyaegusa staff 16820 Feb 15 19:27 test_video.mp4 -rw-r--r-- 1 kazuyaegusa staff 3841 Feb 8 22:34 video_upload_api_report.md drwxr-xr-x 10 kazuyaegusa staff 320 Feb 14 19:38 youtube_kwd Copy Success Explored 1 search, 1 list Listed files Searched for 取得可否|データ取得|可否|先方|送付|一覧 in . 候補はすでに絞れました。次に、送付候補の P-03 / P-03補足 / numeric_types_list の中身を実際に突き合わせて、齟齬や注意点がないか確認します。 Explored 1 file",
+        "value": null,
+        "description": "先方にデータ取得可否の一覧を送ることになるので、送るべきファイルと送り方と送る時の文章を教えてください。調べてみた内容が問題ないかを必ずチェックしてください。 Copy message 依頼内容を確認しました。まずこのワークスペース内で「データ取得可否の一覧」に該当するファイルを特定し、内容の妥当性チェックをしたうえで、送付方法と送付文面まで具体化します。 Ran pwd bash $ pwd && ls -la Copy /Users/kazuyaegusa/KEWORK/movico total 248 drwxr-xr-x 27 kazuyaegusa staff 864 Feb 15 19:43 . drwxr-xr-x 28 kazuyaegusa staff 896 Feb 16 18:26 .. drwxr-xr-x 3 kazuyaegusa staff 96 Feb 15 19:39 .claude -rw-r--r-- 1 kazuyaegusa staff 350 Feb 15 19:25 .env -rw-r--r-- 1 kazuyaegusa staff 324 Feb 14 19:06 .env.example drwxr-xr-x 12 kazuyaegusa staff 384 Feb 16 18:41 .git -rw-r--r-- 1 kazuyaegusa staff 492 Feb 15 19:34 .gitignore drwxr-xr-x 7 kazuyaegusa staff 224 Feb 8 22:34 00_STUN様より受領 drwxr-xr-x 7 kazuyaegusa staff 224 Feb 8 22:34 01_MTmemo drwxr-xr-x 9 kazuyaegusa staff 288 Feb 8 22:34 7035_mvc -rw-r--r-- 1 kazuyaegusa staff 166 Feb 8 22:34 Gantt_2026-04_Calendar.csv -rw-r--r-- 1 kazuyaegusa staff 3970 Feb 9 11:46 Gantt_YouTube_MultiPlatform_2026Q1Q2.csv -rw-r--r-- 1 kazuyaegusa staff 9396 Feb 8 22:34 Gantt_YouTube_MultiPlatform_2026Q1Q2.xlsx -rw-r--r-- 1 kazuyaegusa staff 8810 Feb 8 22:34 Gantt_YouTube_MultiPlatform_2026Q1Q2_daily.csv -rw-r--r-- 1 kazuyaegusa staff 12362 Feb 15 19:43 README.md -rw-r--r-- 1 kazuyaegusa staff 7422 Feb 9 11:41 STUN様_ガントチャート_20260209現在.csv -rw-r--r-- 1 kazuyaegusa staff 8873 Feb 15 19:33 TODO_STATUS.md drwxr-xr-x 9 kazuyaegusa staff 288 Feb 14 19:38 ch_anal drwxr-xr-x 4 kazuyaegusa staff 128 Feb 15 19:28 credentials drwxr-xr-x 15 kazuyaegusa staff 480 Feb 15 19:34 docs -rw-r--r-- 1 kazuyaegusa staff 0 Feb 8 22:34 logged_in.png -rw-r--r-- 1 kazuyaegusa staff 16837 Feb 14 18:31 numeric_types_list.md drwxr-xr-x 6 kazuyaegusa staff 192 Feb 8 22:34 screenshots_demo drwxr-xr-x 11 kazuyaegusa staff 352 Feb 14 19:39 src -rw-r--r-- 1 kazuyaegusa staff 16820 Feb 15 19:27 test_video.mp4 -rw-r--r-- 1 kazuyaegusa staff 3841 Feb 8 22:34 video_upload_api_report.md drwxr-xr-x 10 kazuyaegusa staff 320 Feb 14 19:38 youtube_kwd Copy Success Explored 1 search, 1 list Listed files Searched for 取得可否|データ取得|可否|先方|送付|一覧 in . 候補はすでに絞れました。次に、送付候補の P-03 / P-03補足 / numeric_types_list の中身を実際に突き合わせて、齟齬や注意点がないか確認します。 Explored 1 file",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1310,
+        "y": 1070
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190926.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Rate limits remaining",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1330,
+        "y": 1020
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190930.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "30指標（SNS実績）",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1706,
+        "y": 563
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190931.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "ファイル管理",
+    "データ検証",
+    "送付準備",
+    "ワークスペース操作",
+    "ドキュメント確認",
+    "チェックリスト"
+  ],
+  "parameters": [
+    {
+      "name": "検索キーワード",
+      "description": "ワークスペース内で検索対象となるキーワード（例：取得可否、データ取得、可否、先方、送付、一覧など複数キーワードの組み合わせ）",
+      "step_index": 1
+    },
+    {
+      "name": "ワークスペースパス",
+      "description": "検索・確認対象となるワークスペースのルートパス（例：/Users/kazuyaegusa/KEWORK/movico）",
+      "step_index": 1
+    },
+    {
+      "name": "候補ファイル一覧",
+      "description": "検索結果から特定された送付候補ファイル名の複数リスト（例：P-03、P-03補足、numeric_types_list）",
+      "step_index": 2
+    },
+    {
+      "name": "妥当性チェック項目",
+      "description": "候補ファイルの内容を突き合わせる際の確認項目（例：齟齬チェック、注意点の確認、最新版の確認）",
+      "step_index": 3
+    },
+    {
+      "name": "送付対象ファイル",
+      "description": "妥当性チェック完了後に送付することが決定されたファイル名",
+      "step_index": 4
+    },
+    {
+      "name": "送付方法",
+      "description": "ファイルを送付する手段（例：メール、クラウドストレージ共有、API連携）",
+      "step_index": 5
+    },
+    {
+      "name": "送付文面テンプレート",
+      "description": "ファイル送付時に使用するメール本文やメッセージのテンプレート",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:43:41.718036",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

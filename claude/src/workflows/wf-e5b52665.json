@@ -1,0 +1,122 @@
+{
+  "workflow_id": "wf-e5b52665",
+  "name": "X（Twitter）で未読項目を開き、特定ユーザーの新規ポスト通知を表示",
+  "description": "Google Chrome上のX（Twitter）で、未読項目バナーをクリックして通知を開き、指定したユーザーの「新しいポスト」通知をクリックして表示する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "1件の未読項目",
+        "value": null,
+        "description": "1件の未読項目",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 183,
+        "y": 312
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164241.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "1件の未読項目",
+        "value": null,
+        "description": "1件の未読項目",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 180,
+        "y": 318
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164242.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "さんの新しいポスト通知",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 291
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164244.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "X",
+    "Twitter",
+    "通知",
+    "Web操作"
+  ],
+  "parameters": [
+    {
+      "name": "unread_items_label",
+      "description": "未読バナーに表示される文言（例：「1件の未読項目」）。未指定の場合は未読項目バナーをそのままクリック。",
+      "step_index": 1
+    },
+    {
+      "name": "target_user",
+      "description": "通知で開きたいユーザーの表示名またはハンドル（「○○さんの新しいポスト通知」を特定するため）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T01:06:43.635427",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

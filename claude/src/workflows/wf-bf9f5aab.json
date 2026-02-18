@@ -1,0 +1,160 @@
+{
+  "workflow_id": "wf-bf9f5aab",
+  "name": "Amazonで検索結果から商品をカートに入れ、カートへ移動してAmazon Businessを開く",
+  "description": "Amazon.co.jpの検索結果ページから対象商品を開き、カートに入れてカートへ移動し、カートページで「Amazon Business」リンクを開く一連の操作。前提: Amazonの検索結果ページが開かれている。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 890,
+        "y": 589
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115932.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "カートに入れる",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 891,
+        "y": 839
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115953.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "カートに移動",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 881,
+        "y": 380
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_115958.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Amazon Business",
+        "value": null,
+        "description": "Amazon Business",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 114,
+        "y": 168
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120010.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Amazon",
+    "Chrome",
+    "Eコマース",
+    "カート操作"
+  ],
+  "parameters": [
+    {
+      "name": "search_query",
+      "description": "Amazonでの検索キーワード（例: モニターアーム デュアル）",
+      "step_index": 1
+    },
+    {
+      "name": "product_selector",
+      "description": "検索結果でクリックする商品の特定方法（商品名の一部、または検索結果のインデックス 1始まり）",
+      "step_index": 1
+    },
+    {
+      "name": "marketplace_domain",
+      "description": "Amazonのドメイン（例: https://www.amazon.co.jp）",
+      "step_index": 1
+    },
+    {
+      "name": "business_link_text",
+      "description": "カートページで開くリンクの文言（既定: Amazon Business）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:01:03.917972",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

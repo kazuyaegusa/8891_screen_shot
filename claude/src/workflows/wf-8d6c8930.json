@@ -1,0 +1,143 @@
+{
+  "workflow_id": "wf-8d6c8930",
+  "name": "LINEでメッセージを入力",
+  "description": "LINEの現在開いているチャットの入力欄をフォーカスし、指定したテキストを入力します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4505,
+        "y": 735
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002655.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4444,
+        "y": 729
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771255617.07506
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771255618.036574
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771255618.1273222
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771255618.244989
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771255618.30588
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771255618.366941
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771255618.440117
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771255618.5761468
+          },
+          {
+            "char": "!",
+            "keycode": 18,
+            "timestamp": 1771255618.964833
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771255619.266428
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771255619.4335349
+          }
+        ],
+        "text": "kmimasu !\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_002700.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "チャット",
+    "メッセージ入力",
+    "自動化"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "入力するメッセージ本文",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T23:47:10.252487",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

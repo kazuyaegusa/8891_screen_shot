@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-1d4cc2a0",
+  "name": "GmailでCI通知メールを開き『View workflow run』を押下",
+  "description": "Gmailの受信トレイで対象の通知メールを開き、本文中の『View workflow run』リンクをクリックしてワークフロー実行ページに移動する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 467,
+        "y": 212
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163312.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXLink",
+        "title": "View workflow run",
+        "value": null,
+        "description": "View workflow run",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1058,
+        "y": 537
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163321.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "GitHub Actions",
+    "メール",
+    "リンク"
+  ],
+  "parameters": [
+    {
+      "name": "email_subject_pattern",
+      "description": "受信トレイで開くメールの件名（完全一致または一部一致のパターン）。例: \"[owner/repo] Run cancelled: CI - main\"",
+      "step_index": 1
+    },
+    {
+      "name": "link_text",
+      "description": "メール本文内でクリックするリンクテキスト。既定は \"View workflow run\"",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T00:59:26.037002",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

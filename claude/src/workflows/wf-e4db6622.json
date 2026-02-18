@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-e4db6622",
+  "name": "Slack チャンネル返信操作",
+  "description": "Slackアプリでチャンネル返信機能を開く操作。DockItemをクリックしてチャンネル返信ウィンドウを起動し、その後ボタンをクリックする2段階のプロセス。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXDockItem",
+        "title": "Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 21,
+        "y": 572
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181538.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 98,
+        "y": 50
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181548.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル返信",
+    "UIオートメーション",
+    "マルチステップ"
+  ],
+  "parameters": [
+    {
+      "name": "チャンネル名",
+      "description": "返信を投稿するSlackチャンネルの名前（例：fusion-ai-line）",
+      "step_index": 1
+    },
+    {
+      "name": "アクション対象",
+      "description": "クリック対象のUIエレメント（AXButton役割を持つボタン）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:37:47.703798",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

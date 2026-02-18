@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-ea0f7b1a",
+  "name": "Activate Chrome tab by title",
+  "description": "Focus an existing Google Chrome tab by clicking the tab whose title matches the specified text.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "Cost | Claude Developer Platform",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1184,
+        "y": -27
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_121941.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "tab",
+    "window-management",
+    "click"
+  ],
+  "parameters": [
+    {
+      "name": "tab_title",
+      "description": "Title of the Chrome tab/window to activate (e.g., \"Cost | Claude Developer Platform\").",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.67,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:20:19.305786",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

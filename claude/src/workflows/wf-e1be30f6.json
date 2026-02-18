@@ -1,0 +1,259 @@
+{
+  "workflow_id": "wf-e1be30f6",
+  "name": "Cursor アプリでのテキスト入力とクリック操作",
+  "description": "Cursor アプリケーションで、README.md ウィンドウのAXImage要素にテキストを入力し、その後 sakamoto_mng のAXImage要素をクリックする操作列。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 717,
+        "y": 811
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771257927.953404
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771257928.1301398
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771257928.626079
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771257928.808296
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771257928.924151
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771257929.182011
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771257929.315207
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771257929.4644532
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771257929.690006
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771257929.8392022
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771257930.064704
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771257930.141141
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771257930.442965
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771257930.5161731
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771257930.816194
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771257930.920007
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771257931.115026
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771257931.1886709
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771257931.279191
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771257931.5673
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771257931.6388302
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771257931.867952
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771257932.014771
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771257932.240293
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771257932.254865
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771257932.405941
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771257932.675359
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771257932.9361851
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771257933.848217
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257934.298652
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771257934.625958
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771257935.376021
+          }
+        ],
+        "text": "settoappu wosubete yattehosii\n\n\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_010536.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2593,
+        "y": 841
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_010549.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "テキスト入力",
+    "クリック操作",
+    "GDrive",
+    "コード管理"
+  ],
+  "parameters": [
+    {
+      "name": "window_name",
+      "description": "テキスト入力対象のウィンドウ名（例：README.md）",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "入力するテキスト内容（例：settoappu wosubete yattehosii）",
+      "step_index": 1
+    },
+    {
+      "name": "target_element",
+      "description": "クリック対象の要素またはウィンドウ名（例：sakamoto_mng）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:28.945121",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

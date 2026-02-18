@@ -1,0 +1,103 @@
+{
+  "workflow_id": "wf-17d87126",
+  "name": "Cursor での画像クリック操作",
+  "description": "Preview ウィンドウ内の numeric_types_list.md ファイルにある AXImage 要素をクリックする操作。同じ画像に対して複数回クリック（約9秒間隔）が実行されている。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1374,
+        "y": 743
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185848.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1385,
+        "y": 939
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185858.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "click",
+    "image",
+    "preview",
+    "file-operations"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "Preview ウィンドウで開くファイル名",
+      "step_index": 0
+    },
+    {
+      "name": "target_element_type",
+      "description": "クリック対象の要素タイプ（AXImage）",
+      "step_index": 1
+    },
+    {
+      "name": "click_count",
+      "description": "実行するクリック回数",
+      "step_index": 1
+    },
+    {
+      "name": "interval_seconds",
+      "description": "クリック間の時間間隔（秒）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:42:23.353031",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

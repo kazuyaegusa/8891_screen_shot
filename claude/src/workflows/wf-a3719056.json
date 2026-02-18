@@ -1,0 +1,103 @@
+{
+  "workflow_id": "wf-a3719056",
+  "name": "Discord AI トピックダイジェスト確認と新規ウィンドウオープン",
+  "description": "Discordアプリで日々のAIトピックダイジェストを確認し、その後新規ウィンドウで別の管理ページを開く操作シーケンス",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "daily_digests アプリ , 📊 AI トピックダイジェスト +14 件の新着メッセージを処理（全 13,877 件） 🏆 言及ランキング Top10 🥇 Gemini — 686回 📈 NEW 🥈 Cursor — 437回 📈 NEW 🥉 ChatGPT — 430回 📈 NEW 4. Claude — 369回 📈 NEW 5. Antigravity — 360回 📈 NEW 6. 自動化 — 359回 📈 NEW 7. コンテキスト — 272回 📈 NEW 8. プロンプト — 250回 📈 NEW ",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4273,
+        "y": 968
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003202.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 224,
+        "y": 570
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003210.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "ダイジェスト確認",
+    "ウィンドウ管理",
+    "AI関連情報",
+    "チャネル操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_channel",
+      "description": "クリック対象チャネル名（例：daily_digests）",
+      "step_index": 1
+    },
+    {
+      "name": "digest_type",
+      "description": "ダイジェストの種類（例：AI トピックダイジェスト）",
+      "step_index": 1
+    },
+    {
+      "name": "new_window_url",
+      "description": "新規ウィンドウで開くURL（例：kotassnearby/Aixeed-PJ-Manage-r1）",
+      "step_index": 2
+    },
+    {
+      "name": "app_name",
+      "description": "対象アプリケーション名（例：Discord）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:52:47.464336",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,297 @@
+{
+  "workflow_id": "wf-76aee9c3",
+  "name": "Finderからファイル情報をコピーしてアプリケーションに入力",
+  "description": "Finderでファイルやフォルダを選択してコピーし、別のアプリケーション（KEWORK）の入力フィールドにペーストする操作フロー",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 911,
+        "y": 431
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193735.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 879,
+        "y": 283
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193736.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 879,
+        "y": 283
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_193737.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 642,
+        "y": 357
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193740.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 836,
+        "y": 345
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193741.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "aixeed-corporate-training",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 836,
+        "y": 345
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.080068
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.213794
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.363324
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.513376
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.6642208
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.813351
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238262.949764
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238263.098512
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238263.233234
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_193744.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "aixeed-corporate-training",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 836,
+        "y": 345
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_193744.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "ファイル管理",
+    "コピーペースト",
+    "UI操作",
+    "クロスアプリ連携"
+  ],
+  "parameters": [
+    {
+      "name": "source_app",
+      "description": "コピー元のアプリケーション",
+      "step_index": 1
+    },
+    {
+      "name": "target_app",
+      "description": "ペースト先のアプリケーション",
+      "step_index": 5
+    },
+    {
+      "name": "target_field_value",
+      "description": "ペースト先の入力フィールドの初期値",
+      "step_index": 6
+    },
+    {
+      "name": "item_to_copy",
+      "description": "Finder内で選択・コピーする対象アイテム",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:47:54.173812",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

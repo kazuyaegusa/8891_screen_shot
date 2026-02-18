@@ -1,0 +1,114 @@
+{
+  "workflow_id": "wf-844171f2",
+  "name": "Cursor: エディタで指定テキストを入力する",
+  "description": "Cursorで対象ファイルのエディタ領域をクリックしてフォーカスを当て、指定したテキストを入力する最小手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1343,
+        "y": 1697
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_234115.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1347,
+        "y": 1703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771339275.9831738
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771339276.208141
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771339276.42413
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771339276.7001758
+          }
+        ],
+        "text": "aaaa",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_234117.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "editor",
+    "click",
+    "text-input",
+    "typing"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "操作対象となるファイルウィンドウのタイトル（例: \"BOT_USAGE.md — gdrive-code-archive — 5 problems in this file\"）。このウィンドウにフォーカスを当てるために使用。",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "エディタに入力するテキスト（例: \"aaaa\"）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:34:08.960636",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

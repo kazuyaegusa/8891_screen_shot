@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-5ef6f9e8",
+  "name": "Cursor AXImage クリック操作",
+  "description": "Cursor アプリケーションの AXImage ロール要素に対するクリック操作。sakamoto_mng ウィンドウ内の画像要素をクリックするシンプルな操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2477,
+        "y": 705
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_014259.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "cursor",
+    "click",
+    "image",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "window_name",
+      "description": "対象となるウィンドウ名（デフォルト: sakamoto_mng）",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象の要素ロール（デフォルト: AXImage）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:55:31.017698",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

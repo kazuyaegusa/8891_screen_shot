@@ -1,0 +1,86 @@
+{
+  "workflow_id": "wf-06d1ad0e",
+  "name": "Slackで指定チャンネルを開く",
+  "description": "SlackでHomeタブに切り替え、指定したチャンネルを開く手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ホーム",
+        "value": null,
+        "description": "ホーム",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1132,
+        "y": 1011
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_232643.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1753,
+        "y": 1006
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_232654.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "navigation",
+    "channel"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "開くSlackチャンネル名（例: fusion-ai-リストマーケ）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:17:15.315995",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,81 @@
+{
+  "workflow_id": "wf-8bc14967",
+  "name": "GhosttyでショートカットによりPythonスクリプトを実行",
+  "description": "Ghostty（ターミナル）内で、特定ウィンドウを対象に設定済みショートカットを用いて python3 スクリプトを指定引数付きで実行する手順。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "python3 capture_loop.py --trigger event --auto-learn",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 141,
+        "y": 800
+      },
+      "key": {
+        "keycode": 125,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_232932.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "Ghostty",
+    "Terminal",
+    "Python",
+    "Shortcut",
+    "Automation"
+  ],
+  "parameters": [
+    {
+      "name": "interpreter",
+      "description": "使用するインタプリタ（例: python3）",
+      "step_index": 1
+    },
+    {
+      "name": "script",
+      "description": "実行するスクリプトのファイル名またはパス（例: capture_loop.py）",
+      "step_index": 1
+    },
+    {
+      "name": "args",
+      "description": "スクリプトに渡す引数（例: --trigger event --auto-learn）",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "対象となるウィンドウ/タブの識別（タイトル等）。例: \"python3 capture_loop.py --trigger event --auto-learn\"",
+      "step_index": 1
+    },
+    {
+      "name": "shortcut",
+      "description": "実行に用いるキーボードショートカット（例: Cmd+...）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:23:22.629576",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-6fa9a4ab",
+  "name": "Google カレンダーで新しいウィンドウを開く",
+  "description": "Google カレンダーアプリケーションで「New Window」メニューアイテムをクリックして、新しいウィンドウを開く操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 250,
+        "y": 603
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005513.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Google カレンダー",
+    "ウィンドウ管理",
+    "UI操作",
+    "新規作成"
+  ],
+  "parameters": [
+    {
+      "name": "date",
+      "description": "カレンダーで表示される週の基準日付（例：2026年2月16日の週）",
+      "step_index": 1
+    },
+    {
+      "name": "menu_item",
+      "description": "クリック対象のメニューアイテム名（\"New Window\"）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:54:03.151778",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,255 @@
+{
+  "workflow_id": "wf-3762801e",
+  "name": "Google カレンダー - Files Explorer操作",
+  "description": "Files Explorerで検索テキスト '1pass' を入力し、その後クリアする操作。Cmd+ ショートカットでコマンド入力インターフェースを開いて、テキスト入力と削除を実行する一連の操作。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2001,
+        "y": 390
+      },
+      "key": {
+        "keycode": 49,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_153216.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2001,
+        "y": 390
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "1",
+            "keycode": 18,
+            "timestamp": 1771309937.4657521
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771309937.825533
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771309937.842477
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771309938.004504
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771309938.124567
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771309938.828753
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771309939.069682
+          }
+        ],
+        "text": "1pass\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_153220.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXOutline",
+        "title": "Files Explorer",
+        "value": null,
+        "description": "Files Explorer",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2001,
+        "y": 390
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309941.799211
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309941.954751
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.098248
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.2537222
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.383061
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.534084
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.6881359
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.840538
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309942.968658
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.120606
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.255442
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.403359
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.539018
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.688173
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.8417192
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309943.988626
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309944.139519
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309944.2796721
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771309944.439661
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_153225.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "ファイル検索",
+    "テキスト入力",
+    "Files Explorer",
+    "クリア操作"
+  ],
+  "parameters": [
+    {
+      "name": "search_text",
+      "description": "検索またはフィルタリング対象のテキスト",
+      "step_index": 2
+    },
+    {
+      "name": "target_element",
+      "description": "操作対象のUI要素（AXOutlineロール）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:58:16.486617",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

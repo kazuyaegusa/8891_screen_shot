@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-2c53efc3",
+  "name": "Claudeアプリでのファイルクローズ操作",
+  "description": "Claudeアプリにおいて、ボタンをクリックした後、プレビューウィンドウ内の特定のファイルを閉じる操作シーケンス。ボタン操作とその後のファイルクローズ操作の2ステップで構成されている。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3889,
+        "y": 873
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181437.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": "xmark"
+      },
+      "coordinates": {
+        "x": 1561,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181447.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "UI操作",
+    "ファイル管理",
+    "ウィンドウ制御",
+    "プレビュー"
+  ],
+  "parameters": [
+    {
+      "name": "button_target",
+      "description": "クリック対象のボタン要素（例：AXButton）",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "プレビューウィンドウで開かれているファイル名（例：phase1_completion_report.md）",
+      "step_index": 2
+    },
+    {
+      "name": "close_button_label",
+      "description": "ウィンドウを閉じるためのボタンラベル（例：閉じる）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:37:38.508438",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

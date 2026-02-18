@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-da5bd07a",
+  "name": "通知の許可ボタンをクリック",
+  "description": "UserNotificationCenterの通知/ダイアログで指定したボタン（既定: 許可）をクリックして承認する。送信元やウィンドウタイトルで対象通知を絞り込める。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.UserNotificationCenter",
+      "app_name": "UserNotificationCenter",
+      "target": {
+        "role": "AXButton",
+        "title": "許可",
+        "value": null,
+        "description": null,
+        "identifier": "action-button-1"
+      },
+      "coordinates": {
+        "x": 654,
+        "y": 671
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_235000.png"
+    }
+  ],
+  "app_name": "UserNotificationCenter",
+  "tags": [
+    "UserNotificationCenter",
+    "notification",
+    "permission",
+    "AXButton",
+    "automation"
+  ],
+  "parameters": [
+    {
+      "name": "button_label",
+      "description": "クリックするボタンのラベル（例: 許可）。",
+      "step_index": 1
+    },
+    {
+      "name": "window_title_or_pattern",
+      "description": "対象の通知/ウィンドウのタイトル、または一致パターン（例: \"AIX-106 google path変更\" などの部分一致）。",
+      "step_index": 1
+    },
+    {
+      "name": "sender_or_app",
+      "description": "通知の送信元アプリ名または識別子（例: google）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:37:22.367980",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-c079b98c",
+  "name": "Markdownファイルをモーダルメニュからのエクスポート",
+  "description": "Cursorアプリケーションで、Markdownファイル（numeric_types_list.md）に対してメニューを開き、PDFエクスポート機能を実行するワークフロー",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenu",
+        "title": "AXMenu",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 641,
+        "y": 529
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194425.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Markdown PDF: Export (pdf)",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 838,
+        "y": 875
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194427.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "PDF Export",
+    "Markdown",
+    "File Operation"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "エクスポート対象のMarkdownファイル名",
+      "step_index": 1
+    },
+    {
+      "name": "export_format",
+      "description": "エクスポート形式（PDF）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:49:51.375666",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,394 @@
+{
+  "workflow_id": "wf-189ca342",
+  "name": "Cursor 検索テキスト入力操作",
+  "description": "Cursorアプリケーションで画像要素をクリックした後、複数のテキスト入力操作を実行する操作列。「Gemini API」と日本語テキスト（「1\\nde\\nsyutoku simasita.\\ndokoni」）の入力を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2504,
+        "y": 1809
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162704.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2504,
+        "y": 1809
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "G",
+            "keycode": 5,
+            "timestamp": 1771313225.686954
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313225.8347032
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771313225.9245
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313226.0145102
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313226.135466
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313226.1971278
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313226.393337
+          },
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771313226.8559601
+          },
+          {
+            "char": "P",
+            "keycode": 35,
+            "timestamp": 1771313227.111464
+          },
+          {
+            "char": "I",
+            "keycode": 34,
+            "timestamp": 1771313227.308494
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313227.651558
+          }
+        ],
+        "text": "Gemini API\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_162708.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1920,
+        "y": 1221
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "1",
+            "keycode": 18,
+            "timestamp": 1771313229.5864189
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313229.8787048
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313229.959763
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313230.126123
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313230.1997418
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313230.397469
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771313230.469894
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313230.6052601
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771313230.694779
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771313230.7698948
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313230.9205341
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313230.9649339
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313231.0099149
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313231.102207
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313231.181844
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771313231.310304
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313231.3290508
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313231.369786
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313231.459244
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771313231.489271
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313231.520635
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771313231.688135
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313231.776154
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313232.152013
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771313232.271009
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313232.3760052
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771313232.419703
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313232.540826
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313232.556085
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313232.783329
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313232.9775271
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313233.054852
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313233.125248
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313233.216267
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771313233.350204
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313233.410145
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313233.5325499
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313233.6357918
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313233.725961
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313233.876139
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771313234.117003
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313234.325311
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313234.44572
+          }
+        ],
+        "text": "1\nde\nsyutoku simasita.\ndokoni\nkakebaii \n?\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_162715.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "テキスト入力",
+    "UI操作",
+    "検索",
+    "API"
+  ],
+  "parameters": [
+    {
+      "name": "検索キーワード1",
+      "description": "最初のテキスト入力フィールドに入力するテキスト（例：Gemini API）",
+      "step_index": 2
+    },
+    {
+      "name": "検索キーワード2",
+      "description": "2番目のテキスト入力フィールドに入力するテキスト（例：1\\nde\\nsyutoku simasita.\\ndokoni）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:00:11.344222",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

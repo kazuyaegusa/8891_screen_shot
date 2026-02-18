@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-5c3e7d77",
+  "name": "Discordで指定URLを開く",
+  "description": "Discordの指定ウィンドウ（サーバー/チャンネル）で、指定したURLテキストをクリックしてリンクを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://www.amazon.co.jp/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp%2Fbusiness%2Fregister%2Fcheck%2Fstatus%3Fref_%3DJP_AB_PSA_G_BRP__302379924678_x124717173550%26ef_id%3DCj0KCQiAnJHMBhDAARIsABr7b877F0HvHlpCVKUrQSs22mKmjc4bBnTwM2lyECBf0puu13h1OdqIwU4aAiHeEALw_wcB%3AG%3As%26ref_%3Dab_welcome_bw_ckab_dsk%26ef_id%3DCj0KCQiAnJHMBhDAARIsABr7b877F0HvHlpCVKUrQSs22mKmjc4bBnTwM2lyECBf0puu13h1OdqIwU4aAiHeEALw_wcB%3AG%3As%26originalRef%3DJP_AB_PSA_G_BRP__302379924678_x124717173550&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_ab_reg_web_jp&openid.mode=checkid_setup&marketPlaceId=A1VC38T7YXB528&language=ja_JP&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=ab_welcome_login_jp&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&ref_=ab_welcome_bw_ap-sn_dsk&openid.pape.preferred_auth_policies=Singlefactor&disableLoginPrepopulate=1&switch_account=signin",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 634,
+        "y": 1488
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_114650.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "リンクを開く",
+    "URL",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "リンクが存在するDiscordのウィンドウ/チャンネルのタイトル（例: 「〇〇 | 〇〇 - Discord」）",
+      "step_index": 1
+    },
+    {
+      "name": "url",
+      "description": "クリックするリンクのURL文字列（メッセージ内に表示されているテキストと一致するもの）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:48:12.034695",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

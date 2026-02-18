@@ -1,0 +1,65 @@
+{
+  "workflow_id": "wf-4d64a8c5",
+  "name": "Activate app from macOS Dock",
+  "description": "Clicks the Dock item for a specified application to bring it to the foreground. The captured example targets 'Google Chrome' and focuses a window titled 'Aixeed › All issues'.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXDockItem",
+        "title": "Google Chrome",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 30,
+        "y": 487
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_003944.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "macOS",
+    "Dock",
+    "app-switching",
+    "focus",
+    "Cursor",
+    "Google Chrome"
+  ],
+  "parameters": [
+    {
+      "name": "app_name",
+      "description": "Name of the Dock item (application) to activate (e.g., 'Google Chrome').",
+      "step_index": 1
+    },
+    {
+      "name": "expected_window_title",
+      "description": "Optional: expected window title to validate after activation (e.g., 'Aixeed › All issues').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:46:26.886058",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,94 @@
+{
+  "workflow_id": "wf-c9371d9f",
+  "name": "Codexアップデートのインストール",
+  "description": "Codexアプリケーションでアップデートをインストールするワークフロー。ウィンドウをクリックしてアクティベートした後、アップデートインストールボタンをクリックする2ステップの手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": "SUUpdateAlert"
+      },
+      "coordinates": {
+        "x": 4637,
+        "y": 439
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183732.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "アップデートをインストール",
+        "value": null,
+        "description": null,
+        "identifier": "SPUUserUpdateChoiceInstall"
+      },
+      "coordinates": {
+        "x": 4638,
+        "y": 422
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183733.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "Codex",
+    "更新",
+    "UI操作",
+    "アプリケーション管理",
+    "アップデート",
+    "インストール"
+  ],
+  "parameters": [
+    {
+      "name": "ウィンドウターゲット",
+      "description": "Codexアプリケーションのウィンドウ（デフォルト: AXWindow）",
+      "step_index": 1
+    },
+    {
+      "name": "ボタンラベル",
+      "description": "クリックするボタンのラベル（デフォルト: アップデートをインストール）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:39:46.226365",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

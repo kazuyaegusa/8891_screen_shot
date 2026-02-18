@@ -1,0 +1,314 @@
+{
+  "workflow_id": "wf-e487bf39",
+  "name": "Cursorでファイルにペーストしてテキストを追記する",
+  "description": "Cursor の指定タブ/ファイルをフォーカスし、クリップボード内容をペーストして指定テキストを入力し、必要に応じて末尾に改行を追加するワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 1833
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_011428.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 1833
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_011434.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 1833
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344869.843675
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771344869.900817
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771344869.9441159
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771344870.053063
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344870.169557
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771344870.2749
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771344870.3648121
+          },
+          {
+            "char": "f",
+            "keycode": 3,
+            "timestamp": 1771344870.80263
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771344870.860064
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771344870.889062
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771344870.994712
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771344871.085953
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771344871.1599271
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771344871.528217
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771344871.58054
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771344871.793003
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344872.031109
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771344872.08982
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771344872.2561831
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771344872.284391
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344872.3768718
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344872.494849
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771344872.574711
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771344872.63022
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771344872.674347
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771344872.765162
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771344872.8257458
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771344872.900071
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771344873.005256
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771344873.139792
+          }
+        ],
+        "text": "tesuto fairu wo\ntukuttemita \n ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_011434.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 668,
+        "y": 1715
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771344874.528567
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_011435.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "テキスト編集",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "tab_or_file_title",
+      "description": "対象のタブ/ウィンドウタイトル（例: client_secret_...json — 8003_google_drive_path — Untracked）",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "ペースト後に入力するテキスト（複数行可）",
+      "step_index": 3
+    },
+    {
+      "name": "add_trailing_newline",
+      "description": "末尾に改行を追加するかどうか（true/false）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T04:55:49.343846",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

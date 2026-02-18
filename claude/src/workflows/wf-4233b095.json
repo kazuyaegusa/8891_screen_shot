@@ -1,0 +1,150 @@
+{
+  "workflow_id": "wf-4233b095",
+  "name": "Gmailで特定件名のメールを順に開く",
+  "description": "Gmailの受信トレイで、指定した件名のメールAを開き、受信トレイへ戻った後、別の指定件名のメールBを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "生成AIサービス企業案件のご案内【Higgsfield】",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 610,
+        "y": 201
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172426.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 331,
+        "y": 139
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172430.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 181
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172431.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 334,
+        "y": 133
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172434.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "gmail",
+    "email",
+    "navigation",
+    "inbox"
+  ],
+  "parameters": [
+    {
+      "name": "subject_first",
+      "description": "最初に開くメールの件名（例: 生成AIサービス企業案件のご案内【Higgsfield】）",
+      "step_index": 1
+    },
+    {
+      "name": "subject_second",
+      "description": "次に開くメールの件名（例: Welcome to Adobe）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.63,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T01:21:45.969171",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

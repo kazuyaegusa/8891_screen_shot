@@ -1,0 +1,51 @@
+{
+  "workflow_id": "wf-037edad0",
+  "name": "Google カレンダーで新規ウィンドウを開く",
+  "description": "Google カレンダーのメニューから「New Window（新規ウィンドウ）」をクリックして、新しいウィンドウを開く操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 250,
+        "y": 603
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005513.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "google-calendar",
+    "ui-automation",
+    "window-management"
+  ],
+  "parameters": [],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T00:10:36.556298",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

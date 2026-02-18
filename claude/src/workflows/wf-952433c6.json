@@ -1,0 +1,315 @@
+{
+  "workflow_id": "wf-952433c6",
+  "name": "NotebookLMでファイルをアップロード",
+  "description": "NotebookLMで「ファイルをアップロード」を押し、開くダイアログで指定ファイルを選択してアップロードする手順。ログ中の不要なテキスト入力（ステップ[6]）はワークフローから除外可能。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "ノートブックを読み込んでいます...",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 585,
+        "y": 983
+      },
+      "key": {
+        "keycode": 125,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_012825.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 917,
+        "y": 1116
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012828.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "ファイルをアップロード",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 321,
+        "y": 1623
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012832.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "KEWORK",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 236,
+        "y": 1350
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012834.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 515,
+        "y": 1346
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_012835.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 878,
+        "y": 1474
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345716.494197
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345716.640095
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345716.775593
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345716.925791
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.090734
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.211637
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.36211
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.519041
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.660675
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.813427
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345717.961638
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345718.1273348
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345718.293729
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345718.455963
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771345719.334636
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771345720.123659
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345720.3157592
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345720.480638
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345720.6306539
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345720.781729
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771345720.933053
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771345721.577098
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001d\u001d\u001f\u001f\u001f\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_012842.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "ファイルアップロード",
+    "開くダイアログ"
+  ],
+  "parameters": [
+    {
+      "name": "file_name_or_path",
+      "description": "開くダイアログで選択するファイル名またはパス（例: KEWORK）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T05:03:34.645379",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,138 @@
+{
+  "workflow_id": "wf-36c003f8",
+  "name": "テキストエリアへのテキスト入力操作",
+  "description": "Google Chromeのアプリケーション内のテキストエリアをクリックしてテキスト'aa'を入力する操作シーケンス。テキストエリアへのフォーカスと入力を行う基本的なワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 476,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151144.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 1024
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151145.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 1024
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771308705.6816158
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771308705.848508
+          }
+        ],
+        "text": "aa",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_151146.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "テキスト入力",
+    "フォーカス",
+    "GoogleChrome",
+    "OpenClawControl",
+    "自動化"
+  ],
+  "parameters": [
+    {
+      "name": "テキスト内容",
+      "description": "テキストエリアに入力するテキスト。この例では'aa'が入力されている。",
+      "step_index": 3
+    },
+    {
+      "name": "ターゲット要素",
+      "description": "操作対象のテキストエリア要素。role=AXTextArea で指定されている。",
+      "step_index": 1
+    },
+    {
+      "name": "クリック回数",
+      "description": "テキストエリアへのクリック操作は2回実行される。フォーカス確保のための複数クリック。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:57:21.710440",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

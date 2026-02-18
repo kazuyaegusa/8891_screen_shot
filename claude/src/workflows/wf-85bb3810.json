@@ -1,0 +1,145 @@
+{
+  "workflow_id": "wf-85bb3810",
+  "name": "CursorでMarkdownプレビューを開いて閉じる",
+  "description": "指定したMarkdownファイルのタブをアクティブにし、Cmd+Shift+VでMarkdownプレビューを開き、そのプレビュータブを閉じる手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2576,
+        "y": 180
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201938.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2576,
+        "y": 180
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_201939.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Close (⌘W)",
+        "value": null,
+        "description": "Close (⌘W)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2634,
+        "y": 83
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_201945.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "プレビュー",
+    "エディタ操作",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "対象Markdownファイル（タブ）の名前（例: tools.md）。",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_label",
+      "description": "ウィンドウタイトル末尾のワークスペース/プロジェクト名（例: 8891_screen_shot）。",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "プレビューを開く対象のMarkdownファイル名。",
+      "step_index": 2
+    },
+    {
+      "name": "workspace_label",
+      "description": "ウィンドウタイトル末尾のワークスペース/プロジェクト名。",
+      "step_index": 2
+    },
+    {
+      "name": "file_name",
+      "description": "プレビュータブの元ファイル名（'Preview {file_name}' に一致）。",
+      "step_index": 3
+    },
+    {
+      "name": "workspace_label",
+      "description": "ウィンドウタイトル末尾のワークスペース/プロジェクト名。",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T02:30:13.966031",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

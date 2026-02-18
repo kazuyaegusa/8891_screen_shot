@@ -1,0 +1,70 @@
+{
+  "workflow_id": "wf-c896ba13",
+  "name": "Google Chrome テキストエリアのクリック操作",
+  "description": "Google Chromeアプリケーションにおいて、AXTextArea要素をクリックする操作。OpenClaw Controlウィンドウ内のテキスト入力フィールドを対象とした単純なクリック操作です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 361,
+        "y": 1018
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151152.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "UI操作",
+    "クリック",
+    "テキストエリア",
+    "OpenClaw",
+    "入力フィールド"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象となるUI要素。デフォルト値はAXTextArea",
+      "step_index": 1
+    },
+    {
+      "name": "role",
+      "description": "UI要素のアクセシビリティロール。テキスト入力フィールドなど、異なるロールの要素に適用可能",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "操作対象のウィンドウ名。デフォルト値はOpenClaw Control",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T11:57:31.389380",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

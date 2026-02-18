@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-78cd4c8c",
+  "name": "Slackでリンクを開く",
+  "description": "Slackのチャンネルウィンドウ内で、指定したURLテキストをクリックして開く。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://x.com/yugen_matuni/status/2023615531694350832?s=46",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3544,
+        "y": 1412
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164113.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "リンク",
+    "URL",
+    "クリック",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "url",
+      "description": "Slack上でクリックするリンク文字列（完全なURL）。",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "リンクが投稿されているSlackチャンネル名（任意、ウィンドウ特定の補助）。",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_name",
+      "description": "ウィンドウタイトルに表示されるSlackワークスペース名（任意、ウィンドウ特定の補助）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T01:04:58.080744",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

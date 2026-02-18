@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-08680c13",
+  "name": "Dockの指定アプリを起動／前面表示する",
+  "description": "Dock上の指定したアプリアイコンをクリックして、そのアプリを起動または前面に切り替える手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXDockItem",
+        "title": "LINE",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 36,
+        "y": 613
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_120427.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "macOS",
+    "Dock",
+    "アプリ起動",
+    "アプリ切替"
+  ],
+  "parameters": [
+    {
+      "name": "app_name",
+      "description": "Dockでクリックするアプリ名（例：LINE）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:06:00.455985",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,94 @@
+{
+  "workflow_id": "wf-b92499dc",
+  "name": "Close a file's problems window in Cursor",
+  "description": "Focus the specified Cursor window/tab for a file and click the Close (閉じる) button to dismiss the problems view or dialog.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1028,
+        "y": 91
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193712.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": "xmark"
+      },
+      "coordinates": {
+        "x": 1570,
+        "y": 51
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193715.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Editor",
+    "Close",
+    "Problems",
+    "Tab",
+    "UIAutomation"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "Full window title to match (e.g., \"numeric_types_list.md — kework-agi — 234 problems in this file\") used to focus the correct window/group.",
+      "step_index": 1
+    },
+    {
+      "name": "close_button_label",
+      "description": "The label of the close button (default: \"閉じる\").",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-17T23:19:41.787430",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

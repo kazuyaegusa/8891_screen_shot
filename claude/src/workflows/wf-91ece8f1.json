@@ -1,0 +1,3917 @@
+{
+  "workflow_id": "wf-91ece8f1",
+  "name": "NotebookLMでカスタムプロンプトを用いたスライド生成とソース確認",
+  "description": "NotebookLMのStudioでカスタムプロンプトを参照し、その内容（または任意の説明文）を「スライド資料をカスタマイズ」に貼り付けて生成し、その後ソースタブで指定ドキュメントを開いて確認する一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "Studio",
+        "value": null,
+        "description": "Studio",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 591,
+        "y": 1127
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014101.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 929,
+        "y": 1135
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014102.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 907,
+        "y": 1121
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014103.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "戻る",
+        "value": null,
+        "description": "戻る",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 88,
+        "y": 1172
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014106.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "もっと見る",
+        "value": null,
+        "description": "もっと見る",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1040,
+        "y": 1393
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014109.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "カスタム プロンプトを表示",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 981,
+        "y": 1586
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014123.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 1439
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014124.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 255,
+        "y": 1409
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014126.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 343,
+        "y": 1748
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_014128.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 886,
+        "y": 1329
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014130.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "スライド資料をカスタマイズ",
+        "value": null,
+        "description": "スライド資料をカスタマイズ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1046,
+        "y": 1238
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014131.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": null,
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 577,
+        "y": 1599
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014132.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": null,
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 577,
+        "y": 1599
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_014134.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014146.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346507.4557362
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346507.6500921
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346507.816161
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346507.980639
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.1307452
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.283838
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.432031
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.580081
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.748917
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346508.9558961
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346509.105105
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346509.5282922
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346509.722034
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346509.871312
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346510.171034
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346510.621116
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346510.9225888
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346511.196012
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346511.52019
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346511.791422
+          }
+        ],
+        "text": "\u001d\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001e\u001e\u001e\u001e\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014152.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346513.590122
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014154.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346514.640641
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346515.169798
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346515.555742
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346515.766308
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346516.26146
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346516.5604968
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346516.864505
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346517.119034
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346517.433656
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346517.609269
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346517.921458
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346518.108523
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346518.384692
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346518.540614
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346518.707181
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346518.855443
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346519.039693
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346519.251984
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346519.516576
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346519.6978219
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346519.911909
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346520.2944791
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346520.477833
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346520.687968
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346521.0315268
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346521.276963
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346521.453393
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346521.637901
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346521.9474921
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346522.26146
+          }
+        ],
+        "text": "\u001e\u001e\u001f\u001f\u001e\u001e\u001f\u001f\u001e\u001e\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001e\u001e\u001e\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014203.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346523.374204
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346523.6106749
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346523.856713
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346524.167509
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014205.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346526.330252
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346526.628052
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346526.880599
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346527.216277
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346527.551693
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346527.841341
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346528.079285
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346528.411138
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014209.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346531.70864
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346531.920436
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.118432
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.298321
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.47984
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.6306822
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.819212
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346532.972346
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346533.1652522
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346533.348696
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346533.5373352
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346533.6792
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346533.843337
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346534.005784
+          }
+        ],
+        "text": "\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014215.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346535.61358
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346536.1664362
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346536.363294
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346536.860755
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346536.9477582
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.028509
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.1111739
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.1954932
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.2803872
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.362665
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346537.453969
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346537.738844
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346538.055499
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346538.3898351
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346538.734495
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346539.3613398
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346539.660674
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346539.94618
+          }
+        ],
+        "text": "\u001f\u001e\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014221.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346541.505813
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014222.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346544.300341
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014225.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346545.437493
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346546.082191
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346546.441612
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346546.924729
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.1045
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.283711
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.4303029
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.6014662
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.763767
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346547.92832
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346548.379717
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346548.617356
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346549.5034618
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346549.8514528
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346550.197712
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346550.490889
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346550.732123
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346550.925138
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346551.079447
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346551.2402859
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346551.679869
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346551.857718
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346552.0207648
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346552.185847
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346552.352771
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346552.500664
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346552.866158
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346553.101704
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346553.331294
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346553.5055628
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346553.69059
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346553.837132
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.000448
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.1349561
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.3004858
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.435164
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.599817
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.773105
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346554.946047
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346555.081965
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346555.2503629
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346555.410805
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346555.80068
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346556.01074
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346556.281506
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346556.490947
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346556.6777742
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346556.854455
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346557.015011
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346557.169297
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346557.319388
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346557.497966
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346557.839089
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.022184
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.187635
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.354718
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.514893
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.69504
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346558.8488488
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.045824
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.222948
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.4018629
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.595367
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.745746
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346559.940033
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.1214569
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.314772
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.4677792
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.6479151
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.810606
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346560.975122
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346561.143672
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346561.3048298
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346561.5479949
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014242.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346562.9251342
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346563.1664379
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346563.442369
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346563.903518
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346564.171558
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346564.3948958
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346564.65386
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346564.847678
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346565.0409741
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346565.296195
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346565.5492349
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346565.759407
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346566.0294049
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346566.497813
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346566.7800808
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346567.0077262
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346567.2626822
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346567.471051
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346567.7100842
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346567.9051259
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346568.0705101
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346568.251988
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346568.478658
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346568.700076
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346568.989231
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346569.244591
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346569.4538188
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346569.660395
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346569.810761
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346569.97695
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346570.2310138
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346570.4264681
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346570.59138
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346570.762903
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346571.432134
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346571.687135
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346571.925196
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346572.155217
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346572.421128
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346572.630965
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346572.8141398
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346572.9777439
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346573.154999
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346573.354408
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346573.534503
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346573.6381319
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346574.087361
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346574.332947
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346574.535639
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346574.735592
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346574.9324632
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346575.165007
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346575.3526511
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346575.785677
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346575.9931872
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346576.186538
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346576.357704
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346576.55424
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346576.831054
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346577.031816
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346577.2054021
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346577.461547
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346577.6743581
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346577.8534222
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.031719
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.201904
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.380739
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.555406
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.780698
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346578.9757
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346579.680939
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346579.9824572
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346580.270338
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346580.534583
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346580.7030349
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346581.044994
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001e\u001e\u001e\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014302.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346588.426087
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346588.5921102
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346588.739945
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346588.904649
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346589.075072
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346589.894349
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346590.16622
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346590.5424798
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346591.5326452
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346591.758831
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346591.953769
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346592.114037
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346592.685111
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001e",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014313.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346594.760683
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.264836
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.347589
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.438962
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.512384
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.602549
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.6764622
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.760054
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.843946
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346595.926836
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.010466
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.093685
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.1804469
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.2616751
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.346571
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.429313
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.51327
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.599935
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.680452
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.764537
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.847849
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346596.9313989
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346597.0791638
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346597.2620318
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346597.41008
+          }
+        ],
+        "text": "\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014318.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346599.2096279
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346599.559459
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346599.839844
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346600.1569579
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346600.456311
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346600.799773
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014321.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346602.241306
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014323.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346603.99775
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014325.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346608.73424
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346608.900258
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346609.0957382
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346609.712696
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346610.018618
+          }
+        ],
+        "text": "\u001e\u001e\u001e\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014331.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346611.3599098
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346612.22891
+          }
+        ],
+        "text": "\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014333.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346616.5366569
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014337.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346617.839798
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346618.084736
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346618.304048
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346618.670675
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346618.9065359
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346619.3441331
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346619.7218938
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346620.030565
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014341.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346622.805574
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346623.315207
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346623.784163
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346624.2536058
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346624.426382
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346624.640411
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346624.833156
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346625.011033
+          }
+        ],
+        "text": "\u001f\u001f\u001e\u001d\u001d\u001d\u001d\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014346.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346626.839046
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346626.888344
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771346627.410711
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346627.4542878
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346627.619699
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346627.679538
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771346627.980629
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346628.054236
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346628.174525
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771346628.373481
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771346628.4596102
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346628.553969
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771346628.67388
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771346628.851391
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346628.971017
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771346629.2755468
+          }
+        ],
+        "text": "tadasihaikei ha\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014350.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346630.80655
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346630.8618848
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771346631.190346
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771346631.329091
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771346631.429198
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771346631.596242
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771346632.018275
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346632.135871
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771346632.2999969
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346632.358735
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346632.5909388
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346632.659347
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346632.7802181
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346632.8692899
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771346633.051616
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771346633.355654
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346633.413569
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346633.560121
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346633.666091
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346633.724562
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346634.176476
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771346634.23422
+          }
+        ],
+        "text": "sizen nakatati nisiste",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014355.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346635.6185
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771346636.130826
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771346636.321128
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771346636.4138901
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771346636.695814
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771346636.790782
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346636.965292
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771346637.190507
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771346637.6020632
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771346637.8819468
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346638.662192
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346638.9190211
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346639.0838919
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346639.2610922
+          }
+        ],
+        "text": "surukoto.\n\u001d\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014400.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346640.902323
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346641.319197
+          }
+        ],
+        "text": "\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014402.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346643.841611
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014404.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346648.3242838
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346648.650353
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346648.8605812
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346649.044035
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346649.22103
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346649.550308
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346649.806345
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346650.019673
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346650.227476
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346650.6593978
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346650.9202719
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346651.1285539
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346651.96929
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346652.206944
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346652.5205429
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346652.849243
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346653.572041
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346653.764383
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346653.930209
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346654.0645828
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346654.258938
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346654.484193
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346654.696204
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346655.297318
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346656.1066802
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346656.27063
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346656.437432
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001f\u001e\u001e\u001e",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014417.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346657.977758
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346658.296499
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346658.639113
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346658.880662
+          }
+        ],
+        "text": "\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014419.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346659.960002
+          }
+        ],
+        "text": "\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014421.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346661.0849159
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346661.333101
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771346661.6350238
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346662.061305
+          }
+        ],
+        "text": "\u001e\u001e\u001e\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014423.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346663.4239511
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346663.590059
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346664.041342
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771346664.314691
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771346665.3148391
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771346665.961483
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771346666.7563908
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346666.8611698
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771346667.1121678
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346667.159512
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346667.342253
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346667.462904
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771346667.956827
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771346668.316232
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346668.409237
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346668.915636
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771346669.155678
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771346669.229575
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346669.334087
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771346669.5335271
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771346669.6204102
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346669.7707279
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771346670.28083
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346670.4171038
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771346670.7031958
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771346671.495779
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771346671.629146
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771346671.7647722
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771346671.9212852
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771346672.070289
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771346672.109366
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771346672.424845
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771346672.7860842
+          }
+        ],
+        "text": "\u001d\u001d\u001d\u001c.\ntadasi\nhaikei hasiazen ni.\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014433.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346673.834384
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346674.1996238
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346675.066545
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346675.596065
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346675.846211
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346676.029403
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771346676.238246
+          }
+        ],
+        "text": "\u001d\u001f\u001f\u001f\u001f\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014437.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": 0,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_014438.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXTextArea",
+        "title": "作成するスライドについて説明してください",
+        "value": "あなたは「FUSION AI講座」の講義スライド原稿を作成するスペシャリストです。\nソースとして提供された講義内容のMarkdownファイルを読み込み、以下のトンマナルールに厳密に従ってスライド原稿を生成してください。\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 全体ルール\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n1. 1スライド = 1メッセージの原則を厳守\n2. タイトルでそのスライドの結論を言い切る（疑問形にしない）\n3. 箇条書きは3項目が基本（最大5項目）\n4. 各スライドは下記の7パターンのいずれかで構成する\n5. 出力形式はMarkdownで、スライドごとに「---」で区切る\n6. 全スライド共通で、下部約15〜20%はテロップ用の余白として確保する（詳細は「テロップスペース」の項を参照）\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ 文章のトーン\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n- 断定的に言い切る。「〜かもしれません」「〜でしょう」は使わない\n- 挑発的・危機感を煽る表現を適度に使う（例：「〜に価値はない」「〜から逃げるな」）\n- 行動を促す動詞で終わる（例：「〜を捨てよう」「〜を築く」「〜を刈り取る」）\n- 平易な日本語を使い、専門用語は最小限にする\n- 重要な概念には英語を括弧書きで補足する（例：「モノを作る（Create Things）」）\n- 「」鍵括弧で印象的なフレーズを強調する\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n■ スライド構成パターン（7種）\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n必ず各スライドの冒頭に【パターンX】と記載し、どのレイアウトを使うか明示してください。\n\n【パターンA: タイトルスライド】\n用途: 講義の冒頭・各セクションの区切り\n構成:\n- カテゴリタグ: 右上に表示するセクション名\n- メインタイトル: 「第X講：○○○」形式、極大の太字\n- サブタイトル: タイトルの本質を一文で補足（青色表示）\n- アイコン指示: テーマを象徴する1つのアイコン/イラスト\n\n出力例:\n```\n【パターンA: タイトルスライド】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 第1講：AI時代の考え方\nサブタイトル: AIは難しくない。窓に文字を打ち込むだけ。\nアイコン: ブラウザウィンドウ → AI脳ネットワーク\n```\n\n---\n\n【パターンB: 2カラム比較】\n用途: 対比・ビフォーアフター・良い例と悪い例\n構成:\n- メインタイトル: 対比の結論を言い切る\n- サブタイトル: 補足の一文\n- 左カラム（ネガティブ側）: 見出し + 箇条書き3項目\n- 右カラム（ポジティブ側）: 見出し + 箇条書き3項目\n\n出力例:\n```\n【パターンB: 2カラム比較】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 誰でもできることに価値はない\nサブタイトル: AI時代の残酷な現実\n左カラム:\n  見出し: 価値がない (No Value)\n  ・誰でもできること\n  ・マニュアル通り\n  ・真似できる\n右カラム:\n  見出し: 価値がある (Valuable)\n  ・自分しかできないこと\n  ・属人性がある\n  ・差別化\n```\n\n---\n\n【パターンC: 3カラムカード】\n用途: 3つの要素を並列で紹介\n構成:\n- メインタイトル: 共通テーマ\n- カード1〜3: それぞれアイコン指示 + テキスト（2〜3行）\n\n出力例:\n```\n【パターンC: 3カラムカード】\nカテゴリタグ: AI時代の考え方\nメインタイトル: この講義で得られること\nカード1:\n  アイコン: 地球＋ネットワーク\n  テキスト: 1. AI時代の全体像を理解する\nカード2:\n  アイコン: 電球＋脳\n  テキスト: 2.「AIは難しくない」という正しいマインドセットを持つ\nカード3:\n  アイコン: コンパス\n  テキスト: 3. 自分が何をすべきかの方向性を掴む\n```\n\n---\n\n【パターンD: チェックリスト＋結果】\n用途: アクション項目と、その結果を示す\n構成:\n- メインタイトル: アクションの要約\n- サブタイトル: 補足\n- チェック項目: ☑付きで3項目\n- 結果: 矢印の先にアイコン＋結果の説明\n\n出力例:\n```\n【パターンD: チェックリスト＋結果】\nカテゴリタグ: AI時代の考え方\nメインタイトル: 時間を節約する\nサブタイトル: AIの得意分野：オートメーション\nチェック項目:\n  ☑ 繰り返し作業の自動化\n  ☑ 情報収集の効率化\n  ☑ コミュニケーションの省力化\n結果アイコン: 盾＋壁（障壁を築",
+        "description": "作成するスライドについて説明してください",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1590
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_014439.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 839,
+        "y": 1837
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771346680.2551098
+          }
+        ],
+        "text": "\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_014441.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "生成",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 948,
+        "y": 1761
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014442.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ソース",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 181,
+        "y": 1094
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014444.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "もっと見る 第10講_AIワークフロー設計.md 第10講_AIワークフロー設計.md",
+        "value": null,
+        "description": "もっと見る 第10講_AIワークフロー設計.md 第10講_AIワークフロー設計.md",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 202,
+        "y": 1376
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014446.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "第10講_AIワークフロー設計.md",
+        "value": null,
+        "description": "第10講_AIワークフロー設計.md",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 224,
+        "y": 1364
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014448.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "戻る",
+        "value": null,
+        "description": "戻る",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 96,
+        "y": 1171
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014453.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 876,
+        "y": 1113
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_014454.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "Studio",
+    "Slides",
+    "Prompt",
+    "Source",
+    "Generation"
+  ],
+  "parameters": [
+    {
+      "name": "slide_description",
+      "description": "「作成するスライドについて説明してください」欄に入力（貼り付け）する説明文。既存のカスタムプロンプトを流用する場合はその内容、または任意の説明テキスト。",
+      "step_index": 13
+    },
+    {
+      "name": "source_document_name",
+      "description": "ソースで開くドキュメント名（例: 第10講_AIワークフロー設計.md）。",
+      "step_index": 53
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T05:06:02.603702",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

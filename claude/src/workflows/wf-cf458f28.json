@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-cf458f28",
+  "name": "Googleカレンダーの週表示ウィンドウをクリック",
+  "description": "Googleカレンダーアプリケーションで、指定された日付（2026年2月16日）の週表示ウィンドウをクリックする操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 103,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192955.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Googleカレンダー",
+    "カレンダー操作",
+    "UI操作",
+    "週表示"
+  ],
+  "parameters": [
+    {
+      "name": "日付",
+      "description": "クリック対象となるカレンダーの日付（YYYY-MM-DDフォーマット）",
+      "step_index": 1
+    },
+    {
+      "name": "ウィンドウ名",
+      "description": "Googleカレンダーのウィンドウ識別名",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:46:45.657259",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

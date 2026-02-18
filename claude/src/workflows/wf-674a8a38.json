@@ -1,0 +1,192 @@
+{
+  "workflow_id": "wf-674a8a38",
+  "name": "GmailでOTPメールを開きコードをコピー",
+  "description": "Gmailでアカウントを切替え、指定サービスの認証コードメールを開いてコードをコピーする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXButton",
+        "title": "Google アカウント: Kazuya Egusa (kazuya.egusa@aixeed.co.jp)",
+        "value": null,
+        "description": "Google アカウント: Kazuya Egusa (kazuya.egusa@aixeed.co.jp)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1885,
+        "y": 101
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211711.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "awef705@gmail.com",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1718,
+        "y": 410
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211712.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXRow",
+        "title": "未読、 AI sennin's School , 804128 is your AI sennin's School login code , 21:17 , AI sennin's School Verification code Copy the code below to login to AI sennin's School. This code can only be used once and expires in 10 minutes. 804128 Didn't try to login? Please,.",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 585,
+        "y": 208
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211715.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "[awef705-glitch/Me] X Poster Daily workflow run X Poster Daily: All jobs have failed View workflow run Status Job Annotations X Poster Daily / post Failed in 7 seconds annotations for X Poster Daily /",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1085,
+        "y": 476
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_211717.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1085,
+        "y": 476
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_211718.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "OTP",
+    "2FA",
+    "認証コード",
+    "メール操作"
+  ],
+  "parameters": [
+    {
+      "name": "account_email",
+      "description": "切替えるGmailアカウントのメールアドレス（例: awef705@gmail.com）",
+      "step_index": 2
+    },
+    {
+      "name": "service_or_sender",
+      "description": "認証コードメールの送信者名またはサービス名のキーワード（例: AI sennin's School）",
+      "step_index": 3
+    },
+    {
+      "name": "subject_contains",
+      "description": "認証コードメールの件名に含まれるキーワード（例: \"is your ... login code\"）",
+      "step_index": 3
+    },
+    {
+      "name": "otp_pattern",
+      "description": "本文から抽出する認証コードの正規表現（例: \\\\b\\\\d{6}\\\\b）",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.71,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T03:00:40.199355",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

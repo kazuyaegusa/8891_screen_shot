@@ -6,9 +6,12 @@ AI クライアント: セッション分析・スキル抽出・ワークフロ
 from pipeline.ai_client import AIClient
 from pipeline.models import Session
 
-# Gemini（デフォルト）
+# Anthropic（デフォルト）
 client = AIClient()
-client = AIClient(provider="gemini", model="gemini-2.5-flash")
+client = AIClient(provider="anthropic", model="claude-haiku-4-5-20251001")
+
+# Gemini
+client = AIClient(provider="gemini", model="gemini-3-flash-preview")
 
 # OpenAI
 client = AIClient(provider="openai", model="gpt-5")
@@ -30,12 +33,13 @@ element = client.find_element_by_vision(screenshot_path, element_description)
 - verify_execution: 実行前後のスクリーンショットをVisionで比較し成功/失敗を判定
 - check_goal_achieved: 目標が達成されたか判定
 - find_element_by_vision: スクリーンショットからVisionで要素の座標を推定
-- provider: "gemini"（デフォルト, gemini-2.5-flash）または "openai"（gpt-5）
+- provider: "anthropic"（デフォルト）, "gemini", "openai"
 - API 呼び出し失敗時はログ出力して None/デフォルト値を返す
 
 【依存】
-google-genai (Gemini), openai (OpenAI), pipeline.models (Session, ExtractedSkill)
-環境変数: GEMINI_API_KEY または OPENAI_API_KEY
+anthropic (Anthropic), google-genai (Gemini), openai (OpenAI),
+pipeline.models (Session, ExtractedSkill)
+環境変数: ANTHROPIC_API_KEY, GEMINI_API_KEY, OPENAI_API_KEY（いずれか1つ以上）
 """
 
 import base64
@@ -145,9 +149,11 @@ def _strip_markdown_json(text: str) -> str:
 
 
 class AIClient:
-    def __init__(self, provider: str = "gemini", model: str = None):
+    def __init__(self, provider: str = "anthropic", model: str = None):
         self.provider = provider
-        if provider == "gemini":
+        if provider == "anthropic":
+            self.model = model or "claude-haiku-4-5-20251001"
+        elif provider == "gemini":
             self.model = model or "gemini-3-flash-preview"
         elif provider == "openai":
             self.model = model or "gpt-5"
@@ -159,40 +165,135 @@ class AIClient:
     # ----------------------------------------------------------------
 
     def _generate_text(self, prompt: str, effort: str = "low", max_tokens: int = 4096) -> str:
+        if self.provider == "anthropic":
+            return self._anthropic_generate_text(prompt, effort, max_tokens)
         if self.provider == "gemini":
             return self._gemini_generate_text(prompt, effort, max_tokens)
         return self._openai_generate_text(prompt, effort, max_tokens)
 
     def _generate_json(self, prompt: str, schema: dict, effort: str = "medium", max_tokens: int = 2000) -> dict:
+        if self.provider == "anthropic":
+            return self._anthropic_generate_json(prompt, schema, effort, max_tokens)
         if self.provider == "gemini":
             return self._gemini_generate_json(prompt, schema, effort, max_tokens)
         return self._openai_generate_json(prompt, schema, effort, max_tokens)
 
     def _generate_vision(self, prompt: str, image_paths: list, effort: str = "medium") -> str:
+        if self.provider == "anthropic":
+            return self._anthropic_generate_vision(prompt, image_paths, effort)
         if self.provider == "gemini":
             return self._gemini_generate_vision(prompt, image_paths, effort)
         return self._openai_generate_vision(prompt, image_paths, effort)
+
+    # ----------------------------------------------------------------
+    # Anthropic 固有実装
+    # ----------------------------------------------------------------
+
+    @staticmethod
+    def _anthropic_call_with_retry(fn, max_retries: int = 5):
+        """Anthropic API 呼び出しを 429/529 時にリトライ"""
+        for attempt in range(max_retries):
+            try:
+                return fn()
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "overloaded" in err_str or "529" in err_str:
+                    wait = min(5 * (attempt + 1), 30)
+                    logger.info("Anthropic API制限: %d秒待機 (試行 %d/%d)", wait, attempt + 1, max_retries)
+                    time.sleep(wait)
+                else:
+                    raise
+        raise RuntimeError(f"Anthropic API リトライ上限超過 ({max_retries}回)")
+
+    def _anthropic_generate_text(self, prompt: str, effort: str, max_tokens: int) -> str:
+        from anthropic import Anthropic
+
+        client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+        def call():
+            msg = client.messages.create(
+                model=self.model,
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return msg.content[0].text
+
+        return self._anthropic_call_with_retry(call)
+
+    def _anthropic_generate_json(self, prompt: str, schema: dict, effort: str, max_tokens: int) -> dict:
+        """tool_use で構造化 JSON を取得"""
+        from anthropic import Anthropic
+
+        client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        tool_name = schema.get("name", "output")
+        input_schema = schema.get("schema", schema)
+        # strict / additionalProperties を除去（Anthropic は自動で処理するが念のため）
+        clean_schema = {k: v for k, v in input_schema.items() if k not in ("strict", "additionalProperties")}
+
+        def call():
+            msg = client.messages.create(
+                model=self.model,
+                max_tokens=max_tokens,
+                tools=[{
+                    "name": tool_name,
+                    "description": "構造化データを出力",
+                    "input_schema": clean_schema,
+                }],
+                tool_choice={"type": "tool", "name": tool_name},
+                messages=[{"role": "user", "content": prompt}],
+            )
+            for block in msg.content:
+                if block.type == "tool_use":
+                    return block.input
+            raise ValueError("tool_use ブロックが見つかりません")
+
+        return self._anthropic_call_with_retry(call)
+
+    def _anthropic_generate_vision(self, prompt: str, image_paths: list, effort: str) -> str:
+        from anthropic import Anthropic
+
+        client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+        content = []
+        for path in image_paths:
+            b64 = _encode_image(path)
+            mime = "image/png" if path.endswith(".png") else "image/jpeg"
+            content.append({
+                "type": "image",
+                "source": {"type": "base64", "media_type": mime, "data": b64},
+            })
+        content.append({"type": "text", "text": prompt})
+
+        def call():
+            msg = client.messages.create(
+                model=self.model,
+                max_tokens=2000,
+                messages=[{"role": "user", "content": content}],
+            )
+            return msg.content[0].text
+
+        return self._anthropic_call_with_retry(call)
 
     # ----------------------------------------------------------------
     # Gemini 固有実装
     # ----------------------------------------------------------------
 
     @staticmethod
-    def _gemini_call_with_retry(fn, max_retries: int = 5):
-        """Gemini API 呼び出しを 429/503/JSONパースエラー時にリトライ"""
+    def _gemini_call_with_retry(fn, max_retries: int = 8):
+        """Gemini API 呼び出しを 429/503/JSONパースエラー時にリトライ（長めの待機）"""
         for attempt in range(max_retries):
             try:
                 return fn()
             except (json.JSONDecodeError, ValueError) as e:
                 if attempt < max_retries - 1:
                     logger.debug("JSONパースエラー、リトライ: %s", str(e)[:80])
-                    time.sleep(2)
+                    time.sleep(3)
                 else:
                     raise
             except Exception as e:
                 err_str = str(e)
                 if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "503" in err_str or "UNAVAILABLE" in err_str:
-                    wait = min(4 * (attempt + 1), 30)
+                    wait = min(10 * (attempt + 1), 60)
                     logger.info("API制限/一時障害: %d秒待機 (試行 %d/%d)", wait, attempt + 1, max_retries)
                     time.sleep(wait)
                 else:

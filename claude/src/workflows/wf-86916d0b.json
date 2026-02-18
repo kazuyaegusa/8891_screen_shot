@@ -1,0 +1,127 @@
+{
+  "workflow_id": "wf-86916d0b",
+  "name": "Finderでのウィンドウ操作シーケンス",
+  "description": "Finderアプリケーション上で、リストアイテムとグループ要素をクリックしていく一連の操作。最初にkework-agiウィンドウ内のリストをクリック、その後同じウィンドウ内のグループをクリック、最後にfusion-ai-study-materialsウィンドウ内のグループをクリックする操作フロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1122,
+        "y": 573
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194317.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 870,
+        "y": 510
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194320.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 858,
+        "y": 545
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194321.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "Finder",
+    "UI操作",
+    "クリック操作",
+    "ウィンドウ遷移",
+    "マルチウィンドウ操作"
+  ],
+  "parameters": [
+    {
+      "name": "first_window_name",
+      "description": "最初のリストをクリックするウィンドウ名",
+      "step_index": 1
+    },
+    {
+      "name": "second_window_name",
+      "description": "2番目と3番目のグループ操作対象のウィンドウ名",
+      "step_index": 2
+    },
+    {
+      "name": "target_element_type",
+      "description": "操作対象要素のタイプ（AXList、AXGroup等のアクセシビリティロール）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:49:26.539930",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

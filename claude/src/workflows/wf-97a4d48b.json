@@ -1,0 +1,146 @@
+{
+  "workflow_id": "wf-97a4d48b",
+  "name": "NotebookLMでノートブック作成とファイルアップロード",
+  "description": "NotebookLMで新規ノートブックを作成し、指定したファイルをアップロードしてソース表示に切り替える一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "ノートブックを作成",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 656,
+        "y": 1042
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_021352.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "ファイルをアップロード",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 333,
+        "y": 1622
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_021356.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 892,
+        "y": 1444
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_021359.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ソース",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 271,
+        "y": 1119
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_021403.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "ノートブック作成",
+    "ファイルアップロード",
+    "ソース表示",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "file_path",
+      "description": "開くダイアログで選択・アップロードするファイルのパス（または識別可能なファイル名）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T05:10:38.772129",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

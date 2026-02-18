@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-21be716d",
+  "name": "Codexのアップデートと終了",
+  "description": "Codexアプリケーションをアップデートして再起動した後、アプリケーションを終了するワークフロー。アップデートのインストール確認と適用、その後のアプリケーション終了という一連の操作で構成されている。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "インストールして再起動",
+        "value": null,
+        "description": null,
+        "identifier": "SUStatusInstallAndRelaunch"
+      },
+      "coordinates": {
+        "x": 4466,
+        "y": 415
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190253.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXButton",
+        "title": "Quit",
+        "value": null,
+        "description": null,
+        "identifier": "action-button--999"
+      },
+      "coordinates": {
+        "x": 2936,
+        "y": 441
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_190255.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "アプリケーション管理",
+    "アップデート",
+    "Codex",
+    "UI操作",
+    "システムメンテナンス"
+  ],
+  "parameters": [
+    {
+      "name": "ターゲットアプリケーション",
+      "description": "アップデート対象のアプリケーション名。この例ではCodex。他のアプリケーションにも適用可能。",
+      "step_index": 1
+    },
+    {
+      "name": "確認ボタン名",
+      "description": "アップデート実行時に押下するボタン名。この例では『インストールして再起動』。アプリケーションやアップデート画面により異なる。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T11:42:51.152148",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,179 @@
+{
+  "workflow_id": "wf-be40f704",
+  "name": "Gmail受信メール確認と戻り操作",
+  "description": "Gmailの受信トレイから特定のメール（「AI仙人」のAixeedの中村からのメール）をクリックして内容を確認し、その後受信トレイに戻る一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1501,
+        "y": 376
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163331.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 343,
+        "y": 140
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163332.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "「AI仙人」のAixeedの中村です",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 592,
+        "y": 178
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163333.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 330,
+        "y": 146
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163355.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 97,
+        "y": 45
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163356.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "メール確認",
+    "受信トレイ操作",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "メール件名",
+      "description": "クリック対象のメール件名。例：「AI仙人」のAixeedの中村です",
+      "step_index": 3
+    },
+    {
+      "name": "メール送信者",
+      "description": "メール送信者の識別情報。例：Aixeedの中村",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:01:23.123518",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

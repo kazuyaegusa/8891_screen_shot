@@ -1,0 +1,277 @@
+{
+  "workflow_id": "wf-a5cfcaec",
+  "name": "Codex アプリケーション操作シーケンス",
+  "description": "Codexアプリケーションで、メインウィンドウをクリックしてアクセスし、ローカル設定を開いて、レート制限情報を確認した後、テキストエリアにプロンプトを入力してGPT-5.3モデルを選択する操作シーケンス。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "main",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1811,
+        "y": 1062
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191500.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "main",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1827,
+        "y": 1062
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191501.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Local",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1308,
+        "y": 1052
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191503.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Rate limits remaining",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1329,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191504.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Rate limits remaining",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1329,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191505.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "\nAsk for follow-up changes",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1663,
+        "y": 974
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191507.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "GPT-5.3-Codex",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1336,
+        "y": 1015
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191508.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.openai.codex",
+      "app_name": "Codex",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "\nAsk for follow-up changes",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1641,
+        "y": 974
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_191509.png"
+    }
+  ],
+  "app_name": "Codex",
+  "tags": [
+    "UI操作",
+    "Codex",
+    "テキスト入力",
+    "モデル選択",
+    "設定確認"
+  ],
+  "parameters": [
+    {
+      "name": "target_element",
+      "description": "クリック対象の初期要素（main等）",
+      "step_index": 1
+    },
+    {
+      "name": "dropdown_option",
+      "description": "ポップアップボタンで選択するオプション（Local等）",
+      "step_index": 3
+    },
+    {
+      "name": "text_input",
+      "description": "テキストエリアに入力するプロンプト内容",
+      "step_index": 6
+    },
+    {
+      "name": "model_selection",
+      "description": "選択するAIモデル（GPT-5.3-Codex等）",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:44:16.076854",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

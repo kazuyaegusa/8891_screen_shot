@@ -1,0 +1,129 @@
+{
+  "workflow_id": "wf-a4c494eb",
+  "name": "OpenClaw Control での基本操作",
+  "description": "OpenClaw Control アプリケーションで画像要素をクリックした後、Openボタンをクリックする操作列。2つの画像要素のクリック操作の後に、Openボタンを実行する一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2432,
+        "y": 1712
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162606.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2423,
+        "y": 1737
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162608.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Open",
+        "value": null,
+        "description": null,
+        "identifier": "action-button--999"
+      },
+      "coordinates": {
+        "x": 2451,
+        "y": 1435
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162609.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "UI操作",
+    "OpenClaw",
+    "クリック",
+    "ボタン操作",
+    "画像操作"
+  ],
+  "parameters": [
+    {
+      "name": "image_target_1",
+      "description": "最初にクリックする画像要素のターゲット",
+      "step_index": 1
+    },
+    {
+      "name": "image_target_2",
+      "description": "次にクリックする画像要素のターゲット",
+      "step_index": 2
+    },
+    {
+      "name": "open_button",
+      "description": "実行するボタンの名前（このケースでは'Open'）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:00:01.985250",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

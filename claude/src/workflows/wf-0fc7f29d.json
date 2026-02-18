@@ -1,0 +1,64 @@
+{
+  "workflow_id": "wf-0fc7f29d",
+  "name": "Notifications設定を開く",
+  "description": "Linearアプリの環境設定（Preferences）ウィンドウでNotificationsリンクをクリックして、通知設定画面を開く操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Notifications",
+        "value": null,
+        "description": "Notifications",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 179,
+        "y": 191
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183913.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "Preferences",
+    "Notifications",
+    "UI操作",
+    "設定"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のUI要素。ここではNotificationsリンク",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "操作対象のウィンドウ。ここではPreferencesウィンドウ",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:40:13.855847",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

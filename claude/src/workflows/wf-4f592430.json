@@ -1,0 +1,297 @@
+{
+  "workflow_id": "wf-4f592430",
+  "name": "LINE メッセージ入力ワークフロー",
+  "description": "LINE アプリでテキストメッセージを入力して送信するワークフロー。初期クリック、テキストエリア選択、テキスト入力を行い、複数行のメッセージを構成します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": null,
+        "title": "LINE",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4185,
+        "y": -48
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195516.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4110,
+        "y": 83
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195517.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "？？",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4405,
+        "y": 772
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771239323.610657
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771239323.7273831
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239324.2109041
+          }
+        ],
+        "text": "??\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195525.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4405,
+        "y": 772
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771239325.245132
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771239325.3471448
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239325.467062
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239325.55687
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771239325.695126
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771239325.7529888
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239326.402239
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771239326.517717
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771239326.5624928
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239326.65313
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239326.742224
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239326.78744
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771239326.863584
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239326.937772
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239326.98347
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771239327.1024902
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239327.192238
+          }
+        ],
+        "text": "dousrearemasitaka",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195528.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "？？どうされましたか",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4405,
+        "y": 772
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239328.496827
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195529.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージング",
+    "テキスト入力",
+    "チャット"
+  ],
+  "parameters": [
+    {
+      "name": "初期クリック対象",
+      "description": "LINE ウィンドウ内のメインターゲット（アプリケーションウィンドウ自体）",
+      "step_index": 1
+    },
+    {
+      "name": "テキスト入力内容",
+      "description": "テキストエリアに入力するメッセージテキスト。複数行に分かれる可能性あり（例：'??'と'どうされましたか'）",
+      "step_index": 3
+    },
+    {
+      "name": "スクロールエリア入力テキスト",
+      "description": "スクロール可能なエリアに入力されるテキスト（例：'dousrearemasitaka'）",
+      "step_index": 4
+    },
+    {
+      "name": "最終メッセージテキスト",
+      "description": "最終的にテキストエリアに完成したメッセージ内容（例：'？？どうされましたか'）",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:50:31.302735",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

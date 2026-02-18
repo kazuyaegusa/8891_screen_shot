@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-2d3c0747",
+  "name": "システム設定メニューを開く",
+  "description": "Cursorアプリでシステム設定メニューアイテムをクリックして、1個のアップデートを含むシステム設定画面を開く操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "システム設定…、1個のアップデート",
+        "value": null,
+        "description": null,
+        "identifier": "_systemSettingsRequested:"
+      },
+      "coordinates": {
+        "x": 54,
+        "y": 86
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183509.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "システム設定",
+    "UI操作",
+    "メニュー"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のメニューアイテム名（デフォルト: システム設定…）",
+      "step_index": 1
+    },
+    {
+      "name": "window_id",
+      "description": "対象となるウィンドウID（デフォルト: 8891_screen_shot）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T11:39:39.258633",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}
