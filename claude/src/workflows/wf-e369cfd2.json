@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-e369cfd2",
+  "name": "Frame.io上のAXGroupをクリックする操作",
+  "description": "Frame.io内で同じAXGroupロールを持つ要素に対して連続でクリック操作を実行します。動画コンテンツ「◆05_コンテクストを集める①.mp4」の再生またはコンテンツ操作を行う手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 814,
+        "y": 526
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_165037.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 333,
+        "y": 889
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_165046.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Frame.io",
+    "動画編集",
+    "クリック操作",
+    "コンテンツ操作"
+  ],
+  "parameters": [
+    {
+      "name": "window",
+      "description": "対象となるFrame.ioの動画ウィンドウ（例：◆05_コンテクストを集める①.mp4）",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象の要素ロール（AXGroup）",
+      "step_index": 1
+    },
+    {
+      "name": "click_count",
+      "description": "実行するクリック操作の回数（この例では2回）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:45:17.908065",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

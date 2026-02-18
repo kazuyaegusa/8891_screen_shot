@@ -1,0 +1,86 @@
+{
+  "workflow_id": "wf-ff6c5669",
+  "name": "NotebookLM: 戻るして指定セクションを開く",
+  "description": "NotebookLM で前の画面に戻った後、所定のセクション（既定は「Studio」）を開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "戻る",
+        "value": null,
+        "description": "戻る",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 95,
+        "y": 1168
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154123.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "Studio",
+        "value": null,
+        "description": "Studio",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 320,
+        "y": 1540
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154124.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "navigation",
+    "UI"
+  ],
+  "parameters": [
+    {
+      "name": "section_name",
+      "description": "開く目標セクション（UI 上のラベル）。既定: Studio",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T15:52:16.171793",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

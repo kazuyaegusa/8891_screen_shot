@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-56868e25",
+  "name": "Cursorアプリでのファイルグループクリック操作",
+  "description": "Cursorアプリで特定のファイル（numeric_types_list.md）のAXGroupターゲットをクリックして、ファイル内の問題リスト（234個）を表示する単一ステップの操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1218,
+        "y": 393
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193730.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "IDE",
+    "ファイル操作",
+    "UIクリック",
+    "問題リスト表示"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "クリック対象のファイル名（例：numeric_types_list.md）",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象のUIロール（例：AXGroup）",
+      "step_index": 1
+    },
+    {
+      "name": "problem_count",
+      "description": "ファイル内に含まれる問題の数（例：234）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:29:46.302389",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-2376f9f1",
+  "name": "Aqua Voice - グループクリック操作",
+  "description": "Aqua Voiceアプリケーションにおいて、AXGroupを クリックした後、AXButtonをクリックする一連の操作。グループ内の要素を選択してから、ボタンアクションを実行するワークフローパターン。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.electron.aqua-voice",
+      "app_name": "Aqua Voice",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3366,
+        "y": 380
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181200.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.electron.aqua-voice",
+      "app_name": "Aqua Voice",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2798,
+        "y": 278
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181202.png"
+    }
+  ],
+  "app_name": "Aqua Voice",
+  "tags": [
+    "Aqua Voice",
+    "UI操作",
+    "クリック",
+    "グループ",
+    "ボタン"
+  ],
+  "parameters": [
+    {
+      "name": "target_group",
+      "description": "クリック対象のAXGroup要素",
+      "step_index": 1
+    },
+    {
+      "name": "target_button",
+      "description": "クリック対象のAXButton要素",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:18:55.283825",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

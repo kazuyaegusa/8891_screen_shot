@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-c8f6d319",
+  "name": "Chromeタブをタイトルでアクティブ化",
+  "description": "Google Chromeで、指定したページタイトルのタブをクリックしてアクティブ化します。対象タブが既に開かれている前提のワンステップ作業です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "Cost | Claude Developer Platform",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1175,
+        "y": -20
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_143600.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "google_chrome",
+    "ブラウザ",
+    "タブ操作",
+    "フォーカス"
+  ],
+  "parameters": [
+    {
+      "name": "tab_title",
+      "description": "アクティブ化したいタブ（ページ）のタイトル。例: \"Cost | Claude Developer Platform\"",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T14:40:42.993258",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

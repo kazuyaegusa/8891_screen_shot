@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-018937b4",
+  "name": "Slack Fusion AI チャンネル ボタンクリック",
+  "description": "Google Chromeアプリ内で、Slackの「fusion-ai（チャンネル） - Aixeed - Slack」ウィンドウ内にあるAXButtonロールのボタンをクリックする操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3044,
+        "y": 875
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_164115.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Slack",
+    "Google Chrome",
+    "UI操作",
+    "ボタンクリック"
+  ],
+  "parameters": [
+    {
+      "name": "window_name",
+      "description": "クリック対象が含まれるウィンドウ名（例：fusion-ai（チャンネル） - Aixeed - Slack）",
+      "step_index": 1
+    },
+    {
+      "name": "button_role",
+      "description": "クリック対象のボタンのアクセシビリティロール（例：AXButton）",
+      "step_index": 1
+    },
+    {
+      "name": "app_name",
+      "description": "操作を実行するアプリケーション名（例：Google Chrome）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:44:26.807348",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

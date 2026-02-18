@@ -1,0 +1,102 @@
+{
+  "workflow_id": "wf-264cdfc4",
+  "name": "Gmail メール確認と認証コード取得",
+  "description": "Gmail受信トレイでメールを開き、認証コードを含むメッセージを確認するワークフロー。招待メールと認証コード送信メールを順に確認する操作です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "kotassnearby invited you to kotassnearby/Aixeed-PJ-Manage-r1",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 626,
+        "y": 176
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002647.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXRow",
+        "title": "Circleback , Your login code , 2月12日 , Use the code 818313 to log in to Circleback. ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​.",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1115,
+        "y": 605
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002649.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "メール確認",
+    "認証コード",
+    "ログイン"
+  ],
+  "parameters": [
+    {
+      "name": "メール件名",
+      "description": "クリック対象となるメールの件名。例：'kotassnearby invited you to kotassnearby/Aixeed-PJ'",
+      "step_index": 1
+    },
+    {
+      "name": "認証メール送信元",
+      "description": "認証コードを送信するサービス名。例：'Circleback'",
+      "step_index": 2
+    },
+    {
+      "name": "認証コード",
+      "description": "認証に使用するコード。例：'818313'",
+      "step_index": 2
+    },
+    {
+      "name": "メール日付",
+      "description": "メール受信日。例：'2月12日'",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:34:10.379802",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

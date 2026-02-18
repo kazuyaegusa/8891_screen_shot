@@ -1,0 +1,94 @@
+{
+  "workflow_id": "wf-ca45ac3d",
+  "name": "Chrome内のAXGroupクリックとコピー操作",
+  "description": "Google Chromeでの操作列。AXGroupと役割を持つ要素をクリックした後、Cmd+cショートカットでコピーを実行する操作シーケンス。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 460,
+        "y": 101
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002936.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 460,
+        "y": 101
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_002938.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "UI操作",
+    "コピー操作",
+    "要素選択"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のUI要素（AXGroup、役割AXGroup、ウィンドウkotassnearby/Aixeed-PJ-Manage-r1）",
+      "step_index": 1
+    },
+    {
+      "name": "shortcut",
+      "description": "実行するキーボードショートカット（Cmd+c でコピー）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:34:37.328514",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

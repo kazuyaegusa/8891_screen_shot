@@ -1,0 +1,3573 @@
+{
+  "workflow_id": "wf-2806f817",
+  "name": "Slackチャンネルへのメッセージ作成と送信ワークフロー",
+  "description": "特定のSlackチャンネルを選択し、メンション付きのメッセージを段階的に入力して送信するワークフロー。ユーザー名の参照、複数行テキストの組み立て、メッセージの送信を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 243,
+        "y": 382
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194743.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194745.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "@",
+            "keycode": 33,
+            "timestamp": 1771238866.3029602
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238866.749042
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238866.912351
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238866.985771
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238867.060866
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238867.2127209
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238867.25606
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771238867.316046
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238867.406243
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238867.467173
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238867.556416
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238868.32421
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238868.638497
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238868.802227
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238868.9672031
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238869.299391
+          },
+          {
+            "char": "",
+            "keycode": 117,
+            "timestamp": 1771238870.1844962
+          },
+          {
+            "char": "",
+            "keycode": 117,
+            "timestamp": 1771238870.3192341
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238870.605391
+          },
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771238870.8741498
+          },
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771238870.990932
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238871.2652302
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238871.5481339
+          },
+          {
+            "char": "@",
+            "keycode": 33,
+            "timestamp": 1771238871.847327
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238872.0724711
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238872.1459498
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238872.250918
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238872.29668
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238872.598588
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238872.822161
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238873.7073548
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238874.428857
+          }
+        ],
+        "text": "@hurukawa \n\u001f\u001f\u001f\u001f\n CC\n @rara\u0010\n\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194755.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771238877.998135
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238878.0725582
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238878.220715
+          }
+        ],
+        "text": "gor",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194759.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771238879.2512262
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238879.3464131
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238879.421485
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238879.4657311
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238879.5117812
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238879.616231
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238879.662267
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238879.7061
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238879.796213
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238879.871723
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238880.01103
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238880.067296
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238880.110646
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238880.2625222
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771238880.322273
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238880.518595
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238880.788813
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238880.833059
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238880.877069
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238880.982104
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238881.0870981
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238881.245336
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238881.37128
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238881.4922822
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238882.228766
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238882.289065
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238882.346945
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771238882.466688
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238882.512039
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238882.647616
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238882.722822
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238882.811041
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238882.856639
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771238882.8853812
+          }
+        ],
+        "text": "gorenraku made,\nsensyuu senpan nop",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194803.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "M",
+            "keycode": 46,
+            "timestamp": 1771238884.026773
+          },
+          {
+            "char": "T",
+            "keycode": 17,
+            "timestamp": 1771238884.130647
+          },
+          {
+            "char": "G",
+            "keycode": 5,
+            "timestamp": 1771238884.387543
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238884.6726599
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238884.806593
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238884.974814
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238885.0160089
+          }
+        ],
+        "text": "MTG\nde\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194806.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "ご連絡まで、先般のMTGで当方たs",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 984
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238886.201556
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238886.27686
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238886.370036
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238886.531133
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238886.56086
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238886.7125509
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238886.77171
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238887.224635
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238887.2519429
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238887.3261561
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238887.477412
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238887.541085
+          }
+        ],
+        "text": "touhou tasku",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194808.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 337,
+        "y": 1041
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238888.578751
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238888.735956
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238888.803402
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238888.886569
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238889.006988
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238889.051316
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238889.204025
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238889.277258
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238889.4269361
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238889.5461178
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238889.5936482
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238889.6674392
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238889.771266
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238889.834817
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238889.861513
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238889.9224901
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238889.997225
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238890.040653
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238890.222096
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238890.5424
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238890.687537
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771238890.732237
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238890.807313
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238890.8374379
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238890.897716
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238891.0167758
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238891.031618
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238891.182384
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238891.2716002
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238891.3623521
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238891.483391
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238891.557395
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238891.6179981
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238891.7238011
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238891.7831008
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238891.841535
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238891.917155
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238892.007604
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238892.0667362
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238892.1270468
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238892.3218591
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238892.486967
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238892.5772989
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238892.63729
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238892.7561002
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238892.817363
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238892.877409
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238892.966527
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771238893.05583
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238893.146301
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238893.598977
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238893.642573
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238893.702274
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238893.792565
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238893.868129
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238893.8819761
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238893.926709
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238894.077097
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238894.468498
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771238895.2174668
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238895.308589
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238895.3852139
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238895.441223
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238895.48662
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238895.561261
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238895.6218822
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238895.66735
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238895.756994
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238895.787775
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238895.8764741
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238895.92098
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238896.0710678
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238896.087799
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238896.1060412
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238896.222425
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238896.237258
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771238896.435178
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238897.15229
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238897.242495
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771238897.453048
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238897.6177962
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238897.995199
+          }
+        ],
+        "text": "uku tonatteimasita\nde-ta syutoku kahi no\nitiran wonituite\nrgorenraku simasiu.su.\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194819.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 363,
+        "y": 1040
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194819.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 500,
+        "y": 970
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194821.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 363,
+        "y": 436
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194825.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238908.388255
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238908.416833
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238908.4953651
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771238908.601365
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238908.74827
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238908.896592
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238909.272047
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238909.316782
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238909.407616
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238909.422548
+          }
+        ],
+        "text": "tenpu nite",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194830.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238913.174349
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238913.2639081
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238913.396281
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238913.5177119
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238913.578995
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238913.727988
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238913.8353438
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238914.192307
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238914.314504
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238914.4181068
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238914.462272
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238914.551338
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238914.779468
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238914.806302
+          }
+        ],
+        "text": "syutokukahi no",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194835.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771238915.8867872
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771238916.021544
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771238916.172231
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771238916.3083389
+          }
+        ],
+        "text": "\u001c\u001c\u001c\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194837.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 102,
+            "timestamp": 1771238917.764487
+          },
+          {
+            "char": "*",
+            "keycode": 39,
+            "timestamp": 1771238918.27179
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238918.392419
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238918.873861
+          },
+          {
+            "char": " ",
+            "keycode": 104,
+            "timestamp": 1771238919.806129
+          }
+        ],
+        "text": " * \u001f ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194840.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238920.847432
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238920.883373
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238921.121883
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238921.316225
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238921.4069362
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238921.465787
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238921.589289
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238921.619044
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238921.6914072
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238921.8122299
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238922.758591
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238922.818797
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238923.059061
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771238923.868706
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238924.057019
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238924.8147619
+          },
+          {
+            "char": "0",
+            "keycode": 29,
+            "timestamp": 1771238924.9617531
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238925.006942
+          },
+          {
+            "char": "6",
+            "keycode": 22,
+            "timestamp": 1771238925.276681
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238925.4113762
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238925.5171058
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238925.5620081
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238925.696279
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238925.8463209
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238926.027808
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238926.206053
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238926.268117
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238926.4165592
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238926.5540211
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238926.611948
+          }
+        ],
+        "text": "no\nhantei ha\n,\n2026nen \n2tuki ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194847.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238928.908639
+          },
+          {
+            "char": "0",
+            "keycode": 29,
+            "timestamp": 1771238929.011067
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238929.070417
+          },
+          {
+            "char": "6",
+            "keycode": 22,
+            "timestamp": 1771238929.330028
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238929.568309
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238929.8219771
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238929.867425
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238929.956112
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238930.077356
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238930.197136
+          }
+        ],
+        "text": "2026\u0010nen \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194851.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238932.0750039
+          },
+          {
+            "char": "0",
+            "keycode": 29,
+            "timestamp": 1771238932.3567638
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238932.447145
+          },
+          {
+            "char": "6",
+            "keycode": 22,
+            "timestamp": 1771238932.762762
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238932.987726
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238933.297514
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238933.346007
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238933.406712
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238933.528772
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238933.6612852
+          }
+        ],
+        "text": "2026\u0010nen \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194854.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238935.41982
+          },
+          {
+            "char": "0",
+            "keycode": 29,
+            "timestamp": 1771238935.628916
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238935.702602
+          },
+          {
+            "char": "6",
+            "keycode": 22,
+            "timestamp": 1771238935.988121
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238936.303083
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238936.633279
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238936.890115
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238936.949035
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238937.023248
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238937.111984
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238937.231946
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771238937.713569
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238938.043093
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238938.224191
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238938.311208
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238938.522656
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238938.6571689
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238938.762312
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238939.092739
+          }
+        ],
+        "text": "2026\u0010\nnen \n2\u0010tuki \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194900.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "1",
+            "keycode": 18,
+            "timestamp": 1771238940.187039
+          },
+          {
+            "char": "4",
+            "keycode": 21,
+            "timestamp": 1771238940.474036
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771238940.818312
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238941.0572312
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238941.344272
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238941.403042
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238941.7211578
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238941.837955
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238941.958102
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238941.9738162
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238942.212105
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238942.4989371
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771238943.145679
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238943.2040231
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238943.277345
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238943.307134
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238943.4268281
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238943.5336168
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238943.719776
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238943.773704
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238944.001364
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238944.28486
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238944.326981
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238944.4179142
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238944.536274
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238944.581235
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238944.736282
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238944.891752
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238944.941311
+          },
+          {
+            "char": "A",
+            "keycode": 0,
+            "timestamp": 1771238945.546837
+          },
+          {
+            "char": "P",
+            "keycode": 35,
+            "timestamp": 1771238945.963704
+          },
+          {
+            "char": "I",
+            "keycode": 34,
+            "timestamp": 1771238946.218745
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238946.400031
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238946.50189
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238946.622337
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238946.741798
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238946.801242
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238946.892108
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238947.013463
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771238947.191999
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238947.312743
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771238947.3740108
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238947.49112
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238947.5673869
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238947.733247
+          }
+        ],
+        "text": "14\u0010\nhiduke \njiten no\nkousiki API\nsiyou be-su ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194908.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238948.7581801
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238948.871985
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238948.9627259
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238949.051571
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238949.112118
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238949.202472
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238949.321393
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238949.909067
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771238950.4046001
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238950.491711
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771238950.61105
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238950.7020988
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238950.78036
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238950.868132
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238950.986893
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238951.1228192
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238951.1373708
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238951.301255
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238951.361098
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238951.423019
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238951.511316
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238951.5569038
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238951.632266
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238951.7071302
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238951.814539
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238951.8275042
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238951.9339619
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238951.991519
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238952.006828
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238952.156991
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238952.1932302
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238952.232634
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238952.337184
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238952.502721
+          }
+        ],
+        "text": "siyou  \nbe-su de\ntyousa siteimasu\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194913.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238953.5516238
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194914.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238963.288678
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771238963.482111
+          }
+        ],
+        "text": "\u001e\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194924.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238964.4945002
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238964.636437
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771238965.330543
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238965.522557
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238966.396029
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771238967.0090072
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238967.068938
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238967.261226
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238967.277041
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238967.411377
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238967.5330281
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238967.681101
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771238968.4627242
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238968.5221891
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238968.597068
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238968.7352471
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238968.900219
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238969.4978602
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238969.55916
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238969.632571
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238969.782947
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238969.857449
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238969.947443
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238970.052484
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238970.112753
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238970.157216
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238970.262638
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238970.30812
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238970.337588
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238970.427552
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238970.56273
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238970.698273
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238970.742292
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238970.816863
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238971.027401
+          }
+        ],
+        "text": "\u001f\u001f.\n\njiaki tjiakikaino teirei demo\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194932.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 600,
+        "y": 898
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238972.789845
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238972.874451
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238973.021339
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771238973.1268811
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238973.201235
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238973.306942
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238973.4563048
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238973.6069162
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238973.63583
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238973.789163
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238973.862117
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238973.937752
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238974.026725
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238974.1028962
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238974.17695
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238974.2672582
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238974.3364952
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238974.4786491
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238974.611248
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238974.672447
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238974.787491
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238974.8682392
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238974.9429471
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238974.975167
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238975.063387
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771238975.136745
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238975.1681411
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238975.242304
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238975.559028
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238975.785447
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771238975.811169
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238975.872378
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238975.931478
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238976.052315
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238976.188191
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238977.059345
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238977.190503
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238977.251721
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238977.371104
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238977.496753
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238977.6270888
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238977.806648
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238977.912617
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238977.974466
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771238978.062179
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238978.13737
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238978.168592
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238978.318423
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238978.4515011
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238978.4966688
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238978.631289
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238978.7076569
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238978.842498
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238978.933509
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238979.037767
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238979.157741
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238979.322379
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238979.3822541
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238979.4137611
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238979.531466
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238979.607467
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238979.952683
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238980.120706
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238980.268686
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238980.3427432
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238980.402143
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238980.463077
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238980.496654
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238980.567379
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238980.657015
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238980.746619
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238981.003152
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238981.272793
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238981.3494
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238981.482731
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238981.616837
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238981.6915998
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238981.782966
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238981.887011
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238981.915914
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238981.9476008
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238982.03675
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238982.127202
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771238982.250122
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238982.366154
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238983.043933
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771238983.389363
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238983.4493198
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238983.59657
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238983.746581
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238983.837663
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238983.896224
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238984.001624
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238984.0476632
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238984.139112
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238984.272577
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238984.350045
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238984.4217012
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238984.467607
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238984.496799
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238984.570883
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771238984.676744
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238984.7102919
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238984.9401422
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238985.801343
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238985.893184
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771238985.937566
+          },
+          {
+            "char": "z",
+            "keycode": 6,
+            "timestamp": 1771238986.041265
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238986.086525
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238986.282064
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238986.4620008
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238986.514894
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238986.551167
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238986.626592
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238986.7015512
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238986.836446
+          }
+        ],
+        "text": "kaiwa dekitara toomoimasuga \nkjanouanoudeareba omedoosi itadakemasitara toomoimasu .\n\nhikituduki d ouzo\ndouzo\nyoro \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194947.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 647,
+        "y": 895
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771238988.263817
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238988.323467
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238988.383431
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238988.442513
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238988.5166988
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238988.878711
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238989.296479
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238989.612194
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238990.197342
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238990.365551
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238990.498955
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238990.648663
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238990.783125
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238990.9788501
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238991.186317
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238991.5675268
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238991.863117
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771238992.0579112
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771238992.342605
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771238992.5376372
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771238992.733613
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771238992.9002728
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.064072
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.213075
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.3789
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.5269299
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.648545
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771238993.797099
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238994.609922
+          }
+        ],
+        "text": "yoro  \n\n\u001e\u001e\u001e\u001e\u001e\u001f\u001f\u001f\u001e\u001e\u001d\u001d\u001d\u001d\u001f\u001f\u001f\u001f\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194955.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 647,
+        "y": 896
+      },
+      "key": {
+        "keycode": 36,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_194957.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 703,
+        "y": 742
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194959.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 708,
+        "y": 732
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195000.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "メッセージ送信",
+    "チャンネル操作",
+    "テキスト入力"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "対象となるSlackチャンネル名（例：ext-stun-x-movico-ai推進pj）",
+      "step_index": 2
+    },
+    {
+      "name": "mentioned_users",
+      "description": "メッセージ内でメンションするユーザー名（例：@hurukawa, @rara）",
+      "step_index": 3
+    },
+    {
+      "name": "message_content",
+      "description": "送信するメッセージの本文（複数行テキスト）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:32:15.613217",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

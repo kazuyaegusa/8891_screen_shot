@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-b5c6fe11",
+  "name": "Discord - Aixeed運営ボタンをクリック",
+  "description": "Discord アプリケーションで、Aixeed運営チャンネルのボタン（AXButton）をクリックして、該当するチャンネルまたはメッセージを開く操作です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3882,
+        "y": 874
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184240.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "UI操作",
+    "ボタンクリック",
+    "チャンネル操作",
+    "Aixeed運営"
+  ],
+  "parameters": [
+    {
+      "name": "target_button_name",
+      "description": "クリック対象のボタン名（例：AXButton）",
+      "step_index": 1
+    },
+    {
+      "name": "window_title",
+      "description": "対象ウィンドウのタイトル（例：Aixeed運営 - Discord）",
+      "step_index": 1
+    },
+    {
+      "name": "button_role",
+      "description": "ボタンのUIロール（例：AXButton）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:22:47.973757",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

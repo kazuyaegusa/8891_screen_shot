@@ -1,0 +1,129 @@
+{
+  "workflow_id": "wf-2d293d3c",
+  "name": "Google Chrome での複数タブのクリック操作",
+  "description": "Google Chrome で異なるウィンドウ/タブに対して順序的にクリック操作を実行するシーケンス。最初は GitHub のコミット（drop redundant empty-profile extraction cases）、その後は Frame.io の動画編集フレーム（◆05_コンテクストを集める修正①.mp4）に対する2回の連続クリック操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1408,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_165159.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1537,
+        "y": 61
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_165200.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1613,
+        "y": 52
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_165201.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "browser",
+    "google-chrome",
+    "click-operation",
+    "multi-tab",
+    "github",
+    "frame.io",
+    "sequential-interaction"
+  ],
+  "parameters": [
+    {
+      "name": "target_window_1",
+      "description": "最初のクリック対象ウィンドウ：GitHub のコミットページ（drop redundant empty-profile extraction cases · kazuyaegusa/openclaw@ac02e45）",
+      "step_index": 1
+    },
+    {
+      "name": "target_window_2",
+      "description": "2番目と3番目のクリック対象ウィンドウ：Frame.io の動画編集フレーム（◆05_コンテクストを集める修正①.mp4）",
+      "step_index": 2
+    },
+    {
+      "name": "click_count_on_frame_io",
+      "description": "Frame.io ウィンドウに対する連続クリック回数",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:45:27.510262",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

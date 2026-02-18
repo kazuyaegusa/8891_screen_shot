@@ -1,0 +1,122 @@
+{
+  "workflow_id": "wf-1ef966cc",
+  "name": "Cursor から Finder で対象ファイルを表示する",
+  "description": "Cursor 上で対象ファイルのタブ/タイトルを選択し、コンテキストメニューから「Reveal in Finder」を実行して macOS Finder で場所を開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "AI_Workflow_Engineering_edited.pptx",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1203,
+        "y": 1234
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154759.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "AI_Workflow_Engineering_edited.pptx",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1234,
+        "y": 1233
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154801.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Reveal in Finder",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 1324,
+        "y": 1301
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154803.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Finder",
+    "macOS",
+    "ファイル操作",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "Cursor のウィンドウ/タブに表示される対象ファイル名（例: AI_Workflow_Engineering_edited.pptx）。ステップ1でこの名前の項目をクリック。",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "同じファイル名の項目を再度クリック（コンテキストを表示する操作の一部として）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T15:56:58.286266",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

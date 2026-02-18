@@ -1,0 +1,74 @@
+{
+  "workflow_id": "wf-59676b37",
+  "name": "Google カレンダー - ボタンクリック操作",
+  "description": "Google カレンダーのAXButtonをクリックする操作。2026年2月16日の週のカレンダービューでボタンをクリックしています。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1963,
+        "y": 48
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151530.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Google カレンダー",
+    "UI操作",
+    "ボタンクリック",
+    "カレンダー",
+    "2026年2月"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のUI要素（AXButton）",
+      "step_index": 1
+    },
+    {
+      "name": "window_title",
+      "description": "操作対象のウィンドウタイトル（Google カレンダー - Aixeed株式会社 - カレンダー）",
+      "step_index": 1
+    },
+    {
+      "name": "date_week",
+      "description": "カレンダーの表示週（2026年2月16日の週）",
+      "step_index": 1
+    },
+    {
+      "name": "timestamp",
+      "description": "操作を実行する日時",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:40:22.073228",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

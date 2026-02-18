@@ -1,0 +1,142 @@
+{
+  "workflow_id": "wf-67651561",
+  "name": "Frame.io ビデオレビュー操作",
+  "description": "Frame.io のビデオプレイヤーで、複数のクリック操作と空のテキスト入力を行うシーケンス。具体的には、AXGroup要素に対する2つのクリック操作と1つのテキスト入力操作で構成される。</description>\n<parameter name=\"tags\">[\"Frame.io\", \"ビデオレビュー\", \"UI操作\", \"クリック\", \"テキスト入力\"]",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 608,
+        "y": 513
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170415.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 608,
+        "y": 513
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_170417.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 608,
+        "y": 513
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315456.580815
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315456.728483
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315456.879859
+          },
+          {
+            "char": "\u001c",
+            "keycode": 123,
+            "timestamp": 1771315457.017927
+          }
+        ],
+        "text": "\u001c\u001c\u001c\u001c",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_170418.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [],
+  "parameters": [
+    {
+      "name": "video_file_name",
+      "description": "Frame.io で開くビデオファイル名。例：◆05_コンテクストを集める①.mp4",
+      "step_index": 0
+    },
+    {
+      "name": "input_text",
+      "description": "テキスト入力フィールドに入力する内容。この例では空文字列。",
+      "step_index": 2
+    },
+    {
+      "name": "click_count",
+      "description": "実行するクリック操作の回数。この例では2回。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:46:33.489352",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

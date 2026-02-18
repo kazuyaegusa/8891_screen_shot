@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-251b87c0",
+  "name": "Slack チャンネル内でのグループクリック操作",
+  "description": "ext-stun-x-movico-ai推進pj（チャンネル）内でAXGroupコンポーネントをクリックしてからAXButtonコンポーネントをクリックする操作列。チャンネル内での UI 要素操作の基本的なシーケンス。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 641,
+        "y": 525
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200302.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 93,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200310.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "クリック操作",
+    "UI操作",
+    "チャンネル",
+    "グループ操作"
+  ],
+  "parameters": [
+    {
+      "name": "チャンネル名",
+      "description": "操作対象の Slack チャンネル名。例：ext-stun-x-movico-ai推進pj（チャンネル）",
+      "step_index": 0
+    },
+    {
+      "name": "グループコンポーネント",
+      "description": "クリック対象の AXGroup ロール要素。チャンネル内の特定のグループUI要素",
+      "step_index": 0
+    },
+    {
+      "name": "ボタンコンポーネント",
+      "description": "クリック対象の AXButton ロール要素。グループクリック後に操作するボタン",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:32:39.240048",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

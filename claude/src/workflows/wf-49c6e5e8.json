@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-49c6e5e8",
+  "name": "Cursor App - Web Area と Group のクリック操作",
+  "description": "Cursorアプリケーションで AXWebArea ロールの要素をクリックした後、AXGroup ロールの要素をクリックする操作。ブラウザタブ「kework-agi」内で実行される基本的なUI操作列。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXWebArea",
+        "title": "AXWebArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1676,
+        "y": 224
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194149.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1266,
+        "y": 45
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194151.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "UI操作",
+    "クリック",
+    "ブラウザ",
+    "基本操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_web_area",
+      "description": "クリック対象のWebArea要素。ロール: AXWebArea",
+      "step_index": 1
+    },
+    {
+      "name": "target_group",
+      "description": "クリック対象のGroup要素。ロール: AXGroup",
+      "step_index": 2
+    },
+    {
+      "name": "window_context",
+      "description": "操作を実行するウィンドウコンテキスト。デフォルト: Browser Tab — kework-agi",
+      "step_index": 0
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:30:55.338617",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

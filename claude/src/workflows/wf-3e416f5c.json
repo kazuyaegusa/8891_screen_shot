@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-3e416f5c",
+  "name": "Slackチャンネル切り替え操作",
+  "description": "Slackアプリケーション内でチャンネルを切り替える操作序列。最初に「fusion-ai-リストマーケ」チャンネルグループをクリックし、その後「fusion-ai」チャンネルのボタンをクリックする。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3243,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_161011.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3036,
+        "y": 871
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_161026.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル管理",
+    "UI操作",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "source_channel_group",
+      "description": "クリック対象のチャンネルグループ名（例：fusion-ai-リストマーケ）",
+      "step_index": 1
+    },
+    {
+      "name": "target_channel",
+      "description": "遷移先のチャンネル名（例：fusion-ai）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:41:59.908651",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

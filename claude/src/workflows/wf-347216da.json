@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-347216da",
+  "name": "Google Chrome - 新しいウィンドウを開く",
+  "description": "Google Chromeで新しいウィンドウを開く単一の操作。メニュー項目「New Window」をクリックして新規ウィンドウを起動する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 158,
+        "y": 551
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_002833.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "browser",
+    "chrome",
+    "window-management",
+    "ui-automation"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のUI要素。値: New Window",
+      "step_index": 1
+    },
+    {
+      "name": "role",
+      "description": "UI要素の役割。値: AXMenuItem (アクセシビリティロール)",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "対象ウィンドウの識別子。値: kotassnearby/Aixeed-PJ-Manage-r1",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:34:28.085392",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

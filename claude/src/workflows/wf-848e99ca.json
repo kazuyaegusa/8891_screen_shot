@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-848e99ca",
+  "name": "Google カレンダーの週表示ボタン操作",
+  "description": "Google カレンダーアプリで特定の週（2026年2月16日の週）を表示するためのボタンをクリックする操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1964,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_173436.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Google カレンダー",
+    "ボタン操作",
+    "週表示",
+    "カレンダー表示"
+  ],
+  "parameters": [
+    {
+      "name": "対象週の開始日付",
+      "description": "表示する週の開始日付（ISO 8601形式：YYYY-MM-DD）",
+      "step_index": 1
+    },
+    {
+      "name": "ボタン要素",
+      "description": "クリック対象のボタン要素（AXButton role）",
+      "step_index": 1
+    },
+    {
+      "name": "アプリケーション",
+      "description": "操作対象のアプリケーション名（Google カレンダー）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:49:11.822109",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

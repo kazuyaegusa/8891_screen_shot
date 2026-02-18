@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-b6113f63",
+  "name": "Ghosttyターミナルでのスクリプト実行",
+  "description": "GhosttyアプリケーションのテキストエリアをクリックしてPythonスクリプト（capture_loop.py）を実行するための操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                         \nkazuyaegusa@Mac src % source ~/.zshrc                                                              \nkazuyaegusa@Mac src % kework                                                                       \nデーモン: 停止中                                                                                   \nタスクなし                                                                                         \n                                                                                                   \n登録スキル: 1 件                                                                                   \n登録プロジェクト: 9 件                                                                             \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                   \ncd: no such file or directory: claude/src                                                          \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                      \n==================================================                                                 \nCapture Loop - 常駐スクリーンショット                                                              \n==================================================                                                 \n  Session : 5697dd21-eb3d-4666-a4ea-4c851075128f                                                   \n  Trigger : event                                                                                  \n  Click debounce: 0.5s                                                                             \n  Text flush    : 1.0s                                                                             \n  Output  : /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots                      \n  Mode    : element                                                                                \n  Crop only: False                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2833,
+        "y": 669
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181134.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "terminal",
+    "ghostty",
+    "python",
+    "script-execution",
+    "click-action"
+  ],
+  "parameters": [
+    {
+      "name": "script_name",
+      "description": "実行するPythonスクリプトのファイル名",
+      "step_index": 1
+    },
+    {
+      "name": "trigger_option",
+      "description": "スクリプトに渡されるコマンドラインオプション（--trigger event）",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象のUIエレメントのロール（AXTextArea）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:18:41.227264",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

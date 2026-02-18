@@ -1,0 +1,539 @@
+{
+  "workflow_id": "wf-3a5396de",
+  "name": "LINE メッセージ送信ワークフロー",
+  "description": "LINEアプリでテキストメッセージを入力して送信する操作シーケンス。UIテキスト要素をクリックしてメッセージ入力欄を開き、複数行のテキストを段階的に入力してから送信ボタンをクリックする。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": null,
+        "title": "LINE",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4129,
+        "y": -63
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195859.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4043,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195900.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4384,
+        "y": 739
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195902.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4384,
+        "y": 739
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239543.525321
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771239543.593492
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771239543.838009
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239544.002187
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239544.1075552
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771239544.183487
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239544.288647
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771239544.50085
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771239544.648459
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239544.76855
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239544.8422751
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239544.8459961
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239544.977175
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771239545.024062
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771239545.173184
+          }
+        ],
+        "text": "mo-sugudemasu -",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195906.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4384,
+        "y": 739
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239546.522788
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771239546.5676732
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239546.688721
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239546.959687
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771239547.063107
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771239547.139015
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239547.288748
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239547.422627
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771239547.515452
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239548.3223271
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771239548.443435
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771239548.534492
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239548.683178
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239548.878588
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771239549.057136
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239549.1169531
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239549.7023392
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239550.06385
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239550.2579782
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771239550.437184
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239550.497426
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771239550.6052191
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771239550.710212
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771239550.783406
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771239550.81666
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771239550.902474
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771239550.964928
+          }
+        ],
+        "text": "te\nsoottittimuka\nmukaimasu ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195912.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4384,
+        "y": 739
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "^",
+            "keycode": 24,
+            "timestamp": 1771239552.051169
+          }
+        ],
+        "text": "^",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195913.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4384,
+        "y": 739
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771239553.3630579
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239553.5756958
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771239554.0395908
+          }
+        ],
+        "text": "-\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_195915.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": null,
+        "title": "LINE",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4168,
+        "y": -58
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195918.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4044,
+        "y": 75
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_195919.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージ送信",
+    "テキスト入力",
+    "チャット操作"
+  ],
+  "parameters": [
+    {
+      "name": "message_content_part1",
+      "description": "メッセージの第1部分: 'mo-sugudemasu -'",
+      "step_index": 4
+    },
+    {
+      "name": "message_content_part2",
+      "description": "メッセージの第2部分: 改行を含むテキスト 'te\\nsoottittimuka\\nmukaimasu '",
+      "step_index": 5
+    },
+    {
+      "name": "message_content_part3",
+      "description": "メッセージの第3部分: '^' 記号",
+      "step_index": 6
+    },
+    {
+      "name": "message_content_part4",
+      "description": "メッセージの第4部分: ハイフンと改行",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:32:28.529685",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

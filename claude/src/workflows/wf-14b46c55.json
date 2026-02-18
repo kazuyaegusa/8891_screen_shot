@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-14b46c55",
+  "name": "Claude Developer PlatformでAPI KeysタブからCostリンクへ遷移",
+  "description": "Google Chromeで既存の「API Keys | Claude Developer Platform」タブをアクティブ化し、ページ内の「Cost」リンクをクリックしてコスト関連ページ/セクションへ移動する手順。タブが既に開かれていることを前提とする再利用可能な操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "API Keys | Claude Developer Platform",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1178,
+        "y": -29
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_124006.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Cost",
+        "value": null,
+        "description": "Cost",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1168,
+        "y": 373
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_124011.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "browser",
+    "chrome",
+    "web-navigation",
+    "developer-platform"
+  ],
+  "parameters": [
+    {
+      "name": "tab_title",
+      "description": "アクティブ化するタブ/ウィンドウのタイトル。既定: \"API Keys | Claude Developer Platform\"",
+      "step_index": 1
+    },
+    {
+      "name": "link_text",
+      "description": "クリックするリンクの表示テキスト。既定: \"Cost\"",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.73,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:52:49.512393",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

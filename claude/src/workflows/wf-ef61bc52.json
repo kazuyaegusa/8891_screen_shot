@@ -1,0 +1,69 @@
+{
+  "workflow_id": "wf-ef61bc52",
+  "name": "Preview内のマークダウンファイルをクリック",
+  "description": "Cursorアプリの Preview ウィンドウ内で、AXImage要素をクリックしてマークダウンファイル（numeric_types_list.md）を開く操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 790,
+        "y": 964
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185657.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Preview",
+    "Click",
+    "File",
+    "Markdown"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "クリック対象のファイル名（例: numeric_types_list.md）",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象の要素ロール（例: AXImage）",
+      "step_index": 1
+    },
+    {
+      "name": "window_name",
+      "description": "操作対象のウィンドウ名（例: Preview）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:23:48.338495",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

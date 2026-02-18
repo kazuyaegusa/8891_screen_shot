@@ -1,0 +1,340 @@
+{
+  "workflow_id": "wf-8af9f6d6",
+  "name": "Cursor: ターミナルをリセット（Kill → New Terminal）",
+  "description": "操作列から再利用可能な最小単位の手順として「既存の統合ターミナルをKillして新規ターミナルを開く」フローが抽出可能です。具体的には [5] Kill → [6] New Terminal（必要に応じて [7] Kill でクリーンアップ）。前後のAXImageクリックやキー入力は文脈依存で再現性が低いためワークフローからは除外しました。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1553,
+        "y": 1444
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123818.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1331,
+        "y": 1469
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123822.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1729,
+        "y": 1517
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_123825.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1729,
+        "y": 1517
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123826.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Kill (⌘⌫)",
+        "value": null,
+        "description": "Kill (⌘⌫)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2138,
+        "y": 1217
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123829.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "New Terminal (⌃⇧^) [⌥] Split Terminal (⌃⌥⌘¥)",
+        "value": null,
+        "description": "New Terminal (⌃⇧^) [⌥] Split Terminal (⌃⌥⌘¥)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2050,
+        "y": 1126
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123830.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "Kill (⌘⌫)",
+        "value": null,
+        "description": "Kill (⌘⌫)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2137,
+        "y": 1214
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123833.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "JSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: line 890 column 2 (char 17511)                              \nJSON読み込みスキップ: click_cap_20260216_191502.json - 'utf-8' codec can't decode byte 0xe3 in position 8184: invalid continuation byte                                                                                                                       \nJSON読み込みスキップ: click_cap_20260216_181554.json - Expecting ',' delimiter: line 380 column 17 (char 7661)                 \nJSON読み込みスキップ: click_cap_20260216_184412.json - Extra data: line 892 column 2 (char 17518)                              \nJSON読み込みスキップ: text_cap_20260216_185012.json - Expecting ':' delimiter: line 389 column 8 (char 7642)                   \nJSON読み込みスキップ: shortcut_cap_20260216_194125.json - Extra data: line 859 column 2 (char 16840)                           \nJSON読み込みスキップ: click_cap_20260216_191833.json - Extra data: line 857 column 2 (char 16854)                              \nJSON読み込みスキップ: click_cap_20260216_192447.json - Extra data: line 868 column 2 (char 17127)                              \nJSON読み込みスキップ: click_cap_20260216_191836.json - Extra data: line 869 column 1 (char 17063)                              \nJSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: line 890 column 2 (char 17511)                              \nJSON読み込みスキップ: click_cap_20260216_191502.json - 'utf-8' codec can't decode byte 0xe3 in position 8184: invalid continuation byte                                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 652,
+        "y": 1156
+      },
+      "key": {
+        "keycode": 49,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_123838.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "JSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: line 890 column 2 (char 17511)                              \nJSON読み込みスキップ: click_cap_20260216_191502.json - 'utf-8' codec can't decode byte 0xe3 in position 8184: invalid continuation byte                                                                                                                       \nJSON読み込みスキップ: click_cap_20260216_181554.json - Expecting ',' delimiter: line 380 column 17 (char 7661)                 \nJSON読み込みスキップ: click_cap_20260216_184412.json - Extra data: line 892 column 2 (char 17518)                              \nJSON読み込みスキップ: text_cap_20260216_185012.json - Expecting ':' delimiter: line 389 column 8 (char 7642)                   \nJSON読み込みスキップ: shortcut_cap_20260216_194125.json - Extra data: line 859 column 2 (char 16840)                           \nJSON読み込みスキップ: click_cap_20260216_191833.json - Extra data: line 857 column 2 (char 16854)                              \nJSON読み込みスキップ: click_cap_20260216_192447.json - Extra data: line 868 column 2 (char 17127)                              \nJSON読み込みスキップ: click_cap_20260216_191836.json - Extra data: line 869 column 1 (char 17063)                              \nJSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: line 890 column 2 (char 17511)                              \nJSON読み込みスキップ: click_cap_20260216_191502.json - 'utf-8' codec can't decode byte 0xe3 in position 8184: invalid continuation byte                                                    ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 652,
+        "y": 1156
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771385919.813385
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771385919.860662
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771385919.9621298
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771385920.144696
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771385920.26267
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771385920.367027
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771385920.474005
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771385920.594133
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771385920.983105
+          },
+          {
+            "char": "\u0010",
+            "keycode": 101,
+            "timestamp": 1771385920.999773
+          }
+        ],
+        "text": "terminal\u0010\u0010",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_123842.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Integrated Terminal",
+    "Reset",
+    "Kill",
+    "New Terminal"
+  ],
+  "parameters": [],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:48:59.535545",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

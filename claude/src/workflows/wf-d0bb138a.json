@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-d0bb138a",
+  "name": "Download current document in NotebookLM",
+  "description": "From an open NotebookLM document, open the Other options menu and choose Download to save the document locally.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "その他のオプション",
+        "value": null,
+        "description": "その他のオプション",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 968,
+        "y": 1169
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_133910.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "ダウンロード",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 923,
+        "y": 1253
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_133911.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "download",
+    "document",
+    "UI-automation"
+  ],
+  "parameters": [
+    {
+      "name": "document_title",
+      "description": "Title of the open NotebookLM document (used to match the target window: 'NotebookLM - {document_title} - NotebookLM').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T13:41:17.952137",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

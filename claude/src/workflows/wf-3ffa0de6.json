@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-3ffa0de6",
+  "name": "Finderで「最近の項目」から指定アイテムを選択",
+  "description": "Finderの「最近の項目」を開き、指定したファイル/フォルダを一覧から選択します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "最近の項目",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1618,
+        "y": 795
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154752.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 138,
+        "y": 1296
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_154756.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "Finder",
+    "macOS",
+    "最近の項目",
+    "ファイル選択"
+  ],
+  "parameters": [
+    {
+      "name": "item_name",
+      "description": "選択するアイテム名（例: \"Report.pdf\"）。一覧セル内のラベルに一致する文字列。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T15:56:17.441277",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

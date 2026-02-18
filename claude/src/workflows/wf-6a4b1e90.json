@@ -1,0 +1,161 @@
+{
+  "workflow_id": "wf-6a4b1e90",
+  "name": "Google Geminiでのファイルパス指定操作",
+  "description": "Google Geminiアプリケーションで、ファイルのパスを直接指定する方法について、Cursorの画面左側（エクスプローラー）を使用して情報を取得する操作列",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "解決策：ファイルの「パス」を直接指定する",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3043,
+        "y": 618
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193724.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3044,
+        "y": 634
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193725.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3063,
+        "y": 655
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193726.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Cursorの画面左側（エクスプローラー）にある ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3077,
+        "y": 685
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_193727.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "ファイル操作",
+    "パス指定",
+    "UI操作",
+    "情報取得"
+  ],
+  "parameters": [
+    {
+      "name": "target_element",
+      "description": "クリック対象のUI要素（例：「解決策：ファイルの『パス』を直接指定する」というテキスト要素）",
+      "step_index": 1
+    },
+    {
+      "name": "group_element_1",
+      "description": "2番目のクリック対象となるAXGroup要素",
+      "step_index": 2
+    },
+    {
+      "name": "group_element_2",
+      "description": "3番目のクリック対象となるAXGroup要素",
+      "step_index": 3
+    },
+    {
+      "name": "explorer_reference",
+      "description": "Cursorの画面左側（エクスプローラー）への参照または操作対象",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T16:29:42.098239",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

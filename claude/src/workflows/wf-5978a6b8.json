@@ -1,0 +1,364 @@
+{
+  "workflow_id": "wf-5978a6b8",
+  "name": "Claude Developer PlatformでAPIキーを作成",
+  "description": "Claude Developer Platform（ブラウザ: Google Chrome）上でAPI Keysページに移動し、新しいAPIキーを作成する手順。権限テンプレートを選択し、キー名を入力して作成後にダイアログを閉じるまでを含む。記録中の不要なテキスト入力（ステップ7）はワークフローからは除外可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Dashboard",
+        "value": null,
+        "description": "Dashboard",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1189,
+        "y": 132
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123141.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Get API Key",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1743,
+        "y": 364
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123146.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Create Key",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1986,
+        "y": 117
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123150.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Default",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1638,
+        "y": 441
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123151.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "Name your key:",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1606,
+        "y": 503
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123152.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "Name your key:",
+        "value": "けをrk",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1606,
+        "y": 503
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771385513.760774
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771385513.815568
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771385513.978158
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771385514.280143
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771385514.460763
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771385514.6269498
+          }
+        ],
+        "text": "kework",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_123155.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Add",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1681,
+        "y": 562
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771385515.7324271
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771385515.837779
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771385516.0550148
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771385516.185384
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771385516.515609
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771385517.092746
+          }
+        ],
+        "text": "-agi\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_123158.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Add",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1686,
+        "y": 566
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123158.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Close",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1773,
+        "y": 551
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_123201.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "web",
+    "Chrome",
+    "Claude",
+    "Anthropic",
+    "API Keys",
+    "developer-console"
+  ],
+  "parameters": [
+    {
+      "name": "permission_template",
+      "description": "権限テンプレート（例: Default、Read-only など）。記録では「Default」を選択。",
+      "step_index": 4
+    },
+    {
+      "name": "api_key_name",
+      "description": "新規APIキーに付与する名前。記録では「kework」。",
+      "step_index": 6
+    },
+    {
+      "name": "close_after_creation",
+      "description": "作成後にダイアログ/モーダルを閉じるかどうか（true/false）。記録ではCloseをクリック。",
+      "step_index": 9
+    }
+  ],
+  "confidence": 0.84,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:34:30.786750",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-1a65767e",
+  "name": "Cursor プレビューウィンドウでのファイル表示",
+  "description": "Cursor アプリケーションのプレビューウィンドウで、指定されたマークダウンファイルをクリックして表示する操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1664,
+        "y": 662
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185813.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル操作",
+    "プレビュー",
+    "マークダウン"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル名",
+      "description": "プレビューウィンドウでクリックするマークダウンファイルの名前",
+      "step_index": 1
+    },
+    {
+      "name": "ウィンドウタイトル",
+      "description": "対象のプレビューウィンドウのタイトル（例：Preview）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:24:10.943395",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

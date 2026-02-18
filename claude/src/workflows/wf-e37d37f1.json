@@ -1,0 +1,150 @@
+{
+  "workflow_id": "wf-e37d37f1",
+  "name": "Slackのスレッド操作と閉じる処理",
+  "description": "Slackチャンネルでスレッド内のメッセージグループをクリックし、返信数を表示してから、スレッドを閉じる一連の操作。チャンネル内で特定のメッセージグループの返信を確認して閉じるワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 534,
+        "y": 864
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185927.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "6 件の返信",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 533,
+        "y": 864
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185928.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 363,
+        "y": 95
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185934.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 363,
+        "y": 95
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185935.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル操作",
+    "スレッド管理",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "対象のSlackチャンネル名（例：ext-stun-x-movico-ai推進pj）",
+      "step_index": 1
+    },
+    {
+      "name": "thread_reply_count",
+      "description": "スレッド内の返信件数（例：6件）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:24:31.979068",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

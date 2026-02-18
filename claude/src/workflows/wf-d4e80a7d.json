@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-d4e80a7d",
+  "name": "Frame.ioのビデオコンテンツをクリック",
+  "description": "Google Chromeで Frame.io 上の特定のビデオファイル（「◆05_コンテクストを集める①.mp4」）をクリックする操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 661,
+        "y": 362
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_171447.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Frame.io",
+    "動画再生",
+    "クリック操作",
+    "ブラウザ操作"
+  ],
+  "parameters": [
+    {
+      "name": "ビデオファイル名",
+      "description": "Frame.io上でクリック対象となるビデオファイルの名前",
+      "step_index": 1
+    },
+    {
+      "name": "アプリケーション",
+      "description": "操作を行うアプリケーション（Google Chrome）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:46:53.705772",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

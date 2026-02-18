@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-54136fde",
+  "name": "Gmail受信トレイを開く",
+  "description": "Gmail の受信トレイウィンドウをクリックして開く操作。特定のメールアドレス (kazuya.egusa@aixeed.co.jp) のAixeed株式会社のメールアカウントの受信トレイにアクセスします。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 514,
+        "y": 50
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172756.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "メール",
+    "受信トレイ",
+    "ウィンドウ操作"
+  ],
+  "parameters": [
+    {
+      "name": "メールアドレス",
+      "description": "アクセス対象のGmailメールアドレス",
+      "step_index": 1
+    },
+    {
+      "name": "ウィンドウタイトル",
+      "description": "クリック対象のウィンドウタイトル (Gmail - 受信トレイ - [メールアドレス] - [組織名])",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:48:12.502852",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-715c4cf1",
+  "name": "CursorでマークダウンファイルをPDF エクスポート",
+  "description": "Cursorエディタでマークダウンファイルを開き、Markdown PDF拡張機能を使用してPDFにエクスポートするワークフロー",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1605,
+        "y": 439
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192720.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Markdown PDF: Export (pdf)",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 1485,
+        "y": 932
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192726.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "マークダウン",
+    "PDF変換",
+    "ファイルエクスポート",
+    "自動化"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル名",
+      "description": "エクスポート対象のマークダウンファイル名（例：numeric_types_list.md）",
+      "step_index": 1
+    },
+    {
+      "name": "プロジェクト名",
+      "description": "ファイルが属するプロジェクト名（例：kework-agi）",
+      "step_index": 1
+    },
+    {
+      "name": "エクスポート形式",
+      "description": "エクスポート先の形式（この例ではpdf）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:28:21.983599",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

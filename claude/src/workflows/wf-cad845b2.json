@@ -1,0 +1,127 @@
+{
+  "workflow_id": "wf-cad845b2",
+  "name": "Gmail 権限許可ダイアログの処理",
+  "description": "Gmailで複数の確認ダイアログ(OKボタン)をクリックした後、権限許可要求に対して「許可する」ボタンをクリックする一連の操作。これは権限設定やアカウント初期化時に発生する可能性のある定型的なパターンである。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "OK",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 515,
+        "y": 1039
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172739.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "OK",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 511,
+        "y": 1043
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172740.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXButton",
+        "title": "許可する",
+        "value": "1",
+        "description": "許可する",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1872,
+        "y": 192
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172743.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "権限管理",
+    "ダイアログ処理",
+    "アカウント設定",
+    "確認操作"
+  ],
+  "parameters": [
+    {
+      "name": "確認ダイアログ_回数",
+      "description": "OKボタンをクリックする確認ダイアログの回数（デフォルト: 2回）",
+      "step_index": 1
+    },
+    {
+      "name": "権限許可_ボタンテキスト",
+      "description": "権限許可の最終確認ボタンのテキスト（デフォルト: '許可する'）",
+      "step_index": 3
+    },
+    {
+      "name": "対象アプリケーション",
+      "description": "権限許可を求めているアプリケーション名（デフォルト: 'mail.google.com'）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:48:03.620375",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

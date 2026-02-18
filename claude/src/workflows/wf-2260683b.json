@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-2260683b",
+  "name": "Claude アプリの請求・使用量確認ナビゲーション",
+  "description": "Claude アプリで「請求」リンクをクリックした後、「使用量」リンクをクリックする操作列。ユーザーが請求情報と使用量詳細にアクセスするための基本的なナビゲーションワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "請求",
+        "value": null,
+        "description": "請求",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2941,
+        "y": 341
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011832.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2959,
+        "y": 379
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_011833.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "請求管理",
+    "使用量確認",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "first_link_target",
+      "description": "最初にクリックするリンク名（デフォルト：請求）",
+      "step_index": 1
+    },
+    {
+      "name": "second_link_target",
+      "description": "次にクリックするリンク名（デフォルト：使用量）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:36:58.824261",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

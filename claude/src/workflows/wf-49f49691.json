@@ -1,0 +1,1042 @@
+{
+  "workflow_id": "wf-49f49691",
+  "name": "Google Chrome での OpenClaw Control 操作ワークフロー",
+  "description": "Google Chrome アプリケーション内で OpenClaw Control を操作するワークフロー。新規セッションの開始から、チャット機能を使用した日本語テキスト入力、様々なメニュー項目（Overview、Channels、Instances、Usage、Cron Jobs、Agents、Chat）のナビゲーション、キーボードショートカット（Cmd+Shift+s）の実行、サイドバーの折り畳みなど一連の操作を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "New session",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 797,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163202.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 522,
+        "y": 616
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163208.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 513,
+        "y": 1000
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163209.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 720,
+        "y": 703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313530.740871
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313530.922462
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313530.962388
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771313531.116199
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313531.126422
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771313531.2459142
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313531.320569
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313531.471255
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313531.653025
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313531.698928
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313531.802918
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313531.862785
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771313531.922279
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313531.936964
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313532.0256598
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313532.161165
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313532.300693
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313532.311129
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313532.4616902
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771313532.581943
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313532.642011
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771313532.701741
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313532.778582
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313532.8967612
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313533.016133
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313533.15185
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313533.361109
+          },
+          {
+            "char": "?",
+            "keycode": 44,
+            "timestamp": 1771313533.631309
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313533.8340218
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313533.9633741
+          }
+        ],
+        "text": "anataha\nnaniga dekimasuka \n?\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_163215.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "A new session was started via /new or /reset. Greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and mood. Keep it to 1-3 sentences and ask what they want to do. If the runtime model differs from default_model in the system prompt, mention the default model. Do not mention internal steps, files, tools, or reasoning.",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 349,
+        "y": 447
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163220.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Overview",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 212,
+        "y": 201
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163221.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Channels",
+        "value": null,
+        "description": "Channels",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 292,
+        "y": 201
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163224.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Instances",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 449,
+        "y": 208
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163225.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Usage",
+        "value": null,
+        "description": "Usage",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 663,
+        "y": 213
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163226.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Cron Jobs",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 750,
+        "y": 206
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163228.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Agents",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 870,
+        "y": 201
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163229.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Chat",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 122,
+        "y": 199
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163231.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 506,
+        "y": 838
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163232.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 530,
+        "y": 1022
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163233.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "あなたは何ができる",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 611,
+        "y": 1024
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313554.562772
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313554.7063181
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313554.732539
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771313554.8562639
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313554.8964639
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771313554.975453
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313555.050897
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313555.308954
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313555.350498
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313555.4404202
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313555.503105
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771313555.591297
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313555.6063209
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313555.650634
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313555.831985
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313555.950897
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313555.9666429
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313556.115977
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771313556.2056031
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313556.281342
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313557.018732
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771313557.150673
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771313557.285281
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771313557.349495
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771313557.4687629
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771313557.510696
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313557.7219698
+          }
+        ],
+        "text": "anatahananiga dkeiruekiru \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_163238.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 609,
+        "y": 1023
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313559.3866282
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_163240.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 469,
+        "y": 809
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163241.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 469,
+        "y": 809
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_163242.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "Collapse sidebar",
+        "value": null,
+        "description": "Collapse sidebar",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 62,
+        "y": 152
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163243.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 548,
+        "y": 857
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163247.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 450,
+        "y": 888
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163249.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 443,
+        "y": 862
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163252.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 443,
+        "y": 862
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_163253.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 56,
+        "y": 203
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163254.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "UI操作",
+    "Google Chrome",
+    "OpenClaw Control",
+    "チャット",
+    "ナビゲーション",
+    "テキスト入力",
+    "キーボードショートカット"
+  ],
+  "parameters": [
+    {
+      "name": "initial_message",
+      "description": "新規セッション開始時に入力するテキスト（最初のメッセージ）",
+      "step_index": 4
+    },
+    {
+      "name": "chat_input_text",
+      "description": "チャットウィンドウで入力するテキスト（日本語または他の言語）",
+      "step_index": 15
+    },
+    {
+      "name": "navigation_menu_items",
+      "description": "ナビゲーション対象のメニュー項目（Channels、Instances、Usage、Cron Jobs、Agents、Chat など）",
+      "step_index": 7
+    },
+    {
+      "name": "keyboard_shortcut",
+      "description": "実行するキーボードショートカット（例：Cmd+Shift+s）",
+      "step_index": 18
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:43:15.458664",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,59 @@
+{
+  "workflow_id": "wf-cb0d69a2",
+  "name": "Dockで指定アプリを開く/前面化",
+  "description": "macOSのDockで指定したアプリのアイコンをクリックして起動または前面に表示する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXDockItem",
+        "title": "Google カレンダー",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 31,
+        "y": 499
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_122804.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "macOS",
+    "Dock",
+    "アプリ起動",
+    "アプリ切替",
+    "単一ステップ"
+  ],
+  "parameters": [
+    {
+      "name": "app_name",
+      "description": "Dock上でクリックするアプリ名（例: Google カレンダー）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.67,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:28:50.094812",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

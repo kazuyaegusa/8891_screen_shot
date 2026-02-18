@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-ff0b8aa8",
+  "name": "NotebookLM: Return from notebook and open Studio",
+  "description": "From an open notebook/document in NotebookLM, click the Back button to exit the document view, then open the Studio section.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXButton",
+        "title": "戻る",
+        "value": null,
+        "description": "戻る",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 109,
+        "y": 1166
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_160322.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXGroup",
+        "title": "Studio",
+        "value": null,
+        "description": "Studio",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 285,
+        "y": 1581
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_160323.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "navigation",
+    "Studio",
+    "back"
+  ],
+  "parameters": [
+    {
+      "name": "notebook_title",
+      "description": "Title of the currently open notebook/document as shown in the window title (used to identify the correct window).",
+      "step_index": 1
+    },
+    {
+      "name": "destination_section",
+      "description": "Section to open from the main view after returning (e.g., 'Studio').",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:12:29.206983",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

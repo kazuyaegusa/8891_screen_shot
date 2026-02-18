@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-972f30b9",
+  "name": "Gmail ワークフロー実行結果の確認",
+  "description": "Gmail の受信トレイからワークフロー実行の通知メールをクリックして、実行結果を確認する操作。メール内のワークフロー実行結果リンクをクリックして詳細を表示する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 467,
+        "y": 212
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163312.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
+      "app_name": "Gmail",
+      "target": {
+        "role": "AXLink",
+        "title": "View workflow run",
+        "value": null,
+        "description": "View workflow run",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1058,
+        "y": 537
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163321.png"
+    }
+  ],
+  "app_name": "Gmail",
+  "tags": [
+    "Gmail",
+    "メール",
+    "ワークフロー",
+    "通知確認",
+    "CI/CD"
+  ],
+  "parameters": [
+    {
+      "name": "メールグループ要素",
+      "description": "Gmail 受信トレイのメールグループ要素（AXGroup）",
+      "step_index": 1
+    },
+    {
+      "name": "ワークフロー実行リンク",
+      "description": "メール本体内のワークフロー実行結果リンク（例：'View workflow run'）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:43:24.516677",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

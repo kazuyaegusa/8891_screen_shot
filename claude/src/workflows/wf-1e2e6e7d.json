@@ -1,0 +1,57 @@
+{
+  "workflow_id": "wf-1e2e6e7d",
+  "name": "Chromeで特定のタブ（ページタイトル）に切り替える",
+  "description": "Google Chromeで、指定したページタイトルのタブ/ウィンドウをアクティブ化（クリック）する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "Cost | Claude Developer Platform",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1183,
+        "y": -12
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_133729.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "タブ切替",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "tab_title",
+      "description": "アクティブ化したいタブ/ウィンドウのタイトル（例: \"Cost | Claude Developer Platform\"）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T13:38:34.989199",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

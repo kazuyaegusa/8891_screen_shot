@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-03b39e49",
+  "name": "Discord Button Click Operation",
+  "description": "Discordアプリケーション内でAXButtonロール要素をクリックする操作。特定の時刻に実行され、ウィンドウは\"#98_todo | Aixeed運営 - Discord\"である。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1023,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_172511.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "UI操作",
+    "ボタンクリック",
+    "単一アクション"
+  ],
+  "parameters": [
+    {
+      "name": "window_identifier",
+      "description": "操作対象のウィンドウ識別子またはウィンドウタイトル（例：#98_todo | Aixeed運営 - Discord）",
+      "step_index": 1
+    },
+    {
+      "name": "button_element",
+      "description": "クリック対象のボタン要素の識別情報（role=AXButton）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:47:52.698821",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

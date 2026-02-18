@@ -1,0 +1,68 @@
+{
+  "workflow_id": "wf-dbbfade0",
+  "name": "Cursor でファイルをクリックして開く",
+  "description": "Cursor アプリケーション内でマークダウンファイルをクリックして開く操作。Preview ウィンドウ内のファイルをターゲットとしてクリック",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3797,
+        "y": 513
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_174203.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル操作",
+    "UI操作",
+    "マークダウン"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "クリックするファイルの名前",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "クリック対象の UI 要素ロール",
+      "step_index": 1
+    },
+    {
+      "name": "window_name",
+      "description": "操作対象のウィンドウ名",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:50:26.407797",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

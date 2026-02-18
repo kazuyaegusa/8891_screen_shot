@@ -1,0 +1,141 @@
+{
+  "workflow_id": "wf-a87ec1c7",
+  "name": "Discord チャンネル操作シーケンス",
+  "description": "Discord アプリでショートカットキーを使用してウィンドウ間を切り替え、特定のチャンネル（#開発全体）をクリックする操作セット",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 164,
+        "y": 402
+      },
+      "key": {
+        "keycode": 124,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_151320.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 164,
+        "y": 402
+      },
+      "key": {
+        "keycode": 124,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_151321.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1256,
+        "y": 882
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151324.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "ウィンドウ切り替え",
+    "ショートカット",
+    "チャンネル操作"
+  ],
+  "parameters": [
+    {
+      "name": "source_channel_name",
+      "description": "切り替え元のチャンネル名",
+      "step_index": 1
+    },
+    {
+      "name": "intermediate_window_name",
+      "description": "経由するウィンドウ名",
+      "step_index": 2
+    },
+    {
+      "name": "target_channel_name",
+      "description": "最終的にクリックする対象チャンネル名",
+      "step_index": 3
+    },
+    {
+      "name": "first_shortcut_keys",
+      "description": "最初のショートカットキー（Cmd+Shift+）",
+      "step_index": 1
+    },
+    {
+      "name": "second_shortcut_keys",
+      "description": "2番目のショートカットキー（Cmd+）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:40:03.722029",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

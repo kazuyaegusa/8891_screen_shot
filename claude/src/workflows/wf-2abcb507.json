@@ -1,0 +1,75 @@
+{
+  "workflow_id": "wf-2abcb507",
+  "name": "Slack チャンネルへの返信入力",
+  "description": "Slack のチャンネルに対してテキスト返信を入力する操作。AXGroup ロールで Slack チャンネル返信フィールドにテキストを入力する基本的なアクション。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 373,
+        "y": 352
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u000b",
+            "keycode": 116,
+            "timestamp": 1771255518.334033
+          }
+        ],
+        "text": "\u000b",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_002519.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル返信",
+    "テキスト入力",
+    "通信",
+    "メッセージ"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "Slack チャンネル名（例：'Aixeed' など）",
+      "step_index": 1
+    },
+    {
+      "name": "reply_text",
+      "description": "チャンネルに送信する返信テキスト内容",
+      "step_index": 1
+    },
+    {
+      "name": "target_role",
+      "description": "操作対象のロール（例：'AXGroup'）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:33:54.796756",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

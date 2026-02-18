@@ -1,0 +1,64 @@
+{
+  "workflow_id": "wf-3e3443d0",
+  "name": "Linear - Notifications設定へのアクセス",
+  "description": "Linearアプリのプリファレンス画面でNotificationsのリンクをクリックし、通知設定にアクセスする操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Notifications",
+        "value": null,
+        "description": "Notifications",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 179,
+        "y": 191
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183913.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "Notifications",
+    "Settings",
+    "UI操作",
+    "Preferences"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象の要素名。この場合は'Notifications'という通知設定へのリンク要素",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "操作が行われるウィンドウまたはページ。この場合は'Preferences'（プリファレンス画面）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:22:15.620984",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,292 @@
+{
+  "workflow_id": "wf-9cfaf5b4",
+  "name": "Finder アプリ操作ワークフロー",
+  "description": "Finder アプリにおける複数ウィンドウ（plugins, sakamoto_mng, Aixeed-PJ-Manage-r1, __MACOSX, dashboard）を横断したグループ/リスト/テキストフィールド操作。AXGroupのクリック、AXListのクリック、複数のテキスト入力操作が含まれており、異なるウィンドウ間の順序立った操作パターン。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 821,
+        "y": 545
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003653.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1107,
+        "y": 267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003655.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1107,
+        "y": 267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771256215.953063
+          }
+        ],
+        "text": "\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_003657.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXTextField",
+        "title": "AXTextField",
+        "value": "Aixeed-PJ-Manage-main",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1107,
+        "y": 267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771256217.03633
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771256217.541495
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771256218.456987
+          }
+        ],
+        "text": "\u001d\u001f\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_003659.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1107,
+        "y": 267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771256219.9118762
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771256220.573233
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771256221.0546129
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771256221.433641
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771256221.730727
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771256222.1502552
+          }
+        ],
+        "text": "\u001f\u001d\u001f\u001f\u001e\u001d",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_003703.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1053,
+        "y": 256
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003710.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "Finder",
+    "UI操作",
+    "マルチウィンドウ",
+    "テキスト入力",
+    "クリック操作"
+  ],
+  "parameters": [
+    {
+      "name": "window_1",
+      "description": "初期クリック対象ウィンドウ",
+      "step_index": 1
+    },
+    {
+      "name": "window_2",
+      "description": "リスト選択対象ウィンドウ",
+      "step_index": 2
+    },
+    {
+      "name": "text_input_value_1",
+      "description": "ステップ3のテキスト入力値（AXList対象）",
+      "step_index": 3
+    },
+    {
+      "name": "window_3",
+      "description": "テキスト入力対象ウィンドウ（AXTextField）",
+      "step_index": 4
+    },
+    {
+      "name": "text_input_value_2",
+      "description": "ステップ4のテキスト入力値（AXTextField対象）",
+      "step_index": 4
+    },
+    {
+      "name": "window_4",
+      "description": "ダッシュボード検索/入力対象ウィンドウ",
+      "step_index": 5
+    },
+    {
+      "name": "text_input_value_3",
+      "description": "ステップ5のテキスト入力値（dashboard）",
+      "step_index": 5
+    },
+    {
+      "name": "window_5",
+      "description": "最終クリック対象ウィンドウ",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:35:12.026984",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

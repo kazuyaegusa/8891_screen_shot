@@ -1,0 +1,76 @@
+{
+  "workflow_id": "wf-d43adff5",
+  "name": "Cursor Preview File Navigation",
+  "description": "Cursorエディタで特定のファイルをプレビュー表示する操作。AXStaticTextの要素をターゲットとしてショートカット操作を実行する。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "personality_radar.html",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3004,
+        "y": 338
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_181234.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Preview",
+    "File Navigation",
+    "Shortcut",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "target_element",
+      "description": "プレビューするAXStaticText要素（ファイル名またはコンテンツ）",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "プレビュー対象のファイル名（例：personality_radar.html）",
+      "step_index": 1
+    },
+    {
+      "name": "window_context",
+      "description": "操作対象のウィンドウまたはプロジェクト名（例：781_discordbot_sennin）",
+      "step_index": 1
+    },
+    {
+      "name": "shortcut_key",
+      "description": "実行するショートカットキー（例：Cmd+Tab）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:19:08.871439",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

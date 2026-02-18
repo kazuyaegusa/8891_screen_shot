@@ -1,0 +1,252 @@
+{
+  "workflow_id": "wf-b03c81cf",
+  "name": "Cursor エディタでのテキスト入力操作",
+  "description": "Cursor アプリケーション内で複数のウィンドウ（README.md、sakamoto_mng）に対して、クリック後にテキスト入力（スラッシュと改行）を行う操作シーケンス",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 636,
+        "y": 839
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_012628.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 640,
+        "y": 839
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771259190.007732
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771259190.801903
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771259191.6558049
+          }
+        ],
+        "text": "/\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_012632.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 640,
+        "y": 839
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771259192.6669178
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771259192.793833
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771259193.5336142
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771259194.269569
+          }
+        ],
+        "text": "\u001f\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_012635.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2228,
+        "y": 990
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_012649.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2228,
+        "y": 990
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "/",
+            "keycode": 44,
+            "timestamp": 1771259210.629196
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771259211.2457511
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771259212.099147
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771259213.015955
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771259213.194041
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771259214.03405
+          }
+        ],
+        "text": "/\u0010\n\u001f\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_012655.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "テキスト編集",
+    "UI操作",
+    "スラッシュコマンド"
+  ],
+  "parameters": [
+    {
+      "name": "window_name",
+      "description": "操作対象のウィンドウ名（例：README.md、sakamoto_mng）",
+      "step_index": 1
+    },
+    {
+      "name": "text_input_content",
+      "description": "入力するテキスト内容（スラッシュと改行のパターン）",
+      "step_index": 2
+    },
+    {
+      "name": "target_element",
+      "description": "操作対象のUI要素（AXImage等）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:37:11.354174",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

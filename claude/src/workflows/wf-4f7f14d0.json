@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-4f7f14d0",
+  "name": "Discord グループクリック操作",
+  "description": "Discordアプリ内で特定のAXGroupをクリックし、その後AXButtonをクリックする一連の操作。Aixeed運営チャンネルに対する操作と考えられます。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3883,
+        "y": 874
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183907.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3873,
+        "y": 876
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183909.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "UI操作",
+    "グループクリック",
+    "ボタンクリック"
+  ],
+  "parameters": [
+    {
+      "name": "target_group",
+      "description": "クリック対象のAXGroup要素（例：AXGroup）",
+      "step_index": 1
+    },
+    {
+      "name": "target_button",
+      "description": "クリック対象のAXButton要素",
+      "step_index": 2
+    },
+    {
+      "name": "window_context",
+      "description": "操作を行うウィンドウコンテキスト（例：#inbox_bot | Aixeed運営 - Discord）",
+      "step_index": 0
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "b9b7225a-23bf-4ba3-87a3-56330611b8cc"
+  ],
+  "created_at": "2026-02-18T16:22:11.592598",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

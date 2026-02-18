@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-14ffa21b",
+  "name": "Claude アプリの操作シーケンス",
+  "description": "Claude アプリで AXButton をクリックした後、Preview ウィンドウの閉じるボタンをクリックするシーケンス。特定のファイル (phase1_completion_report.md) の Preview を開閉する操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3889,
+        "y": 873
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181437.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": "xmark"
+      },
+      "coordinates": {
+        "x": 1561,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_181447.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "UI操作",
+    "ファイルプレビュー",
+    "ウィンドウ操作",
+    "Markdown"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル名",
+      "description": "プレビューを表示するファイル名 (デフォルト: phase1_completion_report.md)",
+      "step_index": 1
+    },
+    {
+      "name": "クリック対象",
+      "description": "最初にクリックする AXButton 要素の識別子",
+      "step_index": 0
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:19:30.641443",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

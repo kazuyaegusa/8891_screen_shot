@@ -1,0 +1,131 @@
+{
+  "workflow_id": "wf-43e7de78",
+  "name": "Cursor アプリのショートカット操作とクリック",
+  "description": "Cursor アプリで Cmd+ ショートカット、AXGroup クリック、ターミナル操作用 Cmd+ ショートカットを順序立てて実行する操作列",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3126,
+        "y": 228
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_003418.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2715,
+        "y": 231
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003424.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXToolbar",
+        "title": "Terminal actions",
+        "value": null,
+        "description": "Terminal actions",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2715,
+        "y": 231
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_003425.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "keyboard-shortcut",
+    "UI-automation",
+    "terminal",
+    "automation"
+  ],
+  "parameters": [
+    {
+      "name": "shortcut_1",
+      "description": "初期ショートカット (Cmd+)",
+      "step_index": 1
+    },
+    {
+      "name": "target_group",
+      "description": "クリック対象の AXGroup 要素（window=sakamoto_mng）",
+      "step_index": 2
+    },
+    {
+      "name": "shortcut_2",
+      "description": "ターミナル操作用ショートカット (Cmd+)",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:34:57.647034",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,161 @@
+{
+  "workflow_id": "wf-8cccd8b1",
+  "name": "Finder アプリケーション間のナビゲーション操作",
+  "description": "複数のアプリケーション（dashboard、KEWORK、gdrive-code-archive）間をクリック操作で遷移するシーケンス。ダッシュボードのセルをクリックし、グループを選択した後、スクロールエリアをクリックしてボタンを実行する一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 655,
+        "y": 355
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005630.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 870,
+        "y": 537
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005643.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:61"
+      },
+      "coordinates": {
+        "x": 576,
+        "y": 219
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005648.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 571,
+        "y": 214
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_005650.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "UI操作",
+    "Finder",
+    "マルチアプリナビゲーション",
+    "クリック操作",
+    "UIオートメーション"
+  ],
+  "parameters": [
+    {
+      "name": "初期ウィンドウ",
+      "description": "操作開始時のアプリケーションウィンドウ (例: dashboard)",
+      "step_index": 1
+    },
+    {
+      "name": "第二ウィンドウ",
+      "description": "次に遷移するアプリケーションウィンドウ (例: KEWORK)",
+      "step_index": 2
+    },
+    {
+      "name": "最終ウィンドウ",
+      "description": "スクロールエリアとボタンを含む最終的なアプリケーションウィンドウ (例: gdrive-code-archive)",
+      "step_index": 3
+    },
+    {
+      "name": "実行ボタン",
+      "description": "最終ステップで実行するボタン要素",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:36:16.445634",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

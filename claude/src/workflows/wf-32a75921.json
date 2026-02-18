@@ -1,0 +1,100 @@
+{
+  "workflow_id": "wf-32a75921",
+  "name": "Cursor ファイル検索と選択",
+  "description": "Cursor エディタで特定のファイルを検索ショートカット（Cmd+Shift+s）で開き、グループ要素をクリックして選択する操作。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1425,
+        "y": 770
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_192933.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1602,
+        "y": 923
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_192935.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル検索",
+    "選択操作",
+    "ショートカット"
+  ],
+  "parameters": [
+    {
+      "name": "ファイル名",
+      "description": "対象となるマークダウンファイル名（例：numeric_types_list.md）",
+      "step_index": 0
+    },
+    {
+      "name": "プロジェクト名",
+      "description": "操作対象のプロジェクト名（例：kework-agi）",
+      "step_index": 0
+    },
+    {
+      "name": "検索ショートカット",
+      "description": "ファイル検索を開くショートカットキー（Cmd+Shift+s）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:28:36.683398",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,122 @@
+{
+  "workflow_id": "wf-727a32c2",
+  "name": "TextEdit: Close current document without saving",
+  "description": "In TextEdit, close the frontmost document window and choose “削除” (Don’t Save) in the save confirmation sheet to discard changes. Assumes an open document with unsaved changes.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "[REDACTED]",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 480,
+        "y": 345
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_124040.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 108,
+        "y": 156
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_124041.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXButton",
+        "title": "削除",
+        "value": null,
+        "description": null,
+        "identifier": "DontSaveButton"
+      },
+      "coordinates": {
+        "x": 236,
+        "y": 511
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_124044.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "TextEdit",
+    "macOS",
+    "discard",
+    "close without saving",
+    "dont save"
+  ],
+  "parameters": [
+    {
+      "name": "document_title",
+      "description": "Title of the target TextEdit window (e.g., 名称未設定). Used to identify the window to interact with.",
+      "step_index": 1
+    },
+    {
+      "name": "document_title",
+      "description": "Title of the target TextEdit window (e.g., 名称未設定). Used to identify the window whose close button is clicked.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:53:48.208268",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

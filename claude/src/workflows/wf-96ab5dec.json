@@ -1,0 +1,542 @@
+{
+  "workflow_id": "wf-96ab5dec",
+  "name": "Google AI Studio APIキー管理ワークフロー",
+  "description": "Google AI StudioでGemini APIキーを管理（確認、名前変更）するワークフロー。APIキーの一覧表示、特定のキーの選択、キーの名前変更、および確認操作を含む一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "同意しない",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 901,
+        "y": 167
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162718.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "API キー API クイックスタート API キーを作成 グループ化 API キー プロジェクト フィルタ条件 プロジェクト フィルタ Gemini sparkle icon API キーが見つからない場合 このリストに表示されるのは、Google AI Studio にインポートされたプロジェクトの API キーのみです。関連する API キーを管理するには、他のプロジェクトをインポートします。新しい API キーを上で作成することもできます。 詳細 プロジェクトをインポート プロジェクトをインポートする",
+        "value": null,
+        "description": "API キー API クイックスタート API キーを作成 グループ化 API キー プロジェクト フィルタ条件 プロジェクト フィルタ Gemini sparkle icon API キーが見つからない場合 このリストに表示されるのは、Google AI Studio にインポートされたプロジェクトの API キーのみです。関連する API キーを管理するには、他のプロジェクトをインポートします。新しい API キーを上で作成することもできます。 詳細 プロジェクトをインポート プロジェクトをインポートする",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 831,
+        "y": 636
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162719.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "...HmnM",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 137,
+        "y": 423
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162725.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 507,
+        "y": 569
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162727.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Default Gemini API Key",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 426,
+        "y": 571
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162728.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Default Gemini API Key",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 354,
+        "y": 561
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162730.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 730,
+        "y": 444
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162732.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "その他の操作を表示",
+        "value": null,
+        "description": "その他の操作を表示",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 910,
+        "y": 434
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162733.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "キーの名前を変更",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 893,
+        "y": 487
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162734.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "キー名の設定",
+        "value": "Open",
+        "description": "キー名の設定",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 694,
+        "y": 594
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "O",
+            "keycode": 31,
+            "timestamp": 1771313259.000787
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771313259.22828
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313259.46961
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771313259.7206779
+          }
+        ],
+        "text": "Open",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_162740.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "更新",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 746,
+        "y": 666
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771313261.222029
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771313261.436245
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771313261.536515
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771313261.7620869
+          },
+          {
+            "char": "_",
+            "keycode": 94,
+            "timestamp": 1771313262.4364958
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771313262.7879522
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771313262.930447
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771313263.067853
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771313263.130555
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771313263.3514838
+          }
+        ],
+        "text": "Claw_demo\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_162744.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "更新",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 722,
+        "y": 653
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162745.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "API キー API クイックスタート API キーを作成 グループ化 API キー プロジェクト フィルタ条件 プロジェクト フィルタ Gemini sparkle icon API キーが見つからない場合 このリストに表示されるのは、Google AI Studio にインポートされたプロジェクトの API キーのみです。関連する API キーを管理するには、他のプロジェクトをインポートします。新しい API キーを上で作成することもできます。 詳細 プロジェクトをインポート プロジェクトをインポートする",
+        "value": null,
+        "description": "API キー API クイックスタート API キーを作成 グループ化 API キー プロジェクト フィルタ条件 プロジェクト フィルタ Gemini sparkle icon API キーが見つからない場合 このリストに表示されるのは、Google AI Studio にインポートされたプロジェクトの API キーのみです。関連する API キーを管理するには、他のプロジェクトをインポートします。新しい API キーを上で作成することもできます。 詳細 プロジェクトをインポート プロジェクトをインポートする",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 693,
+        "y": 566
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162748.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "...HmnM",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 145,
+        "y": 419
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162751.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 739,
+        "y": 439
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162753.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Cloud",
+    "API Management",
+    "Google AI Studio",
+    "Gemini API",
+    "Configuration"
+  ],
+  "parameters": [
+    {
+      "name": "api_key_identifier",
+      "description": "対象となるAPIキーの識別子（表示名またはキーの一部）",
+      "step_index": 3
+    },
+    {
+      "name": "new_api_key_name",
+      "description": "APIキーに設定する新しい名前",
+      "step_index": 10
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:42:28.553063",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

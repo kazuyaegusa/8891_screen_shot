@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-0a40e86d",
+  "name": "Discord 連携サービスダイアログの表示と閉じる",
+  "description": "Discordアプリで連携サービス設定ダイアログを開いて、すぐに閉じる操作。AXGroupをクリックして連携サービス画面を表示した後、閉じるボタンで画面を閉じる",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4862,
+        "y": 944
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_004336.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4865,
+        "y": 943
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_004337.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "UI操作",
+    "ダイアログ管理",
+    "連携サービス"
+  ],
+  "parameters": [
+    {
+      "name": "target_group",
+      "description": "クリック対象のAXGroup要素（連携サービスグループ）",
+      "step_index": 1
+    },
+    {
+      "name": "close_button",
+      "description": "ダイアログを閉じるボタン（AXButton role）",
+      "step_index": 2
+    },
+    {
+      "name": "window_context",
+      "description": "操作対象のウィンドウ名またはコンテキスト",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:35:50.777410",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

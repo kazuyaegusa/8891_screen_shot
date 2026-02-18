@@ -1,0 +1,195 @@
+{
+  "workflow_id": "wf-d35c77eb",
+  "name": "Ghostty ターミナルアプリケーション実行",
+  "description": "Ghostty ターミナルでPythonスクリプトを実行するワークフロー。対象スクリプトをクリック操作で起動し、その後キーボードショートカットとテキスト領域との相互作用を行う基本的なアプリケーション実行パターン。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "python3 capture_loop.py --trigger event --auto-learn",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 853,
+        "y": 225
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_150936.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXWindow",
+        "title": "python3 capture_loop.py --trigger event --auto-learn",
+        "value": null,
+        "description": null,
+        "identifier": "TerminalWindowRestoration"
+      },
+      "coordinates": {
+        "x": 3197,
+        "y": 319
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_150942.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                          \nkazuyaegusa@Mac src % source ~/.zshrc                                                                               \nkazuyaegusa@Mac src % kework                                                                                        \nデーモン: 停止中                                                                                                    \nタスクなし                                                                                                          \n                                                                                                                    \n登録スキル: 1 件                                                                                                    \n登録プロジェクト: 9 件                                                                                              \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                    \ncd: no such file or directory: claude/src                                                                           \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                                       \n==================================================                                                                  \nCapture Loop - 常駐スクリーンショット                                                                               \n==================================================                                                                  \n  Session : 5697dd21-eb3d-4666-a4ea-4c851075128f                                                                    \n  Trigger : event                                                                                                   \n  Click debounce: 0.5s                                                                                              \n  Text flush    : 1.0s                           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1128,
+        "y": 167
+      },
+      "key": {
+        "keycode": 124,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_150945.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                          \nkazuyaegusa@Mac src % source ~/.zshrc                                                                               \nkazuyaegusa@Mac src % kework                                                                                        \nデーモン: 停止中                                                                                                    \nタスクなし                                                                                                          \n                                                                                                                    \n登録スキル: 1 件                                                                                                    \n登録プロジェクト: 9 件                                                                                              \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                    \ncd: no such file or directory: claude/src                                                                           \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                                       \n==================================================                                                                  \nCapture Loop - 常駐スクリーンショット                                                                               \n==================================================                                                                  \n  Session : 5697dd21-eb3d-4666-a4ea-4c851075128f                                                                    \n  Trigger : event                                                                                                   \n  Click debounce: 0.5s                                                                                              \n  Text flush    : 1.0s                           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1388,
+        "y": 996
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Control"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260217_150947.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Mon Feb 16 16:40:31 on ttys040                                                                          \nkazuyaegusa@Mac src % source ~/.zshrc                                                                               \nkazuyaegusa@Mac src % kework                                                                                        \nデーモン: 停止中                                                                                                    \nタスクなし                                                                                                          \n                                                                                                                    \n登録スキル: 1 件                                                                                                    \n登録プロジェクト: 9 件                                                                                              \nkazuyaegusa@Mac src %   cd claude/src && python3 capture_loop.py --trigger event                                    \ncd: no such file or directory: claude/src                                                                           \nkazuyaegusa@Mac src % python3 capture_loop.py --trigger event                                                       \n==================================================                                                                  \nCapture Loop - 常駐スクリーンショット                                                                               \n==================================================                                                                  \n  Session : 5697dd21-eb3d-4666-a4ea-4c851075128f                                                                    \n  Trigger : event                                                                                                   \n  Click debounce: 0.5s                                                                                              \n  Text flush    : 1.0s                           ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1238,
+        "y": 1073
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_150949.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "ターミナル操作",
+    "スクリプト実行",
+    "アプリケーション起動",
+    "Ghostty",
+    "Python",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "script_name",
+      "description": "実行対象のPythonスクリプト名（例：capture_loop.py）",
+      "step_index": 1
+    },
+    {
+      "name": "script_arguments",
+      "description": "スクリプトの引数（例：--trigger event --auto-learn）",
+      "step_index": 1
+    },
+    {
+      "name": "first_shortcut",
+      "description": "1番目に実行するキーボードショートカット（例：Cmd+）",
+      "step_index": 3
+    },
+    {
+      "name": "second_shortcut",
+      "description": "2番目に実行するキーボードショートカット（例：Control+）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "fd371a3c-d63d-43e3-a008-198dd22471d3"
+  ],
+  "created_at": "2026-02-18T16:39:22.091995",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

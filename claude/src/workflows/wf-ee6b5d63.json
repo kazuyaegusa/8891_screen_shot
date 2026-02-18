@@ -1,0 +1,1474 @@
+{
+  "workflow_id": "wf-ee6b5d63",
+  "name": "LINE での長文メッセージ入力",
+  "description": "LINE アプリでテキスト入力エリアをクリックして、複数ステップにかけて長めのテキストメッセージを段階的に入力し、最終的に送信する操作。ユーザーは複数回の text_input を通じてメッセージを組み立てていき、完成後に送信する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4535,
+        "y": 472
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200835.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_200836.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240117.8164659
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771240117.9946969
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240118.084267
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240118.163171
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240118.3106098
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240119.299965
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240119.366789
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240119.465536
+          }
+        ],
+        "text": "kyou sou",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200840.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771240121.0202081
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240121.085126
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240121.1997702
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240121.4296792
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240121.47572
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240121.640445
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240121.7471008
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240121.835097
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240121.895869
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771240122.060915
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240122.150304
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240122.64702
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240122.9013171
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240122.994379
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240123.0499232
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240123.096437
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771240123.155512
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240123.29055
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240123.322346
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240123.368462
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240123.534058
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240123.6042628
+          },
+          {
+            "char": "!",
+            "keycode": 18,
+            "timestamp": 1771240123.9813728
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240124.28207
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240125.016429
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240125.4574568
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240125.495005
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240125.555686
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771240125.737303
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240125.856439
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240125.915312
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240125.975369
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240126.215946
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240126.230957
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240126.2749991
+          }
+        ],
+        "text": "houmon nohi nanodesune!\n\ntaihen nmo",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200847.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変申し訳ないですが今日多分３時くらいまで埋まって",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240128.1484811
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240128.198695
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240128.3305569
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240128.405714
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240128.495682
+          },
+          {
+            "char": "w",
+            "keycode": 13,
+            "timestamp": 1771240128.600489
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240128.645474
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240128.735075
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240128.841045
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240128.901338
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240129.049838
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240129.117962
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240129.2305999
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771240129.380482
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240129.484808
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240129.546626
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240129.574791
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771240129.696343
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240129.7279649
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240129.816344
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240130.069998
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771240130.236099
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240130.296604
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240130.401248
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240130.657295
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240130.71566
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771240130.8198102
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240130.985205
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240131.150775
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240131.22617
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240131.4210749
+          },
+          {
+            "char": "3",
+            "keycode": 20,
+            "timestamp": 1771240132.0371342
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771240132.0661829
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240132.142516
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240132.260034
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240132.3517702
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240132.425793
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771240132.4868631
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240132.515808
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240132.605182
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240132.754986
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240132.816633
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771240132.891586
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240133.054676
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240133.1002529
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240133.597965
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240133.659934
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240134.33123
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240134.512958
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240134.526633
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240134.735643
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240134.871865
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240134.934989
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240134.967808
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771240135.081697
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240135.17233
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240135.230324
+          }
+        ],
+        "text": "mousiwakenai desuga\nkyoutabun \n3ji kuraimade\nsiumatteori ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200856.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変申し訳ないですが今日多分３時くらいまで",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240137.016154
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240137.179965
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240137.228529
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240137.4067469
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240137.524725
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240137.599721
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240137.690206
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771240137.780156
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240137.8544261
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240137.9296792
+          }
+        ],
+        "text": "umatteori ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200859.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変申し訳ないですが今日多分３時くらいまで稼働埋まっており",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240140.195054
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240140.255438
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771240140.422118
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240140.6018078
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240140.705368
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240140.810773
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240140.9160562
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240141.110997
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240141.12693
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240141.3206441
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240141.457409
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240141.530735
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240141.5932941
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771240141.7421272
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240141.800839
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240141.9057322
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240142.160806
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240142.325112
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771240142.4747
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240142.550036
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240142.625865
+          }
+        ],
+        "text": "kadou umatteori kibis",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200903.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変申し訳ないですが今日多分３時くらいまで稼働埋まっておりましてすいません",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240143.766405
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240143.840565
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240143.906545
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240143.990653
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240144.097106
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240144.140369
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240144.1559029
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240144.244517
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240144.3050072
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240144.350477
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240145.1606221
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240145.294986
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240145.347648
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240145.356226
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240145.445707
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240145.493629
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240145.611547
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240145.821038
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240146.01517
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240146.134517
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240146.270941
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240146.4052029
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240146.662863
+          }
+        ],
+        "text": "masitesueiimasenn\n...  ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200907.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "今日訪問の日なのですね！ 大変申し訳ないですが今日多分３時くらいまで稼働埋まっておりましてすいま",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4469,
+        "y": 773
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240148.163838
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240148.2963789
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240148.4447591
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771240148.625962
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240148.9113128
+          }
+        ],
+        "text": "...\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200910.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4434,
+        "y": 201
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240150.591008
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240150.651155
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771240150.739527
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240150.799692
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240150.875948
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240151.085561
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240151.1321049
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240151.295808
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240151.444627
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771240151.6115232
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240151.655402
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240151.744574
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240151.83641
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240152.151792
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240152.196914
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240152.420543
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771240152.601047
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240152.736919
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240152.7671318
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771240152.9201632
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240152.945976
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240153.020851
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240153.095051
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240153.1714199
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240153.290391
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240153.334636
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240153.3955379
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240153.485816
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771240153.546452
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240153.640348
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771240153.698177
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771240153.770287
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771240153.919641
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771240153.94991
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771240154.0099
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771240154.085283
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240154.116092
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771240154.235928
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240154.431989
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240155.0480168
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240155.168542
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771240155.2995882
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771240155.5112278
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240155.736463
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771240156.275798
+          },
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771240156.427094
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240156.711082
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240156.921438
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240157.116698
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240157.296879
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240157.4758039
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240157.9769442
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.0597918
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.143811
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.228915
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.311917
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.405138
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.570988
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.720747
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240158.935843
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240159.171093
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240159.335813
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240159.517549
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240159.696026
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240159.89107
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771240160.0713542
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771240160.3108008
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771240161.092181
+          }
+        ],
+        "text": "mata\nnokikai ni\nonegaisimasu suimasenn\n...\u0010\n\u001e\u001e\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001f\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_200922.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージング",
+    "テキスト入力",
+    "段階的入力",
+    "チャット",
+    "日本語入力"
+  ],
+  "parameters": [
+    {
+      "name": "メッセージ内容",
+      "description": "LINE で送信するメッセージの本文。複数行にわたる長文のテキストが入力される",
+      "step_index": 3
+    },
+    {
+      "name": "入力対象UI要素",
+      "description": "テキスト入力を行うターゲット要素（AXTextArea）。LINE のメッセージ入力フィールド",
+      "step_index": 2
+    },
+    {
+      "name": "IME入力テキスト",
+      "description": "キーボード入力時のローマ字または入力メソッド経由の中間テキスト。日本語入力の音声テキスト",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:33:29.595197",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

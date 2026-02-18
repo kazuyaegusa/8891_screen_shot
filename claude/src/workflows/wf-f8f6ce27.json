@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-f8f6ce27",
+  "name": "Switch to application via Dock",
+  "description": "Activate an application by clicking its Dock icon from the current context (e.g., switch from Chrome to Discord).",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXDockItem",
+        "title": "Discord",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 29,
+        "y": 797
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_125759.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "macOS",
+    "Dock",
+    "app-switch",
+    "navigation"
+  ],
+  "parameters": [
+    {
+      "name": "application_name",
+      "description": "Name of the Dock item/application to activate (e.g., Discord).",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T12:58:56.099408",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

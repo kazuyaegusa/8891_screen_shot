@@ -1,0 +1,241 @@
+{
+  "workflow_id": "wf-4d0ec7e6",
+  "name": "Cursorで新規ターミナルを開き、コマンドを実行する",
+  "description": "Cursor内でターミナルパネルを開き、新規ターミナルを作成して指定したコマンドを入力・実行する手順。記録中に含まれる制御文字は入力ノイズの可能性が高く、ワークフローとしては「コマンド入力後に実行（Enter）」と解釈。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXList",
+        "title": "Terminal tabs",
+        "value": null,
+        "description": "Terminal tabs",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2059,
+        "y": 1403
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_143306.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "New Terminal (⌃⇧^) [⌥] Split Terminal (⌃⌥⌘¥)",
+        "value": null,
+        "description": "New Terminal (⌃⇧^) [⌥] Split Terminal (⌃⌥⌘¥)",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2047,
+        "y": 1207
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_143307.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1700,
+        "y": 1332
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771392788.727306
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771392789.342453
+          }
+        ],
+        "text": "\u001e\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_143310.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1481,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "c",
+            "keycode": 8,
+            "timestamp": 1771392790.4787169
+          },
+          {
+            "char": "l",
+            "keycode": 37,
+            "timestamp": 1771392790.795073
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771392790.899282
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771392791.035837
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771392791.108149
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771392791.228099
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771392791.782923
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771392792.0703192
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771392792.3544252
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771392792.821137
+          }
+        ],
+        "text": "claude\u001f\u001f\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_143313.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1224,
+        "y": 856
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_143315.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Terminal",
+    "IDE",
+    "Automation"
+  ],
+  "parameters": [
+    {
+      "name": "command",
+      "description": "ターミナルで実行するコマンド（例: \"claude\"）",
+      "step_index": 4
+    },
+    {
+      "name": "terminal_open_mode",
+      "description": "ターミナルの開き方（\"New Terminal\" もしくは \"Split Terminal\" の選択）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T14:34:45.598529",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

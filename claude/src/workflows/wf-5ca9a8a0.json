@@ -1,0 +1,103 @@
+{
+  "workflow_id": "wf-5ca9a8a0",
+  "name": "プレビューで2つのPDFウィンドウの同一ボタンを順番にクリック",
+  "description": "macOSのプレビューで、指定した2つのドキュメントウィンドウ内の同一のボタン（ツールバー/標準ボタン）を順にクリックする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 109,
+        "y": 89
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_155544.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Preview",
+      "app_name": "プレビュー",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 82,
+        "y": 60
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_155548.png"
+    }
+  ],
+  "app_name": "プレビュー",
+  "tags": [
+    "Preview",
+    "macOS",
+    "PDF",
+    "UI操作",
+    "ボタン操作"
+  ],
+  "parameters": [
+    {
+      "name": "window_title_1",
+      "description": "1つ目のウィンドウ（ドキュメント）のタイトル。例: Context_Collecting_Markdown_for_AI.pdf",
+      "step_index": 1
+    },
+    {
+      "name": "button_identifier",
+      "description": "クリックするボタンの識別子（ラベル、AXDescription、または確実に一意な属性）。例: サイドバー/注釈/共有/閉じる など。",
+      "step_index": 1
+    },
+    {
+      "name": "window_title_2",
+      "description": "2つ目のウィンドウ（ドキュメント）のタイトル。例: Context_Collecting_Markdown_for_AI_clean.pdf",
+      "step_index": 2
+    },
+    {
+      "name": "button_identifier",
+      "description": "ステップ1と同一のボタン識別子。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:05:58.552876",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,99 @@
+{
+  "workflow_id": "wf-782dac1e",
+  "name": "Slack チャンネル操作",
+  "description": "Slackアプリ内で特定チャンネル（fusion-ai-リストマーケ）に対してショートカットコマンド（Cmd+）とクリック操作を実行する操作列",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 857,
+        "y": 596
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_185910.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 222,
+        "y": 395
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_185919.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル操作",
+    "ショートカット",
+    "クリック"
+  ],
+  "parameters": [
+    {
+      "name": "チャンネル名",
+      "description": "操作対象のSlackチャンネル名（例：fusion-ai-リストマーケ）",
+      "step_index": 0
+    },
+    {
+      "name": "ショートカットキー",
+      "description": "実行するキーボードショートカット（例：Cmd+）",
+      "step_index": 1
+    },
+    {
+      "name": "クリック対象",
+      "description": "クリック操作の対象となるUI要素のロール/グループ",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:24:23.441440",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

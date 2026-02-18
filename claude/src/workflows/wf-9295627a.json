@@ -1,0 +1,90 @@
+{
+  "workflow_id": "wf-9295627a",
+  "name": "LINEのメッセージ入力欄にクリップボードを貼り付け",
+  "description": "開いているLINEチャットでメッセージ入力欄をフォーカスし、クリップボードの内容を貼り付ける手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "ありがとうございます...まじでオンニ来ます",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1766,
+        "y": 770
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_165556.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1766,
+        "y": 771
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_165602.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージ",
+    "貼り付け",
+    "クリップボード",
+    "入力欄"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "貼り付けるテキスト（クリップボードに事前に入っている想定）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T17:02:57.517691",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -35,10 +35,11 @@
   ],
   "app_name": "Google Gemini",
   "tags": [
-    "Google Gemini",
-    "UI操作",
+    "基本操作",
     "クリック",
-    "基本操作"
+    "UI操作",
+    "Google Gemini",
+    "ウィンドウ操作"
   ],
   "parameters": [
     {

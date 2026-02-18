@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-4ae7c89d",
+  "name": "Google Chrome でのGitHubコミット詳細ページの操作",
+  "description": "Google Chromeでドキュメント/テキスト要素をクリックした後、グループ要素をクリックするシンプルな操作シーケンス。GitHub のコミット詳細ページ（\"drop redundant empty-profile extraction cases\"）に対する連続的な選択/ナビゲーション操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "docs-scope",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 187,
+        "y": 437
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163325.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 160,
+        "y": 539
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_163328.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "UI操作",
+    "GitHub",
+    "Chrome",
+    "ナビゲーション",
+    "連続クリック"
+  ],
+  "parameters": [
+    {
+      "name": "テキスト要素",
+      "description": "クリック対象のAXStaticText要素の値（例：docs-scope）",
+      "step_index": 1
+    },
+    {
+      "name": "ウィンドウ/ページ情報",
+      "description": "対象のGitHubコミットページ（例：kazuyaegusa/openclaw@ac02e45）",
+      "step_index": 1
+    },
+    {
+      "name": "グループ要素",
+      "description": "2番目のクリック対象となるAXGroup要素",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:43:29.611414",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

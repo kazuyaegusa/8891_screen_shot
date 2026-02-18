@@ -1,0 +1,63 @@
+{
+  "workflow_id": "wf-be8e0445",
+  "name": "Claude アプリのボタンクリック操作",
+  "description": "Claude アプリケーションにおいて、AXButton ロールを持つボタン要素をクリックする操作。単一のボタンクリック動作のみで構成されている基本的な操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3047,
+        "y": 880
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_162918.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "button_click",
+    "Claude",
+    "UI操作",
+    "基本操作"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "クリック対象のボタン要素を特定するidentifier（AXButton）",
+      "step_index": 1
+    },
+    {
+      "name": "window",
+      "description": "操作対象のウィンドウ名またはアプリケーション名（Claude）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.6,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:42:39.052241",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

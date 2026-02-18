@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-8dd0e070",
+  "name": "Discord daily_digests確認とプロジェクト管理画面の開きの入口アクセス操作",
+  "description": "Discord内のdaily_digests(AI トピックダイジェスト)を確認し、その後新規ウィンドウでプロジェクト管理画面(Aixeed-PJ-Manage)を開く一連の操作",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "daily_digests アプリ , 📊 AI トピックダイジェスト +14 件の新着メッセージを処理（全 13,877 件） 🏆 言及ランキング Top10 🥇 Gemini — 686回 📈 NEW 🥈 Cursor — 437回 📈 NEW 🥉 ChatGPT — 430回 📈 NEW 4. Claude — 369回 📈 NEW 5. Antigravity — 360回 📈 NEW 6. 自動化 — 359回 📈 NEW 7. コンテキスト — 272回 📈 NEW 8. プロンプト — 250回 📈 NEW ",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 4273,
+        "y": 968
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003202.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "New Window",
+        "value": null,
+        "description": null,
+        "identifier": "action:"
+      },
+      "coordinates": {
+        "x": 224,
+        "y": 570
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_003210.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "daily_digests",
+    "AI_digest",
+    "プロジェクト管理",
+    "ウィンドウ操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_channel",
+      "description": "アクセス対象のDiscordチャンネル名（デフォルト: daily_digests）",
+      "step_index": 1
+    },
+    {
+      "name": "window_path",
+      "description": "新規ウィンドウで開くプロジェクト管理画面のパス（デフォルト: kotassnearby/Aixeed-PJ-Manage-r1）",
+      "step_index": 2
+    },
+    {
+      "name": "workspace_name",
+      "description": "アクセス対象のワークスペース名（デフォルト: Aixeed運営）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:34:47.184347",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

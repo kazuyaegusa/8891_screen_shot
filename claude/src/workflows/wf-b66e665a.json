@@ -1,0 +1,567 @@
+{
+  "workflow_id": "wf-b66e665a",
+  "name": "Linear通知設定の確認と変更",
+  "description": "Linear アプリケーションで通知設定を確認・調整するワークフロー。通知チャネル（Desktop、Mobile、Email、Slack）の設定を確認し、特定の通知オプション（Reactions）を有効化、その後プリファレンス画面を訪問して設定内容を確認する一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXWindow",
+        "title": "Notifications",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1835,
+        "y": 30
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_183953.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "Notifications Notification channels Choose how to be notified for workspace activity. Notifications will always go to your Linear inbox. Desktop settings Desktop Enabled for assignments, status changes, 10 others Mobile settings Mobile Enabled for all notifications Email settings Email Enabled for all notifications Slack settings Slack Disabled Updates from Linear Subscribe to product announcements and important changes from the Linear team Changelog",
+        "value": null,
+        "description": "Notifications Notification channels Choose how to be notified for workspace activity. Notifications will always go to your Linear inbox. Desktop settings Desktop Enabled for assignments, status changes, 10 others Mobile settings Mobile Enabled for all notifications Email settings Email Enabled for all notifications Slack settings Slack Disabled Updates from Linear Subscribe to product announcements and important changes from the Linear team Changelog",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1493,
+        "y": 225
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184001.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 984,
+        "y": 297
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184002.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1035,
+        "y": 247
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184004.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1142,
+        "y": 328
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184005.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1295,
+        "y": 327
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184006.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXCheckBox",
+        "title": "Reactions",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1374,
+        "y": 567
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184014.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 383,
+        "y": 99
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184016.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Mobile settings",
+        "value": null,
+        "description": "Mobile settings",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1212,
+        "y": 368
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184018.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Notifications",
+        "value": null,
+        "description": "Notifications",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 412,
+        "y": 89
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184026.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Slack settings",
+        "value": null,
+        "description": "Slack settings",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1198,
+        "y": 464
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184028.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Notifications",
+        "value": null,
+        "description": "Notifications",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 340,
+        "y": 95
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184030.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1108,
+        "y": 301
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184032.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 150,
+        "y": 105
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184040.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXLink",
+        "title": "Preferences",
+        "value": null,
+        "description": "Preferences",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 109,
+        "y": 117
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184041.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Back to app",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 111,
+        "y": 96
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184042.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "value": null,
+        "description": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 407,
+        "y": 581
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184043.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "value": null,
+        "description": "STUN様レビュー 別途招待しましたが下記ご確認お願いします　https://github.com/kazuyaegusa/movico Add reaction Attach images, files or videos Create new sub-issue Activity Unsubscribe from issue Change subscribers akihisa.taniuchi@aixeed.co.jp akihisa.taniuchi@aixeed.co.jp created the issue · Sun Feb 15, 2026, 19:51:19 kazuya.egusa@aixeed.co.jp kazuya.egusa@aixeed.co.jp Sun Feb 15, 2026, 19:54:26 Add reaction Comment options データの自動取得可否 APIを使ったテスト動画upload実行 を進めましたが一旦見て頂きたく",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1073,
+        "y": 222
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_184045.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "notification",
+    "settings",
+    "preferences",
+    "linear",
+    "configuration"
+  ],
+  "parameters": [
+    {
+      "name": "notification_channel",
+      "description": "確認・調整対象の通知チャネル（Desktop、Mobile、Email、Slackなど）",
+      "step_index": 2
+    },
+    {
+      "name": "notification_option",
+      "description": "有効化する通知オプション（例：Reactions）",
+      "step_index": 7
+    },
+    {
+      "name": "github_repository_url",
+      "description": "確認対象のGitHubリポジトリURL（例：https://github.com/kazuyaegusa/movico）",
+      "step_index": 17
+    },
+    {
+      "name": "issue_title",
+      "description": "確認対象のLinearイシュータイトル（例：STUN様レビュー）",
+      "step_index": 17
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:22:20.910668",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,152 @@
+{
+  "workflow_id": "wf-cc668bc5",
+  "name": "Slackチャンネル操作シーケンス",
+  "description": "Slackアプリケーション内でダイアログやパネルを閉じた後、異なるチャンネルに切り替える操作シーケンス。「閉じる」ボタンをクリックして現在のダイアログを閉じ、グループ要素をクリックしてから別のチャンネル（fusion_ai売上管理）に切り替える一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 355,
+        "y": 92
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111242.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 358,
+        "y": 94
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111244.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 202,
+        "y": 421
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111246.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 85,
+        "y": 52
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111254.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "UI操作",
+    "チャンネル切り替え",
+    "Slack",
+    "ダイアログクローズ",
+    "チャンネル操作",
+    "チャネル切り替え"
+  ],
+  "parameters": [
+    {
+      "name": "source_channel",
+      "description": "操作対象の元のチャンネル名（例：fusion-ai-リストマーケ）",
+      "step_index": 1
+    },
+    {
+      "name": "target_channel",
+      "description": "切り替え先のチャンネル名（例：fusion_ai売上管理）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.685,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:38:29.877011",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

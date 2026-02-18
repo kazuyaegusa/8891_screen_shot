@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-b656ca10",
+  "name": "NotebookLM: Download current notebook as PDF",
+  "description": "In NotebookLM, open the Other options menu and choose the PDF download option to save the current notebook as a PDF.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "その他のオプション",
+        "value": null,
+        "description": "その他のオプション",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 969,
+        "y": 1153
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_160945.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.gjcmcplpgihbecacndmmbaenpfgimlec",
+      "app_name": "NotebookLM",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "PDF ドキュメント（.pdf）をダウンロード",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 862,
+        "y": 1278
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_160946.png"
+    }
+  ],
+  "app_name": "NotebookLM",
+  "tags": [
+    "NotebookLM",
+    "download",
+    "PDF",
+    "UI automation"
+  ],
+  "parameters": [
+    {
+      "name": "target_window_title",
+      "description": "Title of the NotebookLM window to act on (usually includes the notebook name).",
+      "step_index": 1
+    },
+    {
+      "name": "target_window_title",
+      "description": "Title of the NotebookLM window to act on (usually includes the notebook name).",
+      "step_index": 2
+    },
+    {
+      "name": "download_menu_item_label",
+      "description": "Label of the download option in the menu. Default: 'PDF ドキュメント（.pdf）をダウンロード'.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.84,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:18:29.104135",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

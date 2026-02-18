@@ -1,0 +1,88 @@
+{
+  "workflow_id": "wf-abd0064e",
+  "name": "GhosttyでJSON読み込みスキップ項目を選択して実行",
+  "description": "Ghostty上で実行中の「python3 capture_loop.py --trigger event --auto-learn」画面にて、テキストエリア内の「JSON読み込みスキップ: {json_filename} - Ext」行をクリックし、その後ボタンをクリックして処理を確定/実行する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "JSON読み込みスキップ: click_cap_20260216_192447.json - Extra data: line 868 column 2 (char 17127)                              \nJSON読み込みスキップ: click_cap_20260216_191836.json - Extra data: line 869 column 1 (char 17063)                              \nJSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: line 890 column 2 (char 17511)                              \nJSON読み込みスキップ: click_cap_20260216_191502.json - 'utf-8' codec can't decode byte 0xe3 in position 8184: invalid continuation byte                                                                                                                       \nJSON読み込みスキップ: click_cap_20260216_181554.json - Expecting ',' delimiter: line 380 column 17 (char 7661)                 \nJSON読み込みスキップ: click_cap_20260216_184412.json - Extra data: line 892 column 2 (char 17518)                              \nJSON読み込みスキップ: text_cap_20260216_185012.json - Expecting ':' delimiter: line 389 column 8 (char 7642)                   \nJSON読み込みスキップ: shortcut_cap_20260216_194125.json - Extra data: line 859 column 2 (char 16840)                           \nJSON読み込みスキップ: click_cap_20260216_191833.json - Extra data: line 857 column 2 (char 16854)                              \nJSON読み込みスキップ: click_cap_20260216_192447.json - Extra data: line 868 column 2 (char 17127)                              \nJSON読み込みスキップ: click_cap_20260216_191836.json - Extra data: line 869 column 1 (char 17063)                              \nJSON読み込みスキップ: click_cap_20260216_192959.json - Expecting property name enclosed in double quotes: line 384 column 20 (char 7575)                                                                                                                      \nJSON読み込みスキップ: click_cap_20260216_190857.json - Extra data: ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 348,
+        "y": 1782
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_161436.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.mitchellh.ghostty",
+      "app_name": "Ghostty",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 95,
+        "y": 988
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_161438.png"
+    }
+  ],
+  "app_name": "Ghostty",
+  "tags": [
+    "Ghostty",
+    "Terminal",
+    "Python",
+    "JSON",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "json_filename",
+      "description": "テキストエリアに表示される対象のJSONファイル名（例: click_cap_YYYYMMDD_HHMMSS.json）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:26:42.119441",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

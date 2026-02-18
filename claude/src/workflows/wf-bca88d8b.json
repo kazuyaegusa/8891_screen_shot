@@ -1,0 +1,133 @@
+{
+  "workflow_id": "wf-bca88d8b",
+  "name": "Google Chrome テキストエリア入力操作",
+  "description": "Google Chrome の OpenClaw Control ウィンドウ内のテキストエリアをクリックした後、テキスト 'aa' を入力する操作列。テキストエリアへのフォーカス確保とテキスト入力の基本的な流れを示しており、パラメータ化により異なるテキスト入力に再利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 476,
+        "y": 1030
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151144.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 1024
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_151145.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 1024
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771308705.6816158
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771308705.848508
+          }
+        ],
+        "text": "aa",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260217_151146.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "テキスト入力",
+    "フォーカス設定",
+    "UI操作",
+    "Google Chrome",
+    "OpenClaw Control"
+  ],
+  "parameters": [
+    {
+      "name": "input_text",
+      "description": "テキストエリアに入力するテキスト内容",
+      "step_index": 3
+    },
+    {
+      "name": "target_element",
+      "description": "操作対象のテキストエリア要素（AXTextArea）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:39:31.032898",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

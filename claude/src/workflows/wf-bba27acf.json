@@ -1,0 +1,409 @@
+{
+  "workflow_id": "wf-bba27acf",
+  "name": "Google Gemini へのテキスト入力ワークフロー",
+  "description": "Google Gemini アプリケーションでAXGroupターゲットをクリックし、ペーストコマンドでクリップボード内容を貼付した後、複数のテキスト入力を行う操作列。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3229,
+        "y": 1055
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260216_194129.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3229,
+        "y": 1055
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260216_194129.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3229,
+        "y": 1055
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238490.835932
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238491.535776
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238491.626448
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238491.7173738
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238491.775828
+          }
+        ],
+        "text": "mmire",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194132.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjajbhpgcmkmakfdjmghbhkkkpgbnbbf",
+      "app_name": "Google Gemini",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2508,
+        "y": 494
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 104,
+            "timestamp": 1771238493.343638
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238493.6648011
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238493.725795
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771238493.7712069
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238493.814274
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238493.9198651
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238493.988361
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238494.071981
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238494.160615
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238494.327331
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238494.372374
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238494.462334
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238494.5351412
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771238494.669918
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238494.7543302
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771238494.9547992
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238495.257231
+          },
+          {
+            "char": "C",
+            "keycode": 8,
+            "timestamp": 1771238495.619002
+          },
+          {
+            "char": "S",
+            "keycode": 1,
+            "timestamp": 1771238495.7954051
+          },
+          {
+            "char": "S",
+            "keycode": 1,
+            "timestamp": 1771238495.946222
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238496.080297
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771238496.188642
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771238496.245408
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238496.3210702
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238496.440505
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238496.590094
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238496.642136
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771238496.695765
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771238496.801041
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238496.844481
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771238496.997796
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238497.023903
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771238497.1471841
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238497.190325
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238497.356996
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771238497.553913
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771238497.6735191
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771238497.7297359
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771238497.789351
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238497.867039
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771238498.016957
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238498.197421
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771238498.3303769
+          }
+        ],
+        "text": " miretan dakedo,\nCSS\ntekina monoga\nokasii\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260216_194139.png"
+    }
+  ],
+  "app_name": "Google Gemini",
+  "tags": [
+    "Google Gemini",
+    "テキスト入力",
+    "クリップボード操作",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "target_element",
+      "description": "クリック対象となるUI要素のターゲット名（例：AXGroup）",
+      "step_index": 1
+    },
+    {
+      "name": "clipboard_content",
+      "description": "Cmd+Vで貼付するクリップボードの内容",
+      "step_index": 2
+    },
+    {
+      "name": "first_text_input",
+      "description": "最初のテキスト入力値（例：'mmire'）",
+      "step_index": 3
+    },
+    {
+      "name": "second_target_element",
+      "description": "2番目のテキスト入力対象のUI要素（例：AXImage）",
+      "step_index": 4
+    },
+    {
+      "name": "second_text_input",
+      "description": "2番目のテキスト入力値",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:30:45.937318",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

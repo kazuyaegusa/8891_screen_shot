@@ -1,0 +1,97 @@
+{
+  "workflow_id": "wf-01eb5319",
+  "name": "Slackの返信確認とキャンセル操作",
+  "description": "Slackのメッセージに対して返信を確認し、その後キャンセルボタンをクリックする操作。fusion-ai-リストマーケチャンネル内で「2件の返信」というターゲットをクリックした後、表示されたダイアログをキャンセルする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "2 件の返信",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 454,
+        "y": 865
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111225.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXButton",
+        "title": "キャンセル",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 916,
+        "y": 531
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_111232.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "メッセージ操作",
+    "UI操作",
+    "ダイアログ処理"
+  ],
+  "parameters": [
+    {
+      "name": "返信数",
+      "description": "クリックするメッセージの返信数（例：2件の返信）",
+      "step_index": 1
+    },
+    {
+      "name": "チャンネル名",
+      "description": "操作対象のSlackチャンネル名（例：fusion-ai-リストマーケ）",
+      "step_index": 1
+    },
+    {
+      "name": "キャンセルボタンラベル",
+      "description": "ダイアログのキャンセルボタンテキスト（例：キャンセル）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "5697dd21-eb3d-4666-a4ea-4c851075128f"
+  ],
+  "created_at": "2026-02-18T16:38:21.780699",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,126 @@
+{
+  "workflow_id": "wf-0d8681d5",
+  "name": "Slackのチャンネル返信閲覧ワークフロー",
+  "description": "Slackのチャンネルメッセージの返信を開いて閲覧するワークフロー。特定のグループ要素をクリックして返信スレッドを展開し、返信数を確認して返信詳細を表示する一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3235,
+        "y": 1352
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_154958.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "6 件の返信",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3489,
+        "y": 1579
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_155004.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 3235,
+        "y": 1373
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_155015.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル管理",
+    "返信管理",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "チャンネル名",
+      "description": "操作対象のSlackチャンネル名（例：fusion-ai-csline-discord）",
+      "step_index": 1
+    },
+    {
+      "name": "返信数",
+      "description": "確認する返信の件数（例：6件）",
+      "step_index": 2
+    },
+    {
+      "name": "対象チャンネル",
+      "description": "返信を閲覧するターゲットチャンネル（例：fusion-ai-line）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T16:41:08.349683",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}
