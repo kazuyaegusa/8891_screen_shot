@@ -1,0 +1,107 @@
+{
+  "workflow_id": "wf-8425dd5d",
+  "name": "Google カレンダーイベント詳細表示",
+  "description": "Google カレンダーにおいて、特定の時間帯のイベント（会議やミーティング）の詳細情報を表示する操作。カレンダーに登録されているイベントをクリックして詳細パネルを開く一連の手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "午後12:30～午後1時、「福田享史さん: FUSION AI 画面操作説明」、Kazuya Egusa、場所: https://meet.google.com/kcm-mdbw-thi、2026年 2月 20日",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2416,
+        "y": 395
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113741.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2258,
+        "y": 131
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113743.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Googleカレンダー",
+    "イベント管理",
+    "UI操作",
+    "詳細表示"
+  ],
+  "parameters": [
+    {
+      "name": "event_title",
+      "description": "表示対象のイベント名（例：福田享史さん: FUSION AI 画面操作説明）",
+      "step_index": 1
+    },
+    {
+      "name": "event_time",
+      "description": "イベントの時間帯（例：午後12:30～午後1時）",
+      "step_index": 1
+    },
+    {
+      "name": "event_date",
+      "description": "イベントの日付（例：2026年 2月 20日）",
+      "step_index": 1
+    },
+    {
+      "name": "meeting_url",
+      "description": "ミーティングのURL（例：https://meet.google.com/kcm-mdbw-thi）",
+      "step_index": 1
+    },
+    {
+      "name": "event_group_element",
+      "description": "イベント詳細表示パネルのグループ要素をクリック",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:38:00.791698",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

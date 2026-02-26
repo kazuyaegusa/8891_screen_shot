@@ -1,0 +1,123 @@
+{
+  "workflow_id": "wf-4bde8821",
+  "name": "Linearで課題タイトルをコピー",
+  "description": "Linearの課題ウィンドウで指定した静的テキスト（課題タイトルなど）をクリックし、Cmd+Cで内容をクリップボードにコピーする手順。最後に同要素を再クリックします。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "vmware fusion 25h2まじおすすめ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1857,
+        "y": 697
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145114.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "vmware fusion 25h2まじおすすめ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1857,
+        "y": 697
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_145115.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "vmware fusion 25h2まじおすすめ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1857,
+        "y": 697
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145115.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "コピー",
+    "クリップボード",
+    "課題タイトル"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象のLinear課題ウィンドウのタイトル（例: \"AIX-68 要件定義\"）",
+      "step_index": 1
+    },
+    {
+      "name": "static_text_value",
+      "description": "クリックしてコピーする静的テキストの値（例: \"vmware fusion 25h2まじおすすめ\"）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T14:56:01.350420",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

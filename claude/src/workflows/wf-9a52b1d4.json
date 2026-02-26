@@ -1,0 +1,81 @@
+{
+  "workflow_id": "wf-9a52b1d4",
+  "name": "Claudeでコネクタの使用量を開く",
+  "description": "Claudeアプリで「コネクタ」をクリックし、続けて「使用量」をクリックして該当画面に遷移する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "コネクタ",
+        "value": null,
+        "description": "コネクタ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1547,
+        "y": 1269
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_194323.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1505,
+        "y": 1213
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_194324.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "ナビゲーション",
+    "Claude",
+    "使用量",
+    "コネクタ"
+  ],
+  "parameters": [],
+  "confidence": 0.79,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:50:45.323892",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

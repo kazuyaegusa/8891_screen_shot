@@ -1,0 +1,204 @@
+{
+  "workflow_id": "wf-5a291724",
+  "name": "Reveal a file in Finder from Cursor",
+  "description": "In Cursor, locate a specific file and use the context menu option 'Reveal in Finder' to show it in macOS Finder.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 504,
+        "y": 409
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162154.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "wf-adbec174.json",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 151,
+        "y": 588
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162156.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 441,
+        "y": 317
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162201.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 204,
+        "y": 184
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162202.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 204,
+        "y": 184
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162203.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Reveal in Finder",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 352,
+        "y": 243
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_162205.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "macOS",
+    "Finder",
+    "IDE",
+    "file-management"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "The exact file name to reveal in Finder (as shown in Cursor's UI/sidebar).",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T16:22:36.637244",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

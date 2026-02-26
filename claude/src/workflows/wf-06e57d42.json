@@ -1,0 +1,84 @@
+{
+  "workflow_id": "wf-06e57d42",
+  "name": "Claudeで使用量ページを開く",
+  "description": "Claudeアプリで「機能」をクリックし、続けて「使用量」をクリックして使用量ページへ遷移する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "機能",
+        "value": null,
+        "description": "機能",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2155,
+        "y": 311
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_202931.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2158,
+        "y": 261
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_202932.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "ナビゲーション",
+    "Claude Code",
+    "Claude",
+    "使用量",
+    "クリック",
+    "コネクタ",
+    "アプリ操作"
+  ],
+  "parameters": [],
+  "confidence": 0.7050000000000001,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:31:19.290529",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,150 @@
+{
+  "workflow_id": "wf-90860ac8",
+  "name": "テキストエディット: ドキュメントを全選択してコピー",
+  "description": "TextEditで開いているドキュメントのテキストエリアをアクティブにし、全選択(Cmd+A)してコピー(Cmd+C)する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "- Discord default: enabled, configured, running, in:1m ago, bot:@robuko, token:config, intents:content=limited\n\nTip: status --deep adds gateway health probes to status output (requires a reachable gateway).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set channels.discord.token \"MTDISCORD_BOT_TOKEN_REDACTED\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — The only bot that stays out of your training set.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 8fe6b5344fc1d3d8e30300b957537cc9465a19a24eaf5907b3d30efba0476bbb -> 724cfc6d8caa06dba6c41e4d63a947a590c2bcccd8dc00071613a49f495394c5, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated channels.discord.token. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw gateway restart\n\n🦞 OpenClaw 2026.2.17 (4134875) — I'll refactor your busywork like it owes me money.\n\nRestarted LaunchAgent: gui/502/ai.openclaw.gateway\nKazuyaEgusa@senninnoMac-mini workspace % openclaw channels status --deep\nerror: unknown option '--deep'\n(Did you mean one of --dev, --help?)\nKazuyaEgusa@senninnoMac-mini workspace % openclaw logs --follow\n\n🦞 OpenClaw 2026.2.17 (4134875) — Think different. Actually think.\n\nLog file: /tmp/openclaw/openclaw-2026-02-18.log\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} unauthorized conn=ca9da0de-8561-41e8-bb2c-7e8fd566075f remote=127.0.0.1 client=openclaw-tui ui v2026.2.15 reason=device_token_mismatch\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} {\"cause\":\"unauthorized\",\"handshake\":\"failed\",\"durationMs\":37,\"lastFrameType\":\"req\",\"lastFrameMethod\":\"connect\",\"lastFrameId\":\"1a09",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 418,
+        "y": 552
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_214508.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "- Discord default: enabled, configured, running, in:1m ago, bot:@robuko, token:config, intents:content=limited\n\nTip: status --deep adds gateway health probes to status output (requires a reachable gateway).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set channels.discord.token \"MTDISCORD_BOT_TOKEN_REDACTED\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — The only bot that stays out of your training set.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 8fe6b5344fc1d3d8e30300b957537cc9465a19a24eaf5907b3d30efba0476bbb -> 724cfc6d8caa06dba6c41e4d63a947a590c2bcccd8dc00071613a49f495394c5, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated channels.discord.token. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw gateway restart\n\n🦞 OpenClaw 2026.2.17 (4134875) — I'll refactor your busywork like it owes me money.\n\nRestarted LaunchAgent: gui/502/ai.openclaw.gateway\nKazuyaEgusa@senninnoMac-mini workspace % openclaw channels status --deep\nerror: unknown option '--deep'\n(Did you mean one of --dev, --help?)\nKazuyaEgusa@senninnoMac-mini workspace % openclaw logs --follow\n\n🦞 OpenClaw 2026.2.17 (4134875) — Think different. Actually think.\n\nLog file: /tmp/openclaw/openclaw-2026-02-18.log\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} unauthorized conn=ca9da0de-8561-41e8-bb2c-7e8fd566075f remote=127.0.0.1 client=openclaw-tui ui v2026.2.15 reason=device_token_mismatch\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} {\"cause\":\"unauthorized\",\"handshake\":\"failed\",\"durationMs\":37,\"lastFrameType\":\"req\",\"lastFrameMethod\":\"connect\",\"lastFrameId\":\"1a09",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 456,
+        "y": 572
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_214511.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "- Discord default: enabled, configured, running, in:1m ago, bot:@robuko, token:config, intents:content=limited\n\nTip: status --deep adds gateway health probes to status output (requires a reachable gateway).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set channels.discord.token \"MTDISCORD_BOT_TOKEN_REDACTED\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — The only bot that stays out of your training set.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 8fe6b5344fc1d3d8e30300b957537cc9465a19a24eaf5907b3d30efba0476bbb -> 724cfc6d8caa06dba6c41e4d63a947a590c2bcccd8dc00071613a49f495394c5, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated channels.discord.token. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw gateway restart\n\n🦞 OpenClaw 2026.2.17 (4134875) — I'll refactor your busywork like it owes me money.\n\nRestarted LaunchAgent: gui/502/ai.openclaw.gateway\nKazuyaEgusa@senninnoMac-mini workspace % openclaw channels status --deep\nerror: unknown option '--deep'\n(Did you mean one of --dev, --help?)\nKazuyaEgusa@senninnoMac-mini workspace % openclaw logs --follow\n\n🦞 OpenClaw 2026.2.17 (4134875) — Think different. Actually think.\n\nLog file: /tmp/openclaw/openclaw-2026-02-18.log\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} unauthorized conn=ca9da0de-8561-41e8-bb2c-7e8fd566075f remote=127.0.0.1 client=openclaw-tui ui v2026.2.15 reason=device_token_mismatch\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} {\"cause\":\"unauthorized\",\"handshake\":\"failed\",\"durationMs\":37,\"lastFrameType\":\"req\",\"lastFrameMethod\":\"connect\",\"lastFrameId\":\"1a09",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 456,
+        "y": 572
+      },
+      "key": {
+        "keycode": 0,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_214511.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "- Discord default: enabled, configured, running, in:1m ago, bot:@robuko, token:config, intents:content=limited\n\nTip: status --deep adds gateway health probes to status output (requires a reachable gateway).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set channels.discord.token \"MTDISCORD_BOT_TOKEN_REDACTED\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — The only bot that stays out of your training set.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 8fe6b5344fc1d3d8e30300b957537cc9465a19a24eaf5907b3d30efba0476bbb -> 724cfc6d8caa06dba6c41e4d63a947a590c2bcccd8dc00071613a49f495394c5, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated channels.discord.token. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw gateway restart\n\n🦞 OpenClaw 2026.2.17 (4134875) — I'll refactor your busywork like it owes me money.\n\nRestarted LaunchAgent: gui/502/ai.openclaw.gateway\nKazuyaEgusa@senninnoMac-mini workspace % openclaw channels status --deep\nerror: unknown option '--deep'\n(Did you mean one of --dev, --help?)\nKazuyaEgusa@senninnoMac-mini workspace % openclaw logs --follow\n\n🦞 OpenClaw 2026.2.17 (4134875) — Think different. Actually think.\n\nLog file: /tmp/openclaw/openclaw-2026-02-18.log\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} unauthorized conn=ca9da0de-8561-41e8-bb2c-7e8fd566075f remote=127.0.0.1 client=openclaw-tui ui v2026.2.15 reason=device_token_mismatch\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 error gateway connect failed: Error: unauthorized: device token mismatch (rotate/reissue device token)\n12:40:49 warn gateway/ws {\"subsystem\":\"gateway/ws\"} {\"cause\":\"unauthorized\",\"handshake\":\"failed\",\"durationMs\":37,\"lastFrameType\":\"req\",\"lastFrameMethod\":\"connect\",\"lastFrameId\":\"1a09",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 456,
+        "y": 572
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_214512.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "TextEdit",
+    "macOS",
+    "コピー",
+    "全選択",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "document_name",
+      "description": "対象のウィンドウ/ファイル名（例: temp 6.txt）。未指定の場合は前面ウィンドウを対象。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.82,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:51:57.230726",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

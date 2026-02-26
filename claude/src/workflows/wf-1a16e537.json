@@ -1,0 +1,74 @@
+{
+  "workflow_id": "wf-1a16e537",
+  "name": "Discordで相手にメッセージ送信",
+  "description": "Discordで指定の相手（ユーザー/ボット）のメッセージ入力欄に所定のテキストを入力して送信する手順。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@context_bot へメッセージを送信",
+        "value": "﻿あn",
+        "description": "@context_bot へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 537,
+        "y": 924
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771500658.728773
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771500659.1745448
+          }
+        ],
+        "text": "an",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_203100.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "メッセージ送信",
+    "ボット",
+    "DM"
+  ],
+  "parameters": [
+    {
+      "name": "target",
+      "description": "メッセージを送る相手（ユーザー/ボット名やDM対象）",
+      "step_index": 1
+    },
+    {
+      "name": "message_text",
+      "description": "送信するメッセージ本文",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:31:34.308641",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,116 @@
+{
+  "workflow_id": "wf-6199147e",
+  "name": "Claudeでコネクタの使用量を確認する",
+  "description": "Claudeアプリで「コネクタ」を開き、一覧から目的のコネクタを選択して、そのコネクタの「使用量」ページ（タブ）を表示する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "コネクタ",
+        "value": null,
+        "description": "コネクタ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1502,
+        "y": 1273
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215514.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1487,
+        "y": 1223
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215515.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1485,
+        "y": 1221
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215516.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "コネクタ",
+    "使用量",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "connector_name",
+      "description": "コネクタ一覧で選択するコネクタ名（一覧内の対象アイテム）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:59:14.883837",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

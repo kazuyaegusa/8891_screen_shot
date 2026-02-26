@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-dd6336ca",
+  "name": "Google Chrome のページ再読み込み",
+  "description": "Google Chromeでアクティブなタブ（または指定したウィンドウ/タブ）を再読み込みします。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 141,
+        "y": 98
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192744.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "ブラウザ操作",
+    "再読み込み",
+    "更新"
+  ],
+  "parameters": [
+    {
+      "name": "window_or_tab_title",
+      "description": "再読み込み対象のウィンドウ/タブのタイトル（例: \"Cost | Claude Developer Platform\"）。省略時はアクティブタブを再読み込み。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T19:29:33.537508",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

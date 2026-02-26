@@ -1,0 +1,116 @@
+{
+  "workflow_id": "wf-5f72c1ba",
+  "name": "Copy transcript in Circleback",
+  "description": "Opens the meeting’s options in Circleback and selects “Copy transcript.”",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "AXPopUpButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 640,
+        "y": 93
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180259.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 640,
+        "y": 93
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180300.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Copy transcript",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 607,
+        "y": 211
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180304.png"
+    }
+  ],
+  "app_name": "Circleback",
+  "tags": [
+    "circleback",
+    "transcript",
+    "copy",
+    "meeting"
+  ],
+  "parameters": [
+    {
+      "name": "meeting_title",
+      "description": "The meeting title shown in the Circleback window (e.g., “Platform Development Priorities and Feature Specs Review”).",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T18:04:26.530705",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

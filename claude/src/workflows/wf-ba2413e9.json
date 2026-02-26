@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-ba2413e9",
+  "name": "ClaudeでClaude Codeの使用量ページを開く",
+  "description": "Claudeアプリ内で「Claude Code」を開き、その中の「使用量」ページへ遷移する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "Claude Code",
+        "value": null,
+        "description": "Claude Code",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1471,
+        "y": 1333
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215801.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1456,
+        "y": 1200
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215803.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "使用量",
+    "UI"
+  ],
+  "parameters": [
+    {
+      "name": "section_link_label",
+      "description": "最初に開くセクションのリンクテキスト（例: 「Claude Code」）。",
+      "step_index": 1
+    },
+    {
+      "name": "destination_link_label",
+      "description": "セクション内で遷移する先のリンクテキスト（例: 「使用量」）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T22:01:58.450154",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

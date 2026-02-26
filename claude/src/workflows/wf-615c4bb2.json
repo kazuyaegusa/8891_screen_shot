@@ -1,0 +1,2339 @@
+{
+  "workflow_id": "wf-615c4bb2",
+  "name": "YouTube Studioでコンテンツ一覧を開く",
+  "description": "GoogleアカウントでYouTubeにサインインし、YouTube Studioのチャンネル コンテンツページを開いて、表示タブ（動画/ショート/インスピレーション）を切り替える。通知許可ダイアログが出た場合の対応も含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTextField",
+        "title": "メールアドレスまたは電話番号",
+        "value": null,
+        "description": "メールアドレスまたは電話番号",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1819,
+        "y": 351
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195726.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTextField",
+        "title": "メールアドレスまたは電話番号",
+        "value": null,
+        "description": "メールアドレスまたは電話番号",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1819,
+        "y": 351
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771498648.404808
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771498648.526047
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771498648.659072
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771498648.7329369
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771498648.839796
+          }
+        ],
+        "text": "meado",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_195729.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTextField",
+        "title": "メールアドレスまたは電話番号",
+        "value": "kazuya.egusa@aixeed.co.jp",
+        "description": "メールアドレスまたは電話番号",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1819,
+        "y": 351
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 104,
+            "timestamp": 1771498650.1280692
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771498650.521076
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771498650.578698
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771498650.684583
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771498650.760202
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771498650.83338
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771498650.9252748
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771498651.059965
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771498651.207477
+          }
+        ],
+        "text": " meado \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_195732.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2010,
+        "y": 678
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195741.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "続行",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2067,
+        "y": 676
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195742.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "確認",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2073,
+        "y": 683
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195743.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "スキップ",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1786,
+        "y": 715
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195749.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1648,
+        "y": -9
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195755.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 565,
+        "y": 115
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195758.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 568,
+        "y": 152
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195801.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 520,
+        "y": 50
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195802.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 878,
+        "y": 556
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195804.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1196,
+        "y": 524
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd",
+          "Shift"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195807.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 115,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195810.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 70,
+        "y": 23
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195816.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "最近の動画の指標を表示しますか？",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 484,
+        "y": 557
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195818.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1062,
+        "y": 638
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195820.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXWebArea",
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1081,
+        "y": 619
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195821.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 405,
+        "y": 173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195823.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "コンテンツ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 162,
+        "y": 460
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195827.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 565,
+        "y": 525
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195831.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 519,
+        "y": 61
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195833.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 803,
+        "y": 527
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195835.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 590,
+        "y": 173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195837.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1305,
+        "y": 47
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195840.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "“Google Chrome for Testing”の通知",
+        "description": null,
+        "identifier": "title"
+      },
+      "coordinates": {
+        "x": 937,
+        "y": 146
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195841.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 683,
+        "y": 55
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195843.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1648,
+        "y": 464
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195845.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2158,
+        "y": 383
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195847.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1947,
+        "y": 421
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195849.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1609,
+        "y": 549
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195851.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1568,
+        "y": -54
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195858.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "“Google Chrome for Testing”の通知",
+        "description": null,
+        "identifier": "title"
+      },
+      "coordinates": {
+        "x": 830,
+        "y": 143
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195900.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 579,
+        "y": 66
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195903.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 197,
+        "y": 174
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195905.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 65,
+        "y": 21
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195908.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 623,
+        "y": 574
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195910.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 617,
+        "y": 576
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195912.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 502,
+        "y": 56
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195916.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 976,
+        "y": 1116
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195919.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのコンテンツ - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 513,
+        "y": 677
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195921.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 489,
+        "y": 203
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195925.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 671,
+        "y": 546
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195926.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": "xmark"
+      },
+      "coordinates": {
+        "x": 727,
+        "y": 138
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195930.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": null,
+        "description": "閉じる",
+        "identifier": "xmark"
+      },
+      "coordinates": {
+        "x": 724,
+        "y": 54
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195931.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 702,
+        "y": 544
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195933.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 564,
+        "y": 414
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195936.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ショート",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 650,
+        "y": 274
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195937.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "インスピレーション",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 437,
+        "y": 270
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195938.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "動画",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 522,
+        "y": 267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195939.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 679,
+        "y": 47
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195941.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 928,
+        "y": 108
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195943.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXWindow",
+        "title": "チャンネルのコンテンツ - YouTube Studio - Google Chrome for Testing - Kazuya (aixeed.co.jp)",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2031,
+        "y": 596
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195948.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1687,
+        "y": 198
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195950.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1856,
+        "y": 1153
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195952.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1555,
+        "y": 156
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195954.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "クリエイター stun",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1841,
+        "y": 237
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195957.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "アカウントを切り替える",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1820,
+        "y": 460
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200004.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXTable",
+        "title": "動画リスト",
+        "value": null,
+        "description": "動画リスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1554,
+        "y": 531
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200010.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1699,
+        "y": 142
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200012.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "あなたは管理者です",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 746,
+        "y": 257
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200014.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " さんのチャンネル",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 776,
+        "y": 381
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200016.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "クリエイター stun - YouTube",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 690,
+        "y": 159
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200017.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 991,
+        "y": 378
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200020.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "許可する",
+        "value": "1",
+        "description": "許可する",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 961,
+        "y": 355
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200021.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 491,
+        "y": 166
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200023.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXImage",
+        "title": "アバターの画像",
+        "value": null,
+        "description": "アバターの画像",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1004,
+        "y": 273
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200026.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 967,
+        "y": 476
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200028.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 964,
+        "y": 540
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200031.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXButton",
+        "title": "OK",
+        "value": null,
+        "description": "OK",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 744,
+        "y": 733
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200033.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 748,
+        "y": 175
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200035.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1299,
+        "y": 117
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200040.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 638,
+        "y": 211
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_200042.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 858,
+        "y": 58
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200048.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "アカウント メニュー",
+        "value": null,
+        "description": "アカウント メニュー",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1622,
+        "y": 242
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200049.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXWindow",
+        "title": "クリエイター stun - YouTube - Google Chrome for Testing - Kazuya (aixeed.co.jp)",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1021,
+        "y": 1169
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_200102.png"
+    }
+  ],
+  "app_name": "Google Chrome for Testing",
+  "tags": [
+    "YouTube",
+    "YouTube Studio",
+    "ログイン",
+    "コンテンツ管理",
+    "Chrome"
+  ],
+  "parameters": [
+    {
+      "name": "google_account_email",
+      "description": "サインイン時に入力するメールアドレス",
+      "step_index": 2
+    },
+    {
+      "name": "content_type_tab",
+      "description": "コンテンツページで選択するタブ（動画/ショート/インスピレーション）",
+      "step_index": 50
+    },
+    {
+      "name": "notification_permission",
+      "description": "通知許可ダイアログに対する操作（許可/ブロック）",
+      "step_index": 65
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:08:41.394983",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

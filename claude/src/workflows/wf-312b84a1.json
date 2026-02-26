@@ -1,0 +1,122 @@
+{
+  "workflow_id": "wf-312b84a1",
+  "name": "テキストエディットで全文をコピー",
+  "description": "テキストエディットで対象ドキュメントのテキストエリアをフォーカスし、Cmd+Aで全選択、Cmd+Cでコピーする手順。任意で対象ウィンドウ（ドキュメント）名を指定可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Wed Feb 18 18:39:36 on ttys002\nKazuyaEgusa@senninnoMac-mini ~ % cd ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % unzip //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip -o\nunzip:  cannot find or open //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip, //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.zip or //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.ZIP.\nKazuyaEgusa@senninnoMac-mini workspace % echo \"$HOME/.openclaw/workspace/\"\n/Users/KazuyaEgusa/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % cp ~/Downloads/AGENTS.md ~/Downloads/HEARTBEAT.md ~/Downloads/IDENTITY.md ~/Downloads/SOUL.md ~/Downloads/TOOLS.md ~/Downloads/USER.md ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '[\"00:00-23:59\"]' --json\nError: Config validation failed: agents.defaults.heartbeat.activeHours: Invalid input: expected object, received array\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '{\"start\":\"00:00\",\"end\":\"24:00\"}' --json\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 85f71174c8bebf66cef895647b1c1216000185f404b590daa6e396d0cc21965f -> d98be98a7e853e6fa03490d7c41d75f0c311568ca5b85b0ee6fcf331dd1f57ae, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated agents.defaults.heartbeat.activeHours. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaluts.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — Your AI assistant, now without the $3,499 headset.\n\nError: Config validation failed: agents: Unrecognized key: \"defaluts\"\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — One CLI to rule them all, and one more restart because you changed the port.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/open",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 393,
+        "y": 391
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_205020.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Wed Feb 18 18:39:36 on ttys002\nKazuyaEgusa@senninnoMac-mini ~ % cd ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % unzip //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip -o\nunzip:  cannot find or open //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip, //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.zip or //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.ZIP.\nKazuyaEgusa@senninnoMac-mini workspace % echo \"$HOME/.openclaw/workspace/\"\n/Users/KazuyaEgusa/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % cp ~/Downloads/AGENTS.md ~/Downloads/HEARTBEAT.md ~/Downloads/IDENTITY.md ~/Downloads/SOUL.md ~/Downloads/TOOLS.md ~/Downloads/USER.md ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '[\"00:00-23:59\"]' --json\nError: Config validation failed: agents.defaults.heartbeat.activeHours: Invalid input: expected object, received array\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '{\"start\":\"00:00\",\"end\":\"24:00\"}' --json\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 85f71174c8bebf66cef895647b1c1216000185f404b590daa6e396d0cc21965f -> d98be98a7e853e6fa03490d7c41d75f0c311568ca5b85b0ee6fcf331dd1f57ae, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated agents.defaults.heartbeat.activeHours. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaluts.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — Your AI assistant, now without the $3,499 headset.\n\nError: Config validation failed: agents: Unrecognized key: \"defaluts\"\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — One CLI to rule them all, and one more restart because you changed the port.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/open",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 393,
+        "y": 392
+      },
+      "key": {
+        "keycode": 0,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_205024.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "Last login: Wed Feb 18 18:39:36 on ttys002\nKazuyaEgusa@senninnoMac-mini ~ % cd ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % unzip //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip -o\nunzip:  cannot find or open //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip, //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.zip or //Users/KazuyaEgusa/Downloads/to/openclaw-workspace-template.zip.ZIP.\nKazuyaEgusa@senninnoMac-mini workspace % echo \"$HOME/.openclaw/workspace/\"\n/Users/KazuyaEgusa/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % cp ~/Downloads/AGENTS.md ~/Downloads/HEARTBEAT.md ~/Downloads/IDENTITY.md ~/Downloads/SOUL.md ~/Downloads/TOOLS.md ~/Downloads/USER.md ~/.openclaw/workspace/\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '[\"00:00-23:59\"]' --json\nError: Config validation failed: agents.defaults.heartbeat.activeHours: Invalid input: expected object, received array\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.activeHours '{\"start\":\"00:00\",\"end\":\"24:00\"}' --json\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/openclaw.json (sha256 85f71174c8bebf66cef895647b1c1216000185f404b590daa6e396d0cc21965f -> d98be98a7e853e6fa03490d7c41d75f0c311568ca5b85b0ee6fcf331dd1f57ae, backup=/Users/KazuyaEgusa/.openclaw/openclaw.json.bak)\nUpdated agents.defaults.heartbeat.activeHours. Restart the gateway to apply.\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaluts.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — Your AI assistant, now without the $3,499 headset.\n\nError: Config validation failed: agents: Unrecognized key: \"defaluts\"\nKazuyaEgusa@senninnoMac-mini workspace % openclaw config set agents.defaults.heartbeat.every \"3h\"\n\n🦞 OpenClaw 2026.2.17 (4134875) — One CLI to rule them all, and one more restart because you changed the port.\n\nConfig overwrite: /Users/KazuyaEgusa/.openclaw/open",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 393,
+        "y": 392
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_205025.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "macOS",
+    "clipboard",
+    "コピー",
+    "ショートカット",
+    "TextEdit",
+    "全選択"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象ドキュメント/ウィンドウのタイトル（例: temp 2.txt）。未指定の場合は前面ウィンドウを対象。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:52:30.367631",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

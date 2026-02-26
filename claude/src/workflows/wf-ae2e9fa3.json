@@ -1,0 +1,433 @@
+{
+  "workflow_id": "wf-ae2e9fa3",
+  "name": "Discordで特定ユーザーに定型メッセージを入力する",
+  "description": "Discordで指定したユーザーのDMを開き、指定した本文を入力する手順（この記録には送信操作は含まれていません）。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXRow",
+        "title": "緋月 , 1 件の未読のメッセージ",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 88,
+        "y": 140
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_173523.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "承知いたしました。明日よろしくおねがいい",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 648,
+        "y": 929
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490127.9430451
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771490127.982892
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771490128.0425138
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771490128.131764
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490128.207137
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490128.314838
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490128.447364
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490128.554812
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490128.6573591
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490128.703329
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490128.7615418
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771490128.866515
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490128.911126
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490128.9555469
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490128.971615
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490129.06239
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490129.1077042
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771490129.155627
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771490129.226537
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771490129.4218519
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490130.143959
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490130.1871822
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490130.24893
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490130.38709
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490130.38757
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771490130.441389
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771490130.5457149
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771490130.5909572
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771490130.666016
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771490130.7559261
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490130.8307729
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490130.9518888
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771490131.147582
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771490131.2381608
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771490131.3870358
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771490131.492142
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771490131.555924
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771490131.657017
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490131.7170718
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490131.796561
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490131.912213
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490132.051832
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490132.052083
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490132.062171
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490132.136487
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771490132.2420008
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490132.295686
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490132.346719
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771490132.436457
+          }
+        ],
+        "text": "syoutiitasimasita .\nasita yorosikuonegaiitsaimasu",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_173533.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "承知いたしました。明日よろしくお願いいたします。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 648,
+        "y": 929
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771490133.636517
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490133.6968231
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490133.788269
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771490133.851251
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771490133.997505
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771490134.028812
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771490134.072466
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771490134.161196
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771490134.222699
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771490134.416945
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771490134.643141
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771490135.457058
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771490135.497378
+          }
+        ],
+        "text": "tasimasu .\n\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_173536.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "DM",
+    "メッセージ入力",
+    "コミュニケーション"
+  ],
+  "parameters": [
+    {
+      "name": "recipient",
+      "description": "DMを開く宛先ユーザー名（例：緋月）",
+      "step_index": 1
+    },
+    {
+      "name": "message_text",
+      "description": "入力するメッセージ本文（例：承知いたしました。明日よろしくお願いいたします。）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T17:37:28.717915",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

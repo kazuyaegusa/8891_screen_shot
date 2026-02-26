@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-e5445164",
+  "name": "Circlebackでミーティングの「Transcript」タブを開く",
+  "description": "Circlebackの任意のミーティング（ウィンドウ）で、Transcript（書き起こし）ビューを表示するための基本手順。対象のミーティングウィンドウを特定し、タブ/セクションから「Transcript」を選択します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 441,
+        "y": 323
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180240.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Transcript",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 440,
+        "y": 316
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180242.png"
+    }
+  ],
+  "app_name": "Circleback",
+  "tags": [
+    "Circleback",
+    "Transcript",
+    "ナビゲーション",
+    "会議記録"
+  ],
+  "parameters": [
+    {
+      "name": "meeting_title",
+      "description": "対象ミーティング（ウィンドウ）タイトル。例: \"Platform Development Priorities and Feature Specs Review - Circleback\" の先頭部分（ミーティング名）や完全タイトル。",
+      "step_index": 1
+    },
+    {
+      "name": "tab_label",
+      "description": "開くタブ/セクション名。既定は \"Transcript\"。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T18:03:22.922814",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,53 @@
+{
+  "workflow_id": "wf-d5e89c1a",
+  "name": "Numbersを終了",
+  "description": "Numbersアプリをメニューバーから終了する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.iWork.Numbers",
+      "app_name": "Numbers",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Numbersを終了",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:1730"
+      },
+      "coordinates": {
+        "x": 1203,
+        "y": 157
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_191756.png"
+    }
+  ],
+  "app_name": "Numbers",
+  "tags": [
+    "Numbers",
+    "終了",
+    "Quit",
+    "macOS",
+    "メニュー"
+  ],
+  "parameters": [],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:25:43.543154",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

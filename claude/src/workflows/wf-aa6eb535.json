@@ -1,0 +1,348 @@
+{
+  "workflow_id": "wf-aa6eb535",
+  "name": "ChromeでGoogle検索を実行する",
+  "description": "Google Chromeで新規タブを開き、指定した検索キーワードでGoogle検索結果を表示する。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "音量をコントロールする",
+        "value": null,
+        "description": "音量をコントロールする",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 838,
+        "y": 597
+      },
+      "key": {
+        "keycode": 17,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_204431.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 807,
+        "y": 938
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771501472.945732
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771501472.986416
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771501473.091576
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771501473.184288
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771501473.272065
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771501473.453093
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771501473.526714
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771501473.9124632
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771501474.2045078
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771501474.3740559
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771501474.54961
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771501474.7266428
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771501474.775787
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771501474.835648
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771501474.952926
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771501475.0120661
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771501475.103303
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771501475.178145
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771501475.297746
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771501475.403123
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771501475.463614
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771501475.583824
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771501475.734477
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771501475.7823942
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771501475.912859
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771501475.957891
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771501476.160667
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771501476.305529
+          }
+        ],
+        "text": "youtube\u0010\n burando akaunto \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_204437.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1715,
+        "y": 520
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204442.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " Googleアカウント名（実名など）とは別に、ブランドや商品名を設定できる。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1711,
+        "y": 467
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204444.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " Googleアカウント名（実名など）とは別に、ブランドや商品名を設定できる。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1711,
+        "y": 477
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204445.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " 1つのGoogleアカウントで、複数のブランドアカウントを作成・切り替えできる。",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1727,
+        "y": 532
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_204445.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "Google検索",
+    "ブラウジング",
+    "検索"
+  ],
+  "parameters": [
+    {
+      "name": "検索キーワード",
+      "description": "Googleで検索するクエリ文字列（例: \"youtube ブランドアカウント\"）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:46:09.499086",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

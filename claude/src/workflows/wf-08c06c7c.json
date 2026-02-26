@@ -1,0 +1,192 @@
+{
+  "workflow_id": "wf-08c06c7c",
+  "name": "LINEでメッセージ入力欄にテキストを入力",
+  "description": "LINEの開いているトーク画面でメッセージ入力欄をクリックし、指定したテキストを入力します（送信は含まれません）。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "な",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1812,
+        "y": 746
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_165617.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "何某か",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1931,
+        "y": 777
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771401380.912744
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401380.98816
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771401381.062144
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771401381.1392372
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771401381.243053
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401381.304358
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771401381.46816
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771401381.557436
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771401381.707447
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401381.752325
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771401381.857609
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771401382.187859
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401382.297154
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771401382.4881039
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771401382.608062
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771401382.63761
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771401382.7750762
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401382.832553
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771401382.893207
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771401382.970853
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771401383.0744991
+          }
+        ],
+        "text": "nanigasika kaeismasu ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_165624.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "messaging",
+    "text_input"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "入力するメッセージ本文",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T17:04:36.399098",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

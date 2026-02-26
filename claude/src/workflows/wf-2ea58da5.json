@@ -1,0 +1,107 @@
+{
+  "workflow_id": "wf-2ea58da5",
+  "name": "Pythonスクリプト実行ショートカット",
+  "description": "ターミナルでPythonスクリプト（capture_loop.py）をイベントトリガーと自動学習オプション付きで実行するショートカット操作。同じコマンドが短時間に繰り返されている。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": null,
+        "title": "src — Python capture_loop.py --trigger event --auto-learn — 141×60",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 442,
+        "y": 1585
+      },
+      "key": {
+        "keycode": 48,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260220_112930.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": null,
+        "title": "src — Python capture_loop.py --trigger event --auto-learn — 141×60",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 442,
+        "y": 1585
+      },
+      "key": {
+        "keycode": 123,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260220_112931.png"
+    }
+  ],
+  "app_name": "ターミナル",
+  "tags": [
+    "ターミナル",
+    "Python",
+    "スクリプト実行",
+    "自動化",
+    "イベントトリガー"
+  ],
+  "parameters": [
+    {
+      "name": "script_name",
+      "description": "実行するPythonスクリプトのファイル名",
+      "step_index": 1
+    },
+    {
+      "name": "trigger_type",
+      "description": "スクリプト実行のトリガータイプ（例：event）",
+      "step_index": 1
+    },
+    {
+      "name": "auto_learn_flag",
+      "description": "自動学習フラグの有効/無効",
+      "step_index": 1
+    },
+    {
+      "name": "keyboard_shortcut",
+      "description": "ショートカットキーの組み合わせ（例：Cmd+）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:30:08.973904",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

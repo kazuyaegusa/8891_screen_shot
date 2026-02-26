@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-bf26e23f",
+  "name": "Chromeで特定タブを再読み込み",
+  "description": "Google Chromeで指定したタブ（ウィンドウ/ページ）をアクティブにし、ページを再読み込みするワークフロー。ステップ1のAXGroupクリックはページ領域へフォーカスするための操作で、省略可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 610,
+        "y": 56
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215505.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 151,
+        "y": 94
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215506.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "ブラウザ",
+    "再読み込み",
+    "タブ管理"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象タブ/ウィンドウのタイトル（例: \"Cost | Claude Developer Platform\"）",
+      "step_index": 1
+    },
+    {
+      "name": "page_url",
+      "description": "対象ページのURL（タイトルで特定できない場合の代替または補助）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:58:54.046520",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

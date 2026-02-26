@@ -1,0 +1,127 @@
+{
+  "workflow_id": "wf-8c5edcd7",
+  "name": "Cursor: ドキュメントに貼り付けて保存",
+  "description": "Cursor で対象ドキュメントのエディタをフォーカスし、クリップボード内容を貼り付けて保存する手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 527,
+        "y": 1128
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180847.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 527,
+        "y": 1128
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_180848.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 533,
+        "y": 1128
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_180851.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Editor",
+    "Paste",
+    "Save",
+    "macOS",
+    "ショートカット"
+  ],
+  "parameters": [
+    {
+      "name": "document_name",
+      "description": "対象ドキュメント/タブのファイル名（例: 20260219MT.md）",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_or_repo",
+      "description": "ウィンドウタイトルに表示されるワークスペース/リポジトリ名（例: movico）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T18:11:45.149941",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,124 @@
+{
+  "workflow_id": "wf-e972a2f1",
+  "name": "Claudeで「使用量」ページを開く",
+  "description": "Claudeアプリでアカウントメニューから設定を開き、「使用量」セクションへ移動する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "S sennin マックスプラン",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1134,
+        "y": 1767
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_223920.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "設定 ⌘,",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1168,
+        "y": 1482
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_223922.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1469,
+        "y": 1218
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_223924.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "macOS",
+    "ナビゲーション",
+    "設定",
+    "Claude",
+    "使用量",
+    "請求",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "account_menu_label",
+      "description": "ウィンドウ内のアカウント/プランを示すポップアップボタンのラベル（例:「S sennin マックスプラン」）。ユーザーごとに異なる可能性があります。",
+      "step_index": 1
+    },
+    {
+      "name": "settings_section_label",
+      "description": "設定画面で開くセクションのラベル。今回の手順では「使用量」。他セクションに汎用化する場合に指定。",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.75875,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T22:47:19.268739",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

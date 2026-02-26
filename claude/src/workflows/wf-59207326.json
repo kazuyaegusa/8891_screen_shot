@@ -1,0 +1,52 @@
+{
+  "workflow_id": "wf-59207326",
+  "name": "Claudeで使用量を表示する",
+  "description": "Claudeアプリのウィンドウで「使用量」(AXLink) をクリックして、使用量ページ/ビューを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1450,
+        "y": 1195
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_013548.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "使用量",
+    "単一ステップ"
+  ],
+  "parameters": [],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T01:39:09.888203",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

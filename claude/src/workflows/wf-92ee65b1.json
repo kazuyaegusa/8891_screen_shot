@@ -1,0 +1,246 @@
+{
+  "workflow_id": "wf-92ee65b1",
+  "name": "LINEで現在のチャットにメッセージ送信",
+  "description": "LINEウィンドウをアクティブにし、入力欄をフォーカスして、指定したメッセージを入力し（末尾の改行で送信）、現在開いているチャットに送ります。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 906,
+        "y": 1328
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112521.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 843,
+        "y": 1543
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112523.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXWindow",
+        "title": "AXWindow",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 854,
+        "y": 1554
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112524.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 854,
+        "y": 1554
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771467925.960962
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771467926.032762
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771467926.1660302
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771467926.257498
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771467926.346982
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467926.4211142
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771467926.497003
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467926.556823
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467926.693405
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771467926.752649
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771467926.8266199
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771467926.91714
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467926.945683
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467927.0271711
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467927.111851
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467927.1424482
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467927.1916711
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467927.219912
+          },
+          {
+            "char": "!",
+            "keycode": 18,
+            "timestamp": 1771467927.519163
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467927.730104
+          }
+        ],
+        "text": "komento iremasita !\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112528.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージ送信",
+    "チャット",
+    "デスクトップ"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "送信するメッセージ本文（必要に応じて末尾に改行を含めて送信）。",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.63,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T11:26:36.516734",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

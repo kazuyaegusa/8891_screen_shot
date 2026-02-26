@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-6a499b3f",
+  "name": "Copy notes in Circleback meeting window",
+  "description": "Open the Circleback meeting window’s actions menu and select the Copy notes item to copy meeting notes.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "AXPopUpButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 637,
+        "y": 94
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180853.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Copy notes",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 601,
+        "y": 174
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_180855.png"
+    }
+  ],
+  "app_name": "Circleback",
+  "tags": [
+    "Circleback",
+    "notes",
+    "copy",
+    "meeting",
+    "automation"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "The exact meeting window title (e.g., '<Meeting title> - Circleback') to target the correct window. Applies to all steps.",
+      "step_index": 1
+    },
+    {
+      "name": "menu_item_label",
+      "description": "The label of the menu item selected from the pop-up menu. Example used: 'Copy notes'.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T18:12:06.324801",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

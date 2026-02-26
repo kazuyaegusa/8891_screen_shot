@@ -1,0 +1,91 @@
+{
+  "workflow_id": "wf-5d78ff33",
+  "name": "Copy a message’s text in LINE",
+  "description": "In the LINE desktop app, click a specific message (AXStaticText) to focus/select it, then press Cmd+C to copy its text. Assumes the target chat is already open.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 262,
+        "y": 1281
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_113025.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 972,
+        "y": 1229
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_113041.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "copy",
+    "text",
+    "message",
+    "macOS",
+    "keyboard-shortcut"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "The visible text (exact or partial) of the message to click/select in LINE to ensure the correct AXStaticText is targeted.",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T11:34:01.701845",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-8c6f666f",
+  "name": "Claude: 機能から使用量へナビゲーション",
+  "description": "Claudeアプリ内で「機能」を開き、その後「使用量」リンクへ移動して使用量ページを表示する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "機能",
+        "value": null,
+        "description": "機能",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1497,
+        "y": 1247
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_222830.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1485,
+        "y": 1192
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_222831.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "UI操作",
+    "使用量",
+    "機能"
+  ],
+  "parameters": [
+    {
+      "name": "feature_link_text",
+      "description": "ステップ1でクリックするリンクの表示テキスト（デフォルト: 「機能」）",
+      "step_index": 1
+    },
+    {
+      "name": "usage_link_text",
+      "description": "ステップ2でクリックするリンクの表示テキスト（デフォルト: 「使用量」）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T22:29:40.601754",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

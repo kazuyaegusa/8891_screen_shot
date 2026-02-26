@@ -1,0 +1,96 @@
+{
+  "workflow_id": "wf-23f50051",
+  "name": "Discordで特定サーバー内のチャンネルを順に開く",
+  "description": "Discordで指定したサーバー内のチャンネルを順番に開いて切り替える（例：#商談メモ を開いた後に #03_作業 を開く）。定期巡回や確認に再利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 200,
+        "y": 761
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_135052.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 212,
+        "y": 800
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_135053.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "Navigation",
+    "Channels"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "対象のDiscordサーバー名（ウィンドウタイトルに表示される名称。例：Aixeed運営）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name_1",
+      "description": "最初に開くチャンネル名（例：#商談メモ）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name_2",
+      "description": "次に開くチャンネル名（例：#03_作業）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T13:51:27.716868",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

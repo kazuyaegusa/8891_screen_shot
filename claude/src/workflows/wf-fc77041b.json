@@ -1,0 +1,187 @@
+{
+  "workflow_id": "wf-fc77041b",
+  "name": "Cursorアプリでの連続クリック操作",
+  "description": "Cursorアプリで複数のファイル・グループに対して連続的にクリック操作を実行するシーケンス。wf-adbec174.jsonおよびextracted_skills_demo.jsonファイルのAXImageおよびAXGroupロール要素をターゲットとしたクリック操作を含む。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 480,
+        "y": 756
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113522.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 478,
+        "y": 760
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113523.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 477,
+        "y": 760
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113524.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 675,
+        "y": 256
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113527.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 688,
+        "y": 639
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113533.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "UI操作",
+    "クリック",
+    "ファイル操作",
+    "マルチファイル処理"
+  ],
+  "parameters": [
+    {
+      "name": "対象ウィンドウ/ファイル",
+      "description": "操作対象のウィンドウファイル。初期操作ではwf-adbec174.json、後続操作ではextracted_skills_demo.jsonを使用",
+      "step_index": 1
+    },
+    {
+      "name": "ターゲット要素ロール",
+      "description": "クリック対象のUIロール。AXImageとAXGroupを交互に操作",
+      "step_index": 2
+    },
+    {
+      "name": "スクリーンショット参照",
+      "description": "操作の視覚的検証用のスクリーンショット識別子（8891_screen_shot）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:36:23.881216",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

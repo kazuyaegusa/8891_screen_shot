@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-4c05781c",
+  "name": "ファイルタブからブラウザータブへ切り替える",
+  "description": "Cursor 上で、指定したファイル（または問題ビューの該当ファイル）にフォーカスした後、組み込みブラウザーの指定タブへ切り替える最小ナビゲーション手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1402,
+        "y": 875
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_180313.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": null,
+        "title": "Browser Tab — kework-agi",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1332,
+        "y": -65
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_180314.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ナビゲーション",
+    "タブ切替",
+    "エディタ",
+    "ブラウザー"
+  ],
+  "parameters": [
+    {
+      "name": "file_title",
+      "description": "開く（フォーカスする）ファイルタブや問題ビュー項目のタイトル例: BOT_USAGE.md",
+      "step_index": 1
+    },
+    {
+      "name": "project_or_context",
+      "description": "ファイルタブに併記されるプロジェクト/ワークスペース名例: gdrive-code-archive",
+      "step_index": 1
+    },
+    {
+      "name": "browser_tab_title",
+      "description": "切り替え先のブラウザータブのタイトル例: kework-agi",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T18:05:41.868766",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

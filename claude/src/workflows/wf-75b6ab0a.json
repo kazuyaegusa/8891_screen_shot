@@ -1,0 +1,209 @@
+{
+  "workflow_id": "wf-75b6ab0a",
+  "name": "Finderで選択ファイルをAirDrop送信",
+  "description": "Finderで選択した項目を共有メニューからAirDropを選び、指定デバイスへ送信して完了する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 650,
+        "y": 572
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201705.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "共有…",
+        "value": null,
+        "description": null,
+        "identifier": "cmdShare:"
+      },
+      "coordinates": {
+        "x": 724,
+        "y": 833
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201706.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "AirDrop",
+        "value": null,
+        "description": "AirDrop",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 373,
+        "y": 512
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201708.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "senninのMac mini",
+        "value": null,
+        "description": "senninのMac mini",
+        "identifier": "dd.nodeBody"
+      },
+      "coordinates": {
+        "x": 492,
+        "y": 593
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201713.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "完了",
+        "value": null,
+        "description": "完了",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 688,
+        "y": 727
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201724.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 136,
+        "y": 437
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201726.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "Finder",
+    "AirDrop",
+    "共有",
+    "macOS",
+    "ファイル送信"
+  ],
+  "parameters": [
+    {
+      "name": "target_items",
+      "description": "送信するファイル／フォルダ（Finderのリストで選択する項目）",
+      "step_index": 1
+    },
+    {
+      "name": "recipient_device",
+      "description": "AirDropの宛先デバイス名（例:「senninのMac mini」）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:18:33.583335",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,240 @@
+{
+  "workflow_id": "wf-bbf64f4f",
+  "name": "Copy specific text from a Linear issue window",
+  "description": "Linearで指定した課題ウィンドウ内の特定テキスト（AXStaticText）を選択し、Cmd+Cでクリップボードにコピーする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "同時に512でollama とlmstudioあたりを試して欲しく",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1872,
+        "y": 151
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145039.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "同時に512でollama とlmstudioあたりを試して欲しく",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1873,
+        "y": 153
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145040.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1761,
+        "y": 153
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145041.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "同時に512でollama とlmstudioあたりを試して欲しく",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1770,
+        "y": 155
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145042.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1813,
+        "y": 184
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145043.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "同時に512でollama とlmstudioあたりを試して欲しく",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1767,
+        "y": 157
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_145044.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1832,
+        "y": 223
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_145046.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "copy",
+    "issue",
+    "automation",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "issue_identifier",
+      "description": "対象となるLinear課題ウィンドウの識別子（例: 課題キーやウィンドウタイトル。例: \"AIX-68 要件定義\"）。",
+      "step_index": 1
+    },
+    {
+      "name": "text_snippet",
+      "description": "クリックして選択するテキスト要素の内容または一部（例: \"同時に512でollama とlmstudioあたりを試して欲しく\"）。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T14:52:25.459712",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

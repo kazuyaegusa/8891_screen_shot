@@ -1,0 +1,112 @@
+{
+  "workflow_id": "wf-7720a9c3",
+  "name": "Chrome: Copy current tab URL to clipboard",
+  "description": "Focus the Chrome window, click the address/search bar to select the current page URL, then copy it to the clipboard.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 931,
+        "y": 62
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_193005.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextField",
+        "title": "アドレス検索バー",
+        "value": "mariozechner.at/posts/2025-11-30-pi-coding-agent/?ref=blog.lai.so",
+        "description": "アドレス検索バー",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 450,
+        "y": 95
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_193009.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 450,
+        "y": 95
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_193011.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "URL",
+    "Clipboard",
+    "Copy"
+  ],
+  "parameters": [],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T19:31:59.368689",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

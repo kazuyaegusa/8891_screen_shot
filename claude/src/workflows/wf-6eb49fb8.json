@@ -1,0 +1,178 @@
+{
+  "workflow_id": "wf-6eb49fb8",
+  "name": "Slack: 指定チャンネルで特定URLを開く",
+  "description": "Slackで指定したチャンネルを開き、そのチャンネル内の投稿に含まれる指定URLをクリックして開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1307,
+        "y": 1210
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_122527.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1542,
+        "y": 1572
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_122529.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2128,
+        "y": 924
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_122540.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1573,
+        "y": 1107
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_122604.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://docs.google.com/spreadsheets/d/1ra3qwbwu4ar8wdhkx3mspcdj1fkmqh0_df9-dx7ykoq/edit?usp=sharing",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2013,
+        "y": 1165
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_122606.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル移動",
+    "リンクを開く"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "移動するSlackチャンネル名（例: ext-stun-x-movico-ai推進pj）",
+      "step_index": 2
+    },
+    {
+      "name": "target_url",
+      "description": "チャンネル内でクリックするURL文字列（完全一致推奨。例: https://docs.google.com/spreadsheets/d/1ra3qwbwu4a）",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.68,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T12:26:39.157175",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

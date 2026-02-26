@@ -1,0 +1,969 @@
+{
+  "workflow_id": "wf-10c9718a",
+  "name": "DiscordでDMメッセージを作成（特定ユーザー宛）",
+  "description": "Discordの特定ユーザー（DM）画面でメッセージ入力欄に本文を入力する操作。記録では宛先は@CarlosのDMが開かれており、本文を複数回に分けて入力している。送信（Enter/⌘+Enter等）は記録されていないため、再利用時は送信アクションを補う必要がある。宛先と本文をパラメータ化可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 559,
+        "y": 948
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_205936.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿＠cあ",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "@",
+            "keycode": 33,
+            "timestamp": 1771502377.460598
+          }
+        ],
+        "text": "@",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_205938.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \n﻿お\n",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "c",
+            "keycode": 8,
+            "timestamp": 1771502378.5063732
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502378.627094
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771502378.885809
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771502379.4264
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502379.726634
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502380.434148
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502380.8954098
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502381.229037
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502381.345097
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502381.420811
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502381.510571
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502382.021308
+          }
+        ],
+        "text": "car\u0010\n\n\notu  ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_205943.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \nお疲れ様です。\nご相談でして、",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502383.100827
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502383.215967
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502383.291994
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771502383.4568021
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502383.502971
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771502383.591074
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502383.6530502
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502383.806481
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502383.819407
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771502383.956594
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502384.077017
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771502384.4509819
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502384.5886898
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502384.63108
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502384.706207
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502384.783343
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771502384.931021
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502385.10581
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502385.7394361
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771502386.0249221
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502386.080418
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502386.3050082
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502386.410895
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502386.5459259
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771502386.653286
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502386.6968908
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502386.7861829
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502386.87745
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771502387.01085
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502387.206524
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502387.265931
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502387.3566751
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502387.505885
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502387.552716
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771502387.73181
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502388.141933
+          }
+        ],
+        "text": "otukaresamadesu .\n\ngosoudan desite,\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_205949.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \nお疲れ様です。\nご相談でして、先般",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502398.727741
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502398.772754
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502398.8344479
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771502398.890806
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502399.029821
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502399.0409331
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502399.2528808
+          }
+        ],
+        "text": "senpan ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_210000.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \nお疲れ様です。\nご相談でして、先般業務オリエンの際にもご相談した、",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771502400.25891
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771502400.331006
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502400.420817
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502400.4951649
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771502400.677176
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502400.857585
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502400.947378
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502401.0658681
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771502401.203367
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502401.280967
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771502401.366137
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502401.469934
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502401.591552
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502401.6962109
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502401.7566679
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502401.8460748
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502401.937249
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502402.0171258
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502402.172299
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502402.343112
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502402.421202
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771502402.595762
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502402.673648
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502402.926995
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771502403.6169899
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502403.6460118
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502403.780416
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502403.825396
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502403.962213
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771502404.005904
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502404.084737
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502404.18688
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502404.217792
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771502404.323329
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502404.4565918
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502404.5168052
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502404.549504
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1771502404.832255
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502405.115854
+          },
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771502405.4479392
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502405.613416
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502405.672122
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502405.945834
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502406.046565
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771502406.2332711
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502406.348332
+          }
+        ],
+        "text": "gyoumu orien nosai nimo\ngosoudan sita,\n2tui bu",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_210007.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \nお疲れ様です。\nご相談でして、先般業務オリエンの際にもご相談した、2月分の業務委託費用",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "2",
+            "keycode": 19,
+            "timestamp": 1771502407.63711
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771502407.967563
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502408.1472619
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502408.267224
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502408.569601
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771502409.15269
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502409.300176
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502409.392163
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771502409.9327948
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502409.9914508
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502410.160001
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502410.2611609
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502410.366912
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502410.419744
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502410.622245
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771502410.740931
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771502410.836812
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502410.875961
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502410.965591
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771502411.161852
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502411.3572748
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502411.545943
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502411.5966332
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771502411.641964
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771502411.74673
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502411.821238
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771502411.987266
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502412.033729
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771502412.201798
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771502412.2552052
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502412.316869
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771502412.453771
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771502413.022232
+          }
+        ],
+        "text": "2\u0010tuiki bun no\ngyoumuitakuhiyou \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_210014.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "﻿@Carlos\n\ncarlos_nakamura\n﻿ \nお疲れ様です。\nご相談でして、先般業務オリエンの際にもご相談した、2月分の業務委託費用",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 954
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771502414.4044979
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771502414.4608371
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771502414.6088881
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771502414.613546
+          }
+        ],
+        "text": "nitu",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_210015.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "DM",
+    "メッセージ作成",
+    "日本語",
+    "コミュニケーション"
+  ],
+  "parameters": [
+    {
+      "name": "recipient",
+      "description": "DMの宛先ユーザー（ウィンドウ/スレッド名: @<recipient>）。この記録では@Carlos。",
+      "step_index": 1
+    },
+    {
+      "name": "message_body",
+      "description": "送信（または入力）するメッセージ本文。記録では日本語の挨拶と相談内容（途中まで）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T21:02:07.408465",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

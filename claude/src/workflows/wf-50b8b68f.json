@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-50b8b68f",
+  "name": "Claude: 使用量ページを開き、指定ボタンをクリック",
+  "description": "Claudeアプリのウィンドウで「使用量」リンクを開いた後、指定したボタンをクリックします。2番目のボタンは識別子（ラベルなど）をパラメータ化して再利用可能にします。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1490,
+        "y": 1217
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_154742.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1130,
+        "y": 877
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_154744.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "Desktop",
+    "Navigation",
+    "Usage"
+  ],
+  "parameters": [
+    {
+      "name": "link_text",
+      "description": "クリックするリンクのテキスト（既定は「使用量」）",
+      "step_index": 1
+    },
+    {
+      "name": "button_label",
+      "description": "使用量ビュー内でクリックするボタンのラベルまたは識別子",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T15:54:16.818149",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

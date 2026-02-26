@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-db5ed574",
+  "name": "Slackでホームに切り替えて特定チャンネルを開く",
+  "description": "Slackでビューをホームに切り替え、指定ワークスペース内の指定チャンネルを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ホーム",
+        "value": null,
+        "description": "ホーム",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1115,
+        "y": 994
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_013404.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1216,
+        "y": 1266
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_013407.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "navigation",
+    "channel",
+    "workspace"
+  ],
+  "parameters": [
+    {
+      "name": "workspace_name",
+      "description": "対象のSlackワークスペース名（例: Aixeed）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "開くSlackチャンネル名（例: fusion-ai-line返信）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T01:35:15.081192",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

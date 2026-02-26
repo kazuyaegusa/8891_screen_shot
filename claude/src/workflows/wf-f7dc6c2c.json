@@ -1,0 +1,106 @@
+{
+  "workflow_id": "wf-f7dc6c2c",
+  "name": "Paste and run clipboard content in Cursor terminal",
+  "description": "In the Cursor window, paste the clipboard content into the integrated terminal and execute it by sending Enter.",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 608,
+        "y": 1829
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_213523.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXList",
+        "title": "Terminal tabs",
+        "value": null,
+        "description": "Terminal tabs",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1072,
+        "y": 1667
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771418127.6254232
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_213528.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Terminal",
+    "Paste",
+    "Execute",
+    "Automation"
+  ],
+  "parameters": [
+    {
+      "name": "clipboard_content",
+      "description": "The command or text expected to be in the clipboard to paste and run.",
+      "step_index": 1
+    },
+    {
+      "name": "window_title",
+      "description": "Cursor window/project title where the action occurs (e.g., 'OpenClaw Control — OpenClaw').",
+      "step_index": 1
+    },
+    {
+      "name": "terminal_tab",
+      "description": "Target terminal tab name or index to receive the paste/enter.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:38:16.140720",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

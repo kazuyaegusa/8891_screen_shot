@@ -1,0 +1,185 @@
+{
+  "workflow_id": "wf-c9578af4",
+  "name": "ターミナルでのPythonスクリプト実行操作",
+  "description": "ターミナルアプリでPythonスクリプト（capture_loop.py）を実行するための操作列。シェルをクリックしてターミナルをアクティブにし、スクリプト実行ウィンドウでボタンをクリックする手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": "AXTextArea",
+        "title": "シェル",
+        "value": "Last login: Fri Feb 20 09:31:57 on console\nkazuyaegusa@Algo-QnoMac-Studio ~ %   cd /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src\nkazuyaegusa@Algo-QnoMac-Studio src %   python3 capture_loop.py --trigger event --auto-learn\n==================================================\nCapture Loop - 常駐スクリーンショット\n==================================================\n  Session : ad1be093-fb96-46a1-ba5e-4b1e2b9b607a\n  Trigger : event\n  Click debounce: 0.5s\n  Text flush    : 1.0s\n  Output  : /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots\n  Mode    : element\n  Crop only: False\n  Privacy : standard\n  Auto-learn: ON (background)\n  Stop    : Ctrl+C\n==================================================\n[auto-learn] バックグラウンドでパイプライン起動: /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots\n[auto-learn] エージェント常時学習を起動\nListening for clicks, text input, and shortcuts...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "description": "シェル",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 312,
+        "y": 1432
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_112908.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": "AXTextArea",
+        "title": "シェル",
+        "value": "Last login: Fri Feb 20 09:31:57 on console\nkazuyaegusa@Algo-QnoMac-Studio ~ %   cd /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src\nkazuyaegusa@Algo-QnoMac-Studio src %   python3 capture_loop.py --trigger event --auto-learn\n==================================================\nCapture Loop - 常駐スクリーンショット\n==================================================\n  Session : ad1be093-fb96-46a1-ba5e-4b1e2b9b607a\n  Trigger : event\n  Click debounce: 0.5s\n  Text flush    : 1.0s\n  Output  : /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots\n  Mode    : element\n  Crop only: False\n  Privacy : standard\n  Auto-learn: ON (background)\n  Stop    : Ctrl+C\n==================================================\n[auto-learn] バックグラウンドでパイプライン起動: /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots\n[auto-learn] エージェント常時学習を起動\nListening for clicks, text input, and shortcuts...\n\n[11:29:08] #1 click(left (312,1432)) element: シェル  -> /Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_cap_20260220_112908.json\nスキル抽出に失敗: 'OPENAI_API_KEY'\nスキル抽出に失敗: 'OPENAI_API_KEY'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "description": "シェル",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 313,
+        "y": 1444
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_112909.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": null,
+        "title": "src — Python capture_loop.py --trigger event --auto-learn — 141×60",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 462,
+        "y": 1616
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_112935.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": "AXWindow",
+        "title": "src — Python capture_loop.py --trigger event --auto-learn — 141×60",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:136"
+      },
+      "coordinates": {
+        "x": 101,
+        "y": 989
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_112938.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.Terminal",
+      "app_name": "ターミナル",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 98,
+        "y": 991
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_112940.png"
+    }
+  ],
+  "app_name": "ターミナル",
+  "tags": [
+    "ターミナル",
+    "Python",
+    "自動実行",
+    "スクリプト実行",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "script_name",
+      "description": "実行するPythonスクリプトのファイル名（例：capture_loop.py）",
+      "step_index": 3
+    },
+    {
+      "name": "trigger_option",
+      "description": "スクリプトの実行トリガーオプション（例：--trigger event）",
+      "step_index": 3
+    },
+    {
+      "name": "auto_learn_option",
+      "description": "スクリプトの自動学習オプション（例：--auto-learn）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:30:52.291768",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

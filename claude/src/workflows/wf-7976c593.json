@@ -1,0 +1,59 @@
+{
+  "workflow_id": "wf-7976c593",
+  "name": "Reload current page in Chrome",
+  "description": "Reloads the current tab in Google Chrome. Optionally target a specific tab by title.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 148,
+        "y": 98
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201206.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "Browser",
+    "Reload",
+    "Refresh",
+    "Tab"
+  ],
+  "parameters": [
+    {
+      "name": "tab_title",
+      "description": "Title of the Chrome window/tab to reload (e.g., 'Cost | Claude Developer Platform'). If omitted, reloads the currently focused tab.",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:12:51.642263",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

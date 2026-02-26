@@ -1,7 +1,7 @@
 {
-  "workflow_id": "wf-00142a8e",
-  "name": "Google Chrome AXGroup クリック操作",
-  "description": "Google Chromeアプリケーション内でAXGroupロール要素を連続でクリックする操作。OpenClaw Controlウィンドウ内の2つのAXGroup要素に対して順序立てた操作を実行します。",
+  "workflow_id": "wf-8fd00829",
+  "name": "STUNレポート一覧から指定レポートを開く",
+  "description": "Google ChromeでSTUNの「レポート一覧」ページから、指定したタイトルのレポートを開く手順。",
   "steps": [
     {
       "action_type": "click",
@@ -15,8 +15,8 @@
         "identifier": null
       },
       "coordinates": {
-        "x": 472,
-        "y": 607
+        "x": 1493,
+        "y": 277
       },
       "key": {
         "keycode": null,
@@ -30,22 +30,22 @@
         "param_name": null
       },
       "description": "",
-      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_173139.png"
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_183257.png"
     },
     {
       "action_type": "click",
       "app_bundle_id": "com.google.Chrome",
       "app_name": "Google Chrome",
       "target": {
-        "role": "AXGroup",
-        "title": "AXGroup",
+        "role": null,
+        "title": "YouTube Analytics レポート - AI仙人 【AI歴10年・ガチADHD男】",
         "value": null,
         "description": null,
         "identifier": null
       },
       "coordinates": {
-        "x": 598,
-        "y": 745
+        "x": 1111,
+        "y": -19
       },
       "key": {
         "keycode": null,
@@ -59,40 +59,33 @@
         "param_name": null
       },
       "description": "",
-      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260217_173140.png"
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_183304.png"
     }
   ],
   "app_name": "Google Chrome",
   "tags": [
-    "AXGroup",
     "Google Chrome",
-    "クリック",
-    "UI操作",
-    "OpenClaw Control",
-    "クリック操作"
+    "STUN",
+    "レポート",
+    "YouTube Analytics"
   ],
   "parameters": [
     {
-      "name": "target_element_1",
-      "description": "最初にクリックするAXGroup要素（ロール: AXGroup）",
+      "name": "list_page_window_title",
+      "description": "レポート一覧ページのウィンドウ/タブタイトル（例: 「STUN - レポート一覧」）",
       "step_index": 1
     },
     {
-      "name": "target_element_2",
-      "description": "次にクリックするAXGroup要素（ロール: AXGroup）",
+      "name": "report_title",
+      "description": "レポート一覧でクリックするレポートのタイトル（例: 「YouTube Analytics レポート - AI仙人 【AI歴10年・ガチADHD男】」）",
       "step_index": 2
-    },
-    {
-      "name": "window_name",
-      "description": "操作対象のウィンドウ名（デフォルト: OpenClaw Control）",
-      "step_index": 0
     }
   ],
-  "confidence": 0.65,
+  "confidence": 0.58,
   "source_session_ids": [
     "7be892b8-3fab-446e-8eb2-805f6660a572"
   ],
-  "created_at": "2026-02-18T16:48:41.857715",
+  "created_at": "2026-02-19T18:33:55.969086",
   "status": "draft",
   "execution_count": 0,
   "parent_id": null

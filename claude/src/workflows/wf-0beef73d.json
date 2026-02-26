@@ -1,0 +1,125 @@
+{
+  "workflow_id": "wf-0beef73d",
+  "name": "Discordで指定チャンネルのURLを開く",
+  "description": "Discordサーバー内で目的のチャンネルを開き、投稿内の指定URLリンクをクリックして開く。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 229,
+        "y": 1079
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_181442.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 236,
+        "y": 1339
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_181445.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/?ref=blog.lai.so",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 604,
+        "y": 1382
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_181447.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "リンクを開く",
+    "ナビゲーション"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "対象のDiscordサーバー名（例: Aixeed運営）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "開くチャンネル名（例: #開発全体）",
+      "step_index": 2
+    },
+    {
+      "name": "target_url",
+      "description": "メッセージ中のクリック対象URL",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T18:16:21.173244",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

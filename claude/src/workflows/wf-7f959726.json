@@ -1,0 +1,58 @@
+{
+  "workflow_id": "wf-7f959726",
+  "name": "Chromeで現在のタブを再読み込み",
+  "description": "Google Chromeで前面の（または指定したタイトルの）タブを再読み込みする単一ステップの手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 155,
+        "y": 99
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_201321.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "ブラウザ操作",
+    "再読み込み",
+    "リフレッシュ"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象とするChromeウィンドウ/タブのタイトル（完全一致または一部一致）。未指定の場合は前面のタブを再読み込みします。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.73,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:13:57.295288",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

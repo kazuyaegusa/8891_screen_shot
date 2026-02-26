@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-22065170",
+  "name": "Chromeでページを再読み込みする",
+  "description": "Google Chromeで対象のウィンドウ/タブをアクティブ化し、再読み込みボタンをクリックしてページを更新します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 624,
+        "y": 53
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_003739.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 149,
+        "y": 95
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_003741.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "ブラウザ操作",
+    "再読み込み",
+    "ページ更新"
+  ],
+  "parameters": [
+    {
+      "name": "window_or_tab_title",
+      "description": "対象のChromeウィンドウ/タブのタイトル（例: \"Cost | Claude Developer Platform\"）。未指定時はアクティブなタブを対象。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T00:39:42.140238",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

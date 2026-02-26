@@ -1,0 +1,396 @@
+[
+  {
+    "test_case": "TC1",
+    "app": "ChatGPT",
+    "description": "プロンプト入力欄をクリック",
+    "ocr": {
+      "method": "OCR (ocrmac)",
+      "status": "NOT_FOUND",
+      "nearby_texts_100px": [],
+      "extended_texts_200px": [
+        {
+          "text": "※③♥情報源",
+          "confidence": 0.3,
+          "center": [
+            970,
+            808
+          ],
+          "distance": 177
+        },
+        {
+          "text": "質問してみましょう",
+          "confidence": 1.0,
+          "center": [
+            822,
+            974
+          ],
+          "distance": 163
+        },
+        {
+          "text": "＋ ◎ 思考中♥",
+          "confidence": 0.5,
+          "center": [
+            812,
+            1019
+          ],
+          "distance": 175
+        },
+        {
+          "text": "ChatGPT の回答は必ずしも正しいとは限りません。重要な情報は確認するようにしてください。cookie の設定を参照してください。",
+          "confidence": 1.0,
+          "center": [
+            1111,
+            1063
+          ],
+          "distance": 149
+        }
+      ],
+      "total_texts_detected": 133,
+      "elapsed_sec": 2.14,
+      "usable_for_relocation": false
+    },
+    "template": {
+      "method": "Template Matching (OpenCV)",
+      "status": "MATCH",
+      "best_match": {
+        "x": 931,
+        "y": 985,
+        "score": 1.0
+      },
+      "offset_from_original": {
+        "dx": 53,
+        "dy": 0
+      },
+      "matches_above_0.8": 452,
+      "uniqueness": "LOW",
+      "elapsed_sec": 0.139,
+      "usable_for_relocation": false
+    },
+    "vision_ai": {
+      "method": "Vision AI (Haiku 4.5)",
+      "status": "FOUND",
+      "predicted": {
+        "x": 984,
+        "y": 772
+      },
+      "offset_from_original": {
+        "dx": 0,
+        "dy": 213
+      },
+      "confidence": 0.92,
+      "ai_description": "プロンプト入力欄のテキストボックス",
+      "elapsed_sec": 2.27,
+      "usable_for_relocation": false,
+      "input_tokens": 1739,
+      "output_tokens": 60
+    }
+  },
+  {
+    "test_case": "TC2",
+    "app": "Linear",
+    "description": "ステータスアイコンをクリック",
+    "ocr": {
+      "method": "OCR (ocrmac)",
+      "status": "FOUND",
+      "nearby_texts_100px": [
+        {
+          "text": "… AIX-100",
+          "confidence": 1.0,
+          "center": [
+            135,
+            284
+          ],
+          "distance": 70
+        },
+        {
+          "text": "…・ AIX-98",
+          "confidence": 0.5,
+          "center": [
+            130,
+            328
+          ],
+          "distance": 57
+        },
+        {
+          "text": "… AIX-97",
+          "confidence": 0.5,
+          "center": [
+            131,
+            372
+          ],
+          "distance": 69
+        },
+        {
+          "text": "コード確認",
+          "confidence": 1.0,
+          "center": [
+            239,
+            328
+          ],
+          "distance": 52
+        },
+        {
+          "text": "※ 2/19勉強会D内容の深掘り",
+          "confidence": 0.5,
+          "center": [
+            269,
+            371
+          ],
+          "distance": 91
+        }
+      ],
+      "extended_texts_200px": [],
+      "total_texts_detected": 158,
+      "elapsed_sec": 2.31,
+      "usable_for_relocation": true
+    },
+    "template": {
+      "method": "Template Matching (OpenCV)",
+      "status": "MATCH",
+      "best_match": {
+        "x": 187,
+        "y": 332,
+        "score": 1.0
+      },
+      "offset_from_original": {
+        "dx": 0,
+        "dy": 0
+      },
+      "matches_above_0.8": 1,
+      "uniqueness": "HIGH",
+      "elapsed_sec": 0.135,
+      "usable_for_relocation": true
+    },
+    "vision_ai": {
+      "method": "Vision AI (Haiku 4.5)",
+      "status": "FOUND",
+      "predicted": {
+        "x": 77,
+        "y": 332
+      },
+      "offset_from_original": {
+        "dx": 110,
+        "dy": 0
+      },
+      "confidence": 0.85,
+      "ai_description": "Linearアプリのバックログリスト内、AIX-98項目の左側にあるステータスアイコン（赤いチェックマーク）",
+      "elapsed_sec": 3.54,
+      "usable_for_relocation": false,
+      "input_tokens": 1735,
+      "output_tokens": 88
+    }
+  },
+  {
+    "test_case": "TC3",
+    "app": "Google Chrome",
+    "description": "Google検索ボックスに入力",
+    "ocr": {
+      "method": "OCR (ocrmac)",
+      "status": "FOUND",
+      "nearby_texts_100px": [
+        {
+          "text": "ニュース",
+          "confidence": 1.0,
+          "center": [
+            460,
+            268
+          ],
+          "distance": 80
+        }
+      ],
+      "extended_texts_200px": [],
+      "total_texts_detected": 143,
+      "elapsed_sec": 2.63,
+      "usable_for_relocation": true
+    },
+    "template": {
+      "method": "Template Matching (OpenCV)",
+      "status": "MATCH",
+      "best_match": {
+        "x": 323,
+        "y": 345,
+        "score": 1.0
+      },
+      "offset_from_original": {
+        "dx": 156,
+        "dy": 0
+      },
+      "matches_above_0.8": 490,
+      "uniqueness": "LOW",
+      "elapsed_sec": 0.127,
+      "usable_for_relocation": false
+    },
+    "vision_ai": {
+      "method": "Vision AI (Haiku 4.5)",
+      "status": "FOUND",
+      "predicted": {
+        "x": 479,
+        "y": 152
+      },
+      "offset_from_original": {
+        "dx": 0,
+        "dy": 193
+      },
+      "confidence": 0.9,
+      "ai_description": "Google検索ボックス（チャットGPTというテキストが入力されている検索ボックス）",
+      "elapsed_sec": 3.24,
+      "usable_for_relocation": false,
+      "input_tokens": 1734,
+      "output_tokens": 63
+    }
+  },
+  {
+    "test_case": "TC4",
+    "app": "Google Drive",
+    "description": "ファイルメニューボタンをクリック",
+    "ocr": {
+      "method": "OCR (ocrmac)",
+      "status": "FOUND",
+      "nearby_texts_100px": [
+        {
+          "text": "その他の操作（^A）",
+          "confidence": 0.5,
+          "center": [
+            894,
+            663
+          ],
+          "distance": 58
+        },
+        {
+          "text": "：",
+          "confidence": 0.5,
+          "center": [
+            945,
+            793
+          ],
+          "distance": 94
+        }
+      ],
+      "extended_texts_200px": [],
+      "total_texts_detected": 169,
+      "elapsed_sec": 2.36,
+      "usable_for_relocation": true
+    },
+    "template": {
+      "method": "Template Matching (OpenCV)",
+      "status": "MATCH",
+      "best_match": {
+        "x": 940,
+        "y": 699,
+        "score": 1.0
+      },
+      "offset_from_original": {
+        "dx": 0,
+        "dy": 0
+      },
+      "matches_above_0.8": 5,
+      "uniqueness": "HIGH",
+      "elapsed_sec": 0.121,
+      "usable_for_relocation": true
+    },
+    "vision_ai": {
+      "method": "Vision AI (Haiku 4.5)",
+      "status": "FOUND",
+      "predicted": {
+        "x": 716,
+        "y": 529
+      },
+      "offset_from_original": {
+        "dx": 224,
+        "dy": 170
+      },
+      "confidence": 0.85,
+      "ai_description": "7031フォルダの右側にある3点メニューボタン",
+      "elapsed_sec": 2.56,
+      "usable_for_relocation": false,
+      "input_tokens": 1738,
+      "output_tokens": 52
+    }
+  },
+  {
+    "test_case": "TC5",
+    "app": "Discord",
+    "description": "メッセージエリアをクリック（選択解除）",
+    "ocr": {
+      "method": "OCR (ocrmac)",
+      "status": "FOUND",
+      "nearby_texts_100px": [
+        {
+          "text": "・Onecal",
+          "confidence": 1.0,
+          "center": [
+            1465,
+            654
+          ],
+          "distance": 95
+        },
+        {
+          "text": "ースをAixeedアカウントでも入れるようにして廃止",
+          "confidence": 1.0,
+          "center": [
+            1616,
+            719
+          ],
+          "distance": 99
+        },
+        {
+          "text": "・slack",
+          "confidence": 1.0,
+          "center": [
+            1457,
+            741
+          ],
+          "distance": 62
+        },
+        {
+          "text": "力変更は中村の方でやります",
+          "confidence": 0.5,
+          "center": [
+            1535,
+            828
+          ],
+          "distance": 96
+        }
+      ],
+      "extended_texts_200px": [],
+      "total_texts_detected": 170,
+      "elapsed_sec": 2.38,
+      "usable_for_relocation": true
+    },
+    "template": {
+      "method": "Template Matching (OpenCV)",
+      "status": "MATCH",
+      "best_match": {
+        "x": 1518,
+        "y": 733,
+        "score": 1.0
+      },
+      "offset_from_original": {
+        "dx": 0,
+        "dy": 0
+      },
+      "matches_above_0.8": 1568,
+      "uniqueness": "LOW",
+      "elapsed_sec": 0.19,
+      "usable_for_relocation": false
+    },
+    "vision_ai": {
+      "method": "Vision AI (Haiku 4.5)",
+      "status": "FOUND",
+      "predicted": {
+        "x": 1200,
+        "y": 500
+      },
+      "offset_from_original": {
+        "dx": 318,
+        "dy": 233
+      },
+      "confidence": 0.85,
+      "ai_description": "メッセージエリアの上部中央付近で、選択を解除できる空白領域",
+      "elapsed_sec": 2.47,
+      "usable_for_relocation": false,
+      "input_tokens": 1741,
+      "output_tokens": 61
+    }
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "workflow_id": "wf-8961b110",
+  "name": "YouTube Studio からチャンネルページを開く",
+  "description": "YouTube Studio のチャンネルダッシュボードからアカウントメニューを開き、「チャンネル」を選択して公開チャンネルページを表示する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1684,
+        "y": -56
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195333.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1581,
+        "y": 116
+      },
+      "key": {
+        "keycode": 126,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_195334.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1123,
+        "y": 22
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195341.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1118,
+        "y": 23
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195344.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "チャンネルのダッシュボード - YouTube Studio",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1609,
+        "y": -59
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195346.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXPopUpButton",
+        "title": "Account",
+        "value": null,
+        "description": "Account",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2036,
+        "y": 128
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195349.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": "AXGroup",
+        "title": "チャンネル",
+        "value": null,
+        "description": "チャンネル",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1863,
+        "y": 265
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195351.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.chrome.for.testing",
+      "app_name": "Google Chrome for Testing",
+      "target": {
+        "role": null,
+        "title": "Kazuya Egusa - YouTube",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1587,
+        "y": 37
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195352.png"
+    }
+  ],
+  "app_name": "Google Chrome for Testing",
+  "tags": [
+    "YouTube Studio",
+    "YouTube",
+    "Chrome",
+    "Navigation",
+    "Channel"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "最終的に開かれるチャンネルページのタブ/ウィンドウタイトルに表示されるチャンネル名（例: Kazuya Egusa）。環境やアカウントにより変化するため可変。",
+      "step_index": 8
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:02:57.307169",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

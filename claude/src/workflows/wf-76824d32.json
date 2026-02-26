@@ -1,0 +1,153 @@
+{
+  "workflow_id": "wf-76824d32",
+  "name": "Linearで特定コメントのテキストをコピー",
+  "description": "Linear の特定の課題ウィンドウで、対象コメント（静的テキスト）をフォーカスし、Cmd+Cで内容をクリップボードにコピーし、その後フォーカスを外す手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " これ、ハイエンドのmacbook 代に10万くらいのせて要件切れますか？",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1938,
+        "y": 649
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_113007.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " これ、ハイエンドのmacbook 代に10万くらいのせて要件切れますか？",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1974,
+        "y": 619
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_113009.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1892,
+        "y": 707
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_113013.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.linear",
+      "app_name": "Linear",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1892,
+        "y": 707
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_113014.png"
+    }
+  ],
+  "app_name": "Linear",
+  "tags": [
+    "Linear",
+    "コピー",
+    "コメント",
+    "クリップボード",
+    "課題"
+  ],
+  "parameters": [
+    {
+      "name": "issue_window_title",
+      "description": "対象課題ウィンドウのタイトル（例: \"AIX-68 要件定義\"）",
+      "step_index": 1
+    },
+    {
+      "name": "target_comment_text",
+      "description": "クリックしてコピーしたいコメント本文のテキスト",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T11:33:14.189479",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

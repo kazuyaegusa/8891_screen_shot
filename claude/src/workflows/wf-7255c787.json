@@ -1,0 +1,134 @@
+{
+  "workflow_id": "wf-7255c787",
+  "name": "Open new tab and search in Chrome",
+  "description": "Opens a new tab in Google Chrome and searches the web for a specified query.",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 342,
+        "y": 265
+      },
+      "key": {
+        "keycode": 17,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_140721.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 348,
+        "y": 298
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771477642.853218
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771477642.986526
+          },
+          {
+            "char": "x",
+            "keycode": 7,
+            "timestamp": 1771477643.430123
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771477643.6775758
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771477643.797812
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771477643.9644952
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771477644.2254121
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771477644.6909041
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771477645.043027
+          }
+        ],
+        "text": "aixeed\u0010\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_140726.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "Web Search",
+    "Browser Automation"
+  ],
+  "parameters": [
+    {
+      "name": "query",
+      "description": "The search query to type and submit in the new tab.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T14:08:50.298068",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

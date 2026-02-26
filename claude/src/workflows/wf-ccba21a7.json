@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-ccba21a7",
+  "name": "コネクタの使用量を開く（Claude）",
+  "description": "Claudeアプリで左ナビの「コネクタ」をクリックし、続いて「使用量」をクリックして該当ページを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "コネクタ",
+        "value": null,
+        "description": "コネクタ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1514,
+        "y": 1267
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213529.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1484,
+        "y": 1207
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213530.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "コネクタ",
+    "使用量"
+  ],
+  "parameters": [
+    {
+      "name": "section_label",
+      "description": "クリックするセクション（左ナビ）のラベル。既定: 「コネクタ」",
+      "step_index": 1
+    },
+    {
+      "name": "subpage_label",
+      "description": "セクション内で開くタブ/リンクのラベル。既定: 「使用量」",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:38:51.930824",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

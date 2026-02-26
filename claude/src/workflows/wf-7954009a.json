@@ -1,0 +1,62 @@
+{
+  "workflow_id": "wf-7954009a",
+  "name": "Circleback: Open Meetings section",
+  "description": "Open the Meetings section in a Circleback window by clicking the 'Meetings' label.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.24062654z2002es",
+      "app_name": "Circleback",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Meetings",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 114,
+        "y": 176
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_191013.png"
+    }
+  ],
+  "app_name": "Circleback",
+  "tags": [
+    "Circleback",
+    "navigation",
+    "meetings"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "Title of the Circleback window where the action is performed (e.g., 'Platform Development Priorities and Feature Specs Review - Circleback').",
+      "step_index": 1
+    },
+    {
+      "name": "section_label",
+      "description": "Label of the section to click (e.g., 'Meetings').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:17:38.032740",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

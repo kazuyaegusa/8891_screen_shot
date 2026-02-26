@@ -1,0 +1,110 @@
+{
+  "workflow_id": "wf-5a8fe1a9",
+  "name": "Claudeで請求から使用量ページへ移動",
+  "description": "Claudeアプリ内で「請求」を開き、その中の「使用量」タブ/リンクへ遷移するナビゲーション手順。重複した「請求」クリックはノイズとして無視可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "請求",
+        "value": null,
+        "description": "請求",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1508,
+        "y": 1173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_100306.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "請求",
+        "value": null,
+        "description": "請求",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1490,
+        "y": 1166
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_100308.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1445,
+        "y": 1203
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_100310.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "ナビゲーション",
+    "Claude",
+    "請求",
+    "使用量"
+  ],
+  "parameters": [],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T10:04:15.935470",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

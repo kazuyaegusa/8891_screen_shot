@@ -1,0 +1,82 @@
+{
+  "workflow_id": "wf-0d864ab3",
+  "name": "LINEアカウントでQRコードログインを開く",
+  "description": "Chrome上でLINEヤフーBusiness ID/LINE Login画面から「LINEアカウント」をクリックし、続けて「QRコードログイン」をクリックしてQRコードログイン画面を開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "LINEアカウント",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 524,
+        "y": 487
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_231652.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "QRコードログイン",
+        "value": null,
+        "description": "QRコードログイン",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 593,
+        "y": 631
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_231655.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "LINE",
+    "ログイン",
+    "QRコード",
+    "Web操作"
+  ],
+  "parameters": [],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T23:17:53.157199",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

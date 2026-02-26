@@ -1,0 +1,141 @@
+{
+  "workflow_id": "wf-c8946a01",
+  "name": "Paste clipboard into OpenClaw Control area and add newlines",
+  "description": "Focus the OpenClaw Control canvas (AXImage), paste the current clipboard content, then insert newline characters.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 648,
+        "y": 1807
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_205458.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 648,
+        "y": 1807
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_205517.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 648,
+        "y": 1807
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771415722.273555
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771415722.355638
+          }
+        ],
+        "text": "\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_205523.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "OpenClaw",
+    "clipboard",
+    "paste",
+    "macOS",
+    "AXImage"
+  ],
+  "parameters": [
+    {
+      "name": "clipboard_content",
+      "description": "Content expected to be on the system clipboard before performing the paste (Cmd+V).",
+      "step_index": 2
+    },
+    {
+      "name": "number_of_newlines",
+      "description": "How many newline characters to insert after pasting (observed: 2).",
+      "step_index": 3
+    },
+    {
+      "name": "target_window_title",
+      "description": "Title of the target window containing the AXImage to focus (observed: 'OpenClaw Control — OpenClaw').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:58:39.071334",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

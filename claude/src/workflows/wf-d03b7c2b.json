@@ -1,0 +1,121 @@
+{
+  "workflow_id": "wf-d03b7c2b",
+  "name": "DiscordでボットDMを開いて「プレイ」を押す",
+  "description": "Discordで指定したボットとのダイレクトメッセージを開き、会話内の「プレイ」ボタンをクリックして開始します。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXLink",
+        "title": "context_bot (ダイレクトメッセージ), オンライン",
+        "value": null,
+        "description": "context_bot (ダイレクトメッセージ), オンライン",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 269,
+        "y": 322
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_174411.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "context_bot",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 266,
+        "y": 329
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_174412.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "プレイ",
+        "value": null,
+        "description": "プレイ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 465,
+        "y": 836
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_174414.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "ボット",
+    "DM",
+    "操作自動化"
+  ],
+  "parameters": [
+    {
+      "name": "dm_target_name",
+      "description": "左サイドバーのダイレクトメッセージ一覧でクリックする対象（ボット）名。例: context_bot",
+      "step_index": 1
+    },
+    {
+      "name": "play_button_label",
+      "description": "会話内で押すボタンのラベル。既定は「プレイ」",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T17:52:15.228642",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

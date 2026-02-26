@@ -1,0 +1,644 @@
+{
+  "workflow_id": "wf-6df4467e",
+  "name": "Discord: Send a DM, then review server channels",
+  "description": "Compose and send a direct message to a specified user in Discord, optionally add an emoji, then switch to a server, jump to unread in a channel, and open another channel.",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "はい、2台お願いしたいです。今使ってるHPのが破損",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 652,
+        "y": 1858
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410552.389359
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771410552.5248451
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771410552.5856261
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771410552.660696
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410552.767714
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410553.1713479
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410553.830681
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410553.9973812
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410554.1603122
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410554.567969
+          }
+        ],
+        "text": "ando      ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_192915.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "はい、2台お願いしたいです。今使ってるHPのが破損かつ",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 652,
+        "y": 1858
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771410556.053091
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410556.114298
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771410556.1996999
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410556.26432
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771410556.470706
+          }
+        ],
+        "text": "katu\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_192917.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextArea",
+        "title": "@Carlos へメッセージを送信",
+        "value": "はい、2台お願いしたいです。今使ってるHPのが破損かつアーム非対応でして。お手数おかけします",
+        "description": "@Carlos へメッセージを送信",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 652,
+        "y": 1858
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410567.1092212
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771410567.239977
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771410567.435321
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410567.6474712
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410567.751151
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771410567.9169312
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771410567.979699
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771410568.020749
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410568.080471
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771410568.172558
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771410568.321561
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410568.4137862
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410568.546224
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771410568.983514
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771410569.1177568
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771410569.204845
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771410569.252862
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771410569.355504
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771410569.415891
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771410569.628195
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771410570.150039
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771410570.305902
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771410570.6038558
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771410570.662418
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771410570.736989
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771410570.7520561
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410570.810575
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410570.9444768
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410571.066444
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771410571.124613
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771410571.3067641
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410571.365189
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771410571.440681
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771410571.4585679
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771410571.5612779
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771410571.620757
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771410571.754626
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771410571.815799
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771410571.8608708
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771410571.92164
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771410572.0115001
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771410572.115554
+          },
+          {
+            "char": "[",
+            "keycode": 30,
+            "timestamp": 1771410572.13127
+          }
+        ],
+        "text": "a-mu hitaiou desite\n.\notesuu okakesimasu \n[",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_192933.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "絵文字を追加",
+        "value": null,
+        "description": "絵文字を追加",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1006,
+        "y": 1874
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192935.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 678,
+        "y": 1468
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192936.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "はい、2台お願いしたいです。今使ってるHPのが破損かつアーム非対応でして。お手数おかけします",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 677,
+        "y": 1792
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771410577.0362408
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_192938.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXRow",
+        "title": "Aixeed運営",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 115,
+        "y": 1173
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192944.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "新しい未読メッセージ",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 319,
+        "y": 1829
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192946.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 239,
+        "y": 1703
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192950.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 897,
+        "y": 1269
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_192956.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "DM",
+    "Messaging",
+    "Navigation",
+    "Channels"
+  ],
+  "parameters": [
+    {
+      "name": "dm_recipient",
+      "description": "Discord user to DM (e.g., @Carlos).",
+      "step_index": 1
+    },
+    {
+      "name": "dm_message",
+      "description": "Message text to send in the DM.",
+      "step_index": 1
+    },
+    {
+      "name": "emoji",
+      "description": "Emoji to add to the message (optional).",
+      "step_index": 4
+    },
+    {
+      "name": "server",
+      "description": "Server to open after sending the DM (e.g., Aixeed運営).",
+      "step_index": 7
+    },
+    {
+      "name": "channel_for_unread",
+      "description": "Channel in the server to jump to unread messages (e.g., #はち).",
+      "step_index": 8
+    },
+    {
+      "name": "next_channel",
+      "description": "Second channel to open afterward (e.g., #btb研修).",
+      "step_index": 10
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T19:31:37.615701",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

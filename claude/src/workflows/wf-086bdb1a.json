@@ -1,0 +1,120 @@
+{
+  "workflow_id": "wf-086bdb1a",
+  "name": "TextEditでドキュメント全選択してコピー",
+  "description": "TextEditの前面ドキュメントのテキストエリアをフォーカスし、全選択してクリップボードへコピーする。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "KazuyaEgusa@senninnoMac-mini workspace % openclaw agent --agent main --message \"てすとです\" --thinking low\n\n🦞 OpenClaw 2026.2.17 (4134875) — Type the command with confidence—nature will provide the stack trace if needed.\n\n│\n◇  \n受信確認しました。正常に動作しています 🦞\nKazuyaEgusa@senninnoMac-mini workspace % killall OpenClaw 2>/dev/null; sleep 2; open -a OpenClaw\nKazuyaEgusa@senninnoMac-mini workspace % openclaw memory index --verbose\n\n🦞 OpenClaw 2026.2.17 (4134875) — If you're lost, run doctor; if you're brave, run prod; if you're wise, run tests.\n\nMemory Index (main)\nProvider: none (requested: auto)\nModel: none\nSources: memory (MEMORY.md + ~/.openclaw/workspace/memory/*.md)\n\n11:56:49 [memory] Skipping memory file sync in FTS-only mode (no embedding provider)\nMemory index updated (main).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw doctor\n\n🦞 OpenClaw 2026.2.17 (4134875) — Automation with claws: minimal fuss, maximal pinch.\n\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n██░▄▄▄░██░▄▄░██░▄▄▄██░▀██░██░▄▄▀██░████░▄▄▀██░███░██\n██░███░██░▀▀░██░▄▄▄██░█░█░██░█████░████░▀▀░██░█░█░██\n██░▀▀▀░██░█████░▀▀▀██░██▄░██░▀▀▄██░▀▀░█░██░██▄▀▄▀▄██\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n                  🦞 OPENCLAW 🦞                    \n \n┌  OpenClaw doctor\n│\n◇  Update ──────────────────────────────────────────────────────────────────────────────────╮\n│                                                                                           │\n│  This install is not a git checkout.                                                      │\n│  Run `openclaw update` to update via your package manager (npm/pnpm), then rerun doctor.  │\n│                                                                                           │\n├───────────────────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Security ─────────────────────────────────╮\n│                                            │\n│  - No channel security warnings detected.  │\n│  - Run: openclaw security audit ",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 480
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_205742.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "KazuyaEgusa@senninnoMac-mini workspace % openclaw agent --agent main --message \"てすとです\" --thinking low\n\n🦞 OpenClaw 2026.2.17 (4134875) — Type the command with confidence—nature will provide the stack trace if needed.\n\n│\n◇  \n受信確認しました。正常に動作しています 🦞\nKazuyaEgusa@senninnoMac-mini workspace % killall OpenClaw 2>/dev/null; sleep 2; open -a OpenClaw\nKazuyaEgusa@senninnoMac-mini workspace % openclaw memory index --verbose\n\n🦞 OpenClaw 2026.2.17 (4134875) — If you're lost, run doctor; if you're brave, run prod; if you're wise, run tests.\n\nMemory Index (main)\nProvider: none (requested: auto)\nModel: none\nSources: memory (MEMORY.md + ~/.openclaw/workspace/memory/*.md)\n\n11:56:49 [memory] Skipping memory file sync in FTS-only mode (no embedding provider)\nMemory index updated (main).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw doctor\n\n🦞 OpenClaw 2026.2.17 (4134875) — Automation with claws: minimal fuss, maximal pinch.\n\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n██░▄▄▄░██░▄▄░██░▄▄▄██░▀██░██░▄▄▀██░████░▄▄▀██░███░██\n██░███░██░▀▀░██░▄▄▄██░█░█░██░█████░████░▀▀░██░█░█░██\n██░▀▀▀░██░█████░▀▀▀██░██▄░██░▀▀▄██░▀▀░█░██░██▄▀▄▀▄██\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n                  🦞 OPENCLAW 🦞                    \n \n┌  OpenClaw doctor\n│\n◇  Update ──────────────────────────────────────────────────────────────────────────────────╮\n│                                                                                           │\n│  This install is not a git checkout.                                                      │\n│  Run `openclaw update` to update via your package manager (npm/pnpm), then rerun doctor.  │\n│                                                                                           │\n├───────────────────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Security ─────────────────────────────────╮\n│                                            │\n│  - No channel security warnings detected.  │\n│  - Run: openclaw security audit ",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 480
+      },
+      "key": {
+        "keycode": 0,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_205746.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "KazuyaEgusa@senninnoMac-mini workspace % openclaw agent --agent main --message \"てすとです\" --thinking low\n\n🦞 OpenClaw 2026.2.17 (4134875) — Type the command with confidence—nature will provide the stack trace if needed.\n\n│\n◇  \n受信確認しました。正常に動作しています 🦞\nKazuyaEgusa@senninnoMac-mini workspace % killall OpenClaw 2>/dev/null; sleep 2; open -a OpenClaw\nKazuyaEgusa@senninnoMac-mini workspace % openclaw memory index --verbose\n\n🦞 OpenClaw 2026.2.17 (4134875) — If you're lost, run doctor; if you're brave, run prod; if you're wise, run tests.\n\nMemory Index (main)\nProvider: none (requested: auto)\nModel: none\nSources: memory (MEMORY.md + ~/.openclaw/workspace/memory/*.md)\n\n11:56:49 [memory] Skipping memory file sync in FTS-only mode (no embedding provider)\nMemory index updated (main).\nKazuyaEgusa@senninnoMac-mini workspace % openclaw doctor\n\n🦞 OpenClaw 2026.2.17 (4134875) — Automation with claws: minimal fuss, maximal pinch.\n\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n██░▄▄▄░██░▄▄░██░▄▄▄██░▀██░██░▄▄▀██░████░▄▄▀██░███░██\n██░███░██░▀▀░██░▄▄▄██░█░█░██░█████░████░▀▀░██░█░█░██\n██░▀▀▀░██░█████░▀▀▀██░██▄░██░▀▀▄██░▀▀░█░██░██▄▀▄▀▄██\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n                  🦞 OPENCLAW 🦞                    \n \n┌  OpenClaw doctor\n│\n◇  Update ──────────────────────────────────────────────────────────────────────────────────╮\n│                                                                                           │\n│  This install is not a git checkout.                                                      │\n│  Run `openclaw update` to update via your package manager (npm/pnpm), then rerun doctor.  │\n│                                                                                           │\n├───────────────────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Security ─────────────────────────────────╮\n│                                            │\n│  - No channel security warnings detected.  │\n│  - Run: openclaw security audit ",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 472,
+        "y": 480
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_205747.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "TextEdit",
+    "コピー",
+    "全選択",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "document_name",
+      "description": "操作対象のTextEditドキュメント（ウィンドウタイトル/ファイル名）。未指定の場合は前面ウィンドウを対象にする。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:01:05.448433",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

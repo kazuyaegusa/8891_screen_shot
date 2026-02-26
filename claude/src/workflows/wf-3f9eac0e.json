@@ -1,0 +1,244 @@
+{
+  "workflow_id": "wf-3f9eac0e",
+  "name": "Finderで選択した項目をAirDropで特定デバイスへ共有",
+  "description": "Finderでファイル/フォルダを選択し、共有メニューからAirDropを選択して、指定した受信先デバイスに送る手順。繰り返し利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 223,
+        "y": 615
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213108.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 379,
+        "y": 555
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213109.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 375,
+        "y": 547
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213110.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXList",
+        "title": "AXList",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 375,
+        "y": 547
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213111.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "共有…",
+        "value": null,
+        "description": null,
+        "identifier": "cmdShare:"
+      },
+      "coordinates": {
+        "x": 498,
+        "y": 823
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213112.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "AirDrop",
+        "value": null,
+        "description": "AirDrop",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 464,
+        "y": 475
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213114.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.finder",
+      "app_name": "Finder",
+      "target": {
+        "role": "AXButton",
+        "title": "senninのMac mini",
+        "value": null,
+        "description": "senninのMac mini",
+        "identifier": "dd.nodeBody"
+      },
+      "coordinates": {
+        "x": 419,
+        "y": 603
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213117.png"
+    }
+  ],
+  "app_name": "Finder",
+  "tags": [
+    "Finder",
+    "macOS",
+    "共有",
+    "ファイル転送",
+    "AirDrop",
+    "ファイル送信"
+  ],
+  "parameters": [
+    {
+      "name": "items",
+      "description": "共有するファイル/フォルダ（名前・パス、または事前に選択された項目）",
+      "step_index": 1
+    },
+    {
+      "name": "share_method",
+      "description": "共有メニューで選択する方法（例: AirDrop, メール, メッセージ）。本操作列ではAirDrop。",
+      "step_index": 6
+    },
+    {
+      "name": "recipient_device_name",
+      "description": "AirDropの送信先デバイス名（例: 「senninのMac mini」）",
+      "step_index": 7
+    }
+  ],
+  "confidence": 0.8200000000000001,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:33:44.919492",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

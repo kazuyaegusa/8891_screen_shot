@@ -1,0 +1,98 @@
+{
+  "workflow_id": "wf-5efe2cc6",
+  "name": "DiscordでDMから特定サーバーのチャンネルへ切り替える",
+  "description": "Discord上で、特定のDMビューから特定サーバー内の指定チャンネルへ遷移する操作を行います。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 110,
+        "y": 1182
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_200430.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXButton",
+        "title": "AXButton",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 110,
+        "y": 995
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_200433.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "ナビゲーション",
+    "DM",
+    "チャンネル",
+    "サーバー"
+  ],
+  "parameters": [
+    {
+      "name": "dm_username",
+      "description": "開始するDM相手のユーザー名（ウィンドウタイトル例: @<dm_username> - Discord）",
+      "step_index": 1
+    },
+    {
+      "name": "channel_name",
+      "description": "遷移先のチャンネル名（ウィンドウタイトル例: #<channel_name> | <server_name> - Discord）",
+      "step_index": 2
+    },
+    {
+      "name": "server_name",
+      "description": "遷移先チャンネルが属するサーバー名（ギルド名）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:06:10.173042",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

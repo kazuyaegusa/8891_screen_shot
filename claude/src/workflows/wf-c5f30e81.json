@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-c5f30e81",
+  "name": "Claudeでワークスペースの使用量ページを開く",
+  "description": "Claudeアプリで指定したワークスペースを開き、使用量（Usage）ページへ遷移する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "Cowork",
+        "value": null,
+        "description": "Cowork",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1568,
+        "y": 1380
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193229.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1487,
+        "y": 1210
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193230.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "navigation",
+    "workspace",
+    "usage"
+  ],
+  "parameters": [
+    {
+      "name": "workspace_name",
+      "description": "クリックして開く対象のワークスペース名（例: Cowork）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:37:39.635853",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

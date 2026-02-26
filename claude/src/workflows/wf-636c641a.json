@@ -1,0 +1,129 @@
+{
+  "workflow_id": "wf-636c641a",
+  "name": "GoogleアカウントでOAuth認証してローカルアプリへリダイレクト",
+  "description": "ChromeでGoogleアカウントを選択し、OAuth同意を完了して指定のリダイレクトURL（例: http://localhost:8081/）に戻る一連の手順。要求スコープは可変。state/codeはOAuthフローで自動生成されるためパラメータ化しない。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Kazuya Egusa kazuya.egusa@aixeed.co.jp",
+        "value": null,
+        "description": "Kazuya Egusa kazuya.egusa@aixeed.co.jp",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1860,
+        "y": 383
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_192606.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1901,
+        "y": 755
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_192610.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "localhost:8081/?state=WSpuvudJHmCZSYMVzpYBGQOC9g4I97&code=4/0AfrIepAYX9cY5xdIp8_PHX_CKDpzaBfdA-SqHYEZTR4iVWbaGojtc1H7HRlo34bPyb-9Bg&scope=https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2026,
+        "y": -67
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_192614.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "Googleアカウント",
+    "OAuth2",
+    "Google認証",
+    "Drive",
+    "Sheets",
+    "Web"
+  ],
+  "parameters": [
+    {
+      "name": "account_email",
+      "description": "選択するGoogleアカウントのメールアドレス（またはアカウント表示名）",
+      "step_index": 1
+    },
+    {
+      "name": "redirect_uri",
+      "description": "認証後に遷移するリダイレクト先ベースURL（例: http://localhost:8081/）",
+      "step_index": 3
+    },
+    {
+      "name": "scopes",
+      "description": "要求するOAuthスコープ（例: https://www.googleapis.com/auth/spreadsheets, https://www.googleapis.com/auth/drive）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:31:04.314852",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

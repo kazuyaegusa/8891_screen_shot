@@ -1,0 +1,862 @@
+{
+  "workflow_id": "wf-8ef548ca",
+  "name": "Frame.ioでアセットにコメントを投稿",
+  "description": "ChromeでFrame.ioの対象アセット（動画）ページのコメント欄をフォーカスし、コメント本文を入力してSendをクリックして送信する。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 566,
+        "y": 695
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_111948.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 559,
+        "y": 678
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_111949.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 883
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_111950.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 883
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467595.201424
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771467595.2755399
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467595.3955252
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771467595.4548202
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771467595.574965
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467595.649676
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771467595.862336
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467595.965756
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467596.114926
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467597.046963
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467597.136369
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467597.228009
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771467597.404825
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771467597.48613
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467597.539752
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771467597.689383
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467597.749683
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467598.1709912
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771467598.366706
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467598.4260218
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467598.59632
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467598.7098749
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771467598.817313
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467598.8760252
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467598.997443
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467599.13088
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467599.1483362
+          }
+        ],
+        "text": "susuriha\nsasugani kattosita",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112000.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 883
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771467601.606807
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467601.637268
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467601.755532
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467601.8773272
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771467601.995269
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467602.084617
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467602.1907651
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771467602.235907
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467602.284353
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771467602.385149
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467602.431125
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467602.64292
+          }
+        ],
+        "text": "kattositai \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112003.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 473,
+        "y": 883
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771467604.7020311
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467604.932405
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467605.0879
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467605.2063732
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771467605.917851
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467606.002155
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771467606.2124128
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467606.300312
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467606.4064782
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467606.7672389
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771467607.50058
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467607.544598
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771467607.66623
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771467607.711689
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467607.800383
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467608.265311
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771467608.838114
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467609.1375208
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467609.513508
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771467610.1136599
+          }
+        ],
+        "text": "\u001e\u001d\u001d\u001dhana \nhana   \n\n\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112011.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 341,
+        "y": 556
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771467611.3250718
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771467611.476512
+          },
+          {
+            "char": ".",
+            "keycode": 47,
+            "timestamp": 1771467611.673378
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771467612.3674712
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467612.569727
+          }
+        ],
+        "text": "...\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112013.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 341,
+        "y": 556
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112013.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 342,
+        "y": 558
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112014.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 494,
+        "y": 879
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112015.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 496,
+        "y": 886
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112016.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 497,
+        "y": 884
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771467618.0157251
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771467618.167873
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771467618.225376
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771467618.268836
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771467618.513987
+          }
+        ],
+        "text": "desu\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112019.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 513,
+        "y": 902
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\u001e",
+            "keycode": 126,
+            "timestamp": 1771467621.858152
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467622.230657
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467622.4259121
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467622.6003149
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467622.741133
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467622.8931541
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467623.027803
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467623.1612859
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467623.3445928
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467623.490613
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467623.7791848
+          },
+          {
+            "char": "\u001d",
+            "keycode": 124,
+            "timestamp": 1771467624.0012522
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771467624.24151
+          },
+          {
+            "char": "\u001f",
+            "keycode": 125,
+            "timestamp": 1771467624.419873
+          }
+        ],
+        "text": "\u001e\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001d\u001f\u001f",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_112025.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "Send",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 718,
+        "y": 942
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_112027.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Chrome",
+    "Frame.io",
+    "コメント",
+    "レビュー",
+    "Web"
+  ],
+  "parameters": [
+    {
+      "name": "asset_title",
+      "description": "対象アセット（動画）のタイトル（ウィンドウタイトルに表示される名称）",
+      "step_index": 1
+    },
+    {
+      "name": "comment_text",
+      "description": "送信するコメント本文",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T11:21:17.752692",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

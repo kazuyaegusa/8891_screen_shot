@@ -1,0 +1,102 @@
+{
+  "workflow_id": "wf-62f07bed",
+  "name": "Discord: サーバー新規作成",
+  "description": "Discordでサーバー名を入力し「新規作成」をクリックして新規サーバーを作成する手順。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXTextField",
+        "title": "サーバー名",
+        "value": "robuko_",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 569,
+        "y": 575
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771417447.056201
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771417447.085618
+          },
+          {
+            "char": "_",
+            "keycode": 94,
+            "timestamp": 1771417447.880694
+          }
+        ],
+        "text": "ko_",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_212408.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "新規作成",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 741,
+        "y": 685
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_212414.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "Discord",
+    "サーバー作成",
+    "UI自動化"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "作成するサーバー名（サーバー名入力欄に設定）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.64,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:25:34.391541",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

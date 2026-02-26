@@ -1,0 +1,170 @@
+{
+  "workflow_id": "wf-d48d8245",
+  "name": "Googleカレンダー: 指定イベントを開いて確認ダイアログを了承",
+  "description": "Googleカレンダー上で、指定したイベント（日時・タイトル・カレンダー・場所URLで特定）をクリックして詳細を開き、表示された確認ダイアログでOKを押す一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "午後8時～午後9時、「AI SENNIN and たかお晃市」、カレンダー: aisenninn@gmail.com、承諾、場所: https://us06web.zoom.us/j/88106461874?pwd=a8rImE9EM197eNtIsDGZ7o6P1CHEPX.1、2026年 2月 17日",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1567,
+        "y": 757
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131234.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1783,
+        "y": 836
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131235.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "OK",
+        "value": "1",
+        "description": "OK",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1781,
+        "y": 59
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131237.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1775,
+        "y": 835
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131239.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Googleカレンダー",
+    "イベント操作",
+    "確認ダイアログ",
+    "予定確認"
+  ],
+  "parameters": [
+    {
+      "name": "event_date",
+      "description": "イベントの日付（例: 2026-02-17）",
+      "step_index": 1
+    },
+    {
+      "name": "event_time_label",
+      "description": "カレンダー上の表示どおりの時間帯ラベル（例: 午後8時～午後9時）",
+      "step_index": 1
+    },
+    {
+      "name": "event_title",
+      "description": "イベントのタイトル（例: AI SENNIN and たかお晃市）",
+      "step_index": 1
+    },
+    {
+      "name": "calendar_account_email",
+      "description": "イベントが属するカレンダーのメール（例: aisenninn@gmail.com）",
+      "step_index": 1
+    },
+    {
+      "name": "event_location_url",
+      "description": "イベントの場所/会議URL（例: Zoomリンク）",
+      "step_index": 1
+    },
+    {
+      "name": "alert_button_text",
+      "description": "確認ダイアログで押すボタンの文言（既定: OK）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.54,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T13:13:55.578729",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

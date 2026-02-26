@@ -1,0 +1,51 @@
+{
+  "workflow_id": "wf-b52136ee",
+  "name": "Aqua VoiceでHistoryを開く",
+  "description": "Aqua Voiceアプリで「History」ボタンをクリックして履歴ビューを表示する単一ステップのワークフロー。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.electron.aqua-voice",
+      "app_name": "Aqua Voice",
+      "target": {
+        "role": "AXButton",
+        "title": "History",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 211,
+        "y": 940
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_223502.png"
+    }
+  ],
+  "app_name": "Aqua Voice",
+  "tags": [
+    "Aqua Voice",
+    "History",
+    "ナビゲーション"
+  ],
+  "parameters": [],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T22:36:08.202854",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,275 @@
+{
+  "workflow_id": "wf-013c7a72",
+  "name": "OpenClaw キャンバスでのコピー＆ペースト後にテキストを追記",
+  "description": "OpenClaw Control ウィンドウ内のキャンバス（AXImage）にフォーカスし、現在の選択をコピーしてペースト、その後スペースと指定テキストを入力する一連の操作。前提としてコピー対象がすでに選択されていること。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 641,
+        "y": 1700
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_214847.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 814,
+        "y": 1703
+      },
+      "key": {
+        "keycode": 8,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_214851.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1804
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_214851.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1804
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_214852.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1804
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771418933.0923982
+          }
+        ],
+        "text": " ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_214854.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 761,
+        "y": 1804
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": " ",
+            "keycode": 104,
+            "timestamp": 1771418934.482347
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771418934.9731572
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771418935.007728
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771418935.112447
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771418935.172313
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771418935.306995
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771418935.4424179
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771418935.487083
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771418935.592206
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771418935.653323
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771418935.86755
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771418935.9831061
+          }
+        ],
+        "text": " ninatteru\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_214857.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "OpenClaw",
+    "コピー",
+    "ペースト",
+    "テキスト入力"
+  ],
+  "parameters": [
+    {
+      "name": "appended_text",
+      "description": "ペースト直後に入力するテキスト（改行などを含めて可）。ログでは「 ninatteru\\n\\n」。",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:54:16.625381",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

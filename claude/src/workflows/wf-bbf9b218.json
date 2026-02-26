@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-bbf9b218",
+  "name": "Chromeでページを再読み込みし翻訳ポップアップを閉じる",
+  "description": "Google Chromeで指定のタブを再読み込みし、「このページを翻訳しますか？」の翻訳プロンプトが表示された場合は閉じる手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 153,
+        "y": 91
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_225506.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "閉じる",
+        "value": "1",
+        "description": "閉じる",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 906,
+        "y": 136
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_225508.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "再読み込み",
+    "翻訳",
+    "ダイアログ",
+    "ブラウザ"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "再読み込みするタブ（ウィンドウ）のタイトル。例: \"My Applications | Discord Developer Portal\"",
+      "step_index": 1
+    },
+    {
+      "name": "translate_prompt_title",
+      "description": "翻訳プロンプトのウィンドウタイトル（ロケールにより異なる場合）。例: \"このページを翻訳しますか？\"",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T22:56:36.326747",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

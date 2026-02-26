@@ -1,0 +1,150 @@
+{
+  "workflow_id": "wf-72b615f0",
+  "name": "LINE（Web/Chrome）でメッセージを入力してEnterを押す",
+  "description": "Google Chrome上のLINEのテキストエリアにメッセージを入力し、その後Enterキー（改行/送信）を入力する手順。",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "何某か返します",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1931,
+        "y": 777
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771401384.287272
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401384.347179
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771401384.586977
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771401385.233108
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771401385.3111281
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771401385.446348
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771401385.487234
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771401385.532588
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771401385.6381838
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771401385.697201
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771401386.117245
+          }
+        ],
+        "text": "kaesimasu \n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_165627.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "何某か返します",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1931,
+        "y": 777
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771401387.4991229
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_165628.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "LINE",
+    "Web",
+    "テキスト入力",
+    "送信/改行"
+  ],
+  "parameters": [
+    {
+      "name": "message_text",
+      "description": "テキストエリアに入力するメッセージ本文。",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T17:05:12.569750",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

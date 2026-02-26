@@ -1,0 +1,169 @@
+{
+  "workflow_id": "wf-1900fc23",
+  "name": "Cursor内でのファイル操作とプレビューワークフロー",
+  "description": "Cursorアプリ内で、スクリーンショットの貼り付け、テキスト入力、ファイルのプレビュー表示、グループ操作を行う一連の操作。ファイルの表示や編集前の準備操作と考えられる。",
+  "steps": [
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 543,
+        "y": 893
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260220_113014.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "オフィス考える",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 498,
+        "y": 1023
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771554616.383757
+          }
+        ],
+        "text": "\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260220_113017.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2481,
+        "y": 689
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113020.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2632,
+        "y": 505
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_113022.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "ファイル操作",
+    "プレビュー",
+    "テキスト入力",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "スクリーンショットファイル",
+      "description": "貼り付けるスクリーンショット（例：8891_screen_shot）",
+      "step_index": 1
+    },
+    {
+      "name": "入力テキスト",
+      "description": "テキスト入力フィールドに入力するテキスト内容",
+      "step_index": 2
+    },
+    {
+      "name": "ターゲットファイル",
+      "description": "プレビューするMarkdownファイル（例：02_mac_studio_llm.md）",
+      "step_index": 3
+    },
+    {
+      "name": "ウィンドウ名",
+      "description": "操作対象のウィンドウ名（例：Preview等）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.55,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:30:59.162063",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

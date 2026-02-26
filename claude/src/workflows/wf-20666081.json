@@ -1,0 +1,92 @@
+{
+  "workflow_id": "wf-20666081",
+  "name": "指定ウィンドウをアクティブ化して「開く」ボタンを押す",
+  "description": "Cursor アプリで、指定したタイトルのウィンドウ（またはタブ）をアクティブ化し、そのウィンドウ内の「開く」ボタンをクリックします。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": null,
+        "title": "Cost | Claude Developer Platform",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1002,
+        "y": 130
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_205244.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXButton",
+        "title": "開く",
+        "value": null,
+        "description": "開く",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 973,
+        "y": 122
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_205247.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "UI操作",
+    "ウィンドウ操作",
+    "ボタンクリック"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "アクティブ化するウィンドウ（/タブ）のタイトル。例: \"Cost | Claude Developer Platform\"",
+      "step_index": 1
+    },
+    {
+      "name": "button_label",
+      "description": "クリックするボタンのラベル。例: \"開く\"",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.74,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T20:54:52.126520",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

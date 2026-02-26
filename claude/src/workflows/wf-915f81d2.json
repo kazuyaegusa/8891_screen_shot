@@ -1,0 +1,79 @@
+{
+  "workflow_id": "wf-915f81d2",
+  "name": "Googleカレンダーの予定を開く（週表示）",
+  "description": "Google カレンダーの週表示で、指定したタイトル・日付・時間帯（必要ならカレンダー）に一致する予定をクリックして詳細を開く。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "午後10時～午後11:15、「YouTube(来週火投稿)」、カレンダー: aisenninn@gmail.com、出欠確認が必要、場所の指定なし、2026年 2月 19日",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1749,
+        "y": 759
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_191354.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Googleカレンダー",
+    "予定",
+    "イベント",
+    "週表示",
+    "オープン"
+  ],
+  "parameters": [
+    {
+      "name": "event_title",
+      "description": "予定のタイトル（例: YouTube(来週火投稿)）",
+      "step_index": 1
+    },
+    {
+      "name": "date",
+      "description": "予定の日付（YYYY-MM-DD 形式。例: 2026-02-19）",
+      "step_index": 1
+    },
+    {
+      "name": "start_time",
+      "description": "開始時刻（24時間表記。例: 22:00）",
+      "step_index": 1
+    },
+    {
+      "name": "end_time",
+      "description": "終了時刻（24時間表記。例: 23:15）",
+      "step_index": 1
+    },
+    {
+      "name": "calendar",
+      "description": "予定が属するカレンダー（メールアドレスやカレンダー名。例: aisenninn@gmail.com）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.63,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:20:10.031804",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

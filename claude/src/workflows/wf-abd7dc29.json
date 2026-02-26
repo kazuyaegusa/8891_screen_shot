@@ -1,0 +1,215 @@
+{
+  "workflow_id": "wf-abd7dc29",
+  "name": "Google OAuth sign-in and consent for YouTube upload (Chrome)",
+  "description": "Signs in to a Google account in Chrome and completes OAuth consent to grant YouTube upload scope to a local app, then returns to the localhost redirect URI.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 422,
+        "y": 50
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193533.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 361,
+        "y": 54
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193534.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "kazuya.egusa@aixeed.co.jp",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1759,
+        "y": 368
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193536.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1893,
+        "y": 662
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193540.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "localhost:8080/?state=e06Tmecr66YYWnTGfI21DepK3fCyLn&code=4/0AfrIepDsgQcVPLr1-aHTHJOWnJhKT3aTuyrdGx2SG2kuzxa41jb8SGgoSgIBlijDH4qgbQ&scope=https://www.googleapis.com/auth/youtube.upload",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2022,
+        "y": -61
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193542.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "localhost:8080/?state=e06Tmecr66YYWnTGfI21DepK3fCyLn&code=4/0AfrIepDsgQcVPLr1-aHTHJOWnJhKT3aTuyrdGx2SG2kuzxa41jb8SGgoSgIBlijDH4qgbQ&scope=https://www.googleapis.com/auth/youtube.upload",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2023,
+        "y": -63
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193543.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "web",
+    "chrome",
+    "oauth",
+    "google",
+    "youtube",
+    "authentication"
+  ],
+  "parameters": [
+    {
+      "name": "google_account_email",
+      "description": "The Google account email to select on the login screen.",
+      "step_index": 3
+    },
+    {
+      "name": "redirect_uri",
+      "description": "The OAuth redirect URI to which Google returns after consent (e.g., http://localhost:8080).",
+      "step_index": 5
+    },
+    {
+      "name": "oauth_scopes",
+      "description": "The OAuth scopes being requested (e.g., https://www.googleapis.com/auth/youtube.upload).",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:41:54.033358",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

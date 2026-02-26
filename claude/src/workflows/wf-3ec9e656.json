@@ -1,0 +1,95 @@
+{
+  "workflow_id": "wf-3ec9e656",
+  "name": "Cursor: ドキュメントをアクティブ化してクリップボードを貼り付け",
+  "description": "指定したファイル（ウィンドウ/タブ）をアクティブにし、クリップボードの内容を貼り付ける手順。事前条件: 貼り付けたい内容がクリップボードに存在すること。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 500,
+        "y": 1817
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_190911.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 500,
+        "y": 1817
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_190920.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "貼り付け",
+    "クリップボード",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "対象ドキュメント（ウィンドウ/タブ）のファイル名またはウィンドウタイトル内に含まれる識別文字列（例: 20260219MT手動メモ.md）。ステップ1のクリック対象ウィンドウ特定に使用。",
+      "step_index": 1
+    },
+    {
+      "name": "file_name",
+      "description": "同上。ステップ2で貼り付けショートカットを送る対象ウィンドウの特定に使用。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.67,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:15:18.751666",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

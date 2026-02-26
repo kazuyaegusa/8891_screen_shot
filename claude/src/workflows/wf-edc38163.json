@@ -1,0 +1,101 @@
+{
+  "workflow_id": "wf-edc38163",
+  "name": "Discord: Switch between two channels in a server",
+  "description": "In Discord, navigate within a specified server by selecting one channel and then switching to another channel.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 231,
+        "y": 740
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_135054.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.hnc.Discord",
+      "app_name": "Discord",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 218,
+        "y": 765
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_135056.png"
+    }
+  ],
+  "app_name": "Discord",
+  "tags": [
+    "discord",
+    "navigation",
+    "channel-switch"
+  ],
+  "parameters": [
+    {
+      "name": "server_name",
+      "description": "The Discord server (guild) containing the channels.",
+      "step_index": 1
+    },
+    {
+      "name": "channel_a",
+      "description": "The first channel to select.",
+      "step_index": 1
+    },
+    {
+      "name": "server_name",
+      "description": "The Discord server (guild) containing the channels.",
+      "step_index": 2
+    },
+    {
+      "name": "channel_b",
+      "description": "The second channel to switch to.",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T13:52:33.654333",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

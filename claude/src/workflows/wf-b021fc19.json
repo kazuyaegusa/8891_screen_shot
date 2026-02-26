@@ -1,0 +1,87 @@
+{
+  "workflow_id": "wf-b021fc19",
+  "name": "Googleアカウント選択とログイン継続",
+  "description": "Googleアカウントのログイン画面で指定したメールアドレスのアカウントを選択し、次のステップへ進む操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXLink",
+        "title": "Kazuya Egusa kazuya.egusa@aixeed.co.jp",
+        "value": null,
+        "description": "Kazuya Egusa kazuya.egusa@aixeed.co.jp",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1720,
+        "y": 335
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193847.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1922,
+        "y": 659
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193851.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google",
+    "Chrome",
+    "Login",
+    "AccountSelection"
+  ],
+  "parameters": [
+    {
+      "name": "account_email",
+      "description": "ログイン画面に表示される選択可能なアカウントのメールアドレス（例: kazuya.egusa@aixeed.co.jp）",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.58,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:46:14.859832",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

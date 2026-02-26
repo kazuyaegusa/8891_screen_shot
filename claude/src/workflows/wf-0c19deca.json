@@ -1,0 +1,276 @@
+{
+  "workflow_id": "wf-0c19deca",
+  "name": "Cursor(OpenClaw Control)でエディタをフォーカスし貼り付け後に指定テキストを入力",
+  "description": "Cursor の『OpenClaw Control — OpenClaw』ウィンドウ内のエディタ領域(AXImage)をクリックしてフォーカスし、Cmd+Vでクリップボードを貼り付け、その後に指定したテキストを入力する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 509,
+        "y": 1825
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_215442.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 509,
+        "y": 1825
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_215443.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 512,
+        "y": 1833
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771419284.4263968
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771419284.997662
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771419285.068372
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1771419285.158339
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771419285.2338738
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771419285.760212
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771419285.921782
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771419286.029196
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771419286.088363
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771419286.224653
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771419286.443341
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771419286.5697029
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771419286.720106
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771419286.76673
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771419286.928971
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771419286.9737558
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771419287.048365
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771419287.154369
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771419287.261614
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771419287.320319
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771419287.4090219
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771419287.54423
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771419287.633913
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771419287.69364
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771419287.814303
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771419287.875125
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771419287.9350982
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771419287.994394
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771419288.158588
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771419288.294245
+          }
+        ],
+        "text": "\nmajidemouiikagen nisitekure\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_215449.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "OpenClaw",
+    "貼り付け",
+    "テキスト入力",
+    "macOS",
+    "エディタ操作"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象ウィンドウのタイトル（例: OpenClaw Control — OpenClaw）",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "貼り付け後に入力するテキスト",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:58:29.824700",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

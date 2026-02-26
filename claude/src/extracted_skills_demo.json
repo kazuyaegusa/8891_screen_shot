@@ -1,0 +1,138 @@
+{
+  "skills": [
+    {
+      "skill_id": "skill-001",
+      "name": "Slackでのメンション付きメッセージ作成・編集",
+      "description": "Slackチャンネル内でユーザーをメンション（@mention）して、複数行のメッセージを作成・編集・送信するスキル。メッセージの修正や追記を含む一連のコミュニケーション操作",
+      "trigger": "Slackでチームメンバーに向けて長文メッセージを送信する必要がある時",
+      "app_sequence": [
+        "Slack"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "Slackウィンドウ内の要素をクリックして操作開始",
+          "app": "Slack",
+          "target": "AXGroup要素",
+          "detail": "メッセージ作成エリアにフォーカス"
+        },
+        {
+          "step": 2,
+          "action": "キーボードショートカットでナビゲーション",
+          "app": "Slack",
+          "target": "AXGroup要素",
+          "detail": "Cmd+↑、Cmd+Shift+↑などのショートカットを使用"
+        },
+        {
+          "step": 3,
+          "action": "メッセージ入力エリアをクリック",
+          "app": "Slack",
+          "target": "AXGroup要素（座標: 2473, 684）",
+          "detail": "メッセージ入力フィールドを選択"
+        },
+        {
+          "step": 4,
+          "action": "全選択ショートカット実行",
+          "app": "Slack",
+          "target": "AXGroup要素",
+          "detail": "Cmd+A（keycode: 9）でテキスト全選択"
+        },
+        {
+          "step": 5,
+          "action": "メンション付きメッセージ入力",
+          "app": "Slack",
+          "target": "AXStaticText要素",
+          "detail": "@ユーザー名形式でメンションを入力"
+        },
+        {
+          "step": 6,
+          "action": "メッセージ本文の入力・編集",
+          "app": "Slack",
+          "target": "AXGroup/AXStaticText要素",
+          "detail": "複数行にわたるメッセージの入力と修正作業"
+        },
+        {
+          "step": 7,
+          "action": "メッセージの追記・修正",
+          "app": "Slack",
+          "target": "AXStaticText要素",
+          "detail": "既存テキストの編集と新しい内容の追加"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "メンション対象ユーザー",
+          "description": "@記号を使ってメンションするユーザー名",
+          "example": "@hurukawa"
+        },
+        {
+          "name": "メッセージ内容",
+          "description": "送信する複数行のメッセージテキスト",
+          "example": "jouki noken,\\nowabito goirai desu.\\nsimasitatokoro\\njoutai desita..\\ntonari\\ntaihen"
+        },
+        {
+          "name": "チャンネル",
+          "description": "メッセージを送信するSlackチャンネル",
+          "example": "ext-stun-x-movico-ai推進pj"
+        }
+      ],
+      "estimated_time_seconds": 300,
+      "automation_potential": "medium",
+      "automation_notes": "メッセージ内容とメンション対象が定型化されている場合は自動化可能。ただし文脈に応じた内容調整が必要な場合は人間の判断が必要"
+    },
+    {
+      "skill_id": "skill-002",
+      "name": "Claude API コスト確認",
+      "description": "Google ChromeでClaude Developer Platformのコストページにアクセスし、API使用料金を確認するスキル",
+      "trigger": "Claude APIの使用コストを確認する必要がある時",
+      "app_sequence": [
+        "Google Chrome"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "コストページへのアクセス",
+          "app": "Google Chrome",
+          "target": "Cost | Claude Developer Platform ページ",
+          "detail": "Claude Developer PlatformのCostページを開く"
+        },
+        {
+          "step": 2,
+          "action": "ページ内要素のクリック確認",
+          "app": "Google Chrome",
+          "target": "ページ全体（座標: 1080, -91）",
+          "detail": "複数回のクリックでページの読み込み・更新を確認"
+        },
+        {
+          "step": 3,
+          "action": "コスト情報表示エリアの確認",
+          "app": "Google Chrome",
+          "target": "AXGroup要素（座標: 1128, 78）",
+          "detail": "コスト詳細が表示されるグループ要素をクリック"
+        },
+        {
+          "step": 4,
+          "action": "最終確認のクリック操作",
+          "app": "Google Chrome",
+          "target": "ページ全体",
+          "detail": "情報確認完了の確認操作"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "対象期間",
+          "description": "コストを確認したい期間設定",
+          "example": "月次、週次など"
+        },
+        {
+          "name": "APIキー",
+          "description": "コストを確認するClaude APIアカウント",
+          "example": "開発者プラットフォームのアカウント"
+        }
+      ],
+      "estimated_time_seconds": 30,
+      "automation_potential": "high",
+      "automation_notes": "定期的なコスト確認は完全に自動化可能。スクリーンショット取得やコスト閾値アラートとの組み合わせも有効"
+    }
+  ]
+}

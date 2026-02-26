@@ -1,0 +1,329 @@
+{
+  "workflow_id": "wf-08a6c931",
+  "name": "Cursorでエディタをフォーカスしてテキスト入力",
+  "description": "Cursorの指定ウィンドウ内のエディタ領域（AXImage）をクリックしてフォーカスし、指定したテキストを入力する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 713,
+        "y": 1815
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_172048.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 665,
+        "y": 1652
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402850.604073
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771402850.7074401
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771402850.795166
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771402850.884633
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771402850.975056
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771402851.191937
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402851.2448268
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771402851.380887
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771402851.470285
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771402851.62126
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771402851.754792
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771402852.027274
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771402852.1316009
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771402852.219718
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402852.294911
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771402852.355551
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771402852.475177
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771402852.507709
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771402852.580648
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771402852.669898
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771402852.7447538
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771402852.819675
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771402853.122035
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771402853.181767
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771402853.255611
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402853.345612
+          },
+          {
+            "char": "g",
+            "keycode": 5,
+            "timestamp": 1771402853.434572
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402853.5399659
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771402853.706955
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1771402853.795042
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771402853.884879
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771402853.915231
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771402854.126025
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771402854.259986
+          },
+          {
+            "char": "h",
+            "keycode": 4,
+            "timestamp": 1771402854.3504791
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402854.4399202
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771402854.817577
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1771402854.9498339
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402855.025648
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771402855.114641
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771402855.161665
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771402855.446066
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771402855.7537222
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771402855.805227
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771402855.895086
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771402856.137795
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771402856.2704089
+          }
+        ],
+        "text": "apuriban dehiraiteiru nodagasoredeha\ndame kai\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_172057.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "テキスト入力",
+    "クリック",
+    "自動化"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象となるCursorウィンドウ（タブ）のタイトル文字列。例: \"... .md — ...\"",
+      "step_index": 1
+    },
+    {
+      "name": "input_text",
+      "description": "エディタに入力するテキスト文字列。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.67,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T17:29:12.213239",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,169 @@
+{
+  "workflow_id": "wf-003d4219",
+  "name": "テキストエディットで現在の書類を指定したファイル名で保存",
+  "description": "テキストエディットで編集中のドキュメントを保存ダイアログでファイル名を入力して保存する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "MTDISCORD_BOT_TOKEN_REDACTED",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 498,
+        "y": 445
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213056.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXSplitGroup",
+        "title": "AXSplitGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 498,
+        "y": 445
+      },
+      "key": {
+        "keycode": 1,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_213058.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXScrollArea",
+        "title": "AXScrollArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 694,
+        "y": 462
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771417860.263286
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1771417860.308291
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771417860.442497
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1771417860.5691671
+          }
+        ],
+        "text": "temp",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260218_213101.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXButton",
+        "title": "保存",
+        "value": null,
+        "description": null,
+        "identifier": "OKButton"
+      },
+      "coordinates": {
+        "x": 892,
+        "y": 677
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213103.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "テキストエディット",
+    "保存",
+    "Cmd+S",
+    "macOS",
+    "ファイル名"
+  ],
+  "parameters": [
+    {
+      "name": "filename",
+      "description": "保存ダイアログで入力するファイル名（拡張子を含んでも可）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.88,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:33:08.217276",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

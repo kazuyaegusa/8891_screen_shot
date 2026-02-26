@@ -1,0 +1,366 @@
+{
+  "workflow_id": "wf-a0d8e839",
+  "name": "LINEでメッセージ入力欄にテキストを2回入力",
+  "description": "LINEのメッセージ入力欄をフォーカスし、指定した2つのテキストを順に入力します（送信操作は含みません）。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 537,
+        "y": 1828
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131736.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 537,
+        "y": 1828
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_131737.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 537,
+        "y": 1828
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474657.8429718
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474657.994696
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474658.0234911
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771474658.186499
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474658.291313
+          }
+        ],
+        "text": "itiba",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_131739.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "jp.naver.line.mac",
+      "app_name": "LINE",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 537,
+        "y": 1828
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771474659.876626
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474659.958465
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474660.015591
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771474660.1660538
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474660.304078
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771474660.422702
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771474660.5338051
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474660.650902
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771474660.706736
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474660.766554
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771474660.915304
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474660.9771671
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771474661.053031
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771474661.112513
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474661.201752
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474661.246469
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474661.3087292
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474661.516426
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474661.635977
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474661.714705
+          },
+          {
+            "char": "b",
+            "keycode": 11,
+            "timestamp": 1771474661.848602
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474661.928706
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1771474662.0310981
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771474662.088959
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474662.329211
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474662.434674
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474662.583545
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771474662.610168
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474662.716436
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771474662.7764611
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771474663.035316
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771474663.1073432
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771474663.22641
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771474663.317062
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771474663.406811
+          },
+          {
+            "char": "!",
+            "keycode": 18,
+            "timestamp": 1771474663.690659
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771474664.0094929
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771474664.18692
+          }
+        ],
+        "text": "saikin tuika sitaitiban tiisaiyatu !\n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_131745.png"
+    }
+  ],
+  "app_name": "LINE",
+  "tags": [
+    "LINE",
+    "メッセージ",
+    "入力"
+  ],
+  "parameters": [
+    {
+      "name": "message_part_1",
+      "description": "最初に入力するテキスト（ステップ3）",
+      "step_index": 3
+    },
+    {
+      "name": "message_part_2",
+      "description": "次に入力するテキスト（ステップ4）",
+      "step_index": 4
+    }
+  ],
+  "confidence": 0.56,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T13:18:46.075937",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

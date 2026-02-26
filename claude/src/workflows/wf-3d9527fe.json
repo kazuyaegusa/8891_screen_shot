@@ -1,0 +1,127 @@
+{
+  "workflow_id": "wf-3d9527fe",
+  "name": "Slack チャンネル間のナビゲーション",
+  "description": "Slack アプリケーションでアクティビティタブを開き、特定のグループをクリックしてから、ホームタブに戻る操作のシーケンス",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "アクティビティ",
+        "value": null,
+        "description": "アクティビティ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1137,
+        "y": 177
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_115443.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1345,
+        "y": 164
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_115445.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXRadioButton",
+        "title": "ホーム",
+        "value": null,
+        "description": "ホーム",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1101,
+        "y": 27
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260220_115457.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "チャンネル",
+    "ナビゲーション",
+    "Slack",
+    "アクティビティ管理",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "初期チャンネル名",
+      "description": "最初にクリックするアクティビティボタンのチャンネル名（例：fusion-ai-リストマーケ）",
+      "step_index": 1
+    },
+    {
+      "name": "グループ要素",
+      "description": "ステップ2でクリックするAXGroup要素（パラメータ化可能）",
+      "step_index": 2
+    },
+    {
+      "name": "遷移先タブ",
+      "description": "最終的に遷移するタブ名（例：ホーム）",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.7849999999999999,
+  "source_session_ids": [
+    "ad1be093-fb96-46a1-ba5e-4b1e2b9b607a"
+  ],
+  "created_at": "2026-02-20T11:55:28.343658",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

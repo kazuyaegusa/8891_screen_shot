@@ -1,0 +1,119 @@
+{
+  "workflow_id": "wf-e9d143c5",
+  "name": "テキストエディットで新規書類を作成してテキストを貼り付ける",
+  "description": "テキストエディットで新規書類を開き、エディタをフォーカスして、クリップボードの内容（または指定テキスト）を貼り付けます。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "新規",
+        "value": null,
+        "description": null,
+        "identifier": "_NS:344"
+      },
+      "coordinates": {
+        "x": 247,
+        "y": 45
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_212930.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": null,
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 484,
+        "y": 534
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_212931.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.apple.TextEdit",
+      "app_name": "テキストエディット",
+      "target": {
+        "role": "AXTextArea",
+        "title": "AXTextArea",
+        "value": "MTDISCORD_BOT_TOKEN_REDACTED",
+        "description": null,
+        "identifier": "First Text View"
+      },
+      "coordinates": {
+        "x": 484,
+        "y": 534
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260218_212932.png"
+    }
+  ],
+  "app_name": "テキストエディット",
+  "tags": [
+    "macOS",
+    "TextEdit",
+    "新規作成",
+    "貼り付け",
+    "クリップボード"
+  ],
+  "parameters": [
+    {
+      "name": "clipboard_content",
+      "description": "貼り付けるテキスト（事前にクリップボードへ設定してから実行）。機密情報を含む場合は安全に取り扱ってください。",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.7,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:32:13.729670",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

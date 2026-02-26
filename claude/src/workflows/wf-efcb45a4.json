@@ -1,0 +1,90 @@
+{
+  "workflow_id": "wf-efcb45a4",
+  "name": "Cursorで開いている指定ファイルにクリップボードを貼り付け",
+  "description": "Cursor内の対象ファイルウィンドウをフォーカスし、クリップボードの内容を貼り付ける最小手順です。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 509,
+        "y": 1830
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_200617.png"
+    },
+    {
+      "action_type": "key_shortcut",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXImage",
+        "title": "AXImage",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 509,
+        "y": 1830
+      },
+      "key": {
+        "keycode": 9,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/shortcut_full_20260219_200618.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "エディタ",
+    "貼り付け",
+    "クリップボード",
+    "macOS"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "対象ウィンドウ（ファイル）のタイトル。例: \"ballet_20260219.csv — movico — Untracked\"",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.65,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:16:21.304266",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

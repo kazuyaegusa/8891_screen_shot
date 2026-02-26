@@ -1,0 +1,213 @@
+{
+  "workflow_id": "wf-7f3f57bd",
+  "name": "Slack チャンネル通知の管理",
+  "description": "Slackで複数のチャンネルの新規アイテムを確認し、特定のチャンネル（fusion-ai）の通知を未読にマークする操作。チャンネル間の移動と通知管理の一連の操作から構成される。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": null,
+        "title": "* ext-stun-x-movico-ai推進pj（チャンネル） - Aixeed - 1 個の新しいアイテム - Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2564,
+        "y": -74
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225538.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1111,
+        "y": 179
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225541.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1749,
+        "y": 166
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225545.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": null,
+        "title": "fusion-ai（チャンネル） - Aixeed - 1 個の新しいアイテム - Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2962,
+        "y": 695
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225554.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "未読にする U",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2781,
+        "y": 695
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225555.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": null,
+        "title": "fusion-ai（チャンネル） - Aixeed - 1 個の新しいアイテム - Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1751,
+        "y": 217
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_225557.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "チャンネル管理",
+    "通知管理",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "初期チャンネル",
+      "description": "最初にクリックするチャンネル名（例：ext-stun-x-movico-ai推進pj）",
+      "step_index": 1
+    },
+    {
+      "name": "対象チャンネル",
+      "description": "通知を未読にマークするチャンネル名（例：fusion-ai）",
+      "step_index": 4
+    },
+    {
+      "name": "操作タイプ",
+      "description": "チャンネルに対して実行するアクション（例：未読にする）",
+      "step_index": 5
+    }
+  ],
+  "confidence": 0.75,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-20T11:29:49.593682",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

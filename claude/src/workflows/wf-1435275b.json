@@ -1,0 +1,52 @@
+{
+  "workflow_id": "wf-1435275b",
+  "name": "Google Chromeで新しいタブを開く",
+  "description": "Google Chromeのウィンドウで「新しいタブ」ボタンをクリックして新しいタブを開く手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "新しいタブ",
+        "value": "1",
+        "description": "新しいタブ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 975,
+        "y": 59
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_232328.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google Chrome",
+    "新しいタブ",
+    "タブ操作",
+    "ブラウザ"
+  ],
+  "parameters": [],
+  "confidence": 0.86,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T23:24:00.224080",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

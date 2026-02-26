@@ -1,0 +1,120 @@
+{
+  "workflow_id": "wf-e8e51724",
+  "name": "Claudeでセクション間をナビゲート（機能 → 使用量）",
+  "description": "Claudeアプリ内で左ナビゲーション（グループ）をフォーカスし、「機能」を開いた後に「使用量」セクションへ移動する手順。リンクテキストを差し替えることで他セクションにも再利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2330,
+        "y": 498
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_202424.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "機能",
+        "value": null,
+        "description": "機能",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2191,
+        "y": 313
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_202426.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2176,
+        "y": 272
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_202427.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "UI操作"
+  ],
+  "parameters": [
+    {
+      "name": "from_section_label",
+      "description": "最初に開くリンク（セクション）のラベル。例: 「機能」",
+      "step_index": 2
+    },
+    {
+      "name": "to_section_label",
+      "description": "遷移先のリンク（セクション）のラベル。例: 「使用量」",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:26:06.920596",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,447 @@
+{
+  "workflow_id": "wf-cee2e693",
+  "name": "Googleカレンダーで既存イベントにゲストを追加して招待送信",
+  "description": "Googleカレンダー上でイベントを検索（キーワード入力）し、対象イベントを開いてゲストを追加し、招待通知を送信する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1884,
+        "y": 392
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193429.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "午後1時～午後3時、「説明会D」、カレンダー: aisenninn@gmail.com、出欠確認が必要、場所の指定なし、2026年 2月 21日",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1919,
+        "y": 418
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771497273.0306041
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771497273.1046531
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771497273.241525
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771497273.3165681
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771497273.375902
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771497273.480764
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1771497274.411098
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771497274.485305
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771497274.641699
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771497274.709929
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771497274.785572
+          },
+          {
+            "char": "-",
+            "keycode": 27,
+            "timestamp": 1771497274.878487
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771497274.994658
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1771497275.896853
+          },
+          {
+            "char": "y",
+            "keycode": 16,
+            "timestamp": 1771497275.9855292
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771497276.135742
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771497276.25651
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771497276.430938
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771497276.481336
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1771497276.542743
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771497276.7701912
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771497277.035456
+          }
+        ],
+        "text": "ru-ta-ru-ta- syuuka \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_193438.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXButton",
+        "title": "午後2時～午後4時、「ルーター集荷」、Kazuya Egusa、場所の指定なし、2026年 2月 20日",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1804,
+        "y": 410
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193440.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1596,
+        "y": 301
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193442.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXComboBox",
+        "title": "ゲスト",
+        "value": null,
+        "description": "ゲスト",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1872,
+        "y": 242
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193444.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "AXMenuItem",
+        "value": "「takumi fujinaga takumi.fujinaga@aixeed.co.jp」は選択されていません",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1913,
+        "y": 307
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1771497289.486509
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1771497289.529721
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1771497289.604727
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1771497289.668963
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1771497289.8763032
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1771497289.93572
+          },
+          {
+            "char": "\u0010",
+            "keycode": 109,
+            "timestamp": 1771497290.9279559
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1771497291.227951
+          }
+        ],
+        "text": "takumi\u0010\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260219_193452.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "AXMenuItem",
+        "value": "「takumi fujinaga takumi.fujinaga@aixeed.co.jp」は選択されていません",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1913,
+        "y": 307
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193452.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": null,
+        "title": "Google カレンダー - Aixeed株式会社 - カレンダー - 予定の詳細",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1557,
+        "y": -12
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193503.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep",
+      "app_name": "Google カレンダー",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "送信",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1832,
+        "y": 449
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_193505.png"
+    }
+  ],
+  "app_name": "Google カレンダー",
+  "tags": [
+    "Googleカレンダー",
+    "イベント編集",
+    "ゲスト追加",
+    "招待送信"
+  ],
+  "parameters": [
+    {
+      "name": "event_search_query",
+      "description": "検索・フィルタに入力するイベント名のキーワード（例: ルーター集荷）",
+      "step_index": 2
+    },
+    {
+      "name": "guest_identifier",
+      "description": "追加するゲストの氏名またはメールアドレス（例: takumi.fujinaga@aixeed.co.jp）",
+      "step_index": 6
+    }
+  ],
+  "confidence": 0.8,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:40:49.265958",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

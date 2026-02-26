@@ -1,0 +1,81 @@
+{
+  "workflow_id": "wf-d9874dcd",
+  "name": "コネクタの使用量ページを開く",
+  "description": "Claudeアプリで「コネクタ」をクリックし、続けて「使用量」ビューへ遷移する手順。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "コネクタ",
+        "value": null,
+        "description": "コネクタ",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1487,
+        "y": 1280
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195703.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1482,
+        "y": 1204
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_195704.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "navigation",
+    "Claude",
+    "コネクタ",
+    "使用量"
+  ],
+  "parameters": [],
+  "confidence": 0.76,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:07:23.247201",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

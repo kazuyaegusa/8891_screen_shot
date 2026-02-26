@@ -1,0 +1,128 @@
+{
+  "workflow_id": "wf-eb7e5a31",
+  "name": "Googleアカウント選択とOAuthリダイレクト完了（YouTubeスコープ）",
+  "description": "ChromeでGoogleアカウント選択画面から対象アカウントをクリックし、同意/続行を経てローカルのリダイレクトURI（例: localhost:8080）に遷移して認可コードを受け取る一連の操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "kazuya.egusa@aixeed.co.jp",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1756,
+        "y": 375
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_194301.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1882,
+        "y": 662
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_194313.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": null,
+        "title": "localhost:8080/?state=kMW7JYcd5KN9WEVV9hFTVhzK10nZh1&code=4/0AfrIepC5SNOMQUH2Ahv_gmZnw63BxNZWLL9TxW99_gVkPZuVB5jOREyVr-WOlYBil7Lhbg&scope=https://www.googleapis.com/auth/youtube",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2021,
+        "y": -68
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_194316.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "Google",
+    "Chrome",
+    "OAuth",
+    "YouTube API",
+    "ログイン",
+    "認証"
+  ],
+  "parameters": [
+    {
+      "name": "account_email",
+      "description": "Googleアカウント選択画面でクリックするメールアドレス",
+      "step_index": 1
+    },
+    {
+      "name": "redirect_uri_base",
+      "description": "認可後に遷移するリダイレクト先のベースURL（例: http://localhost:8080/）。state や code などのクエリは実行時に付与される。",
+      "step_index": 3
+    },
+    {
+      "name": "oauth_scope",
+      "description": "要求されるOAuthスコープ（例: https://www.googleapis.com/auth/youtube）。同意画面の内容として変化する可能性がある。",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:49:56.410647",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

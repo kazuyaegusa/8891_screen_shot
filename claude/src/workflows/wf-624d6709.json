@@ -1,0 +1,216 @@
+{
+  "workflow_id": "wf-624d6709",
+  "name": "Slackで投稿中のURLを開く",
+  "description": "Slackの特定チャンネル内でメッセージに含まれるURLをクリックし、表示される確認ダイアログで「を開く」（Open）を押して外部ブラウザで開く。重複クリックは正規化し、実質的に2ステップ（リンクをクリック→確認ダイアログで承認）として抽出。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://myaccount.google.com/brandaccounts",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2711,
+        "y": 719
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": [
+          "Cmd"
+        ]
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204759.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": null,
+        "title": "ext-stun-x-movico-ai推進pj（チャンネル） - Aixeed - Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2707,
+        "y": 736
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204801.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " を開く",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2800,
+        "y": 726
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204802.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "https://myaccount.google.com/brandaccounts",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2707,
+        "y": 717
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204803.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": null,
+        "title": "ext-stun-x-movico-ai推進pj（チャンネル） - Aixeed - Slack",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2492,
+        "y": 717
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204804.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.tinyspeck.slackmacgap",
+      "app_name": "Slack",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": " を開く",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2801,
+        "y": 720
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_204806.png"
+    }
+  ],
+  "app_name": "Slack",
+  "tags": [
+    "Slack",
+    "URL",
+    "リンクを開く",
+    "ブラウザ",
+    "確認ダイアログ"
+  ],
+  "parameters": [
+    {
+      "name": "channel_name",
+      "description": "URLが含まれるSlackチャンネル（またはDM）名。",
+      "step_index": 1
+    },
+    {
+      "name": "url",
+      "description": "クリックして開く対象のリンクURL。",
+      "step_index": 1
+    },
+    {
+      "name": "confirm_button_label",
+      "description": "確認ダイアログのボタン表記（例: 「を開く」, \"Open\"）。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.78,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T20:49:47.969931",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,93 @@
+{
+  "workflow_id": "wf-881357cc",
+  "name": "Claudeで「機能」から「使用量」を開く",
+  "description": "Claudeアプリ内でナビゲーションの「機能」を開き、続けて「使用量」リンクへ移動する手順。サイドバー/メニューが表示されている前提で、使用量ページに素早く到達するための再利用可能な操作。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "機能",
+        "value": null,
+        "description": "機能",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1549,
+        "y": 1243
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_182128.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.anthropic.claudefordesktop",
+      "app_name": "Claude",
+      "target": {
+        "role": "AXLink",
+        "title": "使用量",
+        "value": null,
+        "description": "使用量",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1523,
+        "y": 1216
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_182130.png"
+    }
+  ],
+  "app_name": "Claude",
+  "tags": [
+    "Claude",
+    "ナビゲーション",
+    "UI操作",
+    "使用量",
+    "機能"
+  ],
+  "parameters": [
+    {
+      "name": "トップレベルリンク名",
+      "description": "最初にクリックするナビゲーションリンクのラベル（例: 「機能」）",
+      "step_index": 1
+    },
+    {
+      "name": "サブリンク名",
+      "description": "トップレベル内でクリックするリンクのラベル（例: 「使用量」）",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.82,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T18:22:49.759982",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

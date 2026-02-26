@@ -1,0 +1,88 @@
+{
+  "workflow_id": "wf-aead68b5",
+  "name": "Chrome: Reload page in specific window",
+  "description": "Focus the Google Chrome window matching a given title and click the Reload button to refresh the page.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXGroup",
+        "title": "AXGroup",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 664,
+        "y": 51
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213536.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXButton",
+        "title": "再読み込み",
+        "value": "1",
+        "description": "再読み込み",
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 148,
+        "y": 84
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260218_213537.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "chrome",
+    "browser",
+    "reload",
+    "refresh",
+    "window"
+  ],
+  "parameters": [
+    {
+      "name": "window_title",
+      "description": "Title of the Chrome window/tab to focus before reloading (e.g., 'Cost | Claude Developer Platform').",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.72,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-18T21:39:22.205920",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

@@ -1,0 +1,161 @@
+{
+  "workflow_id": "wf-f4dc6125",
+  "name": "Cursor の Markdown プレビューから特定テキストを選択してコピー",
+  "description": "Cursor の Markdown プレビューウィンドウで目的のテキストをダブルクリックで選択し、コピーする手順。ファイル名やワークスペース、対象テキストを差し替えて再利用可能。",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXCell",
+        "title": "AXCell",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1489,
+        "y": 1049
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_114436.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "MacBook Pro 16\" M4 Max",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1520,
+        "y": 1070
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_114438.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "MacBook Pro 16\" M4 Max",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1379,
+        "y": 1072
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_114440.png"
+    },
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": "AXMenuItem",
+        "title": "Copy",
+        "value": null,
+        "description": null,
+        "identifier": "itemSelected:"
+      },
+      "coordinates": {
+        "x": 1400,
+        "y": 1099
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_114441.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "Cursor",
+    "Markdown",
+    "Preview",
+    "Copy",
+    "Selection"
+  ],
+  "parameters": [
+    {
+      "name": "preview_file_name",
+      "description": "プレビューしている Markdown ファイル名（例: requirements.md）",
+      "step_index": 1
+    },
+    {
+      "name": "workspace_name",
+      "description": "ウィンドウタイトルに表示されるワークスペース/プロジェクト名（例: nagoya_oyassan）",
+      "step_index": 1
+    },
+    {
+      "name": "target_text",
+      "description": "コピーしたい表示テキスト（例: MacBook Pro 16\" M4 Max）",
+      "step_index": 2
+    },
+    {
+      "name": "occurrence_index",
+      "description": "同一テキストが複数ある場合の対象インデックス（0始まりなど）。省略可。",
+      "step_index": 2
+    }
+  ],
+  "confidence": 0.66,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T11:46:10.322238",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

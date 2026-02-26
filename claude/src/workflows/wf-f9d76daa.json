@@ -1,0 +1,57 @@
+{
+  "workflow_id": "wf-f9d76daa",
+  "name": "Open recent Chrome download by filename",
+  "description": "In Google Chrome, click a file entry in the Recent Downloads panel to open it.",
+  "steps": [
+    {
+      "action_type": "click",
+      "app_bundle_id": "com.google.Chrome",
+      "app_name": "Google Chrome",
+      "target": {
+        "role": "AXStaticText",
+        "title": "AXStaticText",
+        "value": "ballet_20260219.csv",
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 1863,
+        "y": 24
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [],
+        "text": "",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/click_full_20260219_191752.png"
+    }
+  ],
+  "app_name": "Google Chrome",
+  "tags": [
+    "google-chrome",
+    "downloads",
+    "open-file"
+  ],
+  "parameters": [
+    {
+      "name": "file_name",
+      "description": "The exact filename shown in Chrome’s Recent Downloads panel to click (e.g., ballet_YYYYMMDD.csv).",
+      "step_index": 1
+    }
+  ],
+  "confidence": 0.62,
+  "source_session_ids": [
+    "7be892b8-3fab-446e-8eb2-805f6660a572"
+  ],
+  "created_at": "2026-02-19T19:25:08.515925",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}
