@@ -35,8 +35,8 @@ class PipelineConfig:
     skills_dir: Path = Path.home() / ".claude" / "skills"
     session_gap: int = 300
     session_max: int = 50
-    ai_provider: str = "openai"
-    ai_model: str = "gpt-5"
+    ai_provider: str = "gemini"
+    ai_model: str = "gemini-2.0-flash"
     cpu_limit: int = 30
     mem_limit: int = 500
     poll_sec: float = 10.0
@@ -44,14 +44,21 @@ class PipelineConfig:
 
     @classmethod
     def from_env(cls) -> "PipelineConfig":
-        load_dotenv()
+        # プロジェクトルートの .env を明示的に探す
+        src_dir = Path(__file__).resolve().parent.parent
+        for candidate in [src_dir / ".env", src_dir.parent / ".env"]:
+            if candidate.exists():
+                load_dotenv(candidate)
+                break
+        else:
+            load_dotenv()
         return cls(
             watch_dir=Path(os.getenv("PIPELINE_WATCH_DIR", "./screenshots")),
             skills_dir=Path(os.getenv("PIPELINE_SKILLS_DIR", str(Path.home() / ".claude" / "skills"))),
             session_gap=int(os.getenv("PIPELINE_SESSION_GAP", "300")),
             session_max=int(os.getenv("PIPELINE_SESSION_MAX", "50")),
-            ai_provider=os.getenv("PIPELINE_AI_PROVIDER", "openai"),
-            ai_model=os.getenv("PIPELINE_AI_MODEL", "gpt-5"),
+            ai_provider=os.getenv("PIPELINE_AI_PROVIDER", "gemini"),
+            ai_model=os.getenv("PIPELINE_AI_MODEL", "gemini-2.0-flash"),
             cpu_limit=int(os.getenv("PIPELINE_CPU_LIMIT", "30")),
             mem_limit=int(os.getenv("PIPELINE_MEM_LIMIT", "500")),
             poll_sec=float(os.getenv("PIPELINE_POLL_SEC", "10.0")),

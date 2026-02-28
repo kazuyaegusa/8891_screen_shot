@@ -51,9 +51,15 @@ logger = logging.getLogger(__name__)
 
 
 class LearningPipeline:
+    # 古いファイルの定期クリーンアップ間隔（秒）
+    _CLEANUP_INTERVAL = 600  # 10分ごと
+    # 古いファイルの保持期間（秒）: 1時間以上前のファイルを削除
+    _RETENTION_SEC = 3600
+
     def __init__(self, config: PipelineConfig):
         self._config = config
         self._running = False
+        self._last_cleanup_time = 0.0
 
         self._resource_guard = ResourceGuard(
             cpu_limit=config.cpu_limit,
@@ -113,6 +119,16 @@ class LearningPipeline:
             if session:
                 self._process_session(session)
             self._file_watcher.mark_processed(file)
+
+        # 学習成功・失敗に関わらず、古いファイルを定期的に削除
+        now = time.time()
+        if now - self._last_cleanup_time > self._CLEANUP_INTERVAL:
+            deleted = self._cleanup_manager.cleanup_old_files(
+                retention_sec=self._RETENTION_SEC,
+            )
+            if deleted:
+                logger.info("古いファイルを%d件削除", len(deleted))
+            self._last_cleanup_time = now
 
     def _process_session(self, session: Session) -> None:
         logger.info(
