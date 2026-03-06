@@ -91,16 +91,16 @@ class AgentConfig:
         if not self.openai_api_key:
             self.openai_api_key = os.environ.get("OPENAI_API_KEY", "")
 
-        # プロバイダー自動判定: キーがある方を使う（Anthropic優先）
+        # プロバイダー自動判定: キーがある方を使う（Gemini優先）
         if not self.ai_provider:
-            if self.anthropic_api_key:
-                self.ai_provider = "anthropic"
-            elif self.gemini_api_key:
+            if self.gemini_api_key:
                 self.ai_provider = "gemini"
+            elif self.anthropic_api_key:
+                self.ai_provider = "anthropic"
             elif self.openai_api_key:
                 self.ai_provider = "openai"
             else:
-                self.ai_provider = "anthropic"  # デフォルト
+                self.ai_provider = "gemini"  # デフォルト
 
         # AI_PROVIDER 環境変数による明示指定
         env_provider = os.environ.get("AI_PROVIDER", "")

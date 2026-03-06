@@ -238,10 +238,13 @@ class EventMonitor:
                 "システム設定 > プライバシーとセキュリティ > アクセシビリティ"
             )
 
+        print(f"[EventMonitor] CGEventTap 作成成功", flush=True)
+
         source = CFMachPortCreateRunLoopSource(None, tap, 0)
         self._run_loop = CFRunLoopGetCurrent()
         CFRunLoopAddSource(self._run_loop, source, kCFRunLoopCommonModes)
         CGEventTapEnable(tap, True)
+        print("[EventMonitor] CGEventTap 有効化完了、イベント待機中", flush=True)
 
         self._running = True
         CFRunLoopRun()
