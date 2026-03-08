@@ -104,6 +104,7 @@ class WindowScreenshot:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.privacy_guard = privacy_guard
+        self._last_image_hash: Optional[str] = None  # 重複画像スキップ用
 
         # OS自動判別で適切なdetectorを生成（疎結合）
         self.detector = _create_detector()
@@ -510,6 +511,13 @@ class WindowScreenshot:
         active_mon, _ = self._find_monitor_at(mouse_x, mouse_y)
         full_img = self.take_full_screenshot(monitor=active_mon)
 
+        # 重複画像スキップ: 前回と同一画像なら保存しない
+        import hashlib
+        img_hash = hashlib.md5(full_img.tobytes()).hexdigest()
+        if img_hash == self._last_image_hash:
+            return None
+        self._last_image_hash = img_hash
+
         # グローバル座標 → モニターローカル座標に変換
         mon_left = active_mon["left"]
         mon_top = active_mon["top"]
@@ -626,6 +634,13 @@ class WindowScreenshot:
         wy = window_info.get("y", 0)
         active_mon, _ = self._find_monitor_at(wx, wy)
         full_img = self.take_full_screenshot(monitor=active_mon)
+
+        # 重複画像スキップ
+        import hashlib
+        img_hash = hashlib.md5(full_img.tobytes()).hexdigest()
+        if img_hash == self._last_image_hash:
+            return None
+        self._last_image_hash = img_hash
 
         # グローバル座標 → モニターローカル座標
         mon_left = active_mon["left"]

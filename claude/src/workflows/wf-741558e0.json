@@ -1,0 +1,415 @@
+{
+  "workflow_id": "wf-741558e0",
+  "name": "Automated Pipeline Update and Repair",
+  "description": "A workflow to request an AI assistant to perform code updates while simultaneously fixing and optimizing automated pipelines (CI/CD).",
+  "steps": [
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": null,
+        "title": "",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2469,
+        "y": 1467
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1772866912.234155
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1772866912.308287
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866912.413167
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866912.488169
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866912.562778
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1772866912.712661
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1772866912.730526
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866912.907725
+          }
+        ],
+        "text": "kousi ns",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260307_160154.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": null,
+        "title": "",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2469,
+        "y": 1467
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1772866914.1826031
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1772866914.257647
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866914.347265
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866914.4555361
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866914.512265
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1772866914.606925
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1772866914.665899
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866914.788108
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866914.8530052
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1772866915.022974
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866915.083329
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1772866915.173886
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866915.232435
+          },
+          {
+            "char": ",",
+            "keycode": 43,
+            "timestamp": 1772866915.442972
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1772866915.563097
+          },
+          {
+            "char": "j",
+            "keycode": 38,
+            "timestamp": 1772866915.772186
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866915.817163
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1772866915.979329
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1772866916.012952
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866916.102598
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1772866916.239573
+          }
+        ],
+        "text": "kousin situtu,\njidou ",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260307_160157.png"
+    },
+    {
+      "action_type": "text_input",
+      "app_bundle_id": "com.todesktop.230313mzl4w4u92",
+      "app_name": "Cursor",
+      "target": {
+        "role": null,
+        "title": "",
+        "value": null,
+        "description": null,
+        "identifier": null
+      },
+      "coordinates": {
+        "x": 2469,
+        "y": 1467
+      },
+      "key": {
+        "keycode": null,
+        "flags": null,
+        "key_events": [
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1772866917.4682019
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1772866917.5285382
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866917.647435
+          },
+          {
+            "char": "p",
+            "keycode": 35,
+            "timestamp": 1772866917.7975008
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866917.8585
+          },
+          {
+            "char": "r",
+            "keycode": 15,
+            "timestamp": 1772866917.947592
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1772866918.022611
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866918.0827599
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1772866918.2321851
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1772866918.412747
+          },
+          {
+            "char": "m",
+            "keycode": 46,
+            "timestamp": 1772866918.7612438
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1772866918.832664
+          },
+          {
+            "char": "n",
+            "keycode": 45,
+            "timestamp": 1772866919.013057
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1772866919.1024818
+          },
+          {
+            "char": "o",
+            "keycode": 31,
+            "timestamp": 1772866919.224088
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866919.298089
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866919.4473999
+          },
+          {
+            "char": "t",
+            "keycode": 17,
+            "timestamp": 1772866919.522741
+          },
+          {
+            "char": "e",
+            "keycode": 14,
+            "timestamp": 1772866919.5865111
+          },
+          {
+            "char": "k",
+            "keycode": 40,
+            "timestamp": 1772866919.747457
+          },
+          {
+            "char": "u",
+            "keycode": 32,
+            "timestamp": 1772866919.80758
+          },
+          {
+            "char": "d",
+            "keycode": 2,
+            "timestamp": 1772866919.962759
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1772866920.018943
+          },
+          {
+            "char": "s",
+            "keycode": 1,
+            "timestamp": 1772866920.107384
+          },
+          {
+            "char": "a",
+            "keycode": 0,
+            "timestamp": 1772866920.227296
+          },
+          {
+            "char": "i",
+            "keycode": 34,
+            "timestamp": 1772866920.365536
+          },
+          {
+            "char": " ",
+            "keycode": 49,
+            "timestamp": 1772866920.4878871
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1772866920.633599
+          },
+          {
+            "char": "\n",
+            "keycode": 36,
+            "timestamp": 1772866920.808087
+          }
+        ],
+        "text": "paipurain monaositekudasai \n\n",
+        "modifiers": []
+      },
+      "parameterized": {
+        "is_parameterized": false,
+        "param_name": null
+      },
+      "description": "",
+      "screenshot_path": "/Users/kazuyaegusa/KEWORK/8891_screen_shot/claude/src/screenshots/text_full_20260307_160201.png"
+    }
+  ],
+  "app_name": "Cursor",
+  "tags": [
+    "cursor",
+    "devops",
+    "automation",
+    "pipeline",
+    "refactoring"
+  ],
+  "parameters": [
+    {
+      "name": "update_scope",
+      "description": "The specific feature or module that needs updating.",
+      "step_index": 2
+    },
+    {
+      "name": "pipeline_type",
+      "description": "The target pipeline to be fixed, such as GitHub Actions, Jenkins, or CircleCI.",
+      "step_index": 3
+    }
+  ],
+  "confidence": 0.85,
+  "source_session_ids": [
+    "6525738a-2945-485b-b6bd-ea2ff00a53d9"
+  ],
+  "created_at": "2026-03-08T17:02:25.552225",
+  "status": "draft",
+  "execution_count": 0,
+  "parent_id": null
+}

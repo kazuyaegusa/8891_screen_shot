@@ -123,6 +123,27 @@
 - **解決方法**: `_strip_markdown_json()` を追加し、パース前にマークダウンブロックを除去（`verify_execution`, `check_goal_achieved`, `find_element_by_vision` の3メソッドに適用）
 - **影響ファイル**: ai_client.py
 
+### Issue 15: ストレージ圧迫 — クリーンアップが実質機能していなかった
+
+- **発見日**: 2026-03-08
+- **状態**: 解決済み
+- **問題**:
+  - screenshots/ が4.9GB（12,276枚）、recordings/ が36GB に膨張
+  - CleanupManagerのglobパターンが `cap_*.json`, `full_*.png` だが、実際のファイル名は `click_cap_*`, `text_full_*` 等 → **パターン不一致で何も削除されなかった**
+  - 同一画面の連続クリックで完全同一画像が7,672枚も重複蓄積
+  - 学習処理済みファイルの即時削除が未実装（1時間の古いファイル削除に依存していた）
+  - recordings/ はクリーンアップ対象外だった
+- **解決方法**:
+  1. CleanupManager: globパターンを `*_cap_*`, `*_full_*`, `*_crop_*` に修正
+  2. CleanupManager: `cleanup_processed_files()` 追加 — 処理済みJSON+関連画像を即座に削除
+  3. CleanupManager: `cleanup_duplicates()` 追加 — MD5ハッシュで完全重複画像を削除
+  4. learning_pipeline: 毎サイクルで `cleanup_processed_files()` を呼び出し
+  5. window_screenshot.py: 保存前に前回画像とMD5比較、同一ならスキップ（重複生成の根本防止）
+  6. 手動で recordings/ 36GB + 重複画像7,672枚 + 孤立JSON3,607件を削除 → **40.6GB削減**
+- **影響ファイル**: cleanup_manager.py, learning_pipeline.py, window_screenshot.py
+- **根本原因**: クリーンアップコードは存在したが、ファイル名パターンの不一致で一度も動作していなかった。テストもなかった。
+- **再発防止**: 保存前の重複チェック（入口）+ 処理済み即時削除（出口）+ 定期クリーンアップ（セーフティネット）の3層で防御
+
 ### Issue 12: OpenAI APIキー無効で全AI機能停止
 
 - **発見日**: 2026-02-17

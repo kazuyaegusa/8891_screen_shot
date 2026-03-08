@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T12:10:27",
+  "updated_at": "2026-03-07T15:50:53",
   "categories": {
     "開発": {
       "workflows": [
@@ -84,6 +84,16 @@
           "steps_count": 11
         },
         {
+          "workflow_id": "wf-3e45d040",
+          "name": "Cursor AI Code Analysis and Feedback",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.55,
+            "rank": "B"
+          },
+          "steps_count": 14
+        },
+        {
           "workflow_id": "wf-715c4cf1",
           "name": "CursorでマークダウンファイルをPDF エクスポート",
           "app_name": "Cursor",
@@ -92,6 +102,26 @@
             "rank": "B"
           },
           "steps_count": 2
+        },
+        {
+          "workflow_id": "wf-74581e3d",
+          "name": "Paste and Submit in Cursor",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 4
+        },
+        {
+          "workflow_id": "wf-8cf7ee45",
+          "name": "Cursor AI Multiple Context Injection",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.57,
+            "rank": "B"
+          },
+          "steps_count": 19
         },
         {
           "workflow_id": "wf-9895bde0",
@@ -112,6 +142,16 @@
             "rank": "B"
           },
           "steps_count": 6
+        },
+        {
+          "workflow_id": "wf-baadf447",
+          "name": "Cursor Paste and Submit Workflow",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.58,
+            "rank": "B"
+          },
+          "steps_count": 5
         },
         {
           "workflow_id": "wf-c079b98c",
@@ -702,6 +742,16 @@
             "rank": "B"
           },
           "steps_count": 15
+        },
+        {
+          "workflow_id": "wf-b299231e",
+          "name": "Batch Clipboard Content Insertion",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.52,
+            "rank": "B"
+          },
+          "steps_count": 25
         },
         {
           "workflow_id": "wf-bc2ed874",
@@ -1314,6 +1364,16 @@
           "steps_count": 1
         },
         {
+          "workflow_id": "wf-5ebb9a8d",
+          "name": "Batch File Save Sequence",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.49,
+            "rank": "B"
+          },
+          "steps_count": 4
+        },
+        {
           "workflow_id": "wf-8c5edcd7",
           "name": "Cursor: ドキュメントに貼り付けて保存",
           "app_name": "Cursor",
@@ -1332,6 +1392,16 @@
             "rank": "B"
           },
           "steps_count": 4
+        },
+        {
+          "workflow_id": "wf-923c7163",
+          "name": "Paste Snippets and Submit",
+          "app_name": "Cursor",
+          "reproducibility": {
+            "score": 0.54,
+            "rank": "B"
+          },
+          "steps_count": 5
         },
         {
           "workflow_id": "wf-9f7791d9",
@@ -2986,6 +3056,16 @@
             "rank": "B"
           },
           "steps_count": 15
+        },
+        {
+          "workflow_id": "wf-9969bb06",
+          "name": "Send Email Invitation or Login in Google Chrome",
+          "app_name": "Google Chrome",
+          "reproducibility": {
+            "score": 0.51,
+            "rank": "B"
+          },
+          "steps_count": 22
         },
         {
           "workflow_id": "wf-b5df32ed",
@@ -7761,10 +7841,10 @@
     }
   },
   "stats": {
-    "total": 773,
+    "total": 781,
     "by_rank": {
       "A": 0,
-      "B": 773,
+      "B": 781,
       "C": 0
     }
   }

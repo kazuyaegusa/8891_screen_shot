@@ -120,14 +120,18 @@ class LearningPipeline:
                 self._process_session(session)
             self._file_watcher.mark_processed(file)
 
-        # 学習成功・失敗に関わらず、古いファイルを定期的に削除
+        # 学習処理済みファイルを即座に削除（ストレージ圧迫防止の最重要処理）
+        self._cleanup_manager.cleanup_processed_files(
+            self._file_watcher._processed,
+        )
+
+        # 古いファイル・重複も定期削除
         now = time.time()
         if now - self._last_cleanup_time > self._CLEANUP_INTERVAL:
-            deleted = self._cleanup_manager.cleanup_old_files(
+            self._cleanup_manager.cleanup_old_files(
                 retention_sec=self._RETENTION_SEC,
             )
-            if deleted:
-                logger.info("古いファイルを%d件削除", len(deleted))
+            self._cleanup_manager.cleanup_duplicates()
             self._last_cleanup_time = now
 
     def _process_session(self, session: Session) -> None:
